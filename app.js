@@ -120,10 +120,24 @@ function mostrarTela(qual) {
   document.body.classList.toggle('aba-mapa', qual === 'tabela' && estado.aba === 'mapa');
 }
 
+function iconeInicio() {
+  const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+  svg.setAttribute('viewBox', '0 0 24 24');
+  svg.setAttribute('aria-hidden', 'true');
+  const p = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+  p.setAttribute('d', 'M3 11.2 12 4l9 7.2V20a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z');
+  p.setAttribute('fill', 'none');
+  p.setAttribute('stroke', 'currentColor');
+  p.setAttribute('stroke-width', '1.9');
+  p.setAttribute('stroke-linejoin', 'round');
+  svg.append(p);
+  return svg;
+}
+
 function desenharTrilha() {
   const nav = $('#trilha');
   nav.textContent = '';
-  const inicio = el('button', { type: 'button', textContent: 'Tabelas' });
+  const inicio = el('button', { type: 'button' }, iconeInicio(), 'Início');
   inicio.addEventListener('click', () => irParaHome());
   nav.append(inicio);
   if (estado.atual && !$('#secaoTabela').hidden) {
@@ -134,6 +148,16 @@ function desenharTrilha() {
     nav.append(el('span', { className: 'sep', textContent: '›' }),
                el('span', { className: 'atual', textContent: 'Resultados da pesquisa' }));
   }
+}
+
+/* O título da página muda conforme a tela; a busca fica logo abaixo dele. */
+function cabecaPagina({ sigla = '', titulo, dominio = '' }) {
+  const elSigla = $('#siglaTabela'), elDominio = $('#dominioTabela');
+  elSigla.textContent = sigla;
+  elSigla.hidden = !sigla;
+  $('#tituloPagina').textContent = titulo;
+  elDominio.textContent = dominio;
+  elDominio.hidden = !dominio;
 }
 
 function desenharHome() {
@@ -264,7 +288,7 @@ function linhaNo(cod, visiveis) {
     el('span', { className: 'seta', 'aria-hidden': 'true', textContent: kids.length ? (aberto ? '▼' : '▶') : '·' }),
     el('span', { className: 'cod', textContent: cod }),
     el('span', { className: 'rotulo-no', textContent: r.descricao }),
-    r.situacao !== 'vigente' ? el('span', { className: 'marca', textContent: 'uso restrito' }) : null,
+    r.situacao !== 'vigente' ? el('span', { className: 'selo-restrito', textContent: 'uso restrito' }) : null,
   ));
   botao.addEventListener('click', (ev) => {
     if (kids.length && ev.offsetX < 22) { alternar(cod); return; }
@@ -715,7 +739,6 @@ function trocarAba(qual) {
   document.body.classList.toggle('aba-mapa', qual === 'mapa');
   if (qual === 'mapa') { estado.vista = null; desenharMapa(); }
 }
-$('#voltarInicio').addEventListener('click', () => irParaHome());
 $('#abaArvore').addEventListener('click', () => trocarAba('arvore'));
 $('#abaMapa').addEventListener('click', () => trocarAba('mapa'));
 $('#botaoFiltros').addEventListener('click', () => {
@@ -756,22 +779,14 @@ async function achados(alvo) {
       }
     }
   }
-  for (const termo of estado.glossario.termos) {
-    const valor = `${termo.termo} ${termo.definicao}`;
-    if (semAcento(valor).includes(alvo)) {
-      lista.push({ escopo: 'glossario', tipo: 'termo', titulo: termo.termo,
-                   rotulo: 'glossário', valor: termo.definicao, url: termo.url_memoriaspu });
-    }
-  }
-  return lista;
+  return lista;   // o glossário não entra na busca: ele aparece como link na ficha
 }
 
 function desenharEscopos(lista, alvo) {
   const caixa = $('#escopos');
   caixa.textContent = '';
-  const opcoes = [{ id: 'todas', nome: 'Todas' },
-    ...estado.indice.tabelas.map((t) => ({ id: t.id, nome: t.sigla })),
-    { id: 'glossario', nome: 'Glossário' }];
+  const opcoes = [{ id: 'todas', nome: 'Todas as tabelas' },
+    ...estado.indice.tabelas.map((t) => ({ id: t.id, nome: t.sigla }))];
   for (const o of opcoes) {
     const n = o.id === 'todas' ? lista.length : lista.filter((a) => a.escopo === o.id).length;
     const b = el('button', { className: 'escopo', type: 'button' },
@@ -785,25 +800,17 @@ function desenharEscopos(lista, alvo) {
 function desenharBusca(lista, alvo) {
   desenharEscopos(lista, alvo);
   const filtrada = estado.escopo === 'todas' ? lista : lista.filter((a) => a.escopo === estado.escopo);
-  $('#tituloResultados').textContent = filtrada.length
+  cabecaPagina({ titulo: filtrada.length
     ? `${filtrada.length} resultado${filtrada.length > 1 ? 's' : ''} para “${estado.consulta}”`
-    : `Nada encontrado para “${estado.consulta}”`;
+    : `Nada encontrado para “${estado.consulta}”` });
   const ul = $('#resultados');
   ul.textContent = '';
   for (const a of filtrada.slice(0, 200)) {
-    const conteudo = [
-      el('div', { className: 'etiqueta', textContent:
-        a.tipo === 'registro' ? `${a.sigla} · ${a.codigo}` : 'Glossário · abre no MemóriaSPU' }),
+    const item = el('button', { type: 'button' },
+      el('div', { className: 'etiqueta', textContent: `${a.sigla} · ${a.codigo}` }),
       el('div', { className: 'titulo-res', textContent: a.titulo }),
-      el('div', { className: 'onde' }, `em ${a.rotulo}: `, trecho(a.valor, alvo)),
-    ];
-    let item;
-    if (a.tipo === 'registro') {
-      item = el('button', { type: 'button' }, conteudo);
-      item.addEventListener('click', () => irPara(a.escopo, a.codigo));
-    } else {
-      item = el('a', { href: a.url, target: '_blank', rel: 'noopener' }, conteudo);
-    }
+      el('div', { className: 'onde' }, `em ${a.rotulo}: `, trecho(a.valor, alvo)));
+    item.addEventListener('click', () => irPara(a.escopo, a.codigo));
     ul.append(el('li', {}, item));
   }
   mostrarTela('resultados');
@@ -850,6 +857,7 @@ async function irPara(tabelaId, cod) {
 
 function irParaHome() {
   estado.atual = null;
+  cabecaPagina({ titulo: 'Tabelas Taxonômicas' });
   $('#busca').value = ''; estado.consulta = ''; $('#escopos').textContent = '';
   document.documentElement.style.removeProperty('--cor');
   history.replaceState(null, '', '#/');
@@ -864,9 +872,8 @@ async function abrirTabela(id) {
   estado.vista = null; estado.selecionado = null;
   const t = tabela();
   document.documentElement.style.setProperty('--cor', t.meta.cor);
-  $('#siglaTabela').textContent = `${t.meta.sigla} · ${t.meta.eixo}`;
-  $('#tituloTabela').textContent = t.meta.titulo;
-  $('#dominioTabela').textContent = t.meta.dominio;
+  cabecaPagina({ sigla: `${t.meta.sigla} · ${t.meta.eixo}`, titulo: t.meta.titulo,
+                 dominio: t.meta.dominio });
   trocarAba('arvore');
   $('#botaoFiltros').setAttribute('aria-expanded', 'false');
   $('#filtros').hidden = true;
@@ -877,6 +884,8 @@ async function abrirTabela(id) {
   mostrarTela('tabela');
   desenharTrilha();
 }
+
+$('#irInicio').addEventListener('click', () => irParaHome());
 
 function montarRodape() {
   const i = estado.indice;

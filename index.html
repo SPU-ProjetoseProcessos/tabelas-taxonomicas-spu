@@ -11,40 +11,57 @@
 <a class="pular" href="#principal">Pular para o conteúdo</a>
 
 <header class="topo">
-  <nav class="trilha" id="trilha" aria-label="Você está em"></nav>
-  <div class="busca" role="search">
-    <label class="pular" for="busca">Pesquisar</label>
-    <input id="busca" type="search" autocomplete="off"
-           placeholder="Pesquisar nas tabelas e no glossário">
-    <div class="escopos" id="escopos" role="group" aria-label="Onde pesquisar"></div>
+  <div class="interno">
+    <button class="marca" id="irInicio" type="button" aria-label="Voltar ao início">
+      <span class="marca-texto">
+        <span class="marca-nome"><b>SPU</b><span>Taxonomias</span></span>
+        <span class="marca-autoria">CGGES — Escritório de Processos</span>
+      </span>
+      <span class="marca-barras" aria-hidden="true">
+        <i style="height:9px;background:var(--marca-1)"></i>
+        <i style="height:15px;background:var(--marca-2)"></i>
+        <i style="height:20px;background:var(--marca-3)"></i>
+        <i style="height:13px;background:var(--marca-4)"></i>
+        <i style="height:7px;background:var(--marca-1)"></i>
+      </span>
+    </button>
+    <div class="modulo">
+      <strong>Tabelas Taxonômicas</strong>
+      <span>Secretaria do Patrimônio da União</span>
+    </div>
   </div>
 </header>
 
+<nav class="faixa-trilha" aria-label="Trilha de navegação">
+  <div class="interno trilha" id="trilha"></div>
+</nav>
+
 <main id="principal">
+
+  <div class="cabeca-pagina">
+    <span class="sigla" id="siglaTabela" hidden></span>
+    <h1 id="tituloPagina">Tabelas Taxonômicas</h1>
+    <div class="fio"></div>
+    <p class="dominio-pagina" id="dominioTabela" hidden></p>
+    <div class="busca-pagina" role="search">
+      <label class="pular" for="busca">Pesquisar</label>
+      <input id="busca" type="search" autocomplete="off" placeholder="Pesquisar">
+      <div class="escopos" id="escopos" role="group" aria-label="Em quais tabelas pesquisar"></div>
+    </div>
+  </div>
 
   <!-- ------------------------------------------------------------ home -->
   <section id="home">
-    <div class="hero">
-      <h1>Tabelas Taxonômicas</h1>
-      <div class="fio"></div>
-    </div>
-
     <div class="atalho">
       <label for="atalhoTabela">Ir direto para</label>
       <select id="atalhoTabela"></select>
     </div>
-
     <div class="cards" id="cards"></div>
-
     <p class="resumo-acervo" id="resumoAcervo"></p>
   </section>
 
   <!-- ------------------------------------------------------ resultados -->
   <section id="secaoResultados" hidden>
-    <div class="hero" style="padding-bottom:18px">
-      <h1 id="tituloResultados">Resultados</h1>
-      <div class="fio"></div>
-    </div>
     <div class="bloco">
       <ul class="lista-resultados" id="resultados"></ul>
     </div>
@@ -52,19 +69,7 @@
 
   <!-- ---------------------------------------------------------- tabela -->
   <section id="secaoTabela" hidden>
-    <div class="cabeca">
-      <span class="sigla" id="siglaTabela"></span>
-      <h1 id="tituloTabela"></h1>
-      <p id="dominioTabela"></p>
-    </div>
-
     <div class="barra">
-      <button class="botao inicio" id="voltarInicio" title="Voltar ao início" aria-label="Voltar ao início">
-        <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">
-          <path d="M3 11.2 12 4l9 7.2V20a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"
-                fill="none" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round"/>
-        </svg>
-      </button>
       <div class="abas" role="tablist" aria-label="Modo de navegação">
         <button id="abaArvore" role="tab" aria-selected="true" aria-controls="caixaArvore">Árvore</button>
         <button id="abaMapa" role="tab" aria-selected="false" aria-controls="caixaMapa">Mapa</button>
