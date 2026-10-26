@@ -1,0 +1,468 @@
+[
+ {
+  "codigo": "02.01",
+  "descricao": "Regimes de direito real",
+  "nivel": 1,
+  "folha": false,
+  "situacao": "vigente",
+  "filhos": [
+   {
+    "codigo": "02.01.01",
+    "descricao": "Regimes de transferência da propriedade",
+    "nivel": 2,
+    "folha": false,
+    "situacao": "vigente",
+    "filhos": [
+     {
+      "codigo": "02.01.01.01",
+      "descricao": "Alienação imobiliária discricionária",
+      "nivel": 3,
+      "folha": false,
+      "situacao": "vigente",
+      "filhos": [
+       {
+        "codigo": "02.01.01.01.01",
+        "descricao": "Dação em pagamento",
+        "nivel": 4,
+        "folha": true,
+        "situacao": "vigente"
+       },
+       {
+        "codigo": "02.01.01.01.02",
+        "descricao": "Doação",
+        "nivel": 4,
+        "folha": true,
+        "situacao": "vigente"
+       },
+       {
+        "codigo": "02.01.01.01.03",
+        "descricao": "Integralização de cotas em Fundo de Investimento Imobiliário",
+        "nivel": 4,
+        "folha": true,
+        "situacao": "vigente"
+       },
+       {
+        "codigo": "02.01.01.01.04",
+        "descricao": "Investidura",
+        "nivel": 4,
+        "folha": true,
+        "situacao": "vigente"
+       },
+       {
+        "codigo": "02.01.01.01.05",
+        "descricao": "Permuta",
+        "nivel": 4,
+        "folha": true,
+        "situacao": "vigente"
+       },
+       {
+        "codigo": "02.01.01.01.06",
+        "descricao": "Remição de foro",
+        "nivel": 4,
+        "folha": false,
+        "situacao": "vigente",
+        "filhos": [
+         {
+          "codigo": "02.01.01.01.06.01",
+          "descricao": "Remição de foro gratuita",
+          "nivel": 5,
+          "folha": true,
+          "situacao": "vigente"
+         },
+         {
+          "codigo": "02.01.01.01.06.02",
+          "descricao": "Remição de foro onerosa",
+          "nivel": 5,
+          "folha": true,
+          "situacao": "vigente"
+         }
+        ]
+       },
+       {
+        "codigo": "02.01.01.01.07",
+        "descricao": "Venda",
+        "nivel": 4,
+        "folha": true,
+        "situacao": "vigente"
+       }
+      ]
+     },
+     {
+      "codigo": "02.01.01.02",
+      "descricao": "Alienação imobiliária vinculada",
+      "nivel": 3,
+      "folha": false,
+      "situacao": "vigente",
+      "filhos": [
+       {
+        "codigo": "02.01.01.02.01",
+        "descricao": "Legitimação fundiária",
+        "nivel": 4,
+        "folha": true,
+        "situacao": "vigente"
+       },
+       {
+        "codigo": "02.01.01.02.02",
+        "descricao": "Reconhecimento de domínio",
+        "nivel": 4,
+        "folha": true,
+        "situacao": "vigente"
+       },
+       {
+        "codigo": "02.01.01.02.03",
+        "descricao": "Transferência de propriedade para fins de Reurb-S",
+        "nivel": 4,
+        "folha": true,
+        "situacao": "vigente"
+       },
+       {
+        "codigo": "02.01.01.02.04",
+        "descricao": "Transferência de propriedade por dispositivo legal específico",
+        "nivel": 4,
+        "folha": true,
+        "situacao": "vigente"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "codigo": "02.01.02",
+    "descricao": "Regimes de direito real limitado",
+    "nivel": 2,
+    "folha": false,
+    "situacao": "vigente",
+    "filhos": [
+     {
+      "codigo": "02.01.02.01",
+      "descricao": "Aforamento",
+      "nivel": 3,
+      "folha": false,
+      "situacao": "vigente",
+      "filhos": [
+       {
+        "codigo": "02.01.02.01.01",
+        "descricao": "Aforamento gratuito",
+        "nivel": 4,
+        "folha": true,
+        "situacao": "vigente"
+       },
+       {
+        "codigo": "02.01.02.01.02",
+        "descricao": "Aforamento oneroso",
+        "nivel": 4,
+        "folha": true,
+        "situacao": "vigente"
+       }
+      ]
+     },
+     {
+      "codigo": "02.01.02.02",
+      "descricao": "Concessão de Direito Real de Laje",
+      "nivel": 3,
+      "folha": false,
+      "situacao": "vigente",
+      "filhos": [
+       {
+        "codigo": "02.01.02.02.01",
+        "descricao": "Concessão de Direito Real de Laje Gratuita",
+        "nivel": 4,
+        "folha": true,
+        "situacao": "vigente"
+       },
+       {
+        "codigo": "02.01.02.02.02",
+        "descricao": "Concessão de Direito Real de Laje Onerosa",
+        "nivel": 4,
+        "folha": true,
+        "situacao": "vigente"
+       }
+      ]
+     },
+     {
+      "codigo": "02.01.02.03",
+      "descricao": "Concessão de Direito Real de Uso",
+      "nivel": 3,
+      "folha": false,
+      "situacao": "vigente",
+      "filhos": [
+       {
+        "codigo": "02.01.02.03.01",
+        "descricao": "Concessão de Direito Real de Uso Gratuita",
+        "nivel": 4,
+        "folha": true,
+        "situacao": "vigente"
+       },
+       {
+        "codigo": "02.01.02.03.02",
+        "descricao": "Concessão de Direito Real de Uso Onerosa",
+        "nivel": 4,
+        "folha": true,
+        "situacao": "vigente"
+       }
+      ]
+     },
+     {
+      "codigo": "02.01.02.04",
+      "descricao": "Concessão de Direito de Superfície",
+      "nivel": 3,
+      "folha": false,
+      "situacao": "vigente",
+      "filhos": [
+       {
+        "codigo": "02.01.02.04.01",
+        "descricao": "Concessão de Direito de Superfície Gratuita",
+        "nivel": 4,
+        "folha": true,
+        "situacao": "vigente"
+       },
+       {
+        "codigo": "02.01.02.04.02",
+        "descricao": "Concessão de Direito de Superfície Onerosa",
+        "nivel": 4,
+        "folha": true,
+        "situacao": "vigente"
+       }
+      ]
+     },
+     {
+      "codigo": "02.01.02.05",
+      "descricao": "Concessão de Uso Especial para Fins de Moradia (CUEM)",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     },
+     {
+      "codigo": "02.01.02.06",
+      "descricao": "Promessa de compra e venda",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     },
+     {
+      "codigo": "02.01.02.07",
+      "descricao": "Transferência de Direito Real de Uso para Reurb-S",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "codigo": "02.02",
+  "descricao": "Regimes de direito pessoal/obrigacional",
+  "nivel": 1,
+  "folha": false,
+  "situacao": "vigente",
+  "filhos": [
+   {
+    "codigo": "02.02.01",
+    "descricao": "Arrendamento",
+    "nivel": 2,
+    "folha": true,
+    "situacao": "vigente"
+   },
+   {
+    "codigo": "02.02.02",
+    "descricao": "Cessão de Uso",
+    "nivel": 2,
+    "folha": false,
+    "situacao": "vigente",
+    "filhos": [
+     {
+      "codigo": "02.02.02.01",
+      "descricao": "Cessão de Uso Gratuita",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     },
+     {
+      "codigo": "02.02.02.02",
+      "descricao": "Cessão de Uso Onerosa",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     },
+     {
+      "codigo": "02.02.02.03",
+      "descricao": "Cessão de Uso em Condições Especiais",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     },
+     {
+      "codigo": "02.02.02.04",
+      "descricao": "Cessão de uso provisória",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     }
+    ]
+   },
+   {
+    "codigo": "02.02.03",
+    "descricao": "Comodato",
+    "nivel": 2,
+    "folha": true,
+    "situacao": "vigente"
+   },
+   {
+    "codigo": "02.02.04",
+    "descricao": "Locação para terceiros",
+    "nivel": 2,
+    "folha": true,
+    "situacao": "vigente"
+   },
+   {
+    "codigo": "02.02.05",
+    "descricao": "Permissão de uso para fins residenciais",
+    "nivel": 2,
+    "folha": true,
+    "situacao": "vigente"
+   },
+   {
+    "codigo": "02.02.06",
+    "descricao": "Transferência da posse",
+    "nivel": 2,
+    "folha": false,
+    "situacao": "vigente",
+    "filhos": [
+     {
+      "codigo": "02.02.06.01",
+      "descricao": "Transferência gratuita da posse",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     },
+     {
+      "codigo": "02.02.06.02",
+      "descricao": "Transferência onerosa da posse",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "codigo": "02.03",
+  "descricao": "Regimes de transferência/ compartilhamento de gestão",
+  "nivel": 1,
+  "folha": false,
+  "situacao": "vigente",
+  "filhos": [
+   {
+    "codigo": "02.03.01",
+    "descricao": "Acordo de Cooperação Técnica para Regularização Fundiária Urbana (ACT-Reurb)",
+    "nivel": 2,
+    "folha": true,
+    "situacao": "vigente"
+   },
+   {
+    "codigo": "02.03.02",
+    "descricao": "Entrega",
+    "nivel": 2,
+    "folha": true,
+    "situacao": "vigente"
+   },
+   {
+    "codigo": "02.03.03",
+    "descricao": "Entrega provisória",
+    "nivel": 2,
+    "folha": true,
+    "situacao": "vigente"
+   },
+   {
+    "codigo": "02.03.04",
+    "descricao": "Guarda Provisória",
+    "nivel": 2,
+    "folha": true,
+    "situacao": "vigente"
+   },
+   {
+    "codigo": "02.03.05",
+    "descricao": "Transferência de gestão por determinação legal",
+    "nivel": 2,
+    "folha": true,
+    "situacao": "vigente"
+   },
+   {
+    "codigo": "02.03.06",
+    "descricao": "Transferência de gestão de orlas e praias",
+    "nivel": 2,
+    "folha": true,
+    "situacao": "vigente"
+   }
+  ]
+ },
+ {
+  "codigo": "02.04",
+  "descricao": "Regimes de Outorga Administrativa",
+  "nivel": 1,
+  "folha": false,
+  "situacao": "vigente",
+  "filhos": [
+   {
+    "codigo": "02.04.01",
+    "descricao": "Autorização de obras",
+    "nivel": 2,
+    "folha": true,
+    "situacao": "vigente"
+   },
+   {
+    "codigo": "02.04.02",
+    "descricao": "Autorização de passagem",
+    "nivel": 2,
+    "folha": false,
+    "situacao": "vigente",
+    "filhos": [
+     {
+      "codigo": "02.04.02.01",
+      "descricao": "Autorização de passagem gratuita",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     },
+     {
+      "codigo": "02.04.02.02",
+      "descricao": "Autorização de passagem onerosa",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     }
+    ]
+   },
+   {
+    "codigo": "02.04.03",
+    "descricao": "Autorização de uso para fins comerciais",
+    "nivel": 2,
+    "folha": true,
+    "situacao": "vigente"
+   },
+   {
+    "codigo": "02.04.04",
+    "descricao": "Autorização de Uso Sustentável",
+    "nivel": 2,
+    "folha": true,
+    "situacao": "vigente"
+   },
+   {
+    "codigo": "02.04.05",
+    "descricao": "Inscrição de ocupação",
+    "nivel": 2,
+    "folha": true,
+    "situacao": "vigente"
+   },
+   {
+    "codigo": "02.04.06",
+    "descricao": "Permissão de uso para eventos",
+    "nivel": 2,
+    "folha": true,
+    "situacao": "vigente"
+   }
+  ]
+ }
+]

@@ -1,0 +1,50 @@
+{
+ "id": "tt02-regimes-destinacao",
+ "sigla": "TT-02",
+ "titulo": "Regimes de Destinação Imobiliária",
+ "eixo": "Destinação do imóvel",
+ "cor": "#17585E",
+ "dominio": "Regime jurídico-administrativo da destinação do imóvel",
+ "rotulos_nivel": [
+  "Classe de regime",
+  "Subclasse",
+  "Categoria",
+  "Regime",
+  "Submodalidade"
+ ],
+ "rotulo_folha": "regimes",
+ "profundidade": 5,
+ "norma_vigente": {
+  "ato": "Resolução ComGC/SPU/MGI nº 5, de 24 de outubro de 2025",
+  "efeito": "institui a TT-02",
+  "publicacao": "2025-10-24",
+  "sei_documento": "54999155",
+  "processo_sei": "19739.024321/2025-60",
+  "arquivo": "SEI_54999155_Resolucao_5_TT02.pdf"
+ },
+ "historico": [
+  {
+   "ato": "Resolução ComGC/SPU/MGI nº 5, de 24 de outubro de 2025",
+   "efeito": "institui a TT-02",
+   "situacao": "vigente"
+  }
+ ],
+ "fonte_oficial": "https://memoriaspu.gestao.gov.br",
+ "tem_exemplos": false,
+ "totais": {
+  "registros": 62,
+  "folhas": 46,
+  "por_nivel": {
+   "1": 4,
+   "2": 20,
+   "3": 17,
+   "4": 19,
+   "5": 2
+  }
+ },
+ "atributos": {
+  "arquivo": "atributos.csv",
+  "registros": 46,
+  "aplica_se_a": "folhas"
+ }
+}

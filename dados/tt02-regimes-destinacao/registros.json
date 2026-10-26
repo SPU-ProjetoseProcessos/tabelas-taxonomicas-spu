@@ -1,0 +1,1061 @@
+[
+ {
+  "codigo": "02.01",
+  "nivel": 1,
+  "pai": "",
+  "descricao": "Regimes de direito real",
+  "definicao": "Classe de regimes de destinação imobiliária que transferem a propriedade ou direito real limitado a terceiros, em caráter definitivo ou por prazo determinado, com ou sem finalidade determinada, conferindo oponibilidade a terceiros.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "02.01.01",
+  "nivel": 2,
+  "pai": "02.01",
+  "descricao": "Regimes de transferência da propriedade",
+  "definicao": "Subclasse de regimes de direito real que transferem a propriedade de imóvel a terceiros, de forma direta, em caráter definitivo, gratuita ou onerosamente, com ou sem finalidade determinada.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "02.01.01.01",
+  "nivel": 3,
+  "pai": "02.01.01",
+  "descricao": "Alienação imobiliária discricionária",
+  "definicao": "Categoria de regimes de direito real que transferem a propriedade de imóvel a terceiros, de forma direta e definitiva, gratuita ou onerosa, com ou sem finalidade determinada, cuja adoção depende de juízo discricionário da Administração quanto à conveniência e oportunidade.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "02.01.01.01.01",
+  "nivel": 4,
+  "pai": "02.01.01.01",
+  "descricao": "Dação em pagamento",
+  "definicao": "Regime de alienação imobiliária discricionária que transmite a propriedade de imóvel a terceiro a título de pagamento de dívida, em caráter definitivo, sem finalidade determinada.",
+  "observacao": "",
+  "fundamento_legal": [
+   "arts. 356 a 359 da Lei nº 10.406/2002"
+  ],
+  "instrumento": [
+   "Contrato de Dação em Pagamento"
+  ],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "02.01.01.01.02",
+  "nivel": 4,
+  "pai": "02.01.01.01",
+  "descricao": "Doação",
+  "definicao": "Regime de alienação imobiliária discricionária que transmite a propriedade de imóvel a terceiro, gratuitamente e em caráter definitivo, sujeita a condição resolutiva em caso de descumprimento de encargo.",
+  "observacao": "No âmbito da União, passará a ser aplicado também à transferência de propriedade para o Instituto Nacional de Colonização e Reforma Agrária (Incra) de imóveis rurais não explorados para fins de pesquisa, experimentação, demonstração e fomento, visando ao desenvolvimento da agricultura, a programas de colonização ou fins educativos de assistência técnica e de readaptação.",
+  "fundamento_legal": [
+   "arts. 31 e 31-A da Lei n° 9.636/1998",
+   "art. 10, § 3º, da Lei nº 4.504/1964"
+  ],
+  "instrumento": [
+   "Contrato de Doação"
+  ],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "02.01.01.01.03",
+  "nivel": 4,
+  "pai": "02.01.01.01",
+  "descricao": "Integralização de cotas em Fundo de Investimento Imobiliário",
+  "definicao": "Regime de alienação imobiliária discricionária que transmite a propriedade de imóvel público à instituição administradora de fundo de investimento imobiliário, em caráter fiduciário, para o fim de integralização de cotas do fundo visando capitalização patrimonial ou participação na estrutura dos investimentos.",
+  "observacao": "",
+  "fundamento_legal": [
+   "art. 20 da Lei nº 13.240/2015",
+   "arts. 1º a 20 da Lei n° 8.668/1993"
+  ],
+  "instrumento": [
+   "Contrato de Integralização de Cotas em Fundo de Investimento Imobiliário"
+  ],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "02.01.01.01.04",
+  "nivel": 4,
+  "pai": "02.01.01.01",
+  "descricao": "Investidura",
+  "definicao": "Regime de alienação imobiliária discricionária que transmite a propriedade de imóvel, onerosamente e em caráter definitivo, nos casos previstos no art. 76, I, d e §5º, da Lei nº 14.133/2021.",
+  "observacao": "",
+  "fundamento_legal": [
+   "art. 76, §1º e 5º, da Lei nº 14.133/2021"
+  ],
+  "instrumento": [
+   "Contrato de Investidura"
+  ],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "02.01.01.01.05",
+  "nivel": 4,
+  "pai": "02.01.01.01",
+  "descricao": "Permuta",
+  "definicao": "Regime de alienação imobiliária discricionária que transmite a propriedade de imóvel a terceiro, em caráter definitivo, mediante troca por outro imóvel de valor equivalente, sem finalidade determinada.",
+  "observacao": "No âmbito da União a permuta está prevista no art. 30 de Lei nº 9.636/1998, aplicando-se a imóveis edificados ou não, ou por edificações a construir.",
+  "fundamento_legal": [
+   "art. 533 da Lei nº 10.406/2002",
+   "arts. 30 da Lei n° 9.636/1998"
+  ],
+  "instrumento": [
+   "Contrato de Permuta"
+  ],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "02.01.01.01.06",
+  "nivel": 4,
+  "pai": "02.01.01.01",
+  "descricao": "Remição de foro",
+  "definicao": "Regime de alienação imobiliária discricionária que transfere o domínio direto de imóvel aforado ao foreiro (enfiteuta), onerosamente e em caráter definitivo, consolidando-se a propriedade em nome do adquirente, sem finalidade determinada.",
+  "observacao": "O pagamento é dispensado às pessoas consideradas carentes ou de baixa renda, nos termos previstos no art. 1o do Decreto-Lei no 1.876, de 15 de julho de 1981.",
+  "fundamento_legal": [
+   "arts. 16-A a 16-I da Lei nº 9.636/1998"
+  ],
+  "instrumento": [
+   "Contrato de Remição de Foro e Certificado de Remição de Foro (procedimento simplificado)"
+  ],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "02.01.01.01.06.01",
+  "nivel": 5,
+  "pai": "02.01.01.01.06",
+  "descricao": "Remição de foro gratuita",
+  "definicao": "Submodalidade do regime de remição de foro que transfere o domínio direto de imóvel aforado ao foreiro (enfiteuta), com dispensa de pagamento e em caráter definitivo, consolidando-se o domínio pleno em nome do adquirente, sem finalidade determinada.",
+  "observacao": "O pagamento é dispensado às pessoas consideradas carentes ou de baixa renda, nos termos previstos no art. 1o do Decreto-Lei no 1.876, de 15 de julho de 1981.",
+  "fundamento_legal": [
+   "arts. 16-A a 16-I da Lei nº 9.636/1998"
+  ],
+  "instrumento": [
+   "Contrato de Remição de Foro e Certificado de Remição de Foro (procedimento simplificado)"
+  ],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "02.01.01.01.06.02",
+  "nivel": 5,
+  "pai": "02.01.01.01.06",
+  "descricao": "Remição de foro onerosa",
+  "definicao": "Submodalidade do regime de remição de foro que transfere o domínio direto de imóvel aforado ao foreiro (enfiteuta), onerosamente e em caráter definitivo, consolidando-se o domínio pleno em nome do adquirente, sem finalidade determinada.",
+  "observacao": "",
+  "fundamento_legal": [
+   "arts. 16-A a 16-I da Lei nº 9.636/1998"
+  ],
+  "instrumento": [
+   "Contrato de Remição de Foro e Certificado de Remição de Foro (procedimento simplificado)"
+  ],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "02.01.01.01.07",
+  "nivel": 4,
+  "pai": "02.01.01.01",
+  "descricao": "Venda",
+  "definicao": "Regime de alienação imobiliária discricionária que transmite, onerosamente, a propriedade de imóvel a terceiro, em caráter definitivo e sem finalidade determinada, mediante pagamento de certo preço em dinheiro.",
+  "observacao": "",
+  "fundamento_legal": [
+   "arts. 76 e 77 da Lei nº 14.133/2021",
+   "arts. 23 a 26 da Lei nº 9.636/1998"
+  ],
+  "instrumento": [
+   "Contrato de Compra e Venda"
+  ],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "02.01.01.02",
+  "nivel": 3,
+  "pai": "02.01.01",
+  "descricao": "Alienação imobiliária vinculada",
+  "definicao": "Categoria de regimes de direito real que transferem a propriedade de imóvel a terceiros, de forma direta e definitiva, gratuita, com ou sem finalidade determinada, cuja adoção decorre de obrigação legal ou de condição previamente estabelecida, sem exercício de juízo discricionário pela Administração.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "02.01.01.02.01",
+  "nivel": 4,
+  "pai": "02.01.01.02",
+  "descricao": "Legitimação fundiária",
+  "definicao": "Regime de alienação imobiliária vinculada que confere a aquisição originária de propriedade por ato do poder público, exclusivamente no âmbito da Reurb, àquele que detiver em área pública, como sua, unidade imobiliária com destinação urbana, integrante de núcleo urbano informal consolidado existente em 22 de dezembro de 2016.",
+  "observacao": "",
+  "fundamento_legal": [
+   "Arts. 23 e 24 da Lei n°13.465/2017",
+   "Arts. 16 e 17 do Decreto n° 9.310/2018"
+  ],
+  "instrumento": [
+   "Certidão de Regularização Fundiária (CRF)"
+  ],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "02.01.01.02.02",
+  "nivel": 4,
+  "pai": "02.01.01.02",
+  "descricao": "Reconhecimento de domínio",
+  "definicao": "Regime de alienação imobiliária vinculada aplicável no âmbito da União às terras ocupadas por comunidades quilombolas, a título coletivo e pró-indiviso, em nome da associação representante da comunidade legalmente constituída, gratuitamente.",
+  "observacao": "",
+  "fundamento_legal": [
+   "Art. 68 da ADCT/CF",
+   "Decreto 4.887/2003",
+   "art. 18 da Instrução Normativa SPU nº 2/2014"
+  ],
+  "instrumento": [
+   "Título de Reconhecimento de Domínio"
+  ],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "02.01.01.02.03",
+  "nivel": 4,
+  "pai": "02.01.01.02",
+  "descricao": "Transferência de propriedade para fins de Reurb-S",
+  "definicao": "Regime de alienação imobiliária vinculada que transmite, gratuitamente, a propriedade de imóvel desde que atendidos os requisitos do art. 86 da Lei nº 13.465/2017, no âmbito de Regularização Fundiária de Interesse Social (Reurb-S).",
+  "observacao": "",
+  "fundamento_legal": [
+   "art. 86 a 89 da Lei nº 13.465/2017",
+   "art. 97 a 100 do Decreto 9.310/2018"
+  ],
+  "instrumento": [
+   "Certidão de Autorização de Transferência de domínio para fins de Reurb-S (CAT-Reurb-S)"
+  ],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "02.01.01.02.04",
+  "nivel": 4,
+  "pai": "02.01.01.02",
+  "descricao": "Transferência de propriedade por dispositivo legal específico",
+  "definicao": "Regime de alienação imobiliária vinculada que transmite a propriedade de imóvel a outra pessoa jurídica, em caráter definitivo, por força de dispositivo legal específico.",
+  "observacao": "No âmbito da União, exemplos de transferências são: 1) Lei n° 10.304/2001, que prevê a transferência das terras pertencentes à União compreendidas nos Estados de Roraima e do Amapá para esses Estados, mantidos os seus atuais limites e confrontações; e 2) Lei nº 13.240/2015, que prevê a transferência de logradouros públicos aos Municípios e ao Distrito Federal, localizados em terrenos de domínio da União.",
+  "fundamento_legal": [
+   "art. 10, § 3º, da Lei nº 4.504/1964",
+   "Lei n° 10.304/2001",
+   "art. 15 da Lei nº 13.240/2015"
+  ],
+  "instrumento": [
+   "Termo de Transferência"
+  ],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "02.01.02",
+  "nivel": 2,
+  "pai": "02.01",
+  "descricao": "Regimes de direito real limitado",
+  "definicao": "Subclasse de regimes de direito real que transferem direitos reais limitados a terceiros, sem transferência da propriedade plena, de forma gratuita ou onerosa, com ou sem finalidade determinada.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "02.01.02.01",
+  "nivel": 3,
+  "pai": "02.01.02",
+  "descricao": "Aforamento",
+  "definicao": "Regime de direito real limitado que transfere ao adquirente (enfiteuta), em caráter definitivo, o domínio útil sobre bem imóvel, a título gratuito ou oneroso e sem finalidade determinada.",
+  "observacao": "",
+  "fundamento_legal": [
+   "Arts. 12 a 16-I da Lei nº 9.636/1998",
+   "Art. 64, §2º e arts. 99 a 124 do Decreto-Lei nº 9.760/1946"
+  ],
+  "instrumento": [],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "02.01.02.01.01",
+  "nivel": 4,
+  "pai": "02.01.02.01",
+  "descricao": "Aforamento gratuito",
+  "definicao": "Submodalidade de regime de direito real limitado que transfere ao adquirente (enfiteuta), em caráter definitivo, o domínio útil sobre bem imóvel, a título gratuito e sem finalidade determinada.",
+  "observacao": "",
+  "fundamento_legal": [
+   "Arts. 64,§ 2º e 105 do Decreto-Lei nº 9.760/1946",
+   "art. 20 do Decreto-Lei nº 3.438/1941",
+   "art. 7º do Decreto-Lei nº 5.666/1943",
+   "art. 5º, I do Decreto-lei nº 2.398/1987"
+  ],
+  "instrumento": [
+   "Contrato de Aforamento Gratuito"
+  ],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "02.01.02.01.02",
+  "nivel": 4,
+  "pai": "02.01.02.01",
+  "descricao": "Aforamento oneroso",
+  "definicao": "Submodalidade de regime de direito real limitado que transfere ao adquirente (enfiteuta), em caráter definitivo, o domínio útil sobre bem imóvel, a título oneroso e sem finalidade determinada.",
+  "observacao": "",
+  "fundamento_legal": [
+   "Arts. 12 a 16-I da Lei nº 9.636/1998",
+   "Arts. 64 e 99 a 124 do Decreto-Lei nº 9.760/1946"
+  ],
+  "instrumento": [
+   "Contrato de aforamento oneroso"
+  ],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "02.01.02.02",
+  "nivel": 3,
+  "pai": "02.01.02",
+  "descricao": "Concessão de Direito Real de Laje",
+  "definicao": "Regime de direito real limitado que concede a superfície superior ou inferior de construção a outra pessoa, física ou jurídica, gratuita ou onerosamente, a fim de manutenção de unidade distinta daquela originalmente construída sobre o solo.",
+  "observacao": "Contempla o espaço aéreo ou o subsolo de terrenos, tomados em projeção vertical, como unidade imobiliária autônoma, não incluindo as demais áreas edificadas ou não pertencentes ao proprietário da construção-base.",
+  "fundamento_legal": [
+   "Não há legislação especial aplicada aos imóveis da União. Rege-se pelos arts. 1510-A a 1510-D da Lei nº 10.406/2002"
+  ],
+  "instrumento": [],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "02.01.02.02.01",
+  "nivel": 4,
+  "pai": "02.01.02.02",
+  "descricao": "Concessão de Direito Real de Laje Gratuita",
+  "definicao": "Submodalidade de regime de direito real limitado que concede superfície superior ou inferior de construção a terceiro, a título gratuito, a fim de manutenção de unidade distinta daquela originalmente construída sobre o solo.",
+  "observacao": "",
+  "fundamento_legal": [
+   "Não há legislação especial aplicada aos imóveis da União. Rege-se pelos arts. 1510-A a 1510-D da Lei nº 10.406/2002"
+  ],
+  "instrumento": [
+   "Contrato de Concessão de Direito Real de Laje Gratuita"
+  ],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "02.01.02.02.02",
+  "nivel": 4,
+  "pai": "02.01.02.02",
+  "descricao": "Concessão de Direito Real de Laje Onerosa",
+  "definicao": "Submodalidade de regime de direito real limitado que concede a superfície superior ou inferior de construção a terceiro, a título oneroso, a fim de manutenção de unidade distinta daquela originalmente construída sobre o solo.",
+  "observacao": "",
+  "fundamento_legal": [
+   "Não há legislação especial aplicada aos imóveis da União. Rege-se pelos arts. 1510-A a 1510-D da Lei nº 10.406/2002"
+  ],
+  "instrumento": [
+   "Contrato de Concessão de Direito Real de Laje Onerosa"
+  ],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "02.01.02.03",
+  "nivel": 3,
+  "pai": "02.01.02",
+  "descricao": "Concessão de Direito Real de Uso",
+  "definicao": "Regime de direito real limitado que concede, onerosa ou gratuitamente, o direito real de uso sobre imóvel, por tempo certo ou indeterminado, como direito real resolúvel, para fins específicos de regularização fundiária de interesse social, urbanização, industrialização, edificação, cultivo da terra, aproveitamento sustentável das várzeas, preservação das comunidades tradicionais e seus meios de subsistência ou outras modalidades de interesse social em áreas urbanas.",
+  "observacao": "O direito de uso pode se aplicar sobre a superfície dos imóveis ou sobre seu espaço aéreo, nos termos dos arts. 7° e 8º do Decreto-Lei nº 271/1967.",
+  "fundamento_legal": [
+   "art. 7° do Decreto-Lei nº 271/1967",
+   "art. 18, §1º, da Lei nº 9.636/1998",
+   "art. 18 da Lei nº 8.629/1993"
+  ],
+  "instrumento": [
+   "Contrato de Concessão de Direito Real de Uso"
+  ],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "02.01.02.03.01",
+  "nivel": 4,
+  "pai": "02.01.02.03",
+  "descricao": "Concessão de Direito Real de Uso Gratuita",
+  "definicao": "Submodalidade de regime de direito real limitado que concede, gratuitamente, o direito real de uso sobre imóvel, por tempo certo ou indeterminado, como direito real resolúvel, para fins específicos de regularização fundiária de interesse social, urbanização, industrialização, edificação, cultivo da terra, aproveitamento sustentável das várzeas, preservação das comunidades tradicionais e seus meios de subsistência ou outras modalidades de interesse social em áreas urbanas.",
+  "observacao": "",
+  "fundamento_legal": [
+   "art. 7° do Decreto-Lei nº 271/1967",
+   "art. 18, §1º, da Lei nº 9.636/1998",
+   "art. 18 da Lei nº 8.629/1993"
+  ],
+  "instrumento": [
+   "Contrato de Concessão de Direito Real de Uso Gratuita"
+  ],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "02.01.02.03.02",
+  "nivel": 4,
+  "pai": "02.01.02.03",
+  "descricao": "Concessão de Direito Real de Uso Onerosa",
+  "definicao": "Submodalidade de regime de direito real limitado que concede, onerosamente, o direito real de uso sobre imóvel, por tempo certo ou indeterminado, como direito real resolúvel, com finalidade determinada.",
+  "observacao": "",
+  "fundamento_legal": [
+   "art. 7° do Decreto-Lei nº 271/1967",
+   "art. 18, §1º, da Lei nº 9.636/1998",
+   "art. 18 da Lei nº 8.629/1993"
+  ],
+  "instrumento": [
+   "Contrato de Concessão de Direito Real de Uso Onerosa"
+  ],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "02.01.02.04",
+  "nivel": 3,
+  "pai": "02.01.02",
+  "descricao": "Concessão de Direito de Superfície",
+  "definicao": "Regime de direito real limitado que concede a outra pessoa, física ou jurídica, a título gratuito ou oneroso, o direito de construir ou de plantar em imóvel urbano, por tempo determinado ou indeterminado.",
+  "observacao": "Pode ser transferido a terceiros e, por morte do superficiário, aos seus herdeiros. Não autoriza obra no subsolo.",
+  "fundamento_legal": [
+   "Não há legislação especial. Rege-se pelos arts. 1.369 a 1.377 da Lei nº 10.406/2002, conforme previsto no art. 1.377 desta",
+   "arts. 21 a 24 da Lei nº 10.257/2001 (Estatuto das Cidades)"
+  ],
+  "instrumento": [
+   "Contrato de Concessão de Direito de Superfície"
+  ],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "02.01.02.04.01",
+  "nivel": 4,
+  "pai": "02.01.02.04",
+  "descricao": "Concessão de Direito de Superfície Gratuita",
+  "definicao": "Submodalidade de regime de concessão de Direito de Superfície que concede a outra pessoa, a título gratuito, o direito de construir ou de plantar em imóvel urbano, por tempo determinado.",
+  "observacao": "Pode ser transferido a terceiros e, por morte do superficiário, aos seus herdeiros. Não autoriza obra no subsolo.",
+  "fundamento_legal": [
+   "Não há legislação especial. Rege-se pelos arts. 1.369 a 1.377 da Lei nº 10.406/2002, conforme previsto no art. 1.377 desta",
+   "arts. 21 a 24 da Lei nº 10.257/2001 (Estatuto das Cidades)"
+  ],
+  "instrumento": [
+   "Contrato de Concessão de Direito de Superfície"
+  ],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "02.01.02.04.02",
+  "nivel": 4,
+  "pai": "02.01.02.04",
+  "descricao": "Concessão de Direito de Superfície Onerosa",
+  "definicao": "Submodalidade de regime de concessão de Direito de Superfície que concede a outra pessoa, a título oneroso, o direito de construir ou de plantar em imóvel urbano, por tempo determinado.",
+  "observacao": "Pode ser transferido a terceiros e, por morte do superficiário, aos seus herdeiros. Não autoriza obra no subsolo.",
+  "fundamento_legal": [
+   "Não há legislação especial. Rege-se pelos arts. 1.369 a 1.377 da Lei nº 10.406/2002, conforme previsto no art. 1.377 desta",
+   "arts. 21 a 24 da Lei nº 10.257/2001 (Estatuto das Cidades)"
+  ],
+  "instrumento": [
+   "Contrato de Concessão de Direito de Superfície"
+  ],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "02.01.02.05",
+  "nivel": 3,
+  "pai": "02.01.02",
+  "descricao": "Concessão de Uso Especial para Fins de Moradia (CUEM)",
+  "definicao": "Regime de transferência de direito real limitado que concede, gratuitamente, o direito de uso de imóvel público urbano de até 250 m² a pessoa que o utiliza para moradia própria ou familiar, em caráter definitivo, atendidos os requisitos do art. 1º da Medida Provisória nº 2.220/2001.",
+  "observacao": "",
+  "fundamento_legal": [
+   "Arts. 1º a 9º da Medida Provisória nº 2.220/2001",
+   "Lei nº 9.636/1998, art. 22-A"
+  ],
+  "instrumento": [
+   "Contrato de Concessão de Uso para Fins de Moradia"
+  ],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "02.01.02.06",
+  "nivel": 3,
+  "pai": "02.01.02",
+  "descricao": "Promessa de compra e venda",
+  "definicao": "Regime de transferência de direito real limitado pelo qual o poder público, na condição de promitente vendedor, concede a outra pessoa, física ou jurídica, sem finalidade determinada, o direito real à aquisição de imóvel público, em caráter condicional e resolúvel, até a celebração do contrato definitivo de compra e venda.",
+  "observacao": "",
+  "fundamento_legal": [
+   "Arts. 1.417 e 1.418 da Lei nº 10.406/2002"
+  ],
+  "instrumento": [
+   "Contrato de Promessa de Compra e Venda"
+  ],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "02.01.02.07",
+  "nivel": 3,
+  "pai": "02.01.02",
+  "descricao": "Transferência de Direito Real de Uso para Reurb-S",
+  "definicao": "Regime de direito real limitado que concede gratuitamente o direito real de uso de imóvel urbano a pessoa que o utiliza para moradia própria ou familiar, desde que atendidos os requisitos do art. 86 da Lei nº 13.465/2017.",
+  "observacao": "",
+  "fundamento_legal": [
+   "art. 86 a 89 da Lei nº 13.465/2017",
+   "art. 97 a 100 do Decreto 9.310/2018"
+  ],
+  "instrumento": [
+   "Certidão de Autorização de Transferência de Direito Real de Uso para fins de regularização fundiária urbana de interesse social (CAT-Reurb-S)"
+  ],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "02.02",
+  "nivel": 1,
+  "pai": "",
+  "descricao": "Regimes de direito pessoal/obrigacional",
+  "definicao": "Classe de regime de destinação imobiliária que concede, onerosa ou gratuitamente, o uso de imóvel a outra pessoa, física ou jurídica, em caráter temporário, com ou sem finalidade determinada, gerando apenas obrigações entre as partes, sem constituir direito real sobre o bem, nem conferir oponibilidade a terceiros.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "02.02.01",
+  "nivel": 2,
+  "pai": "02.02",
+  "descricao": "Arrendamento",
+  "definicao": "Regime de direito pessoal/obrigacional que concede o uso de imóvel a outra pessoa, onerosamente, em caráter temporário e para exploração de frutos e exploração de serviços, com obrigações específicas quanto à finalidade e à conservação do bem.",
+  "observacao": "",
+  "fundamento_legal": [
+   "Art. 96 do Decreto-Lei nº 9.760/1946"
+  ],
+  "instrumento": [
+   "Contrato de Arrendamento"
+  ],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "02.02.02",
+  "nivel": 2,
+  "pai": "02.02",
+  "descricao": "Cessão de Uso",
+  "definicao": "Regime de direito pessoal/obrigacional que concede o uso de imóvel a outra pessoa, gratuita, onerosamente ou em condições especiais, com finalidade determinada.",
+  "observacao": "",
+  "fundamento_legal": [
+   "art. 18 da Lei nº 9.636/1998, como regime aplicável para a cessão de bens imóveis da União, gênero este que contempla os diversos regimes de destinação que não transferem a propriedade, nos termos do art. 64 do Decreto-lei nº 9.760/1946. A cessão de uso é citada expressamente nos arts. 18, §§2º e 7º, 20 e 22, §2º da Lei nº 9.636/1998",
+   "no art. 79, §3º do Decreto-Lei 9.760/1946"
+  ],
+  "instrumento": [],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "02.02.02.01",
+  "nivel": 3,
+  "pai": "02.02.02",
+  "descricao": "Cessão de Uso Gratuita",
+  "definicao": "Submodalidade do regime de cessão de uso que concede o uso de imóvel a outra pessoa, a título gratuito, com finalidade determinada.",
+  "observacao": "",
+  "fundamento_legal": [
+   "art. 18 da Lei nº 9.636/1998, como regime aplicável para a cessão de bens imóveis da União, gênero este que contempla os diversos regimes de destinação que não transferem a propriedade, aplicado, nos termos do art. 64 do Decreto-lei nº 9.760/1946"
+  ],
+  "instrumento": [
+   "Contrato de Cessão de Uso Gratuita"
+  ],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "02.02.02.02",
+  "nivel": 3,
+  "pai": "02.02.02",
+  "descricao": "Cessão de Uso Onerosa",
+  "definicao": "Submodalidade do regime de cessão de uso que concede o uso de imóvel a outra pessoa, a título oneroso, com finalidade determinada.",
+  "observacao": "",
+  "fundamento_legal": [
+   "art. 18 da Lei nº 9.636/1998, como regime aplicável para o cessão de bens imóveis da União, gênero este que contempla os diversos regimes de destinação que não transferem a propriedade, aplicado, nos termos do art. 64 do Decreto-lei nº 9.760/1946"
+  ],
+  "instrumento": [
+   "Contrato de Cessão de Uso Onerosa"
+  ],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "02.02.02.03",
+  "nivel": 3,
+  "pai": "02.02.02",
+  "descricao": "Cessão de Uso em Condições Especiais",
+  "definicao": "Submodalidade do regime de cessão de uso que concede o uso de imóvel a outra pessoa, com finalidade determinada de interesse coletivo, contemplando uma das seguintes condições especiais: a) pagamento mediante contrapartida não financeira, combinada ou não com pagamento em dinheiro, em substituição ao valor financeiro devido; b) pactuação de contrapartidas de colaboração administrativa por entes públicos; e c) quando uso misto (econômico e não econômico), pagamento correspondente à parcela destinada à finalidade econômica.",
+  "observacao": "",
+  "fundamento_legal": [
+   "art. 18 da Lei nº 9.636/1998, como regime aplicável para o cessão de bens imóveis da União, gênero este que contempla os diversos regimes de destinação que não transferem a propriedade, aplicado, nos termos do art. 64 do Decreto-lei nº 9.760/1946 e com base no PARECER n. 00057/2022/PGFN/AGU"
+  ],
+  "instrumento": [
+   "Contrato de Cessão de Uso em Condições Especiais"
+  ],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "02.02.02.04",
+  "nivel": 3,
+  "pai": "02.02.02",
+  "descricao": "Cessão de uso provisória",
+  "definicao": "Submodalidade de regime de cessão de uso que concede provisoriamente o uso de imóvel a outra entidade da Administração Federal indireta, gratuitamente e com finalidade determinada, quando houver urgência em razão da necessidade de proteção ou manutenção do imóvel, que será revogada a qualquer momento se o interesse público o exigir, ou terá validade até decisão final no procedimento administrativo que tratar da cessão de uso definitiva.",
+  "observacao": "Quando se tratar de imóvel oriundo da extinta Rede Ferroviária Federal S.A (RFFSA), poderá ser aplicada aos órgãos e às entidades da administração pública direta e indireta da União, dos Estados, do Distrito Federal e dos Municípios.",
+  "fundamento_legal": [
+   "Art. 21 da Lei nº 11.483/2007",
+   "art. 11, §3º, do Decreto nº 3.725/2001"
+  ],
+  "instrumento": [
+   "Contrato de Cessão de Uso Provisória"
+  ],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "02.02.03",
+  "nivel": 2,
+  "pai": "02.02",
+  "descricao": "Comodato",
+  "definicao": "Regime de direito pessoal/obrigacional que concede, gratuitamente, o uso de imóvel a outra pessoa, em caráter temporário.",
+  "observacao": "",
+  "fundamento_legal": [
+   "Não há legislação especial aplicada aos imóveis da União. Rege-se pelos arts. 579 a 585 da Lei nº10.406/2002"
+  ],
+  "instrumento": [
+   "Contrato de Comodato"
+  ],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "02.02.04",
+  "nivel": 2,
+  "pai": "02.02",
+  "descricao": "Locação para terceiros",
+  "definicao": "Regime de direito pessoal/obrigacional que concede, onerosamente, o uso de imóvel a outra pessoa, em caráter temporário.",
+  "observacao": "",
+  "fundamento_legal": [
+   "art. 64, §1º e arts. 86 a 98 do Decreto-Lei nº 9.760/1946",
+   "arts. 565 a 578 da Lei nº 10.406/2002"
+  ],
+  "instrumento": [
+   "Contrato de Locação"
+  ],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "02.02.05",
+  "nivel": 2,
+  "pai": "02.02",
+  "descricao": "Permissão de uso para fins residenciais",
+  "definicao": "Regime de direito pessoal/obrigacional que concede o uso de imóvel, onerosamente e em caráter temporário, com finalidade residencial.",
+  "observacao": "",
+  "fundamento_legal": [
+   "Art. 1º do Decreto nº 980/1993"
+  ],
+  "instrumento": [
+   "Termo de Permissão de Uso para fins residenciais"
+  ],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "02.02.06",
+  "nivel": 2,
+  "pai": "02.02",
+  "descricao": "Transferência da posse",
+  "definicao": "Regime de direito pessoal/obrigacional que transfere, gratuita ou onerosamente, a posse de imóvel oriundo da extinta Rede Ferroviária Federal S.A. (RFFSA) ou de suas antecessoras, cuja dominialidade em nome da União não seja possível comprovar.",
+  "observacao": "",
+  "fundamento_legal": [
+   "Art. 16, III da Lei nº 11.483/2007",
+   "Instrução Normativa SPU nº 03/2010"
+  ],
+  "instrumento": [
+   "Contrato de Transferência da Posse"
+  ],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "02.02.06.01",
+  "nivel": 3,
+  "pai": "02.02.06",
+  "descricao": "Transferência gratuita da posse",
+  "definicao": "Modalidade de regime de direito pessoal/obrigacional que transfere, gratuitamente, a posse de imóvel oriundo da extinta Rede Ferroviária Federal S.A. (RFFSA) ou de suas antecessoras, cuja dominialidade em nome da União não seja possível comprovar.",
+  "observacao": "",
+  "fundamento_legal": [
+   "Art. 16, III da Lei nº 11.483/2007",
+   "Instrução Normativa SPU nº 03/2010"
+  ],
+  "instrumento": [
+   "Contrato de Transferência gratuita da Posse"
+  ],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "02.02.06.02",
+  "nivel": 3,
+  "pai": "02.02.06",
+  "descricao": "Transferência onerosa da posse",
+  "definicao": "Regime de direito pessoal/obrigacional que transfere, onerosamente, a posse de imóvel oriundo da extinta Rede Ferroviária Federal S.A. (RFFSA) ou de suas antecessoras, cuja dominialidade em nome da União não seja possível comprovar.",
+  "observacao": "",
+  "fundamento_legal": [
+   "Art. 16, III da Lei nº 11.483/2007",
+   "Instrução Normativa SPU nº 03/2010"
+  ],
+  "instrumento": [
+   "Contrato de Transferência onerosa da Posse"
+  ],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "02.03",
+  "nivel": 1,
+  "pai": "",
+  "descricao": "Regimes de transferência/ compartilhamento de gestão",
+  "definicao": "Classe de regimes de destinação imobiliária que formalizam a transferência ou compartilhamento de responsabilidades de gestão de imóveis, sem alterar a titularidade nem configurar transferência de direito real, sem natureza contratual.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "02.03.01",
+  "nivel": 2,
+  "pai": "02.03",
+  "descricao": "Acordo de Cooperação Técnica para Regularização Fundiária Urbana (ACT-Reurb)",
+  "definicao": "Regime de transferência/compartilhamento de gestão que confere ao partícipe poderes e responsabilidades para realizar atos de regularização fundiária em nome do proprietário de imóvel público, sem repasse de recursos financeiros.",
+  "observacao": "",
+  "fundamento_legal": [
+   "Art. 4º, §2º da Portaria SPU nº 2.826, de 31 de janeiro de 2020",
+   "art. 83 e 89 da Lei nº 13.465/2017"
+  ],
+  "instrumento": [
+   "Acordo de Cooperação Técnica"
+  ],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "02.03.02",
+  "nivel": 2,
+  "pai": "02.03",
+  "descricao": "Entrega",
+  "definicao": "Regime de transferência/compartilhamento de gestão que transfere, gratuitamente, a gestão de imóvel a órgão da Administração Pública Federal direta, sem prazo determinado e para finalidade específica.",
+  "observacao": "",
+  "fundamento_legal": [
+   "Art. 79 da Lei nº 9.760/1946"
+  ],
+  "instrumento": [
+   "Termo de Entrega"
+  ],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "02.03.03",
+  "nivel": 2,
+  "pai": "02.03",
+  "descricao": "Entrega provisória",
+  "definicao": "Regime de transferência/compartilhamento de gestão que transfere, gratuitamente, a gestão de imóvel a órgão da Administração Pública Federal direta, por prazo determinado, quando houver urgência em razão da necessidade de proteção ou manutenção do imóvel.",
+  "observacao": "",
+  "fundamento_legal": [
+   "Art. 21 da Lei nº 11.483/2007",
+   "art. 11, §3º, do Decreto nº 3.725/2001"
+  ],
+  "instrumento": [
+   "Termo de Entrega Provisória"
+  ],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "02.03.04",
+  "nivel": 2,
+  "pai": "02.03",
+  "descricao": "Guarda Provisória",
+  "definicao": "Regime de transferência/compartilhamento de gestão que atribui a guarda e proteção de imóvel a órgão ou entidade da administração pública direta e indireta da União, dos Estados, do Distrito Federal e dos Municípios ou a entidade sem fins lucrativos das áreas de educação, cultura, assistência social ou saúde, enquadrados no art. 18, inciso I, da Lei nº 9.636, de 1998, quando houver risco iminente ao bem.",
+  "observacao": "",
+  "fundamento_legal": [
+   "Art. 45 da Lei nº 9.784/1999",
+   "IN SPU/ME nº 26/2021"
+  ],
+  "instrumento": [
+   "Termo de Guarda Provisória"
+  ],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "02.03.05",
+  "nivel": 2,
+  "pai": "02.03",
+  "descricao": "Transferência de gestão por determinação legal",
+  "definicao": "Regime de transferência/compartilhamento de gestão que formaliza, por determinação legal, a transferência de responsabilidade de gestão de imóveis para outro órgão ou entidade da Administração Pública, sem alterar a titularidade nem configurar transferência de direito real.",
+  "observacao": "",
+  "fundamento_legal": [
+   "Não há legislação geral sobre o instrumento, e sim aplicações específicas, a exemplo do previsto no art. 22 da Lei nº 13.240/2015, que transfere para a SPU a gestão dos imóveis não operacionais que constituem o patrimônio imobiliário do Fundo do Regime Geral de Previdência Social, e no Decreto nº 8.376/2014, que transfere ao Departamento Nacional de Infraestrutura de Transportes - DNIT a administração patrimonial de determinados bens imóveis da União"
+  ],
+  "instrumento": [
+   "Termo de Transferência de Gestão"
+  ],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "02.03.06",
+  "nivel": 2,
+  "pai": "02.03",
+  "descricao": "Transferência de gestão de orlas e praias",
+  "definicao": "Regime de transferência/compartilhamento de gestão que transfere aos Municípios a gestão das orlas e praias marítimas, estuarinas, lacustres e fluviais, inclusive as áreas de uso comum com exploração econômica, como calçadões, praças e parques públicos, com atribuições de ordenamento, uso sustentável e fiscalização.",
+  "observacao": "",
+  "fundamento_legal": [
+   "art. 14 da Lei nº 13.240/2015"
+  ],
+  "instrumento": [
+   "Termo de Adesão à Gestão de Orlas e Praias (TAGP)"
+  ],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "02.04",
+  "nivel": 1,
+  "pai": "",
+  "descricao": "Regimes de Outorga Administrativa",
+  "definicao": "Classe de regimes de destinação imobiliária por ato unilateral da Administração Pública, com caráter precário, que permitem, reconhecem ou autorizam o uso de imóveis em situações específicas e temporárias, sem transferência de direito real ou mesmo vínculo pessoal ou obrigacional.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "02.04.01",
+  "nivel": 2,
+  "pai": "02.04",
+  "descricao": "Autorização de obras",
+  "definicao": "Regime de outorga administrativa, precária e discricionária, que autoriza a realização de aterro, construção, obra, cercas ou outras benfeitorias, desmatamento ou instalação de equipamentos em bens de uso comum do povo, desde que não haja alteração desta característica.",
+  "observacao": "Caso o objeto da intervenção demande manutenção permanente, deverá ser utilizado o regime de cessão de uso.",
+  "fundamento_legal": [
+   "Art. 6º, §1º, do Decreto-Lei nº 2.398/1987",
+   "Ofício Circular SEI nº 76.381/2023/MGI",
+   "Ofício Circular SEI nº 1093/2019/ME"
+  ],
+  "instrumento": [
+   "Portaria de Autorização de Obras"
+  ],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "02.04.02",
+  "nivel": 2,
+  "pai": "02.04",
+  "descricao": "Autorização de passagem",
+  "definicao": "Regime de outorga administrativa que autoriza, a título gratuito ou oneroso, a instalação de tubulação subterrânea ou subaquática para passagem de cabos ou tubos de petróleo, gás natural, bem como nas destinações para prestação de serviços de coleta, tratamento e distribuição de água potável, esgoto sanitário, destinação final de resíduos sólidos e águas pluviais, desde que permita outro uso concomitante, e, ainda, para ocupação por linhas de transmissão, subtransmissão e distribuição de energia elétrica.",
+  "observacao": "",
+  "fundamento_legal": [
+   "Art. 4º da Lei nº 13.139/2015",
+   "art. 18, §9° da Lei nº 9.636/1998",
+   "art. 1º do Decreto nº 84.398/1980"
+  ],
+  "instrumento": [],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "02.04.02.01",
+  "nivel": 3,
+  "pai": "02.04.02",
+  "descricao": "Autorização de passagem gratuita",
+  "definicao": "Submodalidade do regime de autorização de passagem que autoriza, a título gratuito, a instalação de tubulação subterrânea ou subaquática para passagem de cabos ou tubos de petróleo, gás natural, bem como nas destinações para prestação de serviços de coleta, tratamento e distribuição de água potável, esgoto sanitário, drenagem e destinação final de resíduos sólidos, desde que permita outro uso concomitante, e, ainda, para ocupação por linhas de transmissão, subtransmissão e distribuição de energia elétrica.",
+  "observacao": "",
+  "fundamento_legal": [
+   "Art. 4º da Lei nº 13.139/2015",
+   "art. 18, §9° da Lei nº 9.636/1998",
+   "art. 1º do Decreto nº 84.398/1980"
+  ],
+  "instrumento": [
+   "Termo de Autorização de Passagem Gratuita e Termo de Autorização"
+  ],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "02.04.02.02",
+  "nivel": 3,
+  "pai": "02.04.02",
+  "descricao": "Autorização de passagem onerosa",
+  "definicao": "Submodalidade do regime de autorização de passagem que autoriza, a título oneroso com pagamento único, a instalação de tubulação subterrânea ou subaquática para passagem de cabos ou tubos de petróleo, gás natural, bem como nas destinações para prestação de serviços de coleta, tratamento e distribuição de água potável, esgoto sanitário e destinação final de resíduos sólidos, desde que permita outro uso concomitante.",
+  "observacao": "",
+  "fundamento_legal": [
+   "Art. 4º da Lei nº 13.139/2015",
+   "art. 18, §9° da Lei nº 9.636/1998"
+  ],
+  "instrumento": [
+   "Termo de Autorização de Passagem Onerosa"
+  ],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "02.04.03",
+  "nivel": 2,
+  "pai": "02.04",
+  "descricao": "Autorização de uso para fins comerciais",
+  "definicao": "Regime de outorga administrativa que concede autorização de uso, de forma gratuita, àquele que, até 22 de dezembro de 2016, possui como seu, por cinco anos, ininterruptamente e sem oposição, até 250 m² de imóvel público situado em área com características e finalidade urbanas para fins comerciais.",
+  "observacao": "",
+  "fundamento_legal": [
+   "Art. 9º da Medida Provisória nº 2.220/2001"
+  ],
+  "instrumento": [
+   "Termo de Autorização de Uso"
+  ],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "02.04.04",
+  "nivel": 2,
+  "pai": "02.04",
+  "descricao": "Autorização de Uso Sustentável",
+  "definicao": "Regime de outorga administrativa que autoriza a utilização de imóvel por comunidade tradicional, em caráter transitório e precário, com o objetivo de possibilitar a ordenação do uso racional e sustentável dos recursos naturais disponíveis na orla marítima e fluvial, voltados à subsistência dessa população.",
+  "observacao": "",
+  "fundamento_legal": [
+   "art. 10-A da Lei nº 9.636/1998",
+   "Portaria SPU nº 89/2010"
+  ],
+  "instrumento": [
+   "Termo de Autorização de Uso Sustentável (TAUS)"
+  ],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "02.04.05",
+  "nivel": 2,
+  "pai": "02.04",
+  "descricao": "Inscrição de ocupação",
+  "definicao": "Regime de outorga administrativa que reconhece situação de fato de utilização comprovada de imóvel público, a título precário e resolúvel, sem finalidade determinada. Obs.: No âmbito da União, pressupõe o efetivo aproveitamento do terreno pelo ocupante, nos termos do regulamento, gerando obrigação de pagamento anual da taxa de ocupação.",
+  "observacao": "",
+  "fundamento_legal": [
+   "Arts. 127 a 132-A do Decreto-Lei nº 9.760/1946",
+   "arts. 7º ao 10 da Lei nº 9.636/1998"
+  ],
+  "instrumento": [
+   "Certidão de Outorga de Inscrição de Ocupação"
+  ],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "02.04.06",
+  "nivel": 2,
+  "pai": "02.04",
+  "descricao": "Permissão de uso para eventos",
+  "definicao": "Regime de outorga administrativa que autoriza, a título precário, a utilização de áreas para a realização de eventos de curta duração, de natureza recreativa, esportiva, cultural, religiosa ou educacional, por prazo determinado e finalidade específica.",
+  "observacao": "",
+  "fundamento_legal": [
+   "Art. 22 da Lei nº 9.636/1998",
+   "art. 14 do Decreto nº 3.725/2001"
+  ],
+  "instrumento": [
+   "Termo de Outorga de Permissão de Uso para eventos"
+  ],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ }
+]

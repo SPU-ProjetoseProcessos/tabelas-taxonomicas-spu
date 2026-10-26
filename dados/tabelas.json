@@ -1,0 +1,60 @@
+{
+ "versao_esquema": "1.0",
+ "tabelas": [
+  {
+   "id": "tt01-uso-imobiliario",
+   "sigla": "TT-01",
+   "titulo": "Tipos de Uso Imobiliário",
+   "eixo": "Uso do imóvel",
+   "cor": "#A4461E",
+   "dominio": "Uso atribuído ao imóvel da União",
+   "rotulo_folha": "usos",
+   "norma_publicacao": "2025-10-08",
+   "caminho": "tt01-uso-imobiliario",
+   "profundidade": 3,
+   "norma_vigente": "Resolução ComGC/SPU/MGI nº 3, de 3 de outubro de 2025",
+   "totais": {
+    "registros": 96,
+    "folhas": 72,
+    "por_nivel": {
+     "1": 19,
+     "2": 48,
+     "3": 29
+    }
+   },
+   "tem_atributos": false,
+   "tem_exemplos": true
+  },
+  {
+   "id": "tt02-regimes-destinacao",
+   "sigla": "TT-02",
+   "titulo": "Regimes de Destinação Imobiliária",
+   "eixo": "Destinação do imóvel",
+   "cor": "#17585E",
+   "dominio": "Regime jurídico-administrativo da destinação do imóvel",
+   "rotulo_folha": "regimes",
+   "norma_publicacao": "2025-10-24",
+   "caminho": "tt02-regimes-destinacao",
+   "profundidade": 5,
+   "norma_vigente": "Resolução ComGC/SPU/MGI nº 5, de 24 de outubro de 2025",
+   "totais": {
+    "registros": 62,
+    "folhas": 46,
+    "por_nivel": {
+     "1": 4,
+     "2": 20,
+     "3": 17,
+     "4": 19,
+     "5": 2
+    }
+   },
+   "tem_atributos": true,
+   "tem_exemplos": false
+  }
+ ],
+ "glossario": {
+  "caminho": "glossario",
+  "termos": 234,
+  "vinculos": 72
+ }
+}

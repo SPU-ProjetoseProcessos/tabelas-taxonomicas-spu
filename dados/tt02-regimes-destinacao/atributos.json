@@ -1,0 +1,1114 @@
+[
+ {
+  "codigo": "02.01.01.01.01",
+  "discricionariedade": [
+   "Discricionário"
+  ],
+  "natureza": [
+   "Onerosa"
+  ],
+  "pagamento_em_dinheiro": [
+   "Não"
+  ],
+  "baixa_patrimonial": [
+   "Sim"
+  ],
+  "prazo": [
+   "Indeterminado"
+  ],
+  "efeito_patrimonial": [
+   "Definitivo"
+  ],
+  "uso_determinado": [
+   "Não"
+  ]
+ },
+ {
+  "codigo": "02.01.01.01.02",
+  "discricionariedade": [
+   "Discricionário"
+  ],
+  "natureza": [
+   "Gratuita"
+  ],
+  "pagamento_em_dinheiro": [
+   "Não"
+  ],
+  "baixa_patrimonial": [
+   "Sim"
+  ],
+  "prazo": [
+   "Indeterminado"
+  ],
+  "efeito_patrimonial": [
+   "Definitivo",
+   "Resolúvel"
+  ],
+  "uso_determinado": [
+   "Sim"
+  ]
+ },
+ {
+  "codigo": "02.01.01.01.03",
+  "discricionariedade": [
+   "Discricionário"
+  ],
+  "natureza": [
+   "Onerosa"
+  ],
+  "pagamento_em_dinheiro": [
+   "Não"
+  ],
+  "baixa_patrimonial": [
+   "Sim"
+  ],
+  "prazo": [
+   "Indeterminado"
+  ],
+  "efeito_patrimonial": [
+   "Definitivo"
+  ],
+  "uso_determinado": [
+   "Não"
+  ]
+ },
+ {
+  "codigo": "02.01.01.01.04",
+  "discricionariedade": [
+   "Discricionário"
+  ],
+  "natureza": [
+   "Onerosa"
+  ],
+  "pagamento_em_dinheiro": [
+   "Sim"
+  ],
+  "baixa_patrimonial": [
+   "Sim"
+  ],
+  "prazo": [
+   "Indeterminado"
+  ],
+  "efeito_patrimonial": [
+   "Definitivo"
+  ],
+  "uso_determinado": [
+   "Não"
+  ]
+ },
+ {
+  "codigo": "02.01.01.01.05",
+  "discricionariedade": [
+   "Discricionário"
+  ],
+  "natureza": [
+   "Onerosa"
+  ],
+  "pagamento_em_dinheiro": [
+   "Não"
+  ],
+  "baixa_patrimonial": [
+   "Sim"
+  ],
+  "prazo": [
+   "Indeterminado"
+  ],
+  "efeito_patrimonial": [
+   "Definitivo"
+  ],
+  "uso_determinado": [
+   "Não"
+  ]
+ },
+ {
+  "codigo": "02.01.01.01.06.01",
+  "discricionariedade": [
+   "Discricionário"
+  ],
+  "natureza": [
+   "Gratuita"
+  ],
+  "pagamento_em_dinheiro": [
+   "Não"
+  ],
+  "baixa_patrimonial": [
+   "Sim"
+  ],
+  "prazo": [
+   "Indeterminado"
+  ],
+  "efeito_patrimonial": [
+   "Definitivo"
+  ],
+  "uso_determinado": [
+   "Não"
+  ]
+ },
+ {
+  "codigo": "02.01.01.01.06.02",
+  "discricionariedade": [
+   "Discricionário"
+  ],
+  "natureza": [
+   "Onerosa"
+  ],
+  "pagamento_em_dinheiro": [
+   "Sim"
+  ],
+  "baixa_patrimonial": [
+   "Sim"
+  ],
+  "prazo": [
+   "Indeterminado"
+  ],
+  "efeito_patrimonial": [
+   "Definitivo"
+  ],
+  "uso_determinado": [
+   "Não"
+  ]
+ },
+ {
+  "codigo": "02.01.01.01.07",
+  "discricionariedade": [
+   "Discricionário"
+  ],
+  "natureza": [
+   "Onerosa"
+  ],
+  "pagamento_em_dinheiro": [
+   "Sim"
+  ],
+  "baixa_patrimonial": [
+   "Sim"
+  ],
+  "prazo": [
+   "Indeterminado"
+  ],
+  "efeito_patrimonial": [
+   "Definitivo"
+  ],
+  "uso_determinado": [
+   "Não"
+  ]
+ },
+ {
+  "codigo": "02.01.01.02.01",
+  "discricionariedade": [
+   "Vinculado"
+  ],
+  "natureza": [
+   "Gratuita"
+  ],
+  "pagamento_em_dinheiro": [
+   "Não"
+  ],
+  "baixa_patrimonial": [
+   "Sim"
+  ],
+  "prazo": [
+   "Indeterminado"
+  ],
+  "efeito_patrimonial": [
+   "Definitivo"
+  ],
+  "uso_determinado": [
+   "Sim"
+  ]
+ },
+ {
+  "codigo": "02.01.01.02.02",
+  "discricionariedade": [
+   "Vinculado"
+  ],
+  "natureza": [
+   "Gratuita"
+  ],
+  "pagamento_em_dinheiro": [
+   "Não"
+  ],
+  "baixa_patrimonial": [
+   "Sim"
+  ],
+  "prazo": [
+   "Indeterminado"
+  ],
+  "efeito_patrimonial": [
+   "Definitivo"
+  ],
+  "uso_determinado": [
+   "Sim"
+  ]
+ },
+ {
+  "codigo": "02.01.01.02.03",
+  "discricionariedade": [
+   "Vinculado"
+  ],
+  "natureza": [
+   "Gratuita"
+  ],
+  "pagamento_em_dinheiro": [
+   "Não"
+  ],
+  "baixa_patrimonial": [
+   "Sim"
+  ],
+  "prazo": [
+   "Indeterminado"
+  ],
+  "efeito_patrimonial": [
+   "Definitivo"
+  ],
+  "uso_determinado": [
+   "Sim"
+  ]
+ },
+ {
+  "codigo": "02.01.01.02.04",
+  "discricionariedade": [
+   "Vinculado"
+  ],
+  "natureza": [
+   "Gratuita"
+  ],
+  "pagamento_em_dinheiro": [
+   "Não"
+  ],
+  "baixa_patrimonial": [
+   "Sim"
+  ],
+  "prazo": [
+   "Indeterminado"
+  ],
+  "efeito_patrimonial": [
+   "Definitivo"
+  ],
+  "uso_determinado": [
+   "Não"
+  ]
+ },
+ {
+  "codigo": "02.01.02.01.01",
+  "discricionariedade": [
+   "Discricionário",
+   "Vinculado"
+  ],
+  "natureza": [
+   "Gratuita"
+  ],
+  "pagamento_em_dinheiro": [
+   "Não"
+  ],
+  "baixa_patrimonial": [
+   "Não"
+  ],
+  "prazo": [
+   "Indeterminado"
+  ],
+  "efeito_patrimonial": [
+   "Definitivo"
+  ],
+  "uso_determinado": [
+   "Não"
+  ]
+ },
+ {
+  "codigo": "02.01.02.01.02",
+  "discricionariedade": [
+   "Discricionário"
+  ],
+  "natureza": [
+   "Onerosa"
+  ],
+  "pagamento_em_dinheiro": [],
+  "baixa_patrimonial": [
+   "Não"
+  ],
+  "prazo": [
+   "Indeterminado"
+  ],
+  "efeito_patrimonial": [
+   "Definitivo"
+  ],
+  "uso_determinado": [
+   "Não"
+  ]
+ },
+ {
+  "codigo": "02.01.02.02.01",
+  "discricionariedade": [
+   "Discricionário"
+  ],
+  "natureza": [
+   "Gratuita"
+  ],
+  "pagamento_em_dinheiro": [
+   "Não"
+  ],
+  "baixa_patrimonial": [
+   "Não"
+  ],
+  "prazo": [
+   "Determinado",
+   "Indeterminado"
+  ],
+  "efeito_patrimonial": [
+   "Resolúvel"
+  ],
+  "uso_determinado": [
+   "Sim"
+  ]
+ },
+ {
+  "codigo": "02.01.02.02.02",
+  "discricionariedade": [
+   "Discricionário"
+  ],
+  "natureza": [
+   "Onerosa"
+  ],
+  "pagamento_em_dinheiro": [
+   "Sim"
+  ],
+  "baixa_patrimonial": [
+   "Não"
+  ],
+  "prazo": [
+   "Determinado",
+   "Indeterminado"
+  ],
+  "efeito_patrimonial": [
+   "Resolúvel"
+  ],
+  "uso_determinado": [
+   "Sim"
+  ]
+ },
+ {
+  "codigo": "02.01.02.03.01",
+  "discricionariedade": [
+   "Discricionário"
+  ],
+  "natureza": [
+   "Gratuita"
+  ],
+  "pagamento_em_dinheiro": [
+   "Não"
+  ],
+  "baixa_patrimonial": [
+   "Não"
+  ],
+  "prazo": [
+   "Determinado",
+   "Indeterminado"
+  ],
+  "efeito_patrimonial": [
+   "Resolúvel"
+  ],
+  "uso_determinado": [
+   "Sim"
+  ]
+ },
+ {
+  "codigo": "02.01.02.03.02",
+  "discricionariedade": [
+   "Discricionário"
+  ],
+  "natureza": [
+   "Onerosa"
+  ],
+  "pagamento_em_dinheiro": [
+   "Sim"
+  ],
+  "baixa_patrimonial": [
+   "Não"
+  ],
+  "prazo": [
+   "Determinado",
+   "Indeterminado"
+  ],
+  "efeito_patrimonial": [
+   "Resolúvel"
+  ],
+  "uso_determinado": [
+   "Sim"
+  ]
+ },
+ {
+  "codigo": "02.01.02.04.01",
+  "discricionariedade": [
+   "Discricionário"
+  ],
+  "natureza": [
+   "Gratuita"
+  ],
+  "pagamento_em_dinheiro": [
+   "Não"
+  ],
+  "baixa_patrimonial": [
+   "Não"
+  ],
+  "prazo": [
+   "Determinado",
+   "Indeterminado"
+  ],
+  "efeito_patrimonial": [
+   "Resolúvel"
+  ],
+  "uso_determinado": [
+   "Sim"
+  ]
+ },
+ {
+  "codigo": "02.01.02.04.02",
+  "discricionariedade": [
+   "Discricionário"
+  ],
+  "natureza": [
+   "Onerosa"
+  ],
+  "pagamento_em_dinheiro": [
+   "Sim"
+  ],
+  "baixa_patrimonial": [
+   "Não"
+  ],
+  "prazo": [
+   "Determinado",
+   "Indeterminado"
+  ],
+  "efeito_patrimonial": [
+   "Resolúvel"
+  ],
+  "uso_determinado": [
+   "Sim"
+  ]
+ },
+ {
+  "codigo": "02.01.02.05",
+  "discricionariedade": [
+   "Vinculado"
+  ],
+  "natureza": [
+   "Gratuita"
+  ],
+  "pagamento_em_dinheiro": [
+   "Não"
+  ],
+  "baixa_patrimonial": [
+   "Não"
+  ],
+  "prazo": [
+   "Indeterminado"
+  ],
+  "efeito_patrimonial": [
+   "Definitivo"
+  ],
+  "uso_determinado": [
+   "Sim"
+  ]
+ },
+ {
+  "codigo": "02.01.02.06",
+  "discricionariedade": [
+   "Discricionário"
+  ],
+  "natureza": [
+   "Onerosa"
+  ],
+  "pagamento_em_dinheiro": [
+   "Sim"
+  ],
+  "baixa_patrimonial": [
+   "Não"
+  ],
+  "prazo": [
+   "Determinado"
+  ],
+  "efeito_patrimonial": [
+   "Resolúvel"
+  ],
+  "uso_determinado": [
+   "Não"
+  ]
+ },
+ {
+  "codigo": "02.01.02.07",
+  "discricionariedade": [
+   "Vinculado"
+  ],
+  "natureza": [
+   "Gratuita"
+  ],
+  "pagamento_em_dinheiro": [
+   "Não"
+  ],
+  "baixa_patrimonial": [
+   "Não"
+  ],
+  "prazo": [
+   "Determinado",
+   "Indeterminado"
+  ],
+  "efeito_patrimonial": [
+   "Resolúvel"
+  ],
+  "uso_determinado": [
+   "Sim"
+  ]
+ },
+ {
+  "codigo": "02.02.01",
+  "discricionariedade": [
+   "Discricionário"
+  ],
+  "natureza": [
+   "Onerosa"
+  ],
+  "pagamento_em_dinheiro": [
+   "Sim"
+  ],
+  "baixa_patrimonial": [
+   "Não"
+  ],
+  "prazo": [
+   "Determinado"
+  ],
+  "efeito_patrimonial": [
+   "Precário / obrigacional"
+  ],
+  "uso_determinado": [
+   "Não"
+  ]
+ },
+ {
+  "codigo": "02.02.02.01",
+  "discricionariedade": [
+   "Discricionário"
+  ],
+  "natureza": [
+   "Gratuita"
+  ],
+  "pagamento_em_dinheiro": [
+   "Não"
+  ],
+  "baixa_patrimonial": [
+   "Não"
+  ],
+  "prazo": [
+   "Determinado"
+  ],
+  "efeito_patrimonial": [
+   "Precário / obrigacional"
+  ],
+  "uso_determinado": [
+   "Sim"
+  ]
+ },
+ {
+  "codigo": "02.02.02.02",
+  "discricionariedade": [
+   "Discricionário"
+  ],
+  "natureza": [
+   "Onerosa"
+  ],
+  "pagamento_em_dinheiro": [
+   "Sim"
+  ],
+  "baixa_patrimonial": [
+   "Não"
+  ],
+  "prazo": [
+   "Determinado"
+  ],
+  "efeito_patrimonial": [
+   "Precário / obrigacional"
+  ],
+  "uso_determinado": [
+   "Sim"
+  ]
+ },
+ {
+  "codigo": "02.02.02.03",
+  "discricionariedade": [
+   "Discricionário"
+  ],
+  "natureza": [
+   "Onerosa"
+  ],
+  "pagamento_em_dinheiro": [
+   "Sim",
+   "Não"
+  ],
+  "baixa_patrimonial": [
+   "Não"
+  ],
+  "prazo": [
+   "Determinado"
+  ],
+  "efeito_patrimonial": [
+   "Precário / obrigacional"
+  ],
+  "uso_determinado": [
+   "Sim"
+  ]
+ },
+ {
+  "codigo": "02.02.02.04",
+  "discricionariedade": [
+   "Discricionário"
+  ],
+  "natureza": [
+   "Gratuita"
+  ],
+  "pagamento_em_dinheiro": [
+   "Não"
+  ],
+  "baixa_patrimonial": [
+   "Não"
+  ],
+  "prazo": [
+   "Determinado"
+  ],
+  "efeito_patrimonial": [
+   "Precário / obrigacional"
+  ],
+  "uso_determinado": [
+   "Sim"
+  ]
+ },
+ {
+  "codigo": "02.02.03",
+  "discricionariedade": [
+   "Discricionário"
+  ],
+  "natureza": [
+   "Gratuita"
+  ],
+  "pagamento_em_dinheiro": [
+   "Não"
+  ],
+  "baixa_patrimonial": [
+   "Não"
+  ],
+  "prazo": [
+   "Determinado"
+  ],
+  "efeito_patrimonial": [
+   "Precário / obrigacional"
+  ],
+  "uso_determinado": [
+   "Não"
+  ]
+ },
+ {
+  "codigo": "02.02.04",
+  "discricionariedade": [
+   "Discricionário"
+  ],
+  "natureza": [
+   "Onerosa"
+  ],
+  "pagamento_em_dinheiro": [
+   "Sim"
+  ],
+  "baixa_patrimonial": [
+   "Não"
+  ],
+  "prazo": [
+   "Determinado"
+  ],
+  "efeito_patrimonial": [
+   "Precário / obrigacional"
+  ],
+  "uso_determinado": [
+   "Não"
+  ]
+ },
+ {
+  "codigo": "02.02.05",
+  "discricionariedade": [
+   "Discricionário"
+  ],
+  "natureza": [
+   "Onerosa"
+  ],
+  "pagamento_em_dinheiro": [
+   "Sim"
+  ],
+  "baixa_patrimonial": [
+   "Não"
+  ],
+  "prazo": [
+   "Determinado"
+  ],
+  "efeito_patrimonial": [
+   "Precário / obrigacional"
+  ],
+  "uso_determinado": [
+   "Sim"
+  ]
+ },
+ {
+  "codigo": "02.02.06.01",
+  "discricionariedade": [
+   "Discricionário"
+  ],
+  "natureza": [
+   "Gratuita"
+  ],
+  "pagamento_em_dinheiro": [
+   "Não"
+  ],
+  "baixa_patrimonial": [
+   "Não"
+  ],
+  "prazo": [
+   "Indeterminado"
+  ],
+  "efeito_patrimonial": [
+   "Definitivo"
+  ],
+  "uso_determinado": [
+   "Não"
+  ]
+ },
+ {
+  "codigo": "02.02.06.02",
+  "discricionariedade": [
+   "Discricionário"
+  ],
+  "natureza": [
+   "Onerosa"
+  ],
+  "pagamento_em_dinheiro": [
+   "Sim"
+  ],
+  "baixa_patrimonial": [
+   "Não"
+  ],
+  "prazo": [
+   "Indeterminado"
+  ],
+  "efeito_patrimonial": [
+   "Definitivo"
+  ],
+  "uso_determinado": [
+   "Não"
+  ]
+ },
+ {
+  "codigo": "02.03.01",
+  "discricionariedade": [
+   "Discricionário"
+  ],
+  "natureza": [
+   "Gratuita"
+  ],
+  "pagamento_em_dinheiro": [
+   "Não"
+  ],
+  "baixa_patrimonial": [
+   "Não"
+  ],
+  "prazo": [
+   "Determinado"
+  ],
+  "efeito_patrimonial": [
+   "Precário / obrigacional"
+  ],
+  "uso_determinado": [
+   "Sim"
+  ]
+ },
+ {
+  "codigo": "02.03.02",
+  "discricionariedade": [
+   "Discricionário"
+  ],
+  "natureza": [
+   "Gratuita"
+  ],
+  "pagamento_em_dinheiro": [
+   "Não"
+  ],
+  "baixa_patrimonial": [
+   "Não"
+  ],
+  "prazo": [
+   "Indeterminado"
+  ],
+  "efeito_patrimonial": [
+   "Precário / obrigacional"
+  ],
+  "uso_determinado": [
+   "Sim"
+  ]
+ },
+ {
+  "codigo": "02.03.03",
+  "discricionariedade": [
+   "Discricionário"
+  ],
+  "natureza": [
+   "Gratuita"
+  ],
+  "pagamento_em_dinheiro": [
+   "Não"
+  ],
+  "baixa_patrimonial": [
+   "Não"
+  ],
+  "prazo": [
+   "Determinado"
+  ],
+  "efeito_patrimonial": [
+   "Precário / obrigacional"
+  ],
+  "uso_determinado": [
+   "Sim"
+  ]
+ },
+ {
+  "codigo": "02.03.04",
+  "discricionariedade": [
+   "Discricionário"
+  ],
+  "natureza": [
+   "Gratuita"
+  ],
+  "pagamento_em_dinheiro": [
+   "Não"
+  ],
+  "baixa_patrimonial": [
+   "Não"
+  ],
+  "prazo": [
+   "Determinado"
+  ],
+  "efeito_patrimonial": [
+   "Precário / obrigacional"
+  ],
+  "uso_determinado": [
+   "Sim"
+  ]
+ },
+ {
+  "codigo": "02.03.05",
+  "discricionariedade": [
+   "Vinculado"
+  ],
+  "natureza": [
+   "Gratuita"
+  ],
+  "pagamento_em_dinheiro": [
+   "Não"
+  ],
+  "baixa_patrimonial": [
+   "Não"
+  ],
+  "prazo": [
+   "Determinado"
+  ],
+  "efeito_patrimonial": [
+   "Precário / obrigacional"
+  ],
+  "uso_determinado": [
+   "Não"
+  ]
+ },
+ {
+  "codigo": "02.03.06",
+  "discricionariedade": [
+   "Discricionário"
+  ],
+  "natureza": [
+   "Gratuita"
+  ],
+  "pagamento_em_dinheiro": [
+   "Não"
+  ],
+  "baixa_patrimonial": [
+   "Não"
+  ],
+  "prazo": [
+   "Determinado"
+  ],
+  "efeito_patrimonial": [
+   "Precário / obrigacional"
+  ],
+  "uso_determinado": [
+   "Sim"
+  ]
+ },
+ {
+  "codigo": "02.04.01",
+  "discricionariedade": [
+   "Discricionário"
+  ],
+  "natureza": [
+   "Gratuita"
+  ],
+  "pagamento_em_dinheiro": [
+   "Não"
+  ],
+  "baixa_patrimonial": [
+   "Não"
+  ],
+  "prazo": [
+   "Determinado"
+  ],
+  "efeito_patrimonial": [
+   "Precário / obrigacional"
+  ],
+  "uso_determinado": [
+   "Sim"
+  ]
+ },
+ {
+  "codigo": "02.04.02.01",
+  "discricionariedade": [
+   "Discricionário"
+  ],
+  "natureza": [
+   "Gratuita"
+  ],
+  "pagamento_em_dinheiro": [
+   "Não"
+  ],
+  "baixa_patrimonial": [
+   "Não"
+  ],
+  "prazo": [
+   "Determinado"
+  ],
+  "efeito_patrimonial": [
+   "Precário / obrigacional"
+  ],
+  "uso_determinado": [
+   "Sim"
+  ]
+ },
+ {
+  "codigo": "02.04.02.02",
+  "discricionariedade": [
+   "Discricionário"
+  ],
+  "natureza": [
+   "Onerosa"
+  ],
+  "pagamento_em_dinheiro": [
+   "Sim"
+  ],
+  "baixa_patrimonial": [
+   "Não"
+  ],
+  "prazo": [
+   "Determinado"
+  ],
+  "efeito_patrimonial": [
+   "Precário / obrigacional"
+  ],
+  "uso_determinado": [
+   "Sim"
+  ]
+ },
+ {
+  "codigo": "02.04.03",
+  "discricionariedade": [
+   "Discricionário"
+  ],
+  "natureza": [
+   "Gratuita"
+  ],
+  "pagamento_em_dinheiro": [
+   "Não"
+  ],
+  "baixa_patrimonial": [
+   "Não"
+  ],
+  "prazo": [
+   "Determinado"
+  ],
+  "efeito_patrimonial": [
+   "Precário / obrigacional"
+  ],
+  "uso_determinado": [
+   "Sim"
+  ]
+ },
+ {
+  "codigo": "02.04.04",
+  "discricionariedade": [
+   "Discricionário"
+  ],
+  "natureza": [
+   "Gratuita"
+  ],
+  "pagamento_em_dinheiro": [
+   "Não"
+  ],
+  "baixa_patrimonial": [
+   "Não"
+  ],
+  "prazo": [
+   "Determinado"
+  ],
+  "efeito_patrimonial": [
+   "Precário / obrigacional"
+  ],
+  "uso_determinado": [
+   "Sim"
+  ]
+ },
+ {
+  "codigo": "02.04.05",
+  "discricionariedade": [
+   "Discricionário"
+  ],
+  "natureza": [
+   "Onerosa"
+  ],
+  "pagamento_em_dinheiro": [
+   "Sim"
+  ],
+  "baixa_patrimonial": [
+   "Não"
+  ],
+  "prazo": [
+   "Indeterminado"
+  ],
+  "efeito_patrimonial": [
+   "Precário / obrigacional"
+  ],
+  "uso_determinado": [
+   "Não"
+  ]
+ },
+ {
+  "codigo": "02.04.06",
+  "discricionariedade": [
+   "Discricionário"
+  ],
+  "natureza": [
+   "Onerosa"
+  ],
+  "pagamento_em_dinheiro": [
+   "Sim"
+  ],
+  "baixa_patrimonial": [
+   "Não"
+  ],
+  "prazo": [
+   "Determinado"
+  ],
+  "efeito_patrimonial": [
+   "Precário / obrigacional"
+  ],
+  "uso_determinado": [
+   "Sim"
+  ]
+ }
+]

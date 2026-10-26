@@ -1,0 +1,47 @@
+codigo,discricionariedade,natureza,pagamento_em_dinheiro,baixa_patrimonial,prazo,efeito_patrimonial,uso_determinado
+02.01.01.01.01,Discricionário,Onerosa,Não,Sim,Indeterminado,Definitivo,Não
+02.01.01.01.02,Discricionário,Gratuita,Não,Sim,Indeterminado,Definitivo/ Resolúvel,Sim
+02.01.01.01.03,Discricionário,Onerosa,Não,Sim,Indeterminado,Definitivo,Não
+02.01.01.01.04,Discricionário,Onerosa,Sim,Sim,Indeterminado,Definitivo,Não
+02.01.01.01.05,Discricionário,Onerosa,Não,Sim,Indeterminado,Definitivo,Não
+02.01.01.01.06.01,Discricionário,Gratuita,Não,Sim,Indeterminado,Definitivo,Não
+02.01.01.01.06.02,Discricionário,Onerosa,Sim,Sim,Indeterminado,Definitivo,Não
+02.01.01.01.07,Discricionário,Onerosa,Sim,Sim,Indeterminado,Definitivo,Não
+02.01.01.02.01,Vinculado,Gratuita,Não,Sim,Indeterminado,Definitivo,Sim
+02.01.01.02.02,Vinculado,Gratuita,Não,Sim,Indeterminado,Definitivo,Sim
+02.01.01.02.03,Vinculado,Gratuita,Não,Sim,Indeterminado,Definitivo,Sim
+02.01.01.02.04,Vinculado,Gratuita,Não,Sim,Indeterminado,Definitivo,Não
+02.01.02.01.01,Discricionário / Vinculado,Gratuita,Não,Não,Indeterminado,Definitivo,Não
+02.01.02.01.02,Discricionário,Onerosa,,Não,Indeterminado,Definitivo,Não
+02.01.02.02.01,Discricionário,Gratuita,Não,Não,Determinado/ Indeterminado,Resolúvel,Sim
+02.01.02.02.02,Discricionário,Onerosa,Sim,Não,Determinado/ Indeterminado,Resolúvel,Sim
+02.01.02.03.01,Discricionário,Gratuita,Não,Não,Determinado/ Indeterminado,Resolúvel,Sim
+02.01.02.03.02,Discricionário,Onerosa,Sim,Não,Determinado/ Indeterminado,Resolúvel,Sim
+02.01.02.04.01,Discricionário,Gratuita,Não,Não,Determinado/ Indeterminado,Resolúvel,Sim
+02.01.02.04.02,Discricionário,Onerosa,Sim,Não,Determinado/ Indeterminado,Resolúvel,Sim
+02.01.02.05,Vinculado,Gratuita,Não,Não,Indeterminado,Definitivo,Sim
+02.01.02.06,Discricionário,Onerosa,Sim,Não,Determinado,Resolúvel,Não
+02.01.02.07,Vinculado,Gratuita,Não,Não,Determinado/ Indeterminado,Resolúvel,Sim
+02.02.01,Discricionário,Onerosa,Sim,Não,Determinado,Precário / obrigacional,Não
+02.02.02.01,Discricionário,Gratuita,Não,Não,Determinado,Precário / obrigacional,Sim
+02.02.02.02,Discricionário,Onerosa,Sim,Não,Determinado,Precário / obrigacional,Sim
+02.02.02.03,Discricionário,Onerosa,Sim/ Não,Não,Determinado,Precário / obrigacional,Sim
+02.02.02.04,Discricionário,Gratuita,Não,Não,Determinado,Precário / obrigacional,Sim
+02.02.03,Discricionário,Gratuita,Não,Não,Determinado,Precário / obrigacional,Não
+02.02.04,Discricionário,Onerosa,Sim,Não,Determinado,Precário / obrigacional,Não
+02.02.05,Discricionário,Onerosa,Sim,Não,Determinado,Precário / obrigacional,Sim
+02.02.06.01,Discricionário,Gratuita,Não,Não,Indeterminado,Definitivo,Não
+02.02.06.02,Discricionário,Onerosa,Sim,Não,Indeterminado,Definitivo,Não
+02.03.01,Discricionário,Gratuita,Não,Não,Determinado,Precário / obrigacional,Sim
+02.03.02,Discricionário,Gratuita,Não,Não,Indeterminado,Precário / obrigacional,Sim
+02.03.03,Discricionário,Gratuita,Não,Não,Determinado,Precário / obrigacional,Sim
+02.03.04,Discricionário,Gratuita,Não,Não,Determinado,Precário / obrigacional,Sim
+02.03.05,Vinculado,Gratuita,Não,Não,Determinado,Precário / obrigacional,Não
+02.03.06,Discricionário,Gratuita,Não,Não,Determinado,Precário / obrigacional,Sim
+02.04.01,Discricionário,Gratuita,Não,Não,Determinado,Precário / obrigacional,Sim
+02.04.02.01,Discricionário,Gratuita,Não,Não,Determinado,Precário / obrigacional,Sim
+02.04.02.02,Discricionário,Onerosa,Sim,Não,Determinado,Precário / obrigacional,Sim
+02.04.03,Discricionário,Gratuita,Não,Não,Determinado,Precário / obrigacional,Sim
+02.04.04,Discricionário,Gratuita,Não,Não,Determinado,Precário / obrigacional,Sim
+02.04.05,Discricionário,Onerosa,Sim,Não,Indeterminado,Precário / obrigacional,Não
+02.04.06,Discricionário,Onerosa,Sim,Não,Determinado,Precário / obrigacional,Sim

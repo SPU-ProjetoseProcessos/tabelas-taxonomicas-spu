@@ -1,0 +1,46 @@
+{
+ "id": "tt01-uso-imobiliario",
+ "sigla": "TT-01",
+ "titulo": "Tipos de Uso Imobiliário",
+ "eixo": "Uso do imóvel",
+ "cor": "#A4461E",
+ "dominio": "Uso atribuído ao imóvel da União",
+ "rotulos_nivel": [
+  "Tipo de uso imobiliário",
+  "Uso de 2º nível",
+  "Uso de 3º nível"
+ ],
+ "rotulo_folha": "usos",
+ "profundidade": 3,
+ "norma_vigente": {
+  "ato": "Resolução ComGC/SPU/MGI nº 3, de 3 de outubro de 2025",
+  "efeito": "altera o Anexo da Resolução ComGC/SPU nº 2/2025",
+  "publicacao": "2025-10-08",
+  "sei_documento": "54419957",
+  "processo_sei": "19739.024321/2025-60",
+  "arquivo": "SEI_54419957_Resolucao_3.pdf"
+ },
+ "historico": [
+  {
+   "ato": "Resolução ComGC/SPU nº 2, de 9 de maio de 2025",
+   "efeito": "institui a TT-01",
+   "situacao": "anexo substituído pela Resolução nº 3/2025"
+  },
+  {
+   "ato": "Resolução ComGC/SPU/MGI nº 3, de 3 de outubro de 2025",
+   "efeito": "altera o Anexo (versão vigente)",
+   "situacao": "vigente"
+  }
+ ],
+ "fonte_oficial": "https://memoriaspu.gestao.gov.br",
+ "tem_exemplos": true,
+ "totais": {
+  "registros": 96,
+  "folhas": 72,
+  "por_nivel": {
+   "1": 19,
+   "2": 48,
+   "3": 29
+  }
+ }
+}

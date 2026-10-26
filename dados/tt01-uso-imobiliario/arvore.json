@@ -1,0 +1,722 @@
+[
+ {
+  "codigo": "01.01",
+  "descricao": "Uso administrativo e representativo",
+  "nivel": 1,
+  "folha": false,
+  "situacao": "vigente",
+  "filhos": [
+   {
+    "codigo": "01.01.01",
+    "descricao": "Uso para função administrativa",
+    "nivel": 2,
+    "folha": true,
+    "situacao": "vigente"
+   },
+   {
+    "codigo": "01.01.02",
+    "descricao": "Uso para função de controle e fiscalização",
+    "nivel": 2,
+    "folha": true,
+    "situacao": "vigente"
+   },
+   {
+    "codigo": "01.01.03",
+    "descricao": "Uso para representação diplomática",
+    "nivel": 2,
+    "folha": true,
+    "situacao": "vigente"
+   },
+   {
+    "codigo": "01.01.04",
+    "descricao": "Uso de suporte à função administrativa",
+    "nivel": 2,
+    "folha": true,
+    "situacao": "vigente"
+   }
+  ]
+ },
+ {
+  "codigo": "01.02",
+  "descricao": "Uso para agropecuária, aquicultura, produção florestal e pesca",
+  "nivel": 1,
+  "folha": false,
+  "situacao": "vigente",
+  "filhos": [
+   {
+    "codigo": "01.02.01",
+    "descricao": "Uso para agropecuária e produção florestal",
+    "nivel": 2,
+    "folha": true,
+    "situacao": "vigente"
+   },
+   {
+    "codigo": "01.02.02",
+    "descricao": "Uso para aquicultura",
+    "nivel": 2,
+    "folha": true,
+    "situacao": "vigente"
+   },
+   {
+    "codigo": "01.02.03",
+    "descricao": "Uso para pesca",
+    "nivel": 2,
+    "folha": true,
+    "situacao": "vigente"
+   }
+  ]
+ },
+ {
+  "codigo": "01.03",
+  "descricao": "Uso ambiental e dos recursos naturais",
+  "nivel": 1,
+  "folha": false,
+  "situacao": "vigente",
+  "filhos": [
+   {
+    "codigo": "01.03.01",
+    "descricao": "Uso para aproveitamento econômico de serviços ambientais ou ecossistêmicos",
+    "nivel": 2,
+    "folha": true,
+    "situacao": "vigente"
+   },
+   {
+    "codigo": "01.03.02",
+    "descricao": "Uso para extrativismo vegetal ou mineral",
+    "nivel": 2,
+    "folha": true,
+    "situacao": "vigente"
+   },
+   {
+    "codigo": "01.03.03",
+    "descricao": "Uso para unidade especial de proteção ambiental",
+    "nivel": 2,
+    "folha": true,
+    "situacao": "vigente"
+   },
+   {
+    "codigo": "01.03.04",
+    "descricao": "Uso para unidade de conservação",
+    "nivel": 2,
+    "folha": false,
+    "situacao": "vigente",
+    "filhos": [
+     {
+      "codigo": "01.03.04.01",
+      "descricao": "Uso para unidade de proteção integral",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     },
+     {
+      "codigo": "01.03.04.02",
+      "descricao": "Uso para unidade de uso sustentável",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "codigo": "01.04",
+  "descricao": "Uso cultural, esportivo e de lazer",
+  "nivel": 1,
+  "folha": false,
+  "situacao": "vigente",
+  "filhos": [
+   {
+    "codigo": "01.04.01",
+    "descricao": "Uso de apoio operacional cultural, esportivo e de lazer",
+    "nivel": 2,
+    "folha": true,
+    "situacao": "vigente"
+   },
+   {
+    "codigo": "01.04.02",
+    "descricao": "Uso cultural",
+    "nivel": 2,
+    "folha": true,
+    "situacao": "vigente"
+   },
+   {
+    "codigo": "01.04.03",
+    "descricao": "Uso para lazer e convivência",
+    "nivel": 2,
+    "folha": true,
+    "situacao": "vigente"
+   },
+   {
+    "codigo": "01.04.04",
+    "descricao": "Uso para prática esportiva",
+    "nivel": 2,
+    "folha": true,
+    "situacao": "vigente"
+   }
+  ]
+ },
+ {
+  "codigo": "01.05",
+  "descricao": "Uso em eventos de curta duração",
+  "nivel": 1,
+  "folha": true,
+  "situacao": "vigente"
+ },
+ {
+  "codigo": "01.06",
+  "descricao": "Uso habitacional",
+  "nivel": 1,
+  "folha": false,
+  "situacao": "vigente",
+  "filhos": [
+   {
+    "codigo": "01.06.01",
+    "descricao": "Uso habitacional de interesse específico",
+    "nivel": 2,
+    "folha": true,
+    "situacao": "vigente"
+   },
+   {
+    "codigo": "01.06.02",
+    "descricao": "Uso habitacional em projeto de provisão/assentamento",
+    "nivel": 2,
+    "folha": false,
+    "situacao": "vigente",
+    "filhos": [
+     {
+      "codigo": "01.06.02.01",
+      "descricao": "Uso residencial em projeto de provisão habitacional",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     },
+     {
+      "codigo": "01.06.02.02",
+      "descricao": "Uso para habitação em assentamento de reforma agrária",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     }
+    ]
+   },
+   {
+    "codigo": "01.06.03",
+    "descricao": "Uso para habitação em regularização fundiária",
+    "nivel": 2,
+    "folha": false,
+    "situacao": "vigente",
+    "filhos": [
+     {
+      "codigo": "01.06.03.01",
+      "descricao": "Uso para habitação em regularização fundiária urbana de interesse social",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     },
+     {
+      "codigo": "01.06.03.02",
+      "descricao": "Uso para habitação em regularização fundiária urbana de interesse específico",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     },
+     {
+      "codigo": "01.06.03.03",
+      "descricao": "Uso para habitação em regularização fundiária rural",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "codigo": "01.07",
+  "descricao": "Uso industrial, comercial ou de prestação de serviços",
+  "nivel": 1,
+  "folha": false,
+  "situacao": "vigente",
+  "filhos": [
+   {
+    "codigo": "01.07.01",
+    "descricao": "Uso comercial ou de serviços",
+    "nivel": 2,
+    "folha": true,
+    "situacao": "vigente"
+   },
+   {
+    "codigo": "01.07.02",
+    "descricao": "Uso para produção industrial",
+    "nivel": 2,
+    "folha": true,
+    "situacao": "vigente"
+   }
+  ]
+ },
+ {
+  "codigo": "01.08",
+  "descricao": "Uso em infraestrutura de serviços públicos",
+  "nivel": 1,
+  "folha": false,
+  "situacao": "vigente",
+  "filhos": [
+   {
+    "codigo": "01.08.01",
+    "descricao": "Uso em infraestrutura energética",
+    "nivel": 2,
+    "folha": false,
+    "situacao": "vigente",
+    "filhos": [
+     {
+      "codigo": "01.08.01.01",
+      "descricao": "Uso para passagem de gasoduto ou oleoduto",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     },
+     {
+      "codigo": "01.08.01.02",
+      "descricao": "Uso para passagem e instalação de transmissão de energia",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     },
+     {
+      "codigo": "01.08.01.03",
+      "descricao": "Uso para produção de energia de fonte renovável",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     },
+     {
+      "codigo": "01.08.01.04",
+      "descricao": "Uso para produção de energia de fonte não renovável",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     }
+    ]
+   },
+   {
+    "codigo": "01.08.02",
+    "descricao": "Uso para infraestrutura de saneamento e de recursos hídricos",
+    "nivel": 2,
+    "folha": false,
+    "situacao": "vigente",
+    "filhos": [
+     {
+      "codigo": "01.08.02.01",
+      "descricao": "Uso para captação, tratamento e distribuição de água",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     },
+     {
+      "codigo": "01.08.02.02",
+      "descricao": "Uso para coleta, transporte e tratamento de esgoto",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     },
+     {
+      "codigo": "01.08.02.03",
+      "descricao": "Uso para coleta, tratamento e destinação de resíduos sólidos",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     },
+     {
+      "codigo": "01.08.02.04",
+      "descricao": "Uso para drenagem e manejo de águas pluviais",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     },
+     {
+      "codigo": "01.08.02.05",
+      "descricao": "Uso para recursos hídricos",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     }
+    ]
+   },
+   {
+    "codigo": "01.08.03",
+    "descricao": "Uso em infraestrutura de telecomunicações",
+    "nivel": 2,
+    "folha": false,
+    "situacao": "vigente",
+    "filhos": [
+     {
+      "codigo": "01.08.03.01",
+      "descricao": "Uso para equipamentos de telecomunicações",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     },
+     {
+      "codigo": "01.08.03.02",
+      "descricao": "Uso para passagem de rede de telecomunicações",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     }
+    ]
+   },
+   {
+    "codigo": "01.08.04",
+    "descricao": "Uso em serviço funerário",
+    "nivel": 2,
+    "folha": true,
+    "situacao": "vigente"
+   }
+  ]
+ },
+ {
+  "codigo": "01.09",
+  "descricao": "Uso em infraestrutura de transportes",
+  "nivel": 1,
+  "folha": false,
+  "situacao": "vigente",
+  "filhos": [
+   {
+    "codigo": "01.09.01",
+    "descricao": "Uso em infraestrutura aeroportuária",
+    "nivel": 2,
+    "folha": false,
+    "situacao": "vigente",
+    "filhos": [
+     {
+      "codigo": "01.09.01.01",
+      "descricao": "Uso de apoio à navegação aérea fora do aeródromo",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     },
+     {
+      "codigo": "01.09.01.02",
+      "descricao": "Uso para operação de aeródromo com aeroporto",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     },
+     {
+      "codigo": "01.09.01.03",
+      "descricao": "Uso para operação de aeródromo sem aeroporto",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     }
+    ]
+   },
+   {
+    "codigo": "01.09.02",
+    "descricao": "Uso em infraestrutura aquaviária",
+    "nivel": 2,
+    "folha": false,
+    "situacao": "vigente",
+    "filhos": [
+     {
+      "codigo": "01.09.02.01",
+      "descricao": "Uso para circulação aquaviária",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     },
+     {
+      "codigo": "01.09.02.02",
+      "descricao": "Uso de estrutura náutica",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     },
+     {
+      "codigo": "01.09.02.03",
+      "descricao": "Uso para instalação portuária dentro da área do porto organizado",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     },
+     {
+      "codigo": "01.09.02.04",
+      "descricao": "Uso para instalação portuária fora da área do porto organizado",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     }
+    ]
+   },
+   {
+    "codigo": "01.09.03",
+    "descricao": "Uso em infraestrutura ferroviária e metroviária",
+    "nivel": 2,
+    "folha": false,
+    "situacao": "vigente",
+    "filhos": [
+     {
+      "codigo": "01.09.03.01",
+      "descricao": "Uso para apoio operacional ferroviária e metroviário",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     },
+     {
+      "codigo": "01.09.03.02",
+      "descricao": "Uso para faixa de domínio ferroviário e metroviário",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     }
+    ]
+   },
+   {
+    "codigo": "01.09.04",
+    "descricao": "Uso em infraestrutura rodoviária",
+    "nivel": 2,
+    "folha": false,
+    "situacao": "vigente",
+    "filhos": [
+     {
+      "codigo": "01.09.04.01",
+      "descricao": "Uso para apoio operacional rodoviário",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     },
+     {
+      "codigo": "01.09.04.02",
+      "descricao": "Uso para faixa de domínio viário",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "codigo": "01.10",
+  "descricao": "Uso multifinalitário em projeto de requalificação urbana",
+  "nivel": 1,
+  "folha": true,
+  "situacao": "vigente"
+ },
+ {
+  "codigo": "01.11",
+  "descricao": "Uso por povos originários e comunidades tradicionais",
+  "nivel": 1,
+  "folha": false,
+  "situacao": "vigente",
+  "filhos": [
+   {
+    "codigo": "01.11.01",
+    "descricao": "Uso por comunidade quilombola",
+    "nivel": 2,
+    "folha": true,
+    "situacao": "vigente"
+   },
+   {
+    "codigo": "01.11.02",
+    "descricao": "Usufruto indígena",
+    "nivel": 2,
+    "folha": true,
+    "situacao": "vigente"
+   },
+   {
+    "codigo": "01.11.03",
+    "descricao": "Uso por outros povos e comunidade tradicional",
+    "nivel": 2,
+    "folha": true,
+    "situacao": "vigente"
+   }
+  ]
+ },
+ {
+  "codigo": "01.12",
+  "descricao": "Uso em serviço de ensino, pesquisa e extensão",
+  "nivel": 1,
+  "folha": false,
+  "situacao": "vigente",
+  "filhos": [
+   {
+    "codigo": "01.12.01",
+    "descricao": "Uso para unidade de ensino infantil e básico",
+    "nivel": 2,
+    "folha": true,
+    "situacao": "vigente"
+   },
+   {
+    "codigo": "01.12.02",
+    "descricao": "Uso para unidade de ensino profissional e tecnológico",
+    "nivel": 2,
+    "folha": true,
+    "situacao": "vigente"
+   },
+   {
+    "codigo": "01.12.03",
+    "descricao": "Uso para unidade de ensino superior",
+    "nivel": 2,
+    "folha": true,
+    "situacao": "vigente"
+   },
+   {
+    "codigo": "01.12.04",
+    "descricao": "Uso para unidade de pesquisa e desenvolvimento tecnológico",
+    "nivel": 2,
+    "folha": true,
+    "situacao": "vigente"
+   }
+  ]
+ },
+ {
+  "codigo": "01.13",
+  "descricao": "Uso em serviço socioassistencial e de cidadania",
+  "nivel": 1,
+  "folha": false,
+  "situacao": "vigente",
+  "filhos": [
+   {
+    "codigo": "01.13.01",
+    "descricao": "Uso em serviços de abastecimento e segurança alimentar e nutricional",
+    "nivel": 2,
+    "folha": true,
+    "situacao": "vigente"
+   },
+   {
+    "codigo": "01.13.02",
+    "descricao": "Uso em serviços de acolhimento e proteção social",
+    "nivel": 2,
+    "folha": true,
+    "situacao": "vigente"
+   },
+   {
+    "codigo": "01.13.03",
+    "descricao": "Uso em serviços de promoção de direitos e cidadania",
+    "nivel": 2,
+    "folha": true,
+    "situacao": "vigente"
+   }
+  ]
+ },
+ {
+  "codigo": "01.14",
+  "descricao": "Uso em serviços de saúde",
+  "nivel": 1,
+  "folha": false,
+  "situacao": "vigente",
+  "filhos": [
+   {
+    "codigo": "01.14.01",
+    "descricao": "Uso para apoio operacional e vigilância em saúde",
+    "nivel": 2,
+    "folha": true,
+    "situacao": "vigente"
+   },
+   {
+    "codigo": "01.14.02",
+    "descricao": "Uso para unidade de atenção especializada à saúde",
+    "nivel": 2,
+    "folha": true,
+    "situacao": "vigente"
+   },
+   {
+    "codigo": "01.14.03",
+    "descricao": "Uso para unidade de atenção primária à saúde",
+    "nivel": 2,
+    "folha": true,
+    "situacao": "vigente"
+   },
+   {
+    "codigo": "01.14.04",
+    "descricao": "Uso para unidade hospitalar",
+    "nivel": 2,
+    "folha": true,
+    "situacao": "vigente"
+   }
+  ]
+ },
+ {
+  "codigo": "01.15",
+  "descricao": "Uso residencial para servidor",
+  "nivel": 1,
+  "folha": false,
+  "situacao": "vigente",
+  "filhos": [
+   {
+    "codigo": "01.15.01",
+    "descricao": "Uso residencial no interesse do serviço",
+    "nivel": 2,
+    "folha": true,
+    "situacao": "vigente"
+   },
+   {
+    "codigo": "01.15.02",
+    "descricao": "Uso residencial obrigatório",
+    "nivel": 2,
+    "folha": true,
+    "situacao": "vigente"
+   },
+   {
+    "codigo": "01.15.03",
+    "descricao": "Uso residencial voluntário de servidor da União",
+    "nivel": 2,
+    "folha": true,
+    "situacao": "vigente"
+   }
+  ]
+ },
+ {
+  "codigo": "01.16",
+  "descricao": "Uso para segurança pública e defesa nacional",
+  "nivel": 1,
+  "folha": false,
+  "situacao": "vigente",
+  "filhos": [
+   {
+    "codigo": "01.16.01",
+    "descricao": "Uso para defesa nacional",
+    "nivel": 2,
+    "folha": true,
+    "situacao": "vigente"
+   },
+   {
+    "codigo": "01.16.02",
+    "descricao": "Uso para equipamento policial",
+    "nivel": 2,
+    "folha": true,
+    "situacao": "vigente"
+   },
+   {
+    "codigo": "01.16.03",
+    "descricao": "Uso para equipamento prisional",
+    "nivel": 2,
+    "folha": true,
+    "situacao": "vigente"
+   }
+  ]
+ },
+ {
+  "codigo": "01.17",
+  "descricao": "Uso religioso",
+  "nivel": 1,
+  "folha": true,
+  "situacao": "vigente"
+ },
+ {
+  "codigo": "01.18",
+  "descricao": "Sem informação",
+  "nivel": 1,
+  "folha": true,
+  "situacao": "restrito_migracao"
+ },
+ {
+  "codigo": "01.19",
+  "descricao": "Sem uso definido/vinculado",
+  "nivel": 1,
+  "folha": true,
+  "situacao": "vigente"
+ }
+]

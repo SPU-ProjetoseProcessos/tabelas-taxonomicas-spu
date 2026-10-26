@@ -1,0 +1,1490 @@
+[
+ {
+  "codigo": "01.01",
+  "nivel": 1,
+  "pai": "",
+  "descricao": "Uso administrativo e representativo",
+  "definicao": "Uso imobiliário para desempenho de funções administrativas ou representativas, incluindo suas instalações de apoio, como galpões, estacionamentos e depósitos.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.01.01",
+  "nivel": 2,
+  "pai": "01.01",
+  "descricao": "Uso para função administrativa",
+  "definicao": "Uso imobiliário diretamente vinculado ao desempenho de funções administrativas ou representativas, de qualquer natureza, incluindo aquelas de atendimento ao público.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [
+   "Sede de secretaria municipal",
+   "prédio de repartição federal",
+   "unidade administrativa de autarquia"
+  ],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.01.02",
+  "nivel": 2,
+  "pai": "01.01",
+  "descricao": "Uso para função de controle e fiscalização",
+  "definicao": "Uso imobiliário destinado ao exercício de atividades de controle e fiscalização, abrangendo áreas como vigilância sanitária, fiscalização ambiental, inspeção tributária, controle agropecuário e aduaneiro.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [
+   "Posto fiscal em rodovia",
+   "unidade de vigilância sanitária",
+   "centro de inspeção aduaneira"
+  ],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.01.03",
+  "nivel": 2,
+  "pai": "01.01",
+  "descricao": "Uso para representação diplomática",
+  "definicao": "Uso imobiliário destinado ao funcionamento de embaixadas, consulados ou representações oficiais do Estado brasileiro no exterior, no desempenho de funções diplomáticas, consulares ou de relações internacionais.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [
+   "Embaixada",
+   "consulado brasileiro",
+   "unidade permanente do Brasil em organismo internacional"
+  ],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.01.04",
+  "nivel": 2,
+  "pai": "01.01",
+  "descricao": "Uso de suporte à função administrativa",
+  "definicao": "Uso imobiliário acessório ou de apoio ao desempenho de funções administrativas ou representativas.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [
+   "Garagem de frota oficial",
+   "depósito de materiais administrativos",
+   "estacionamento funcional"
+  ],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.02",
+  "nivel": 1,
+  "pai": "",
+  "descricao": "Uso para agropecuária, aquicultura, produção florestal e pesca",
+  "definicao": "Uso imobiliário destinado à instalação e operação de estruturas de exploração ordenada dos recursos naturais vegetais e animais em ambiente natural e protegido, abrangendo produção animal e vegetal, criação de peixes e crustáceos e instalações de apoio como galpões, silos, tanques, estações de tratamento de água e laboratórios.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.02.01",
+  "nivel": 2,
+  "pai": "01.02",
+  "descricao": "Uso para agropecuária e produção florestal",
+  "definicao": "Uso imobiliário destinado a abrigar atividades humanas de cultivo da terra (agricultura) e à criação de animais (pecuária), incluindo suas instalações de apoio.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [
+   "Fazenda de gado",
+   "sítio agrícola",
+   "plantação de eucalipto"
+  ],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.02.02",
+  "nivel": 2,
+  "pai": "01.02",
+  "descricao": "Uso para aquicultura",
+  "definicao": "Uso imobiliário destinado ao cultivo de organismos cujo ciclo de vida em condições naturais se dá total ou parcialmente em meio aquático, incluindo suas instalações de apoio.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [
+   "Piscicultura, carcinicultura, malacocultura (cultivo de moluscos) e ranicultura, bem como à operação, ação ou ato tendente a extrair, colher, apanhar, aprender ou capturar recursos pesqueiros"
+  ],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.02.03",
+  "nivel": 2,
+  "pai": "01.02",
+  "descricao": "Uso para pesca",
+  "definicao": "Uso imobiliário destinado à captura de recursos pesqueiros em rios, lagos ou mar, com ou sem apoio de instalações.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.03",
+  "nivel": 1,
+  "pai": "",
+  "descricao": "Uso ambiental e dos recursos naturais",
+  "definicao": "Uso imobiliário voltado à preservação, manutenção, utilização sustentável, restauração e recuperação do ambiente natural e à exploração de recursos naturais.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.03.01",
+  "nivel": 2,
+  "pai": "01.03",
+  "descricao": "Uso para aproveitamento econômico de serviços ambientais ou ecossistêmicos",
+  "definicao": "Uso imobiliário voltado ao aproveitamento econômico de serviços ambientais ou ecossistêmicos, como mercado de carbono, pagamento por serviços ambientais (PSA) e mercados emergentes no contexto da transição ecológica.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [
+   "Área de reflorestamento com PSA",
+   "projeto de crédito de carbono"
+  ],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.03.02",
+  "nivel": 2,
+  "pai": "01.03",
+  "descricao": "Uso para extrativismo vegetal ou mineral",
+  "definicao": "Uso imobiliário destinado à exploração regulada de recursos naturais vegetais (coleta ou apanha de produtos, como madeiras, látex, sementes, fibras, frutos e raízes) ou minerais (extração de minérios e rochas do solo, dos rios e dos mares).",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [
+   "Área de coleta de sementes nativas",
+   "seringal para extração de látex",
+   "pedreira licenciada"
+  ],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.03.03",
+  "nivel": 2,
+  "pai": "01.03",
+  "descricao": "Uso para unidade especial de proteção ambiental",
+  "definicao": "Uso imobiliário destinado a proteção ambiental com restrições legais de uso, não enquadradas no Sistema Nacional de Unidades de Conservação da Natureza, incluindo Áreas de Preservação Permanente (APP), Reserva Legais e outras zonas protegidas por instrumentos normativos específicos.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [
+   "Área de Preservação Permanente (APP) em margem de rio",
+   "Reserva Legal em propriedade rural",
+   "faixa de proteção de nascentes"
+  ],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.03.04",
+  "nivel": 2,
+  "pai": "01.03",
+  "descricao": "Uso para unidade de conservação",
+  "definicao": "Uso imobiliário destinado ao manejo do uso humano da natureza, compreendendo a preservação, a manutenção, a utilização sustentável, a restauração e a recuperação do ambiente natural, englobando as unidades de proteção integral e as de uso sustentável.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.03.04.01",
+  "nivel": 3,
+  "pai": "01.03.04",
+  "descricao": "Uso para unidade de proteção integral",
+  "definicao": "Uso imobiliário integrante de unidade de conservação de proteção integral, tendo por objetivo básico preservar a natureza, sendo admitido apenas o uso indireto dos seus recursos naturais.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [
+   "Estação Ecológica",
+   "Reserva Biológica",
+   "Parque Nacional",
+   "Monumento Natural",
+   "Refúgio de Vida Silvestre"
+  ],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.03.04.02",
+  "nivel": 3,
+  "pai": "01.03.04",
+  "descricao": "Uso para unidade de uso sustentável",
+  "definicao": "Uso imobiliário integrante de unidade de conservação de uso sustentável, admitindo manejo e exploração controlada de parcela dos seus recursos naturais.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [
+   "Área de Proteção Ambiental",
+   "Área de Relevante Interesse Ecológico",
+   "Floresta Nacional",
+   "Reserva Extrativista",
+   "Reserva de Fauna",
+   "Reserva de Desenvolvimento Sustentável",
+   "e Reserva Particular do Patrimônio Natural"
+  ],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.04",
+  "nivel": 1,
+  "pai": "",
+  "descricao": "Uso cultural, esportivo e de lazer",
+  "definicao": "Uso imobiliário voltado à promoção da cultura, da prática esportiva e das atividades de lazer, por meio de equipamentos públicos ou comunitários que incentivam a expressão artística, a convivência social, o bem-estar físico e o uso coletivo do espaço urbano.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.04.01",
+  "nivel": 2,
+  "pai": "01.04",
+  "descricao": "Uso de apoio operacional cultural, esportivo e de lazer",
+  "definicao": "Uso imobiliário voltado ao suporte logístico e operacional dos equipamentos culturais, esportivos ou de lazer como instalações auxiliares vinculadas à manutenção, almoxarifado, oficinas, alojamentos técnicos ou bases de apoio à oferta e funcionamento dos serviços.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [
+   "Almoxarifado de centro cultural",
+   "base de apoio de parque esportivo",
+   "alojamento técnico de estádio"
+  ],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.04.02",
+  "nivel": 2,
+  "pai": "01.04",
+  "descricao": "Uso cultural",
+  "definicao": "Uso imobiliário destinado à oferta, difusão e preservação de manifestações culturais, artísticas ou patrimoniais, com acesso público a conteúdo, práticas e expressões diversas, a exemplo de bibliotecas, museus, teatros, centros culturais, arquivos públicos e casas de cultura.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [
+   "Biblioteca pública",
+   "museu nacional",
+   "teatro municipal"
+  ],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.04.03",
+  "nivel": 2,
+  "pai": "01.04",
+  "descricao": "Uso para lazer e convivência",
+  "definicao": "Uso imobiliário relacionado a espaços públicos de recreação, descanso ou integração social, com áreas verdes, mobiliários urbanos ou estruturas para uso coletivo, a exemplo de praças, parques urbanos, áreas de piquenique, jardins públicos, equipamentos de convivência e de uso coletivo do espaço urbano.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [
+   "Praça pública",
+   "parque urbano",
+   "jardim botânico"
+  ],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.04.04",
+  "nivel": 2,
+  "pai": "01.04",
+  "descricao": "Uso para prática esportiva",
+  "definicao": "Uso imobiliário voltado à prática de esportes e atividades físicas, com instalações para treinamento, recreação, competição ou formação esportiva, a exemplo de ginásios, estádios, quadras, centros esportivos e núcleos de iniciação ao esporte.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [
+   "Estádio de futebol",
+   "ginásio poliesportivo",
+   "centro de iniciação esportiva"
+  ],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.05",
+  "nivel": 1,
+  "pai": "",
+  "descricao": "Uso em eventos de curta duração",
+  "definicao": "Uso imobiliário aplicado à realização de eventos esportivos, recreativos, culturais, religiosos ou educacionais de curta duração, como feiras, festivais, congressos e exposições.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [
+   "Feira/mostra temporária",
+   "festival cultural",
+   "evento esportivo de rua"
+  ],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.06",
+  "nivel": 1,
+  "pai": "",
+  "descricao": "Uso habitacional",
+  "definicao": "Uso imobiliário destinados à moradia, seja individual, coletiva ou vinculada a programas de provisão habitacional ou de regularização fundiária (rural e urbana).",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.06.01",
+  "nivel": 2,
+  "pai": "01.06",
+  "descricao": "Uso habitacional de interesse específico",
+  "definicao": "Uso imobiliário destinado à moradia não vinculada a programas de provisão habitacional de interesse social. Abrange residências individuais ou coletivas voltadas a públicos diversos, mediante aluguel, compra ou regularização específica.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [
+   "Condomínio regularizado por Reurb-E, residência unifamiliar de mercado, prédio de apartamentos privados"
+  ],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.06.02",
+  "nivel": 2,
+  "pai": "01.06",
+  "descricao": "Uso habitacional em projeto de provisão/assentamento",
+  "definicao": "Uso imobiliário destinado à moradia em áreas urbanas ou rurais, ofertadas diretamente pelo poder público ou em parceria. Abrange provisão habitacional para famílias de baixa renda e assentamentos voltados a grupos sociais específicos.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.06.02.01",
+  "nivel": 3,
+  "pai": "01.06.02",
+  "descricao": "Uso residencial em projeto de provisão habitacional",
+  "definicao": "em programas habitacionais de interesse social, em áreas urbanas, para garantir acesso à moradia digna a famílias de baixa renda. Inclui unidades prontas ou lotes urbanizados para construção assistida. com infraestrutura básica.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [
+   "Moradia(s) em empreendimento do Minha Casa Minha Vida, conjunto habitacional, loteamento urbanizado com infraestrutura básica"
+  ],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.06.02.02",
+  "nivel": 3,
+  "pai": "01.06.02",
+  "descricao": "Uso para habitação em assentamento de reforma agrária",
+  "definicao": "Uso imobiliário destinado à moradia em projetos de assentamento criados pela reforma agrária, garantindo acesso à terra, à habitação e à produção agrícola familiar.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [
+   "Assentamento do INCRA, agrovila consolidada, núcleo habitacional em projeto de colonização rural"
+  ],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.06.03",
+  "nivel": 2,
+  "pai": "01.06",
+  "descricao": "Uso para habitação em regularização fundiária",
+  "definicao": "Uso imobiliário destinado à moradia em projeto de regularização fundiária, englobando as modalidades: urbana de interesse social (Reurb-S), para baixa renda; urbana de interesse específico (Reurb-E), para outras categorias; e rural, voltada a núcleos e assentamentos rurais.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.06.03.01",
+  "nivel": 3,
+  "pai": "01.06.03",
+  "descricao": "Uso para habitação em regularização fundiária urbana de interesse social",
+  "definicao": "Uso imobiliário destinado à moradia de famílias de baixa renda, regularizados pelo poder público em núcleos urbanos informais consolidados.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [
+   "Urbanização de favela em ZEIS, loteamento popular regularizado, conjunto habitacional informal consolidado"
+  ],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.06.03.02",
+  "nivel": 3,
+  "pai": "01.06.03",
+  "descricao": "Uso para habitação em regularização fundiária urbana de interesse específico",
+  "definicao": "Uso imobiliário destinado à moradia em áreas ocupadas irregularmente por população não enquadrada como de baixa renda, regularizados pelo poder público. Abrange condomínios, loteamentos ou conjuntos habitacionais informais que passam a ter titulação e infraestrutura legalizada.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [
+   "Condomínio irregular de classe média regularizado, loteamento urbano consolidado, parcelamento específico em áreas valorizadas"
+  ],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.06.03.03",
+  "nivel": 3,
+  "pai": "01.06.03",
+  "descricao": "Uso para habitação em regularização fundiária rural",
+  "definicao": "Uso imobiliário destinado à moradia em áreas rurais ocupadas irregularmente, regularizados pelo poder público para assegurar titulação, acesso à terra e função social. Contempla famílias, comunidades e agrovilas consolidadas, promovendo segurança jurídica e desenvolvimento sustentável.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [
+   "Assentamento rural tradicional, núcleo habitacional em gleba pública, vila agrícola regularizada"
+  ],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.07",
+  "nivel": 1,
+  "pai": "",
+  "descricao": "Uso industrial, comercial ou de prestação de serviços",
+  "definicao": "Uso imobiliário destinado à instalação e operação de empreendimentos dos setores secundário e terciário voltados à produção industrial, à oferta de bens ou à prestação de serviços econômicos, incluindo os usos comerciais e de serviços em geral.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.07.01",
+  "nivel": 2,
+  "pai": "01.07",
+  "descricao": "Uso comercial ou de serviços",
+  "definicao": "Uso imobiliário destinado ao setor terciário para a oferta de bens e serviços abrangendo o comércio varejista, atacadista, prestação de serviços técnicos, profissionais ou pessoais.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [
+   "Loja/centro comercial",
+   "escritório/banco",
+   "hotel/restaurante"
+  ],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.07.02",
+  "nivel": 2,
+  "pai": "01.07",
+  "descricao": "Uso para produção industrial",
+  "definicao": "Uso imobiliário destinado ao setor secundário envolvendo a transformação, fabricação, montagem ou processamento de bens, em escala artesanal, semi-industrial ou industrial, inclusive instalações para armazenamento, apoio logístico ou manipulação de insumos e resíduos.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [
+   "Fábrica/galpão de produção",
+   "polo/condomínio industrial"
+  ],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.08",
+  "nivel": 1,
+  "pai": "",
+  "descricao": "Uso em infraestrutura de serviços públicos",
+  "definicao": "Uso imobiliário destinado à implantação e operação de infraestrutura de serviços públicos essenciais, como geração e distribuição de energia, saneamento básico, gestão hídrica, telecomunicações e serviços funerários.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.08.01",
+  "nivel": 2,
+  "pai": "01.08",
+  "descricao": "Uso em infraestrutura energética",
+  "definicao": "Uso imobiliário destinado à implantação, operação e passagem de infraestruturas de geração, transmissão e distribuição de energia, além de dutos subterrâneos ou aéreos para transporte de gás natural, petróleo e derivados.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.08.01.01",
+  "nivel": 3,
+  "pai": "01.08.01",
+  "descricao": "Uso para passagem de gasoduto ou oleoduto",
+  "definicao": "Uso imobiliário destinado à instalação, operação e passagem de tubulações utilizadas no transporte de gás natural, petróleo e derivados entre os pontos de extração e as unidades distribuidoras.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [
+   "Gasoduto tronco",
+   "oleoduto",
+   "estação de válvulas"
+  ],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.08.01.02",
+  "nivel": 3,
+  "pai": "01.08.01",
+  "descricao": "Uso para passagem e instalação de transmissão de energia",
+  "definicao": "Uso imobiliário destinado à servidão administrativa com instalações formadas por um conjunto de equipamentos responsáveis pela transmissão de energia elétrica, como torres, linhas de transmissão aéreas, subterrâneas ou subaquáticas. Referência: Portaria Interministerial MP, MMA e MME nº 37, de 2014",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [
+   "Linhas de transmissão aérea com torres",
+   "linha de transmissão subterrânea",
+   "subestação de seccionamento"
+  ],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.08.01.03",
+  "nivel": 3,
+  "pai": "01.08.01",
+  "descricao": "Uso para produção de energia de fonte renovável",
+  "definicao": "Uso imobiliário destinado à instalação e operação de equipamentos responsáveis pela transmissão e distribuição da energia que utilizam fontes renováveis (ex.: eólica, hídrica, solar, biomassa, geotérmica e oceânica), como subestação de energia renovável, centro de integração de geração distribuída; estação de conexão de parques eólicos e de usinas solares, pátio de interligação de pequenas centrais hidrelétricas (PCHs) e bases de operação de transmissão renovável.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [
+   "Subestação de parque eólico",
+   "estação de conexão de usina solar"
+  ],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.08.01.04",
+  "nivel": 3,
+  "pai": "01.08.01",
+  "descricao": "Uso para produção de energia de fonte não renovável",
+  "definicao": "Uso imobiliário destinado à instalação e operação de equipamentos responsáveis pela transmissão e distribuição da energia que utiliza fontes não renováveis (a exemplo do petróleo, carvão mineral, gás natural e nuclear), como subestação de energia; estação de seccionamento; postos de transformação; centros de distribuição de energia; plataformas de interconexão de energia e bases operacionais de manutenção de linhas.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [
+   "Subestação de usina térmica",
+   "centro de distribuição",
+   "base operacional de linhas"
+  ],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.08.02",
+  "nivel": 2,
+  "pai": "01.08",
+  "descricao": "Uso para infraestrutura de saneamento e de recursos hídricos",
+  "definicao": "Uso imobiliário voltado à implantação e operação de sistemas de abastecimento de água, esgotamento sanitário, manejo de resíduos sólidos, drenagem urbana e infraestrutura hídrica associada à regulação de cursos d’água, açudes, barragens, reservatórios, canais e estruturas de controle de cheias e secas.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.08.02.01",
+  "nivel": 3,
+  "pai": "01.08.02",
+  "descricao": "Uso para captação, tratamento e distribuição de água",
+  "definicao": "Uso imobiliário para captação, adução, tratamento, reservação e distribuição de água potável à população incluindo instalações técnicas e redes físicas, a exemplo de estações de tratamento, redes adutoras, caixas d’água e poços profundos.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [
+   "ETA",
+   "reservatório elevado",
+   "poço profundo/adutora"
+  ],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.08.02.02",
+  "nivel": 3,
+  "pai": "01.08.02",
+  "descricao": "Uso para coleta, transporte e tratamento de esgoto",
+  "definicao": "Uso imobiliário destinado à coleta, transporte, tratamento e disposição final de esgoto sanitário, a exemplo de redes coletoras, estações elevatórias, emissários e estações de tratamento de esgoto (ETE).",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [
+   "Rede coletora/EE",
+   "ETE",
+   "emissário"
+  ],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.08.02.03",
+  "nivel": 3,
+  "pai": "01.08.02",
+  "descricao": "Uso para coleta, tratamento e destinação de resíduos sólidos",
+  "definicao": "Uso imobiliário voltado à coleta, triagem, tratamento, valorização e disposição final de resíduos sólidos, a exemplo de usinas de compostagem, unidades de triagem e aterros sanitários ou industriais.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [
+   "Aterro sanitário",
+   "usina de compostagem",
+   "unidade de triagem"
+  ],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.08.02.04",
+  "nivel": 3,
+  "pai": "01.08.02",
+  "descricao": "Uso para drenagem e manejo de águas pluviais",
+  "definicao": "Uso imobiliário associado à coleta, condução, retenção e infiltração de águas pluviais em meio urbano.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [
+   "Galeria pluvial",
+   "piscinão",
+   "jardim de chuva/bacia de detenção",
+   "canais"
+  ],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.08.02.05",
+  "nivel": 3,
+  "pai": "01.08.02",
+  "descricao": "Uso para recursos hídricos",
+  "definicao": "Uso imobiliário para obras de regulação hídrica e controle de recursos hídricos, com fins diversos como irrigação ou controle de cheias.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [
+   "Barragem",
+   "eclusa",
+   "canal/reservatório de acumulação e estruturas de derivação de água"
+  ],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.08.03",
+  "nivel": 2,
+  "pai": "01.08",
+  "descricao": "Uso em infraestrutura de telecomunicações",
+  "definicao": "Uso imobiliário destinado à instalação, operação e passagem de equipamentos e redes voltados à prestação de serviços de telecomunicações, incluindo transmissão de dados, voz, e imagem por meio de redes físicas, radiofrequência, satélites ou cabos subterrâneos e aéreos.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.08.03.01",
+  "nivel": 3,
+  "pai": "01.08.03",
+  "descricao": "Uso para equipamentos de telecomunicações",
+  "definicao": "Uso imobiliário para implantação e operação de estruturas fixas para emissão, recepção e retransmissão de sinais de comunicação.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [
+   "Torres de radiocomunicação",
+   "Data center",
+   "ERB/antena",
+   "estações de rádio-base"
+  ],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.08.03.02",
+  "nivel": 3,
+  "pai": "01.08.03",
+  "descricao": "Uso para passagem de rede de telecomunicações",
+  "definicao": "Uso imobiliário voltado à passagem e manutenção de redes físicas de telecomunicações, como cabos ópticos, metálicos e dutos subterrâneos ou aéreos.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [
+   "Duto enterrado",
+   "galeria técnica",
+   "postes/fibra óptica"
+  ],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.08.04",
+  "nivel": 2,
+  "pai": "01.08",
+  "descricao": "Uso em serviço funerário",
+  "definicao": "Uso imobiliário aplicado à execução de serviços funerários.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [
+   "Cemitério",
+   "crematório",
+   "ossuário público"
+  ],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.09",
+  "nivel": 1,
+  "pai": "",
+  "descricao": "Uso em infraestrutura de transportes",
+  "definicao": "Uso imobiliário destinado à implantação, operação ou suporte de sistemas de transporte terrestre, aquaviário ou aéreo, incluindo vias, estações, terminais, portos, aeroportos, garagens, pátios operacionais e estruturas auxiliares à mobilidade.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.09.01",
+  "nivel": 2,
+  "pai": "01.09",
+  "descricao": "Uso em infraestrutura aeroportuária",
+  "definicao": "Uso imobiliário voltado à implantação e operação de aeródromos civis e militares, abrangendo pistas, pátios, terminais e instalações auxiliares de apoio à navegação aérea e às operações aeroportuárias de transporte de passageiros, cargas e serviços correlatos.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.09.01.01",
+  "nivel": 3,
+  "pai": "01.09.01",
+  "descricao": "Uso de apoio à navegação aérea fora do aeródromo",
+  "definicao": "Uso imobiliário voltado à implantação e operação de equipamentos e estruturas de auxílio à navegação aérea situadas fora do aeródromo, como orientação, comunicação e vigilância.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [
+   "Torre/antena de auxílio à navegação aérea",
+   "radar meteorológico",
+   "centro de controle aéreo"
+  ],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.09.01.02",
+  "nivel": 3,
+  "pai": "01.09.01",
+  "descricao": "Uso para operação de aeródromo com aeroporto",
+  "definicao": "Uso imobiliário destinado à movimentação de aeronaves, incluindo pistas de pouso e decolagem, pátios de aeronaves, áreas de taxiamento, pistas auxiliares e áreas de escape, bem como as estruturas de apoio aeroportuário, voltadas à operação e ao atendimento logístico e administrativo do aeródromo, terminais, hangares, edificações técnicas e áreas de manutenção.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [
+   "Terminal de passageiros",
+   "hangar/área de manutenção"
+  ],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.09.01.03",
+  "nivel": 3,
+  "pai": "01.09.01",
+  "descricao": "Uso para operação de aeródromo sem aeroporto",
+  "definicao": "Uso imobiliário destinado à movimentação de aeronaves, incluindo pistas de pouso e decolagem, pátios de aeronaves, áreas de taxiamento, pistas auxiliares e áreas de escape, bem como as estruturas de apoio aeroportuário, voltadas à operação e ao atendimento logístico e administrativo do aeródromo, hangares, edificações técnicas e áreas de manutenção.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [
+   "Aeródromo privado",
+   "pista agrícola",
+   "hangar leve"
+  ],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.09.02",
+  "nivel": 2,
+  "pai": "01.09",
+  "descricao": "Uso em infraestrutura aquaviária",
+  "definicao": "Uso imobiliário voltado à implantação e operação de sistemas de transporte aquaviário, compreendendo vias navegáveis em rios, lagos e mar, e estruturas de apoio à navegação, ao embarque e desembarque de passageiros ou cargas, à manutenção de embarcações e ao controle da segurança e circulação aquaviária.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.09.02.01",
+  "nivel": 3,
+  "pai": "01.09.02",
+  "descricao": "Uso para circulação aquaviária",
+  "definicao": "Uso imobiliário destinado à circulação de embarcações em vias navegáveis interiores ou costeiras, incluindo canais, eclusas, faixas de navegação sinalizadas e áreas de balizamento.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [
+   "Canal sinalizado",
+   "eclusa",
+   "área de balizamento"
+  ],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.09.02.02",
+  "nivel": 3,
+  "pai": "01.09.02",
+  "descricao": "Uso de estrutura náutica",
+  "definicao": "Uso imobiliário destinado ao embarque e desembarque de pequeno porte, recreação, manutenção ou guarda de embarcações de esporte e lazer, pesca artesanal ou transporte local, a exemplo de marinas, trapiches, estaleiros, rampas náuticas.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [
+   "Marina",
+   "trapiche",
+   "rampa náutica/estaleiro de pequeno porte"
+  ],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.09.02.03",
+  "nivel": 3,
+  "pai": "01.09.02",
+  "descricao": "Uso para instalação portuária dentro da área do porto organizado",
+  "definicao": "Uso imobiliário voltado à movimentação de cargas e passageiros em áreas definidas por decreto federal como porto organizado, incluindo cais, berços, retroárea, acessos e infraestrutura associada.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [
+   "Cais/berço",
+   "retroárea",
+   "gate/acesso"
+  ],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.09.02.04",
+  "nivel": 3,
+  "pai": "01.09.02",
+  "descricao": "Uso para instalação portuária fora da área do porto organizado",
+  "definicao": "Uso imobiliário voltado à operação portuária em áreas fora do porto organizado, incluindo terminais de uso privado e estações de transbordo de carga, nas modalidades previstas no art. 26 do Decreto nº 8.033/2013.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [
+   "TUP",
+   "estação de transbordo",
+   "terminal fora do porto organizado"
+  ],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.09.03",
+  "nivel": 2,
+  "pai": "01.09",
+  "descricao": "Uso em infraestrutura ferroviária e metroviária",
+  "definicao": "Uso imobiliário destinado à implantação, operação e manutenção de sistemas de transporte sobre trilhos, abrangendo ferrovias e metrôs, com suas faixas de circulação e estruturas de apoio à operação, embarque, controle, segurança e manutenção de serviços de transporte de passageiros e cargas.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.09.03.01",
+  "nivel": 3,
+  "pai": "01.09.03",
+  "descricao": "Uso para apoio operacional ferroviária e metroviário",
+  "definicao": "Uso imobiliário destinado à implantação, operação e manutenção de sistemas de transporte sobre trilhos, abrangendo ferrovias e metrôs, com suas faixas de circulação e estruturas de apoio à operação, embarque, controle, segurança e manutenção de serviços de transporte de passageiros e cargas.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [
+   "Pátio ferroviário",
+   "oficina de material rodante"
+  ],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.09.03.02",
+  "nivel": 3,
+  "pai": "01.09.03",
+  "descricao": "Uso para faixa de domínio ferroviário e metroviário",
+  "definicao": "Uso destinado à passagem de trilhos, composições e estruturas de circulação, incluindo linhas principais e secundárias, pontes, túneis e entroncamentos.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [
+   "Trecho de via férrea",
+   "túnel/viaduto ferroviário"
+  ],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.09.04",
+  "nivel": 2,
+  "pai": "01.09",
+  "descricao": "Uso em infraestrutura rodoviária",
+  "definicao": "Uso imobiliário voltado à implantação, operação e manutenção de sistema de transporte rodoviário, abrangendo vias, acessos, dispositivos de segurança e estrutura de apoio à mobilidade de pessoas e cargas, em rodovias urbanas, interurbanas e federais.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.09.04.01",
+  "nivel": 3,
+  "pai": "01.09.04",
+  "descricao": "Uso para apoio operacional rodoviário",
+  "definicao": "Uso imobiliário voltado à implantação e funcionamento de serviços complementares ao sistema rodoviário, relacionados à cobrança, descanso, controle e assistência.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [
+   "Praça de pedágio",
+   "posto de pesagem",
+   "base operacional/pontos de apoio, áreas de escape e pontos de apoio a viajantes"
+  ],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.09.04.02",
+  "nivel": 3,
+  "pai": "01.09.04",
+  "descricao": "Uso para faixa de domínio viário",
+  "definicao": "Uso imobiliário destinado à implantação e operação de faixas de domínio viário para circulação de veículos, incluindo pistas, acostamentos, canteiros, pontes e viadutos.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [
+   "Trecho de rodovia",
+   "viaduto/ponte",
+   "faixa de desaceleração/retorno"
+  ],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.10",
+  "nivel": 1,
+  "pai": "",
+  "descricao": "Uso multifinalitário em projeto de requalificação urbana",
+  "definicao": "Múltiplos usos imobiliários em projeto de requalificação urbana, sem prévio desmembramento, visando revitalizar grandes áreas urbanas. (Classificação provisória até viabilização de seleção múltipla nos sistemas).",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [
+   "Revitalização de porto urbano, operação urbana consorciada, PPP de requalificação de área central"
+  ],
+  "situacao": "vigente",
+  "nota_de_aplicacao": "Classificação mantida em caráter provisório até a implementação da seleção múltipla de usos nos sistemas corporativos. A seleção em processos de destinação exige validação pela Unidade Central ou análise posterior de conformidade, e os múltiplos usos devem ser discriminados na descrição da finalidade, com código e denominação (art. 2º da Resolução ComGC/SPU/MGI nº 3/2025)."
+ },
+ {
+  "codigo": "01.11",
+  "nivel": 1,
+  "pai": "",
+  "descricao": "Uso por povos originários e comunidades tradicionais",
+  "definicao": "Uso imobiliário destinado à ocupação coletiva ou individual por povos originários ou comunidades tradicionais, conforme reconhecido pela legislação e tratados de direitos coletivos e originários.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.11.01",
+  "nivel": 2,
+  "pai": "01.11",
+  "descricao": "Uso por comunidade quilombola",
+  "definicao": "Uso imobiliário destinado à ocupação coletiva por grupos remanescentes das comunidades dos quilombos utilizadas para a garantia de sua reprodução física, social, econômica e cultural. Referências: art. 2º do Decreto nº 4.887, de 2003 -Comunidades quilombolas.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.11.02",
+  "nivel": 2,
+  "pai": "01.11",
+  "descricao": "Usufruto indígena",
+  "definicao": "Uso imobiliário por povos indígenas com posse coletiva e permanente, respeitado o devido processo legal de demarcação e homologação.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [
+   "Terra indígena demarcada",
+   "aldeia",
+   "posto indígena"
+  ],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.11.03",
+  "nivel": 2,
+  "pai": "01.11",
+  "descricao": "Uso por outros povos e comunidade tradicional",
+  "definicao": "Uso imobiliário destinado à ocupação coletiva ou individual por grupos culturalmente diferenciados e que se reconhecem como tais, que possuem formas próprias de organização social, que ocupam e usam territórios e recursos naturais como condição para sua reprodução cultural, social, religiosa, ancestral e econômica, utilizando conhecimentos, inovações e práticas gerados e transmitidos pela tradição, não classificável como quilombolas (Uso 1.11.01). Referências: art. 2º do Decreto nº 4.887, de 2003, e art. 3º do Decreto 6.040, de 2007 (Política Nacional de Desenvolvimento Sustentável dos Povos e Comunidades Tradicionais)",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [
+   "Território ribeirinho",
+   "comunidade caiçara",
+   "extrativistas não-quilombolas"
+  ],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.12",
+  "nivel": 1,
+  "pai": "",
+  "descricao": "Uso em serviço de ensino, pesquisa e extensão",
+  "definicao": "Uso imobiliário voltado à oferta de educação formal em diferentes níveis e à geração de conhecimento científico e tecnológico, compreendendo atividades de ensino, pesquisa e extensão, com foco educativo ou investigativo.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.12.01",
+  "nivel": 2,
+  "pai": "01.12",
+  "descricao": "Uso para unidade de ensino infantil e básico",
+  "definicao": "Uso imobiliário voltado à oferta de educação infantil, fundamental, média, conforme etapas da educação básica.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [
+   "Creche",
+   "escola municipal/estadual",
+   "colégio técnico"
+  ],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.12.02",
+  "nivel": 2,
+  "pai": "01.12",
+  "descricao": "Uso para unidade de ensino profissional e tecnológico",
+  "definicao": "Uso imobiliário voltado à oferta de educação profissional e tecnológica.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [
+   "Escolas técnicas, institutos federais e escolas agrotécnicas"
+  ],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.12.03",
+  "nivel": 2,
+  "pai": "01.12",
+  "descricao": "Uso para unidade de ensino superior",
+  "definicao": "Uso imobiliário destinado à oferta de cursos de graduação, pós-graduação e extensão por instituições de ensino superior, com atividades de ensino, pesquisa e extensão.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [
+   "Campus universitário",
+   "faculdade",
+   "centro universitário"
+  ],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.12.04",
+  "nivel": 2,
+  "pai": "01.12",
+  "descricao": "Uso para unidade de pesquisa e desenvolvimento tecnológico",
+  "definicao": "Uso imobiliário voltado exclusivamente à produção científica, tecnológica ou à inovação, com laboratórios, biotérios, estações experimentais ou centros de desenvolvimento tecnológico.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [
+   "Institutos de pesquisa, fazendas-escola e laboratórios de referência"
+  ],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.13",
+  "nivel": 1,
+  "pai": "",
+  "descricao": "Uso em serviço socioassistencial e de cidadania",
+  "definicao": "Uso imobiliário voltado à oferta de serviços socioassistenciais e de cidadania, incluindo acolhimento, proteção social, segurança alimentar e nutricional, apoio a populações vulneráveis e promoção de direitos.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.13.01",
+  "nivel": 2,
+  "pai": "01.13",
+  "descricao": "Uso em serviços de abastecimento e segurança alimentar e nutricional",
+  "definicao": "Uso imobiliário destinado à oferta de serviços de abastecimento e promoção de segurança alimentar e nutricional.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [
+   "central da agricultura familiar, banco de alimentos, cozinha comunitária, cozinha solidária, restaurante popular"
+  ],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.13.02",
+  "nivel": 2,
+  "pai": "01.13",
+  "descricao": "Uso em serviços de acolhimento e proteção social",
+  "definicao": "Uso imobiliário destinado à oferta de equipamentos e serviços socioassistenciais para atendimento de pessoas e famílias em situação de risco e vulnerabilidade social (situação de rua, pessoas com deficiência, ciclos de vida, entre outras).",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [
+   "CRAS, CREAS, Centro POP, centro de acolhimento, de convivência e fortalecimento de vínculos"
+  ],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.13.03",
+  "nivel": 2,
+  "pai": "01.13",
+  "descricao": "Uso em serviços de promoção de direitos e cidadania",
+  "definicao": "Uso imobiliário voltado à proteção de grupos vulneráveis e à defesa de direitos humanos, civis e sociais, incluindo atendimento, mediação de conflitos e estímulo à participação social.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [
+   "Centros de juventude, casa da mulher brasileira, centros de cidadania e unidade do sistema socioeducativo vinculadas ao sistema prisional, como centro de socioeducação"
+  ],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.14",
+  "nivel": 1,
+  "pai": "",
+  "descricao": "Uso em serviços de saúde",
+  "definicao": "Uso imobiliário voltado à prestação de serviços de saúde, contemplando atenção primária e atenção especializada, vigilância em saúde e suporte logístico e técnico, incluindo unidades assistenciais e estruturas complementares.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.14.01",
+  "nivel": 2,
+  "pai": "01.14",
+  "descricao": "Uso para apoio operacional e vigilância em saúde",
+  "definicao": "Uso imobiliário destinado a atividades de suporte à rede de saúde, como armazenagem, produção ou distribuição de insumos e processamento de exames.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [
+   "Central de regulação",
+   "laboratório público",
+   "unidades de vigilância em saúde (UVIS)"
+  ],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.14.02",
+  "nivel": 2,
+  "pai": "01.14",
+  "descricao": "Uso para unidade de atenção especializada à saúde",
+  "definicao": "Uso imobiliário destinado à prestação de serviços de atenção especializada.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [
+   "Policlínica",
+   "clínica especializada",
+   "centro de especialidades"
+  ],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.14.03",
+  "nivel": 2,
+  "pai": "01.14",
+  "descricao": "Uso para unidade de atenção primária à saúde",
+  "definicao": "Uso imobiliário voltado à atenção primária e contínua em saúde, inclusive aquela voltada exclusivamente à população indígena, com serviços de prevenção, diagnóstico, tratamento e acompanhamento.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [
+   "Unidades básicas de saúde (UBS), unidades de saúde da família, centros de saúde"
+  ],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.14.04",
+  "nivel": 2,
+  "pai": "01.14",
+  "descricao": "Uso para unidade hospitalar",
+  "definicao": "Uso imobiliário destinado à prestação de serviços de atenção especializada em regime de internação, urgência e emergência, como hospitais gerais e maternidades.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [
+   "Hospital geral",
+   "maternidade",
+   "hospital regional/urgência"
+  ],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.15",
+  "nivel": 1,
+  "pai": "",
+  "descricao": "Uso residencial para servidor",
+  "definicao": "Uso imobiliário destinado à moradia de servidores públicos, podendo ocorrer por necessidade institucional, obrigação legal ou conveniência administrativa, incluindo residências funcionais, obrigatórias, no interesse do serviço e voluntária de servidor.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.15.01",
+  "nivel": 2,
+  "pai": "01.15",
+  "descricao": "Uso residencial no interesse do serviço",
+  "definicao": "Uso imobiliário residencial por servidor público no exercício de cargo em comissão ou função gratificada, ou que, no interesse do serviço, convenha residam nas repartições respectivas ou nas suas proximidades.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [
+   "Residência funcional vinculada a cargo em comissão",
+   "moradia de gestor de unidade remota"
+  ],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.15.02",
+  "nivel": 2,
+  "pai": "01.15",
+  "descricao": "Uso residencial obrigatório",
+  "definicao": "Uso imobiliário residencial que exige permanência indispensável de servidor por necessidade de vigilância ou assistência constante, incluindo aquele administrado pelos órgãos militares e destinado a ocupação por servidor militar, que também será considerado de caráter obrigatório enquanto utilizado nesta finalidade.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [
+   "Casa de faroleiro",
+   "residência de guarda-parque com vigilância",
+   "moradia em quartel"
+  ],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.15.03",
+  "nivel": 2,
+  "pai": "01.15",
+  "descricao": "Uso residencial voluntário de servidor da União",
+  "definicao": "Uso imobiliário residencial exercido voluntariamente por servidor público.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [
+   "Moradia alugada em condomínio reservado para servidores"
+  ],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.16",
+  "nivel": 1,
+  "pai": "",
+  "descricao": "Uso para segurança pública e defesa nacional",
+  "definicao": "Uso imobiliário em atividades de policiamento, defesa nacional, controle e fiscalização de fronteiras, incluindo operações militares e civis de segurança.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.16.01",
+  "nivel": 2,
+  "pai": "01.16",
+  "descricao": "Uso para defesa nacional",
+  "definicao": "Uso imobiliário dedicado à instalação e operação de sistemas, plataformas e estruturas de defesa, abrangendo condução de operações estratégicas, treinamento militar, estocagem de armamentos e coordenação de comando.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [
+   "Quartéis, polígonos de tiro, base aérea, base militar, batalhão, hangares de aeronaves, centros de comando e controle"
+  ],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.16.02",
+  "nivel": 2,
+  "pai": "01.16",
+  "descricao": "Uso para equipamento policial",
+  "definicao": "Uso imobiliário em atividades de atendimento ao público, base e administração de operações policiais, investigações criminais e detenção temporária de suspeitos e presos em flagrante delito.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [
+   "Delegacia",
+   "posto/batalhão policial",
+   "base de operações"
+  ],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.16.03",
+  "nivel": 2,
+  "pai": "01.16",
+  "descricao": "Uso para equipamento prisional",
+  "definicao": "Uso imobiliário destinado a atividades penais destinadas ao condenado, ao submetido à medida de segurança, ao preso provisório e ao egresso, civil ou militar.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [
+   "Penitenciária/presídio",
+   "casa do albergado"
+  ],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.17",
+  "nivel": 1,
+  "pai": "",
+  "descricao": "Uso religioso",
+  "definicao": "Uso imobiliário destinado à realização de práticas celebrações e serviços religiosos ou espirituais, inclusive atividades sociais ou comunitárias vinculadas a instituições religiosas.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [
+   "Igreja/templo/sinagoga",
+   "terreiro/centro espírita",
+   "casa paroquial/mosteiro/centro de evangelização"
+  ],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.18",
+  "nivel": 1,
+  "pai": "",
+  "descricao": "Sem informação",
+  "definicao": "Classificação utilizada exclusivamente para fins de migração de dados, aplicável a usos registrados nos sistemas da SPU que não apresentam correspondência com os tipos definidos nesta tabela. Não será disponibilizada para marcação pelos usuários, limitando-se ao enquadramento técnico interno.",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [],
+  "situacao": "restrito_migracao",
+  "nota_de_aplicacao": ""
+ },
+ {
+  "codigo": "01.19",
+  "nivel": 1,
+  "pai": "",
+  "descricao": "Sem uso definido/vinculado",
+  "definicao": "Uso não especificado no instrumento de destinação, admitido apenas nos casos específicos previstos na legislação, tais como na inscrição de ocupação, no aforamento e na alienação (venda, permuta, dação em pagamento etc.).",
+  "observacao": "",
+  "fundamento_legal": [],
+  "instrumento": [],
+  "exemplos": [],
+  "situacao": "vigente",
+  "nota_de_aplicacao": ""
+ }
+]

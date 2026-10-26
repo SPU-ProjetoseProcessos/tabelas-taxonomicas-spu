@@ -1,0 +1,1270 @@
+id,termo,definicao,informacoes_complementares,referencia,legislacao_e_normativos,acervo,url_memoriaspu,arquivo_origem
+acessao,Acessão,"Tudo quanto se incorporar ao solo natural ou artificialmente, podendo dar-se:
+I - por formação de ilhas;
+II - por aluvião;
+III - por avulsão;
+IV - por abandono de álveo;
+V - por plantações ou construções.","A acessão é comumente confundida com a benfeitoria, inclusive na própria legislação patrimonial. A título de conclusão e para desmistificar esta celeuma, Farias e Rosenvald (2006) tecem as seguintes considerações:
+“Acessões artificiais e benfeitorias são institutos que não se confundem. As benfeitorias são incluídas na classe das coisas acessórias (art. 96, CC), conceituadas como obras e despesas feitas em coisas alheias para conservá-las (necessárias), melhorá-las (úteis), embelezá-las (voluptuárias). Já as acessões artificiais inserem-se entre os modos de aquisição da propriedade imobiliária, consistindo em obras que criam coisas novas, aderindo à propriedade preexistente”.
+Desta forma, benfeitorias são formas de melhoramento da coisa, enquanto acessão artificial é uma forma de aquisição originária de propriedade.","FARIAS, Cristiano Chaves de; ROSENVALD, Nelson. Direitos Reais. 2ª edição. Rio de Janeiro: Lúmen Júris, 2006.",,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/acessao/,glossario-spu-1.csv
+aditivo-contratual,Aditivo contratual,Instrumento jurídico complementar ao contrato para a alteração dos termos e condições originalmente pactuados.,"* Os aditivos permitem alterar o conteúdo (como os encargos) ou o prazo do contrato. Por esse motivo, demandam análise jurídica prévia à assinatura
+* O imóvel e a finalidade da sua destinação não podem ser alterados por meio de aditivo. Isso significaria alterar o objeto do contrato; nesse caso, é necessário um novo contrato.",,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/aditivo-contratual/,glossario-spu-1.csv
+adjudicacao,Adjudicação,Ato judicial mediante o qual se declara e se estabelece que a propriedade de um bem imóvel se transfere de seu primitivo dono para a União.,,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/adjudicacao/,glossario-spu-1.csv
+aforamento,Aforamento,"Aforamento ou enfiteuse é o ato pelo qual a União atribui a terceiros o domínio útil de imóvel de sua propriedade, desde que atendidos os requisitos legais, obrigando-se o foreiro ou enfiteuta ao pagamento de pensão anual, denominada foro, na porcentagem de 0,6% do valor do domínio pleno do terreno.","O aforamento pode ser gratuito ou oneroso (pago).
+
+Concessão do aforamento gratuito: ato pelo qual a União atribui a terceiro o domínio útil de terreno de sua propriedade, dispensado o pagamento do valor correspondente a 83% do valor da avaliação do domínio pleno pelo foreiro
+
+Preferência ao aforamento oneroso: ato pelo qual o ocupante com manifesta seu interesse na aquisição do domínio útil, nas condições propostas pela União, mediante requerimento dirigido à SPU/UF, observados os requisitos previstos no art. 13 da Lei nº 9.636, de 1998.
+
+Caducidade de aforamento: sanção aplicada aos foreiros em decorrência do não pagamento do foro durante o período de 3 (três) anos consecutivos, ou 4 (quatro) intercalados, de acordo com art. 101, parágrafo único, do Decreto-Lei nº 9.760, de 1946.
+
+Remição de aforamento é consolidação do domínio pleno do imóvel pelo foreiro, mediante o pagamento da importância correspondente a 17% (dezessete por cento) do valor do domínio pleno do terreno.
+
+A transferência onerosa entre vivos do domínio útil de terreno da União ou cessão de direito a eles relativo dependerá do prévio recolhimento do laudêmio, em quantia correspondente a 5%(cinco por cento) do valor atualizado do domínio pleno do terreno, excluídas as benfeitorias.
+
+Domínio útil: proporção econômica de 83% de terreno da União, de titularidade do enfiteuta ou foreiro.
+
+Domínio direto: proporção econômica de 17% do terreno da União, que remanescerá com a própria (senhorio).
+
+Domínio pleno: somatório dos domínios direto e útil, reunindo todos os atributos da propriedade.",,"Lei nº 9.636, de 15 de maio de 1998 | Decreto-lei nº 9.760, de 5 de setembro de 1946",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/aforamento/,glossario-spu-1.csv
+agente-de-fiscalizacao,Agente de fiscalização,"Servidor designado em portaria assinada pelo Secretário de Coordenação e Governança do Patrimônio da União.
+No desempenho de suas atividades, o Agente de Fiscalização tem a função de 
+exercer o poder de polícia aplicando as sanções administrativas àqueles que cometem infrações contra o patrimônio da União, de acordo com a legislação patrimonial vigente.
+O Agente, no seu papel de educador e disseminador de informações, deve orientar 
+os usuários e a comunidade em geral sobre a legislação patrimonial, seus direitos e deveres. 
+Entende-se por fiscalização a atividade desenvolvida pela SPU no exercício de seu poder de polícia, voltada à apuração de infrações administrativas contra o patrimônio imobiliário da União.","Para ser Agente de Fiscalização, o servidor da SPU deverá ser indicado pela Superintendência do Patrimônio da União e designado por meio de Portaria anual emitida pela Secretaria de Coordenação e Governança do Patrimônio da União, conforme § 5º e   §6º do Art. 2º da IN 23/2020. A atividade de fiscalização não é de competência privativa a ocupantes de cargos de nível superior, podendo ser realizada por qualquer servidor da SPU, desde que indicado pelo Superintendente da respectiva SPU/UF, e nomeado por meio de Portaria da Secretaria de Coordenação e Governança do Patrimônio da União, observadas as competências legais.",,"Instrução Normativa nº 23, de 18 de março de 2020",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/agente-de-fiscalizacao/,glossario-spu-1.csv
+anulacao-contratual,Anulação contratual,Extinção do contrato em razão de ilegalidade ou desvio de finalidade.,"*A anulação corresponde a um problema insanável no contrato que não pode ser solucionado por aditivo, apostilamento ou retificação, sendo necessário invalidá-lo por inteiro",,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/anulacao-contratual/,glossario-spu-1.csv
+apostilamento-contratual,Apostilamento contratual,"Registros administrativos que não caracterizam alteração das cláusulas contratuais e, por esse motivo, dispensam a análise jurídica. São registros, assim, que não modificam o contrato e nem alterem a sua essência.","*Se for necessário alterar o contrato, então o instrumento adequado é o aditivo. 
+*Na SPU, há também uma forma específica de apostilamento: o da entrega. Ele corresponde à entrega definitiva do imóvel ao outorgado após dois anos da assinatura do contrato.
+*Exemplos de situações em que ocorre o apostilamento:
+- variação do valor contratual para fazer face ao reajuste de preço previsto no próprio contrato; 
+- atualizações, compensações ou penalizações financeiras decorrentes das condições de pagamento previstas no contrato;
+- alterações na razão ou na denominação social do contratado; 
+- ajustes e prorrogações nos prazos e condições previstos no Plano de Execução e Contrapartida – PEC.",,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/apostilamento-contratual/,glossario-spu-1.csv
+aquisicao,Aquisição,"Conjunto de procedimentos, medidas e ato sem virtude do qual se autoriza e opera a transferência ou a constituição pela União de direitos reais ou possessórios sobre bens imóveis.",,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/aquisicao/,glossario-spu-1.csv
+aquisicao-compulsoria,Aquisição compulsória,Aquela que independe da autorização ou manifestação prévia da SPU para sua efetivação.,,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/aquisicao-compulsoria/,glossario-spu-1.csv
+aquisicao-voluntaria,Aquisição voluntária,Aquela decorrente de ato discricionário da SPU ou do órgão interessado com observância dos aspectos de conveniênciae oportunidade administrativas.,,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/aquisicao-voluntaria/,glossario-spu-1.csv
+arbitramento,Arbitramento,"É a atividade que envolve a tomada de decisão ou posição entre alternativas
+tecnicamente controversas ou que decorrem de aspectos subjetivos, conforme definição do Instituto Brasileiro de Avaliações e Perícias de Engenharia - IBAPE",,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/arbitramento/,glossario-spu-1.csv
+area-rural,Área rural,Aquela não definida como área urbana pela legislação municipal.,,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/area-rural/,glossario-spu-1.csv
+area-urbana,Área urbana,"Aquela definida como zona urbana e de expansão urbana ou urbanizáveis pela
+legislação municipal",,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/area-urbana/,glossario-spu-1.csv
+arrendamento,Arrendamento,"Locação, mediante condições especiais, quando objetivada a exploração de frutos ou prestação de serviços, Lei 9.760, de 1946.
+Previsão legal: Decreto-Lei nº 9.760, de 1946, art. 64, § 1º e art. 96",,,"Decreto-lei nº 9.760, de 5 de setembro de 1946",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/arrendamento/,glossario-spu-1.csv
+auto-de-infracao,Auto de Infração,"Documento padrão para comunicar a multa e o embargo. O servidor responsável pela fiscalização deverá lavrar o Auto de Infração sempre que verificada a prática de infração contra o patrimônio imobiliário da União, não havendo dúvida acerca de sua autoria.","O conteúdo mínimo do Auto de Infração é estabelecido no Art. 29 e 20 da IN 23/2020, quais sejam: o número da ordem; número do processo administrativo vinculado; o endereço completo do imóvel; a identificação do responsável, ocupante e/ou daquele presente no momento da fiscalização, colhendo-se o número do CPF ou, na impossibilidade, anotando-se a data de nascimento, a naturalidade, e o nome da mãe, para que possa ser consultado o número do CPF do ocupante junto ao Sistema de Informações da Receita Federal – SIRF; a descrição da infração administrativa contra o patrimônio da União. a fundamentação legal da infração administrativa; a sanção administrativa aplicada; notificação para a apresentação da defesa, dentro do prazo previsto; data e assinatura do servidor responsável pela fiscalização.",,"Instrução Normativa nº 23, de 18 de março de 2020",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/auto-de-infracao/,glossario-spu-1.csv
+autoexecutoriedade,Autoexecutoriedade,"É a autoexecução da remoção ou da demolição de construções e/ou equipamentos que tem como eixo principal o tempo decorrido da invasão, da classificação do imóvel e da natureza dessa ocupação.","A SPU, no seu poder de polícia, poderá utilizar da autoexecutoriedade para coibir imediatas invasões aos bens patrimoniais da União.
+Deve-se lançar mão dessa opção quando não pairam dúvidas da necessidade da demolição/remoção em virtude da segurança do bem patrimonial e do interesse público. Assim, o interesse público é suficientemente forte para assegurar à SPU a prerrogativa de executar diretamente os seus atos.",,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/autoexecutoriedade/,glossario-spu-1.csv
+autorizacao-de-uso-sustentavel,Autorização de Uso Sustentável,"Ato administrativo excepcional, transitório e precário, é outorgada às comunidades tradicionais, mediante termo, quando houver necessidade de reconhecimento de ocupação em área da União, conforme procedimento estabelecido em ato da referida Secretaria.","Visa possibilitar a ordenação do uso racional e sustentável dos recursos naturais disponíveis na orla marítima e fluvial, destinados à subsistência da população tradicional, de maneira a possibilitar o início do processo de regularização fundiária que culminará na concessão de título definitivo, quando cabível.",,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/autorizacao-de-uso-sustentavel/,glossario-spu-1.csv
+avaliacao-de-bem-imovel,Avaliação de bem imóvel,"Atividade desenvolvida por profissional ou servidor habilitado para identificar o valor de bem imóvel, os seus custos, frutos e direitos, e determinar os indicadores de viabilidade de sua utilização econômica para determinada finalidade, por meio do seu valor de mercado, do valor da terra nua, do valor venal ou do valor de referência, consideradas as suas características físicas e econômicas, a partir de exames, vistorias e pesquisas.",,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/avaliacao-de-bem-imovel/,glossario-spu-1.csv
+avaliacao-em-massa,Avaliação em massa,"É aquela realizada a partir de um lote padrão para uma região
+homogênea e geralmente utilizada na elaboração de Planta de Valores.",,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/avaliacao-em-massa/,glossario-spu-1.csv
+avaliacao-intervalar,Avaliação intervalar,"É aquela que tem como objetivo estabelecer, quando solicitado, um intervalo de valores admissíveis em torno da estimativa de tendência central ou do valor arbitrado.",,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/avaliacao-intervalar/,glossario-spu-1.csv
+avaliador-habilitado,Avaliador habilitado,"Profissional habilitado com registro regular no CREA ou no CAU e com formação acadêmica compatível com os trabalhos técnicos realizados, conforme Lei nº 9.636, de 1998.",,,"Lei nº 9.636, de 15 de maio de 1998",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/avaliador-habilitado/,glossario-spu-1.csv
+averbacao,Averbação,"Lançamento numerado e sequencial, indicando resumidamente os atos e outras
+ocorrências que por qualquer modo alterem a matrícula ou os dados nela constantes.",,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/averbacao/,glossario-spu-1.csv
+banco-de-dados-imobiliarios,Banco de dados imobiliários,Arquivo físico ou digital para armazenamento de informações de elementos amostrais de determinada tipologia e época de um mercado imobiliário local.,,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/banco-de-dados-imobiliarios/,glossario-spu-1.csv
+bem-da-uniao,Bem da União,"São bens da União:
+
+I - os que atualmente lhe pertencem e os que lhe vierem a ser atribuídos;
+
+II - as terras devolutas indispensáveis à defesa das fronteiras, das fortificações e construções militares, das vias federais de comunicação e à preservação ambiental, definidas em lei;
+
+III - os lagos, rios e quaisquer correntes de água em terrenos de seu domínio, ou que banhem mais de um Estado, sirvam de limites com outros países, ou se estendam a território estrangeiro ou dele provenham, bem como os terrenos marginais e as praias fluviais;
+
+IV as ilhas fluviais e lacustres nas zonas limítrofes com outros países; as praias marítimas; as ilhas oceânicas e as costeiras, excluídas, destas, as que contenham a sede de Municípios, exceto aquelas áreas afetadas ao serviço público e a unidade ambiental federal, e as referidas no art. 26, II;         (Emenda Constitucional nº 46, de 2005)
+
+V - os recursos naturais da plataforma continental e da zona econômica exclusiva;
+
+VI - o mar territorial;
+
+VII - os terrenos de marinha e seus acrescidos;
+
+VIII - os potenciais de energia hidráulica;
+
+IX - os recursos minerais, inclusive os do subsolo;
+
+X - as cavidades naturais subterrâneas e os sítios arqueológicos e pré-históricos;
+
+XI - as terras tradicionalmente ocupadas pelos índios.","O art. 1º do Decreto-Lei 9.760, de 5 de setembro de 1946, estabeleceu que incluem-se entre os bens imóveis da União:
+
+        a) os terrenos de marinha e seus acréscidos;
+
+        b) os terrenos marginais dos rios navegáveis, em Territórios Federais, se, por qualquer título legítimo, não pertencerem a particular;
+
+        c) os terrenos marginais de rios e as ilhas nestes situadas na faixa da fronteira do território nacional e nas zonas onde se faça sentir a influência das marés;
+
+        d) as ilhas situadas nos mares territoriais ou não, se por qualquer título legítimo não pertencerem aos Estados, Municípios ou particulares;
+
+        e) a porção de terras devolutas que fôr indispensável para a defesa da fronteira, fortificações, construções militares e estradas de ferro federais;
+
+        f) as terras devolutas situadas nos Territórios Federais;
+
+        g) as estradas de ferro, instalações portuárias, telégrafos, telefones, fábricas oficinas e fazendas nacionais;
+
+        h) os terrenos dos extintos aldeamentos de índios e das colônias militares, que não tenham passado, legalmente, para o domínio dos Estados, Municípios ou particulares;
+
+        i) os arsenais com todo o material de marinha, exército e aviação, as fortalezas, fortificações e construções militares, bem como os terrenos adjacentes, reservados por ato imperial;
+
+        j) os que foram do domínio da Coroa;
+
+        k) os bens perdidos pelo criminoso condenado por sentença proferida em processo judiciário federal;
+
+        l) os que tenham sido a algum título, ou em virtude de lei, incorporados ao seu patrimônio.
+
+O art. 20 da Constituição Federal de 1988, estipula que são bens da União:
+
+I - os que atualmente lhe pertencem e os que lhe vierem a ser atribuídos;
+
+II - as terras devolutas indispensáveis à defesa das fronteiras, das fortificações e construções militares, das vias federais de comunicação e à preservação ambiental, definidas em lei;
+
+III - os lagos, rios e quaisquer correntes de água em terrenos de seu domínio, ou que banhem mais de um Estado, sirvam de limites com outros países, ou se estendam a território estrangeiro ou dele provenham, bem como os terrenos marginais e as praias fluviais;
+
+IV as ilhas fluviais e lacustres nas zonas limítrofes com outros países; as praias marítimas; as ilhas oceânicas e as costeiras, excluídas, destas, as que contenham a sede de Municípios, exceto aquelas áreas afetadas ao serviço público e a unidade ambiental federal, e as referidas no art. 26, II (""Art. 26. Incluem-se entre os bens dos Estados:... II - as áreas, nas ilhas oceânicas e costeiras, que estiverem no seu domínio, excluídas aquelas sob domínio da União, Municípios ou terceiros;"");         (Redação dada pela Emenda Constitucional nº 46, de 2005)
+
+V - os recursos naturais da plataforma continental e da zona econômica exclusiva;
+
+VI - o mar territorial;
+
+VII - os terrenos de marinha e seus acrescidos;
+
+VIII - os potenciais de energia hidráulica;
+
+IX - os recursos minerais, inclusive os do subsolo;
+
+X - as cavidades naturais subterrâneas e os sítios arqueológicos e pré-históricos;
+
+XI - as terras tradicionalmente ocupadas pelos índios.
+
+A Súmula 479, do STF, tem o seguinte Enunciado:
+
+As margens dos rios navegáveis são de domínio público, insuscetíveis de expropriação e, por isso mesmo, excluídas de indenização.",,"Decreto-lei nº 9.760, de 5 de setembro de 1946 | Constituição Federal de 1988",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/bem-da-uniao/,glossario-spu-1.csv
+bem-de-uso-comum-do-povo,Bem de uso comum do povo,"Bem público que pertence a toda a população, não podendo ser apropriado por indivíduos ou grupos específicos. É um bem de acesso livre e igualitário a todos os cidadãos.
+
+Esse conceito está relacionado com o direito de propriedade e a função social dos bens. Bens de uso comum do povo são aqueles que não podem ser privatizados ou apropriados para fins exclusivos, devendo estar disponíveis para o uso e fruição de todos, garantindo a igualdade de acesso e a satisfação das necessidades coletivas.
+
+Exemplos de bens de uso comum do povo incluem praias, rios, lagos, praças públicas, parques, estradas públicas e outros espaços ou recursos naturais que são acessíveis a todos os membros da sociedade. Esses bens são geralmente protegidos por leis e regulamentos que visam garantir a sua preservação, utilização sustentável e acesso igualitário.
+
+Previsão legal: art. 99 do Código Civil","De acordo com o art. 99 do Código Civil/2002, são bens públicos:
+
+I - os de uso comum do povo, tais como rios, mares, estradas, ruas e praças;
+
+II - os de uso especial, tais como edifícios ou terrenos destinados a serviço ou estabelecimento da administração federal, estadual, territorial ou municipal, inclusive os de suas autarquias;
+
+III - os dominicais, que constituem o patrimônio das pessoas jurídicas de direito público, como objeto de direito pessoal, ou real, de cada uma dessas entidades.
+
+Os bens públicos de uso comum do povo e os de uso especial são inalienáveis, enquanto conservarem a sua qualificação, na forma que a lei determinar (art. 100 do Código Civil/2002).",,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/bem-de-uso-comum-do-povo/,glossario-spu-1.csv
+bem-de-uso-especial,Bem de uso especial,"Bem público que se destina ao uso pelo próprio Poder Público para a execução de serviços administrativos ou a prestação de serviços públicos em geral. A população os utiliza na qualidade de usuários daquele serviço. Esses bens são inalienáveis por estarem afetados a uma finalidade pública. Exemplos de bens de uso especial são: repartições públicas, escolas públicas, postos de saúde, agências dos correios,  hospitais etc
+Previsão legal: art. 99 do Código Civil",,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/bem-de-uso-especial/,glossario-spu-1.csv
+bem-dominial,Bem dominial,Ver bem dominical,,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/bem-dominial/,glossario-spu-1.csv
+bem-dominical,Bem dominical,"Os bens públicos dominicais constituem o patrimônio das pessoas jurídicas de direito público, como objeto de direito pessoal, ou real, de cada uma dessas entidades (art. 99, inc III, do CC).
+Bens dominicais ou dominiais ""são bens públicos que constituem o patrimônio disponível e alienável da pessoa jurídica de Direito Público, abangendo tanto móveis quanto imóveis"" (Tartuce, 2022, 204).","Embora a maioria da doutrina entenda as expressões ""bens dominicais"" e ""bens dominiais"" como sinônimas, alguns autores compreendem que ""os conceitos são distintos, pois os bens dominiais são gênero (qualquer bem público), enquanto os bens dominicais são espécie (os enquadrados no art. 99, inc. III, do CC)"" (Tartuce, 2022, 204).",,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/bem-dominical/,glossario-spu-1.csv
+bem-publico,Bem público,"São bens públicos:
+
+I - os de uso comum do povo, tais como rios, mares, estradas, ruas e praças;
+
+II - os de uso especial, tais como edifícios ou terrenos destinados a serviço ou estabelecimento da administração federal, estadual, territorial ou municipal, inclusive os de suas autarquias;
+
+III - os dominicais, que constituem o patrimônio das pessoas jurídicas de direito público, como objeto de direito pessoal, ou real, de cada uma dessas entidades.","De acordo com o art. 99 do Código Civil/2002, são bens públicos:
+
+I - os de uso comum do povo, tais como rios, mares, estradas, ruas e praças;
+
+II - os de uso especial, tais como edifícios ou terrenos destinados a serviço ou estabelecimento da administração federal, estadual, territorial ou municipal, inclusive os de suas autarquias;
+
+III - os dominicais, que constituem o patrimônio das pessoas jurídicas de direito público, como objeto de direito pessoal, ou real, de cada uma dessas entidades.
+
+
+Os bens públicos de uso comum do povo e os de uso especial são inalienáveis, enquanto conservarem a sua qualificação, na forma que a lei determinar (art. 100 do Código Civil/2002).",,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/bem-publico/,glossario-spu-1.csv
+benfeitoria,Benfeitoria,"Obras e despesas feitas no imóvel para conservá-lo (necessárias), melhorá-lo (úteis) ou embelezá-lo (voluptuárias), necessariamente mediante a intervenção do proprietário, possuidor ou detentor do bem.","A benfeitoria é comumente confundida com a acessão, inclusive na própria legislação patrimominial. A título de conclusão e para desmistificar esta celeuma, Farias e Rosenvald (2006) tecem as seguintes considerações:
+
+“Acessões artificiais e benfeitorias são institutos que não se confundem. As benfeitorias são incluídas na classe das coisas acessórias (art. 96, CC), conceituadas como obras e despesas feitas em coisas alheias para conservá-las (necessárias), melhorá-las (úteis), embelezá-las (voluptuárias). Já as acessões artificiais inserem-se entre os modos de aquisição da propriedade imobiliária, consistindo em obras que criam coisas novas, aderindo à propriedade preexistente”.
+
+Desta forma, benfeitorias são formas de melhoramento da coisa, enquanto que Acessão Artificial é uma forma de aquisição originária de propriedade.
+
+
+FARIAS, Cristiano Chaves de; ROSENVALD, Nelson. Direitos Reais. 2ª edição. Rio de Janeiro: Lúmen Júris, 2006.",,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/benfeitoria/,glossario-spu-1.csv
+cessao-de-uso,Cessão de uso,"Ato de destinação de imóvel da União para fins específicos ao uso de terceiros, quando pressuposto o interesse público nos termos do art. 64, § 3º, do Decreto-Lei 9.760, de 1946, e art. 18, incisos I e II, da Lei nº 9.636, de 1998, e da administração, a título oneroso ou gratuito, mediante contrato.","Contrato administrativo utilizado para destinar imóvel de propriedade da União de forma privativa, quando há a necessidade de manter o domínio do bem, e a atividade a ser desenvolvida for de interesse público ou social, ou de aproveitamento econômico de interesse nacional.
+
+A cessão de uso não transfere direito real ao cessionário e poderá ser gratuita, onerosa ou em condições especiais.
+
+- Cessão de uso gratuita: finalidade da destinação não é econômica e não há obrigação financeira para o outorgado.
+
+- Cessão de uso onerosa: finalidade da destinação é empreendimento de fim lucrativo (ação empresarial, industrial ou de serviços, desenvolvida em função de retorno financeiro) com obrigação financeira para o outorgado. Havendo condições de competitividade, deve-se respeitar o disposto na Lei nº 8.666/1993 e na Lei nº 14.133/2021.
+
+- Cessão de uso em condições especiais: poderá ser utilizada nos seguintes casos (PARECER n. 00057/2022/PGFN/AGU):
+•	quando há uma contrapartida em proveito da União, sendo necessário que a obrigação pactuada possa ser objetivamente mensurada e equivalha, no mínimo, ao valor que seria devido em caso de cessão com pagamento em dinheiro
+•	entre entes da Administração Pública as condições especiais configuram medidas de colaboração administrativa, a exemplo da realização de atividades de interesse da SPU por agentes de outro órgão, razão pela qual não há necessidade de perfeita reciprocidade;
+•	uso misto do imóvel, com parte destinada a empreendimento econômico e parte destinada à finalidade não econômica.",,"Decreto-lei nº 9.760, de 5 de setembro de 1946 | Lei nº 9.636, de 15 de maio de 1998 | Lei nº 8.666, de 21 de junho de 1993 | Lei nº 14.133, de 01 de abril de 2021",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/cessao-de-uso/,glossario-spu-1.csv
+cessao-de-uso-em-condicoes-especiais,Cessão de uso em condições especiais,Ver cessão de uso,,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/cessao-de-uso-em-condicoes-especiais/,glossario-spu-1.csv
+cessao-de-uso-gratuita,Cessão de uso gratuita,Ver cessão de uso,,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/cessao-de-uso-gratuita/,glossario-spu-1.csv
+cessao-de-uso-onerosa,Cessão de uso onerosa,Ver cessão de uso,,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/cessao-de-uso-onerosa/,glossario-spu-1.csv
+comodato,Comodato,"O comodato é o empréstimo gratuito de coisas não fungíveis, ou seja, que não podem ser substituídas por outra coisa de mesma espécie, qualidade, quantidade e valor.
+Previsto no art. 579 do Código Civil.",Utilizado por autarquias e fundações para empréstimo de seus imóveis a terceiros de forma gratuita.,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/comodato/,glossario-spu-1.csv
+compra,Compra,"Modo de aquisição voluntária mediante acordo entre as partes e contraprestação
+pecuniária.",,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/compra/,glossario-spu-1.csv
+concessao-de-direito-real-de-uso,Concessão de Direito Real de Uso,"Contrato pelo qual a Administração transfere o uso remunerado ou gratuito de terreno público a particular, como direito real resolúvel, para que dele se utilize em fins específicos de regularização fundiária de interesse social, urbanização, industrialização, edificação, cultivo da terra, aproveitamento sustentável das várzeas, preservação das comunidades tradicionais e seus meios de subsistência ou outras modalidades de interesse social em áreas urbanas.","Pode ser aplicada em terrenos de marinha e acrescidos (áreas inalienáveis); em áreas vazias destinadas à provisão habitacional; em áreas ocupadas, sujeitas à pressão imobiliária ou em áreas de conflito fundiário; no uso sustentável das várzeas e para a segurança da posse de comunidades tradicionais; e para fins comerciais.
+
+A CDRU é aceita como garantia real nos contratos de financiamento habitacional e é alternativa à Concessão de Uso Especial para fins de Moradia (CUEM), pois não são exigidos requisitos de posse, tamanho de terreno etc., podendo ser gratuita (renda familiar mensal de até 5 salários mínimos) ou onerosa. Esta última é alternativa para os casos de atividades comercias ou outras atividades econômicas em áreas de regularização fundiária de interesse social.",,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/concessao-de-direito-real-de-uso/,glossario-spu-1.csv
+concessao-de-uso-especial-para-fins-de-moradia-cuem,Concessão de Uso Especial para Fins de Moradia (CUEM),"Contrato de outorga concedido a quem comprovar que, até 30 de junho de 2001, possuiu como seu, por cinco anos, ininterruptamente e sem oposição, imóvel da União de até 250m2 (duzentos e cinqüenta metros quadrados), quando situado em área urbana e utilizado para sua moradia ou de sua família, desde que não seja proprietário ou concessionário, a qualquer título, de outro imóvel urbano ou rural e que ainda esteja residindo no imóvel.","Pode ser outorgada em caráter coletivo, caso em que a fração ideal atribuída a cada possuidor não pode ultrapassar o limite de 250m².
+
+Visa regularizar a ocupação de áreas públicas urbanas com fins de moradia. É o reconhecimento gratuito do direito subjetivo, com fundamento no art. 183 da Constituição Federal, e deverá ser outorgado, obrigatoriamente, àqueles que atenderem aos requisitos legais.
+
+O direito à moradia deve ser garantido em outro local quando houver situação de risco à vida ou à saúde dos ocupantes. Nos casos em que a área ocupada for de uso comum do povo, destinada a projeto de urbanização, possuir destinação específica, como defesa nacional, preservação ambiental poderá ser exercida em local diferente daquele em que se encontra a posse.",,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/concessao-de-uso-especial-para-fins-de-moradia-cuem/,glossario-spu-1.csv
+contrapartida-contratual,Contrapartida contratual,Compensação que pode ser imposta ao outorgado pela utilização do imóvel.,"A inclusão de contrapartida no contrato não é obrigatória.
+
+Utilizada na cessão em condições especiais nos seguintes casos:
+
+- quando há uma contrapartida em proveito da União, sendo necessário que a obrigação pactuada possa ser objetivamente mensurada e equivalha, no mínimo, ao valor que seria devido em caso de cessão com pagamento em dinheiro (PARECER n. 00057/2022/PGFN/AGU)
+
+- entre entes da Administração Pública as condições especiais configuram medidas de colaboração administrativa, a exemplo da realização de atividades de interesse da SPU por agentes de outro órgão, razão pela qual não há necessidade de perfeita reciprocidade (PARECER n. 00057/2022/PGFN/AGU)
+
+- uso misto do imóvel, com parte destinada a empreendimento econômico e parte destinada à finalidade não econômica (PARECER n. 00057/2022/PGFN/AGU)",,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/contrapartida-contratual/,glossario-spu-1.csv
+custo-unitario-basico-cub,Custo unitário básico (CUB),"Conforme Norma Brasileira ABNT NBR 12.721/2006, é o custo por metro quadrado de construção do projeto-padrão considerado, calculado e divulgado pelos Sindicatos da Indústria da Construção Civil, em atendimento ao disposto no art. 54 da Lei nº 4.591, de 16 de dezembro de 1964, e que serve de base para avaliação de parte dos custos de construção das edificações.",,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/custo-unitario-basico-cub/,glossario-spu-1.csv
+dados-de-mercado-contemporaneos,Dados de mercado contemporâneos,"Para a Secretaria de Coordenação e Governança do Patrimônio da União, são preços de oferta ou transação de até 2 (dois) anos da data de realização da avaliação.",,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/dados-de-mercado-contemporaneos/,glossario-spu-1.csv
+demolicao,Demolição,"Sanção que determina a demolição e/ou remoção do aterro, construção, obra, cercas ou demais benfeitorias, bem como dos equipamentos instalados, à conta de quem os houver efetuado, caso não sejam passíveis de regularização. (IN SPU Nº 23, DE 2020)
+
+Atividade de demolição dos imóveis da União, caracterizados como próprios nacionais em estado precário de conservação. (IN SPU Nº 208, DE 29 DE OUTUBRO DE 2019, LEI Nº 4.804, DE 1965)","A notificação para demolição deve ser aplicada quando for verificada construção irregular em área de bens de uso comum do povo, sem a autorização da União, e nos casos de construções realizadas em imóveis dominiais e de uso especial sem a destinação previamente concedida pela União ao ocupante. No último caso, tem-se como boa prática a análise prévia sobre a possibilidade de regularização da ocupação antes de se solicitar a sua demolição, o que não impede a aplicação de multa e o embargo da obra.",,"Instrução Normativa nº 23, de 18 de março de 2020 | Lei nº 4.804, de 20 de outubro de 1965 | Instrução Normativa nº 208, de 29 de outubro de 2019",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/demolicao/,glossario-spu-1.csv
+depreciacao-do-imovel,Depreciação do imóvel,"Perda de valor em função do desgaste das partes constitutivas e benfeitorias, resultante de decrepitude, deterioração, obsoletismo ou mutilação.",,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/depreciacao-do-imovel/,glossario-spu-1.csv
+desdobro,Desdobro,"Forma de fracionamento do solo por qual se subdivide um lote em dois ou mais
+novos lotes, com aproveitamento do sistema viário existente, desde que não implique na abertura de novas vias e logradouros públicos, nem no prolongamento, modificação ou ampliação dos já existentes.",,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/desdobro/,glossario-spu-1.csv
+desmembramento,Desmembramento,"Forma de parcelamento do solo urbano prevista na Lei n° 6.766, de 19
+de dezembro de 1979, por qual se subdivide uma gleba em lotes destinados à edificação, com aproveitamento do sistema viário existente, desde que não implique na abertura de novas vias e logradouros públicos, nem no prolongamento,modificação ou ampliação dos já existentes.",,,"Lei nº 6.766, de 19 de dezembro de 1979",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/desmembramento/,glossario-spu-1.csv
+desocupacao,Desocupação,Sanção aplicada em face da existência de posses ou ocupações irregulares em imóveis dominiais da União.,"Verificada a hipótese de posse ou ocupação ilícita, adotar-se-ão medidas para desocupação do imóvel com a consequente imissão na posse pela União.",,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/desocupacao/,glossario-spu-1.csv
+destaque-de-gleba-publica,Destaque de gleba pública,"Forma de fracionamento do solo prevista no § 7º do art. 176 da
+Lei n° 6.015, de 31 de dezembro de 1973, por qual se destaca de uma gleba pública uma ou mais parcelas, as quais originarão novos imóveis com matrícula própria, mantendo-se a área remanescente na matrícula originária, sem a necessidade de retificação imediata desta.",,,"Lei n° 6.015, de 31 de dezembro de 1973",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/destaque-de-gleba-publica/,glossario-spu-1.csv
+direito-de-superficie,Direito de superfície,"Direito real regulado pela Lei nº 10.257, de 10 de julho de 2001, e pelo
+Código Civil de 2002, que confere ao superficiário o direito de utilizar o solo, o subsolo e/ou o espaço aéreo de terreno alheio, por tempo determinado ou indeterminado, gratuito ou oneroso, com possibilidade de transmissão por ato ""entre vivos"" ou causa mortis",,,"Lei nº 10.257, de 10 de julho de 2001",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/direito-de-superficie/,glossario-spu-1.csv
+direito-real,Direito real,"Poder direto e imediato exercido sobre um imóvel, e que gera uma relação direta
+entre a pessoa e o bem, identificado principalmente por sua eficácia absoluta e por sua oponibilidade contra terceiros.",,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/direito-real/,glossario-spu-1.csv
+distrato-contratual,Distrato contratual,Extinção do contrato por acordo entre as partes.,* Quando o encerramento é amigável e por decisão de ambas as partes.,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/distrato-contratual/,glossario-spu-1.csv
+doacao,Doação,"Contrato em que uma pessoa, por liberalidade, transfere do seu patrimônio bens ou vantagens para o de outra.","Pode ser com encargo ou sem encargo (obrigação, condição).
+
+A União somente faz doação com encargo, por se tratar de bem público. 
+
+Doação com encargo: doador outorga voluntariamente um bem ou vantagem pertencente ao seu patrimônio, para o patrimônio do donatário, estabelecendo alguma condição que deverá ser cumprida, sob pena da doação ser revogada. 
+No caso de bem imóvel da União, a doação está condicionada ao cumprimento de uma finalidade pelo donatário, dentro de determinado prazo, sob pena de o imóvel ser automaticamente revertido ao patrimônio da União.
+
+Previsão legal: art. 31, §§1º e 2º, da Lei nº 9.636/98, arts. 538 a 564 do Código Civil.",,"Lei nº 9.636, de 15 de maio de 1998",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/doacao/,glossario-spu-1.csv
+dominio-direto,Domínio direto,"Direito que remanesce com o proprietário do imóvel quando da
+constituição da enfiteuse, que permanece com o proprietário do imóvel, correspondendo a 17% (dezessete por cento) do valor do domínio pleno nos casos de imóveis da União.",,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/dominio-direto/,glossario-spu-1.csv
+dominio-pleno,Domínio pleno,"Direito que reúne nas mãos de um mesmo titular os direitos de utilização,
+gozo e de disposição de determinado bem imóvel.",,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/dominio-pleno/,glossario-spu-1.csv
+dominio-util,Domínio útil,"Direito exercido pelo foreiro quando da constituição da enfiteuse, que garante
+ao titular o exercício de todas as faculdades inerentes à posse, uso e gozo do bem, correspondendo a 83% (oitenta e três por cento) do valor do domínio pleno no caso de imóvel da União.",,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/dominio-util/,glossario-spu-1.csv
+embargo-de-obra-servico-ou-atividade,"Embargo de obra, serviço ou atividade","Sanção que determina a paralisação imediata das obras, serviços ou atividades, em execução, até a manifestação da União quanto à regularidade de ocupação.","O embargo será aplicado quando verificada a inadequada destinação, inobservância do interesse público, irregularidade de uso e comprometimento da integridade física dos imóveis pertencentes ao patrimônio da União.",,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/embargo-de-obra-servico-ou-atividade/,glossario-spu-1.csv
+encargo-contratual,Encargo contratual,Obrigação descrita no contrato a ser cumprida pelo outorgado.,"* Corresponde ao desdobramento da finalidade. Ex: promover a acessibilidade do imóvel; assegurar o pagamento de impostos. 
+* O encargo existe para que o outorgado possa cumprir com a finalidade de destinação do imóvel.",,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/encargo-contratual/,glossario-spu-1.csv
+engenharia-de-avaliacoes,Engenharia de avaliações,"Conjunto de conhecimentos técnico-científicos especializados, aplicados à avaliação de bens por arquitetos e engenheiros.",,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/engenharia-de-avaliacoes/,glossario-spu-1.csv
+entrega,Entrega,"Ato de transferir a administração ou a jurisdição de imóvel próprio nacional a um
+determinado Órgão vinculado à Administração Pública Federal direta, para destinação
+específica.",,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/entrega/,glossario-spu-1.csv
+esbulho,Esbulho,"É a retirada forçada do bem de seu legítimo possuidor, que pode se dar violenta ou clandestinamente. Neste caso, o possuidor esbulhado tem o direito de ter a posse de seu bem restituída utilizando-se, para tanto, de sua própria força, desde que os atos de defesa não transcendam o indispensável à restituição. O possuidor também poderá valer-se da ação de reintegração de posse para ter seu bem restituído.
+
+Previsão legal: arts. 1.210, §1º e 1.224 do Código Civil, art. 560 do Código de Processo Civil","Esbulhado: regime utilizado no SPIUnet para que um órgão/entidade da Administração Pública Federal registre que seu imóvel se encontra invadido, bem como as providências adotadas visando sua reintegração.",,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/esbulho/,glossario-spu-1.csv
+estabilidade-estrutural,Estabilidade estrutural,"Estado de conformidade de vigas, lajes e pilares observados de forma visual e sensorial durante uma vistoria, ressaltando que a existência de estabilidade e solidez está atrelada à integridade estrutural dos imóveis, assim como a falta de estabilidade e solidez decorre da existência de comprometimento de elementos tais como fundações, estruturas, alvenarias estruturais e muros de arrimo, que venham ensejar riscos de desabamento das edificações.",,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/estabilidade-estrutural/,glossario-spu-1.csv
+eventos-e-ocorrencias-contratuais,Eventos e ocorrências contratuais,Todo e qualquer fato ou ação relativo à execução ou vigência do contrato.,"* Por exemplo, aditivo, apostilamento, rerratificação, sanções e cumprimento de obrigações contratuais",,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/eventos-e-ocorrencias-contratuais/,glossario-spu-1.csv
+extincao-da-pessoa,Extinção da pessoa,Óbito da pessoa física ou extinção de pessoa jurídica.,* Uma das partes do contrato deixa de existir,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/extincao-da-pessoa/,glossario-spu-1.csv
+ficha-de-calculo-de-cessao,Ficha de cálculo de cessão,"Documento de detalhamento de cálculo para se determinar o valor de retribuição pelo uso de espaço físico em águas públicas, expedida pelo sistema corporativo da Secretaria de Coordenação e Governança do Patrimônio da União.",,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/ficha-de-calculo-de-cessao/,glossario-spu-1.csv
+ficha-de-calculo-de-laudemio,Ficha de cálculo de laudêmio,"Documento de detalhamento de cálculo para se determinar o valor de laudêmio, expedida pelo sistema corporativo da Secretaria de Coordenação e Governança do Patrimônio da União.",,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/ficha-de-calculo-de-laudemio/,glossario-spu-1.csv
+finalidade-da-destinacao,Finalidade da destinação,Utilização a ser dada ao imóvel destinado. Corresponde ao objeto principal do contrato.,"* Pode ser alterada por meio de aditivo, desde que dentro da mesma área de atuação",,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/finalidade-da-destinacao/,glossario-spu-1.csv
+fiscalizacao-patrimonial,Fiscalização patrimonial,"Atividade desenvolvida pela SPU no exercício de seu poder de polícia, voltada à apuração de infrações administrativas contra o patrimônio imobiliário da União.","Toda atividade desenvolvida no âmbito da SPU, no uso de seu poder de polícia, que visa à manutenção da correta destinação, o bom uso, a integridade física dos bens imóveis da União em consonância com as normas legais e o interesse público.",,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/fiscalizacao-patrimonial/,glossario-spu-1.csv
+fracionamento-do-solo,Fracionamento do solo,"Procedimentos de subdivisão do solo, podendo ser feito mediante
+desdobro ou destaque de gleba pública, não contemplados na Lei n° 6.766, de 19 de dezembro de1979, dispensado dos procedimentos específicos do registro especial.",,,"Lei nº 6.766, de 19 de dezembro de 1979",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/fracionamento-do-solo/,glossario-spu-1.csv
+fusao,Fusão,"Também denominada de remembramento ou unificação, consiste na junção de dois ou mais imóveis contíguos e pertencentes ao mesmo proprietário, formando um único imóvel, com nova denominação e matrícula, conforme previsto nos arts. 234 e 235 da Lei nº 6.015, de 1973.",,,"Lei n° 6.015, de 31 de dezembro de 1973",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/fusao/,glossario-spu-1.csv
+gestao-de-contratos,Gestão de contratos,Macroprocesso contendo todos os atos e procedimentos necessários a garantir a regularidade contratual,"A gestão de contrato inclui:
+a - monitoramento: atos e procedimentos que possam ser realizados remotamente para acompanhar a execução contratual, de modo a prevenir, identificar e sanear eventos ou irregularidades que interfiram no cumprimento dos encargos, obrigações, contrapartidas e termos contratuais; 
+
+b - fiscalização: atos e procedimentos necessários para verificar in loco o cumprimento de finalidade, condicionante ou obrigação contratual; 
+
+c - regularização contratual: atos e procedimentos de alteração dos termos e condições contratuais de modo a viabilizar a sua continuidade regular; e 
+
+d - extinção contratual: atos e procedimentos necessários para o término contratual e a retomada do imóvel.",,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/gestao-de-contratos/,glossario-spu-1.csv
+gleba,Gleba,Terreno ainda não parcelado,,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/gleba/,glossario-spu-1.csv
+guarda-provisoria,Guarda provisória,"Instrumento previsto no artigo 45 da Lei nº 9.784/1999 de auxílio à administração federal na manutenção e conservação dos imóveis da União, diante de risco iminente, onde não se outorga o direito de uso, mas transfere-se ao outorgado, apenas, o dever de guardar, conservar e vigiar o imóvel.","Concedida a órgãos e entidades da administração pública, aos Estados, Distrito Federal, Municípios e a entidades sem fins lucrativos das áreas de educação, cultura, assistência social ou saúde, enquadrados no art. 18, inciso I, da Lei nº 9.636, de 1998, quando houver risco iminente aos imóveis.
+
+Pode ser outorgada no curso de processo administrativo, ou antes, desde que vinculada a eventual e futura destinação do bem a partir de processo administrativo específico.",,"Lei nº 9.784, de 29 de janeiro de 1999 | Lei nº 9.636, de 15 de maio de 1998",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/guarda-provisoria/,glossario-spu-1.csv
+habitabilidade,Habitabilidade,"Qualidade, estado ou condição do que é habitável, pressupondo-se a
+existência de condições satisfatórias de conforto, segurança e salubridade na edificação.",,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/habitabilidade/,glossario-spu-1.csv
+homologacao-de-avaliacao,Homologação de avaliação,"Verificação de conformidade realizada pela Secretaria de Coordenação e Governança do Patrimônio da União quanto às avaliações realizadas por terceiros, observando-se os preceitos obrigatórios da Norma Brasileira de Avaliação de Bens da ABNT- NBR 14.653 e suas partes, bem como ditames normativos específicos da Administração Pública Federal.",,,ABNT NBR 14653-1:2019 - Avaliação de Bens,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/homologacao-de-avaliacao/,glossario-spu-1.csv
+imoveis-atipicos,Imóveis atípicos,Aqueles que destoam do padrão do logradouro ou região em análise.,,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/imoveis-atipicos/,glossario-spu-1.csv
+imovel,Imóvel,O solo e tudo quanto se lhe incorporar natural e artificialmente.,"São bens imóveis aqueles que não podem ser removidos ou transportados sem a sua deterioração ou destruição (arts 79 a 81 do Código Civil).
+
+Bens imóveis por natureza ou essência são aqueles formados pelo solo e tudo quanto se lhe incorporar de forma natural (art. 79). Os bens imóveis por natureza abrangem o solo com a sua superfície, o subsolo e o espaço aéreo. Tudo o que for incorporado será classificado imóvel por acessão (Tartuce, 2022, 194)
+
+Bens imóveis por acessão física industrial ou artificial são aqueles bens formados por tudo o que o homem incorporar permanentemente ao solo, não podendo removê-lo sem a sua destruição ou deterioração. Tais bens imóveis têm origem em construções e plantações, situações em que ocorre a intervenção humana (Tartuce, 2022, 194).
+
+O conceito de imóvel, pode, portanto, constituir:
+a) terreno, com ou sem construção;
+b) cada unidade oriunda de parcelamento de terreno; e
+c) cada unidade distinta de empreendimento imobiliário que instituir condomínio;",,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/imovel/,glossario-spu-1.csv
+imovel-estressado,Imóvel estressado,"Aquele que possui uma ou mais características que possam dificultar a sua destinação ou sua avaliação, como imóvel com ocupação irregular, em litígio judicial, litígio ambiental, sem registro cartorial, entre outros.",,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/imovel-estressado/,glossario-spu-1.csv
+inadimplencia-contratual,Inadimplência contratual,Descumprimento de encargo ou de contrapartida contratual.,* Corresponde ao descumprimento do contrato por alguma das partes. Em geral esse descumprimento acarretará aplicação de uma penalidade.,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/inadimplencia-contratual/,glossario-spu-1.csv
+incorporacao,Incorporação,"Conjunto de procedimentos, medidas e atos necessários ao cadastro e
+inserção nos sistemas corporativos da SPU e nos Cartórios de Registro de Imóveis, de direitos reais ou possessórios sobre bens imóveis adquiridos pela União.",,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/incorporacao/,glossario-spu-1.csv
+indenizacao,Indenização,"Retribuição pecuniária devida à União pelo ocupante irregular em função do tempo em que a União esteve privada da posse de seu imóvel dominial, independente de realização irregular de qualquer aterro, construção, obra, equipamentos e/ou benfeitorias.","Cobrança de indenização deve ser realizada até a efetiva desocupação do imóvel, mesmo que levada a juízo, quando constatada a existência de posses ou ocupações em imóveis dominiais em desacordo com o disposto na Lei n° 9.636/98. Ou seja, a cobrança de indenização é administrativa, e deverá ser executada mesmo estando no aguardo de análise de recurso interposto ou de ação judicial em trâmite.",,"Lei nº 9.636, de 15 de maio de 1998",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/indenizacao/,glossario-spu-1.csv
+infracao-administrativa,Infração administrativa,"Toda ação ou omissão que importe em violação do adequado uso, disposição, manutenção e conservação patrimônio imobiliário da União. Poderão, ainda, se perpetrar fora de bens imóveis da União, desde que se caracterize o comprometimento da destinação original do bem da União, do uso racional e de sua integridade física.","A legislação patrimonial da União não traz tipificação das infrações, sendo assim, cumpre ao fiscal observar as hipóteses genéricas de infrações extraídas da legislação patrimonial e elencadas no art. 10, da Instrução Normativa SPU 23/2020, quais sejam: 
+I - violação do adequado uso, gozo, disposição, proteção, manutenção e conservação dos imóveis da União; 
+II - realização de aterro, construção, obra, cercas ou outras benfeitorias, desmatar ou instalar equipamentos, sem prévia autorização ou em desacordo com aquela concedida, em bens de uso comum do povo, especiais ou dominiais, com destinação específica fixada por lei ou ato administrativo; 
+III - descaracterização dos bens imóveis da União sem prévia autorização; e 
+IV -descumprimento de cláusulas previstas nos contratos de destinação patrimonial e no termo de adesão da gestão de praias.",,"Instrução Normativa nº 23, de 18 de março de 2020",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/infracao-administrativa/,glossario-spu-1.csv
+infrator,Infrator,"Pessoa física ou jurídica que, diretamente ou por interposta pessoa, por ação ou omissão, incorrer na prática dos atos ilícitos elencadas no art. 10, da Instrução Normativa SPU 23/2020.","O infrator não é exclusivamente aquele que consta dos registros e sistemas internos da SPU, mas aquele que, no momento da fiscalização, entender-se como responsável pelas intervenções realizadas, fazendo, portanto, efetivo uso do imóvel da União. A identificação do responsável pela infração deve ser a mais completa possível. São elementos que identificam o responsável: nome completo, endereço residencial, endereço comercial, número do CPF (imprescindível), nome da mãe, tipo de vínculo com o imóvel fiscalizando, dados da cédula de identidade (número, órgão expedidor/UF, data de emissão, data de nascimento, naturalidade). As informações podem ser obtidas junto ao infrator, vizinhos, conhecidos, denunciantes, testemunhas, etc.",,"Instrução Normativa nº 23, de 18 de março de 2020",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/infrator/,glossario-spu-1.csv
+inscricao-de-ocupacao,Inscrição de Ocupação,"Ato administrativo precário, resolúvel a qualquer tempo, por meio do qual a União reconhece a utilização de áreas de seu domínio, desde que comprovado o efetivo aproveitamento do terreno pelo ocupante e o preenchimento dos demais requisitos legais, não gerando para o inscrito qualquer direito inerente à propriedade.","Taxa de ocupação é prestação pecuniária anual que o ocupante do bem imóvel da União deve pagar pelo uso do terreno de domínio da União, correspondente a 2% do valor do domínio pleno do terreno, excluídas as benfeitorias, anualmente atualizado pela Secretaria do Patrimônio da União - SPU.
+
+Laudêmio é prestação pecuniária devida à União pelo vendedor quando da transferência onerosa, entre vivos, do domínio útil e da inscrição de ocupação de terreno da União ou cessão de direito a eles relativos, em quantia correspondente a 5% do valor atualizado do domínio pleno do terreno, excluídas as benfeitorias.",,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/inscricao-de-ocupacao/,glossario-spu-1.csv
+interrupcao-de-prazo-contratual,Interrupção de prazo contratual,"Após o fato interruptivo, a contagem do prazo retomada desde o início.",* A interrupção de prazo diferencia-se da suspensão de prazo porque esta retoma de onde parou e aquela recomeça do zero.,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/interrupcao-de-prazo-contratual/,glossario-spu-1.csv
+intervalo-de-valores-admissiveis,Intervalo de valores admissíveis,"É o intervalo calculado pelo profissional da engenharia de avaliações, com utilização de critérios prescritos na norma ABNT 14.653, dentro do qual a adoção de qualquer valor nele contido pelo solicitante do laudo, tem respaldo da avaliação.",,,ABNT NBR 14653-1:2019 - Avaliação de Bens,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/intervalo-de-valores-admissiveis/,glossario-spu-1.csv
+isencao-de-pagamento-de-foros-taxas-de-ocupacao-e-laudemios,"Isenção de pagamento de foros, taxas de ocupação e laudêmios","A isenção do pagamento de foros, taxas de ocupação e laudêmios, bem como multas, juros de mora e atualização monetária delas decorrentes,  concedidas a pessoas físicas consideradas carentes ou de baixa renda cuja situação econômica não lhes permita pagar esses encargos sem prejuízo do sustento próprio ou de sua família.
+É denominada, também, de isenção por motivo de carência.","A concessão de isenção de pagamento de foros, taxas de ocupação e laudêmios, por motivo de carência, referentes a imóveis da União, nos termos do Decreto-Lei nº 1.876, de 15 de julho de 1981 , obedecerá ao disposto na Instrução Normativa SPU nº 5 de 24/08/2010.
+
+O pedido será decidido pelo Superintendente do Patrimônio da União da Unidade da Federação onde se situar o imóvel, no prazo de até 30 (trinta) dias, contados da data do respectivo registro no protocolo (art. 5º da IN 5, de 2010).
+
+O interessado será intimado a tomar ciência da decisão por meio de notificação com aviso de recebimento - AR (Anexo II), a qual observará, no que couber, o disposto no art. 26 e parágrafos da Lei nº 9.784, de 29 de janeiro de 1999 , e dará conhecimento do prazo recursal, em caso de decisão denegatória (art. 5º, § 1º da IN 5, de 2010).",,"Decreto-lei nº 1.876, de 15 de julho de 1981 | Instrução Normativa nº 5, de 24 de agosto de 2010 | Lei nº 9.784, de 29 de janeiro de 1999",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/isencao-de-pagamento-de-foros-taxas-de-ocupacao-e-laudemios/,glossario-spu-1.csv
+laudemio,Laudêmio,"Laudêmio é prestação pecuniária devida à União pelo vendedor quando da transferência onerosa, entre vivos, do domínio útil e da inscrição de ocupação de terreno da União ou cessão de direito a eles relativos, em quantia correspondente a 5% do valor atualizado do domínio pleno do terreno, excluídas as benfeitorias.","O art. 3º do Decreto-Lei  nº 2.398, de 21 de dezembro de 1987, com redação dada pela Lei nº 13.465, de 2017, determina que a transferência onerosa, entre vivos, do domínio útil e da inscrição de ocupação de terreno da União ou de cessão de direito a eles relativos dependerá do prévio recolhimento do laudêmio pelo vendedor, em quantia correspondente a 5% (cinco por cento) do valor atualizado do domínio pleno do terreno, excluídas as as benfeitorias.
+
+A IN SPU 3, de 2016, que trata de aforamento, estipula que:
+""Art. 72. A transferência do domínio útil sobre área da Uniãosomente se dará após a emissão de Certidão de Autorização paraTransferência - CAT, quitadas as taxas e laudêmio, quando for o caso,observada a legislação patrimonial.
+Art. 73. A transferência onerosa entre vivos do domínio útilde terreno da União ou cessão de direito a eles relativo dependerá doprévio recolhimento do laudêmio, em quantia correspondente a 5% (cinco por cento) do valor atualizado do domínio pleno do terreno,excluídas as benfeitorias.""
+
+A IN SPU nº  4, de 2018, que trata de Inscrição de Ocupação, estabelece que:
+""Art. 2º...
+III - laudêmio: prestação pecuniária devida à União pelo vendedor quando da transferência onerosa, entre vivos, do domínio útil e da inscrição de ocupação de terreno da União ou cessão de direito a eles relativos, em quantia correspondente a 5% do valor atualizado do domínio pleno do terreno, excluídas as benfeitorias.
+...
+Art. 27. São dispensados de lançamento e cobrança as taxas de ocupação e os laudêmios referentes aos terrenos de marinha e seus acrescidos inscritos em regime de ocupação, quando localizados em ilhas oceânicas ou costeiras que contenham sede de Município, desde a data da publicação da Emenda Constitucional nº 46, de 2005, até a conclusão do processo de demarcação, sem cobrança retroativa por ocasião da conclusão dos procedimentos de demarcação.""",,"Decreto-lei nº 2.398, de 21 de dezembro de 1987 | Lei nº 13.465, de 11 de julho de 2017 | Instrução Normativa nº 3, de 09 de novembro de 2016 | Instrução Normativa nº 4, de 14 de agosto de 2018",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/laudemio/,glossario-spu-1.csv
+laudo-de-avaliacao,Laudo de avaliação,"Relatório com fundamentação técnica e científica elaborado por profissional ou servidor habilitado, conforme a NBR 14653, para avaliar um bem imóvel de acordo com seu valor de mercado ou outro valor compatível com a finalidade da avaliação.",,,ABNT NBR 14653-1:2019 - Avaliação de Bens,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/laudo-de-avaliacao/,glossario-spu-1.csv
+lavratura,Lavratura,"Procedimento por qual se gera o título aquisitivo para fim de ingresso no livro
+próprio da SPU, admitida a geração eletrônica.",,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/lavratura/,glossario-spu-1.csv
+locacao-de-imovel-da-uniao-para-uso-privativo,Locação de imóvel da União para uso privativo,"Instrumento de destinação aplicado quando houver conveniência em tornar o
+imóvel produtivo, conservando, porém, a União, sua plena propriedade, considerada arrendamento mediante condições especiais, quando objetivada a exploração de frutos ou prestação de serviços.","Locação de imóvel da União para uso privativo.
+
+Somente os imóveis não aplicados total ou parcialmente em serviço público (ocupados por serviço federal ou por servidor da União, como residência em caráter obrigatório) podem ser alugados, a critério da SPU.
+
+Previsão legal: art. 64, §1º, art. 86 e art. 95 do Decreto-Lei nº 9.760/1946.",,"Decreto-lei nº 9.760, de 5 de setembro de 1946",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/locacao-de-imovel-da-uniao-para-uso-privativo/,glossario-spu-1.csv
+locacao-de-terceiros,Locação de terceiros,"Ato pelo qual um terceiro se obriga a ceder à União, por tempo determinado ou não, o uso e gozo de um imóvel, mediante certa retribuição.","Locação de imóvel particular para uso da União.
+
+Regime utilizado para que um órgão/entidade da Administração Pública Federal registre contratos de locação de imóveis de terceiros com o pagamento de contrapartida financeira pela utilização do imóvel regido por lei específica.",,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/locacao-de-terceiros/,glossario-spu-1.csv
+lote,Lote,Terreno urbano resultante de parcelamento,,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/lote/,glossario-spu-1.csv
+lote-padrao,Lote padrão,Aquele cujas características são definidas pela legislação municipal ou aquele em que esses aspectos apresentam maior representatividade em uma região em estudo.,,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/lote-padrao/,glossario-spu-1.csv
+loteamento,Loteamento,"Forma de parcelamento do solo urbano prevista na Lei n° 6.766, de 19 de
+dezembro de 1979, por qual se subdivide uma gleba em lotes destinados à edificação, com abertura de novas vias de circulação, de logradouros públicos ou prolongamento, modificação ou ampliação das vias existentes.",,,"Lei nº 6.766, de 19 de dezembro de 1979",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/loteamento/,glossario-spu-1.csv
+matricula,Matrícula,"Lançamento numerado efetuado pelo Registrador de Imóveis no livro 2 do
+cartório, chamado Livro de Registro Geral, que cadastra o imóvel descrevendo-o fisicamente e nominando seu proprietário.",,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/matricula/,glossario-spu-1.csv
+modificacao-contratual,Modificação contratual,Qualquer alteração dos termos e condições contratuais.,* As modificações contratuais são sempre realizadas por aditivos.,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/modificacao-contratual/,glossario-spu-1.csv
+multa-administrativa,Multa administrativa,"Sanção pecuniária aplicada quando for identificada infração administrativa nas hipóteses previstas no art. 6°, do Decreto-Lei n° 2.398, de 21 de dezembro de 1987.","O fiscal deverá aplicar a multa com as informações de autoria, materialidade e valor da infração, notificar o embargo quando cabível e intimar o responsável para, no prazo máximo de 30 (trinta) dias, comprovar a regularidade da obra ou promover sua regularização.",,"Decreto-lei nº 2.398, de 21 de dezembro de 1987",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/multa-administrativa/,glossario-spu-1.csv
+objeto-contratual,Objeto contratual,"Corresponde ao objetivo do contrato de destinação, compreendendo a preservação, a manutenção e a finalidade que será atribuída ao imóvel.",* Inclui o imóvel em si e a finalidade da destinação,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/objeto-contratual/,glossario-spu-2.csv
+obrigacoes-contratuais,Obrigações contratuais,Deveres das partes previstos no contrato.,,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/obrigacoes-contratuais/,glossario-spu-2.csv
+parcelamento,Parcelamento,"Procedimento de subdivisão do solo urbano previsto na Lei n° 6.766, de 19
+de dezembro de 1979, mediante loteamento ou desmembramento, sujeito ao registro especial.",,,"Lei nº 6.766, de 19 de dezembro de 1979",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/parcelamento/,glossario-spu-2.csv
+passivo,Passivo,"Fato que incide negativamente sobre a condição física ou valoração do imóvel e
+que tenha caráter jurídico, ambiental, administrativa ou cartorial.",,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/passivo/,glossario-spu-2.csv
+patrimonio,Patrimônio,Conjunto de direitos e obrigações suscetíveis de valoração pecuniária.,,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/patrimonio/,glossario-spu-2.csv
+penalidade-contratual,Penalidade contratual,Sanção contratual por inadimplência (descumprimento de obrigação contratual).,"* Quando uma das partes não cumpre o que estava previsto como sua obrigação, haverá uma punição proporcional à falta cometida",,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/penalidade-contratual/,glossario-spu-2.csv
+plano-anual-de-fiscalizacao-paf,Plano Anual de Fiscalização (PAF),"Contém diretrizes gerais, metas e recursos financeiros disponíveis para nortear as ações de fiscalização no âmbito nacional.","A SPU/OC elaborará anualmente o Plano Anual de Fiscalização (PAF) contendo diretrizes gerais, metas e recursos financeiros disponíveis para nortear as ações de fiscalização no âmbito nacional. O objetivo principal é integrar a fiscalização do patrimônio da União com as demais áreas de atuação da Secretaria de Coordenação e Governança do Patrimônio da União para dar objetividade e eficácia no trabalho realizado.",,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/plano-anual-de-fiscalizacao-paf/,glossario-spu-2.csv
+plano-anual-estadual-de-fiscalizacao-paef,Plano Anual Estadual de Fiscalização (PAEF),Elaborado com base no conteúdo do Plano Anual de Fiscalização (PAF) publicado pela SPU.,,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/plano-anual-estadual-de-fiscalizacao-paef/,glossario-spu-2.csv
+plano-de-devolucao-do-imovel,Plano de devolução do imóvel,Ações a serem adotadas para o retorno do imóvel à SPU nos casos de distrato (amigável).,Ações a serem adotadas para o retorno do imóvel à SPU nos casos de distrato (amigável).,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/plano-de-devolucao-do-imovel/,glossario-spu-2.csv
+plano-de-execucao-contratual,Plano de Execução Contratual,"Plano, anexo ao contrato, que inclui encargos, obrigações e contrapartidas do outorgado","* Exemplos: prazo para implantação do projeto, prazo para início de obra, prazo para cumprimento de obrigação, prazo de adaptação do imóvel para incorporar medidas de acessibilidade",,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/plano-de-execucao-contratual/,glossario-spu-2.csv
+plano-de-retomada-do-imovel,Plano de retomada do imóvel,Ações a serem adotadas para o retorno do imóvel à SPU nos casos de rescisão unilateral (não amigável),"* O objetivo é o mesmo do plano de devolução, mas se difere por se iniciar a partir de uma notificação para o outorgado desocupar o imóvel. 
+* Essa notificação, em geral, é motivada pelo grave descumprimento de cláusula contratual.",,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/plano-de-retomada-do-imovel/,glossario-spu-2.csv
+planta-de-valores,Planta de valores,"É a representação gráfica ou a listagem dos valores genéricos de metro quadrado de terreno ou do imóvel de uma mesma data, conforme a NBR 14653-2.",,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/planta-de-valores/,glossario-spu-2.csv
+planta-de-valores-da-secretaria-de-coordenacao-e-governanca-do-patrimonio-da-uniao,Planta de valores da Secretaria de Coordenação e Governança do Patrimônio da União,"Trata-se do resultado de uma avaliação em massa e sistemática para a definição do valor unitário da parcela terreno nos imóveis caracterizados e distribuídos espacialmente em trechos de logradouros, referenciada a uma determinada data, usando-se procedimentos padronizados e normalizados, sem, necessariamente, vistoriar os imóveis.",,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/planta-de-valores-da-secretaria-de-coordenacao-e-governanca-do-patrimonio-da-uniao/,glossario-spu-2.csv
+poder-de-policia,Poder de Polícia,"Considera-se poder de polícia atividade da administração pública que, limitando ou disciplinando direito, interêsse ou liberdade, regula a prática de ato ou abstenção de fato, em razão de intêresse público concernente à segurança, à higiene, à ordem, aos costumes, à disciplina da produção e do mercado, ao exercício de atividades econômicas dependentes de concessão ou autorização do Poder Público, à tranqüilidade pública ou ao respeito à propriedade e aos direitos individuais ou coletivos.
+Considera-se regular o exercício do poder de polícia quando desempenhado pelo órgão competente nos limites da lei aplicável, com observância do processo legal e, tratando-se de atividade que a lei tenha como discricionária, sem abuso ou desvio de poder.
+Entende-se por fiscalização a atividade desenvolvida pela SPU no exercício de seu poder de polícia, voltada à apuração de infrações administrativas contra o patrimônio imobiliário da União.","O Poder de Polícia consiste na faculdade conferida ao Estado de estabelecer regras restritivas e condicionadoras do exercício de direitos e garantias individuais, tendo em vista o interesse público.
+A polícia administrativa incide sobre bens, direitos e atividades, destinando-se a prevenir ou reprimir ilícitos administrativos.
+Em regra, a competência para exercer o poder de polícia é da mesma pessoa que possui competência para regular a matéria.
+A função de polícia é exercida em quatro fases: pela ordem de polícia, pelo consentimento de polícia, pela fiscalização de polícia e pela sanção de polícia.
+A bibliografia aponta alguns atributos peculiares ao poder de polícia, quais sejam: a discricionariedade, a autoexecutoriedade e a coercibilidade. Entretanto, deve-se ressaltar que nem todas esssas características estão presentes simultaneamente em todos os atos de polícia.
+De acordo com o art. 77 da Lei 5.172, de 1966 (Código Tributário Nacional), as taxas cobradas pela União, pelos Estados, pelo Distrito Federal ou pelos Municípios, no âmbito de suas respectivas atribuições, têm como fato gerador o exercício regular do poder de polícia, ou a utilização, efetiva ou potencial, de serviço público específico e divisível, prestado ao contribuinte ou posto à sua disposição.",,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/poder-de-policia/,glossario-spu-2.csv
+posse,Posse,Exercício de fato de alguns dos direitos inerentes à propriedade,,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/posse/,glossario-spu-2.csv
+posse-direta,Posse direta,"Aquela em que o possuidor tem o controle material do bem, ou seja, exerce de forma imediata e plena alguns dos direitos da propriedade.",,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/posse-direta/,glossario-spu-2.csv
+posse-indireta,Posse indireta,"Aquela exercida pelo possuidor que autorizou o controle material ou o uso do bem a
+outrem.",,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/posse-indireta/,glossario-spu-2.csv
+praia,Praia,"Entende-se por praia a área coberta e descoberta periodicamente pelas águas, acrescida da faixa subseqüente de material detrítico, tal como areias, cascalhos, seixos e pedregulhos, até o limite onde se inicie a vegetação natural, ou, em sua ausência, onde comece um outro ecossistema.","As praias são bens públicos de uso comum do povo, sendo assegurado, sempre, livre e franco acesso a elas e ao mar, em qualquer direção e sentido, ressalvados os trechos considerados de interesse de segurança nacional ou incluídos em áreas protegidas por legislação específica (art. 10 da Lei nº 7.661, de 16 de maio de 1988).
+
+O art. 20, III e IV, da Constituição Federal determina que as praias podem ser bens da União nas seguintes hipóteses:
+
+a ) Os terrenos marginais e as praias fluviais dos lagos, rios e quaisquer correntes de água em terrenos de seu domínio, ou que banhem mais de um Estado, sirvam de limites com outros países, ou se estendam a território estrangeiro ou dele provenham.
+
+b) As praias marítimas.
+
+O art. 14 da Lei nº 13.240, de 30 de dezembro de 2015, com redação dada pela Lei nº 13.813, de 2019, autorizou a União  a transferir aos Municípios a gestão das orlas e praias marítimas, estuarinas, lacustres e fluviais federais, inclusive as áreas de bens de uso comum com exploração econômica, tais como calçadões, praças e parques públicos, excetuados:       
+
+I - os corpos d’água;
+
+II - as áreas consideradas essenciais para a estratégia de defesa nacional;
+
+III - as áreas reservadas à utilização de órgãos e entidades federais;
+
+IV - as áreas destinadas à exploração de serviço público de competência da União;
+
+V - as áreas situadas em unidades de conservação federais.",,"Lei nº 7.661, de 16 de maio de 1988 | Lei nº 13.813, de 09 de abril de 2019",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/praia/,glossario-spu-2.csv
+preco,Preço,"É uma expressão monetária que define uma transação de um bem, do seu fruto, de um direito, ou da expectativa de sua transação, podendo-se coincidir com o valor estimado.",,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/preco/,glossario-spu-2.csv
+propriedade,Propriedade,"Direito de usar, gozar e dispor do bem imóvel, como de reavê-lo do poder
+de quem quer que injustamente o possua ou o detenha, abrangendo o solo, o subsolo e o espaço aéreo, até o limite de sua possibilidade de exercício útil.",,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/propriedade/,glossario-spu-2.csv
+prorrogacao-contratual,Prorrogação contratual,"Extensão do prazo de vigência do contrato, ou do prazo de cumprimento de encargo ou contrapartida",,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/prorrogacao-contratual/,glossario-spu-2.csv
+ratificacao-contratual,Ratificação contratual,Confirmação ou validação de algo previamente acordado,"* Na SPU, corresponde também à confirmação do ato de entrega do imóvel, o que ocorre por meio do apostilamento.",,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/ratificacao-contratual/,glossario-spu-2.csv
+reajuste-contratual,Reajuste contratual,Atualização dos valores contratuais por meio da aplicação de índice previamente definido em cláusula contratual.,* O reajuste ocorre por meio de apostilamento,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/reajuste-contratual/,glossario-spu-2.csv
+recebimento-em-doacao,Recebimento em doação,"Modo de aquisição voluntária mediante acordo entre as partes, em que um terceiro, por liberalidade, transfere para União a propriedade de bem imóvel, com ou sem encargos.",,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/recebimento-em-doacao/,glossario-spu-2.csv
+registro,Registro,"Lançamento numerado e sequencial efetuadona folha do livro 2 do cartório de
+registro de imóveis, logo abaixo do lançamento da matrícula, indicando resumidamente os negócios jurídicos de constituição, extinção e transferência dos direitos reais querecaem sobre o imóvel matriculado.",,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/registro/,glossario-spu-2.csv
+registro-especial,Registro especial,"Conjunto de regras e exigências aplicáveis ao registro imobiliário do
+parcelamento do solo urbano, previsto no art. 18 da Lei n° 6.766, de 19 de dezembro de 1979.",,,"Lei nº 6.766, de 19 de dezembro de 1979",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/registro-especial/,glossario-spu-2.csv
+registro-por-apossamento-vintenario,Registro por apossamento vintenário,"Forma originária e voluntária de aquisição da propriedade de bem imóvel decorrente da posse por órgão da União ou unidade militar, por intervalo contínuo de, no mínimo, vinte anos, sem interrupção nem oposição de terceiros, com fundamento no art. 1º, inciso II, da Lei nº 5.972, de 1973.",,,"Lei nº 5.972, de 11 de dezembro de 1973",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/registro-por-apossamento-vintenario/,glossario-spu-2.csv
+regularizacao-patrimonial,Regularização patrimonial,"Conjunto de procedimentos, medidas e atos necessários à retificação, complementação ou atualização de dados cadastrais e atos pertinentes à aquisição ou incorporação de bens imóveis em nome da União.",,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/regularizacao-patrimonial/,glossario-spu-2.csv
+relatorio-de-valor-de-referencia-rvr,Relatório de valor de referência (RVR),Relatório técnico elaborado por profissional ou servidor habilitado para determinar o valor de referência de um bem imóvel.,,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/relatorio-de-valor-de-referencia-rvr/,glossario-spu-2.csv
+remocao,Remoção,"Desinstalação e retirada completa de aterro, construção, obra, cercas ou demais benfeitorias, bem como dos equipamentos instalados, à conta de quem os houver efetuado, caso não sejam passíveis de regularização.","A notificação para remoção deve ser aplicada quando for verificada construção irregular em área de bens de uso comum do povo, sem a autorização da União, e nos casos de construções realizadas em imóveis dominiais e de uso especial sem a destinação previamente concedida pela União ao ocupante. No último caso, tem-se como boa prática a análise prévia sobre a possibilidade de regularização da ocupação antes de se solicitar a sua demolição, o que não impede a aplicação de multa e o embargo da obra.",,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/remocao/,glossario-spu-2.csv
+repactuacao-contratual,Repactuação contratual,Reajuste extraordinário para recomposição do reequilíbrio econômico do contrato quando o valor cobrado estiver defasado em relação aos preços de mercado.,"* A repactuação ocorre por meio de aditivo contratual, uma vez que é um evento extraordinário que não estava previsto no contrato.",,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/repactuacao-contratual/,glossario-spu-2.csv
+rerratificacao-contratual,Rerratificação contratual,"Instrumento que retifica (corrige) parcialmente o contrato e ratifica (confirma) os demais termos não alterados.
+
+Ato de retificar em parte um contrato, certidão ou outro instrumento e de
+ratificar os demais termos não alterados.","* A rerratificação ocorre quando a origem do conteúdo da cláusula estava correta, mas houve erro de redação no contrato (ex: erro ao registrar o número do RIP ou a área do imóvel no contrato). 
+* Por esse motivo, não é necessária a aprovação da Consultoria Jurídica.",,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/rerratificacao-contratual/,glossario-spu-2.csv
+rescisao-contratual,Rescisão contratual,Extinção do contrato por decisão de uma ou de ambas as partes.,"* Quando o encerramento é amigável e por decisão de ambas as partes, é o mesmo que distrato.
+* Quando é unilateral, pode ocorrer por conveniência ou oportunidade. 
+* Difere-se do descumprimento contratual (inadimplência). A inadimplência gera a aplicação de penalidade; a rescisão unilateral pode ou não gerar a aplicação de penalidade, ou indenização por benfeitoria, a depender dos termos do contrato.",,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/rescisao-contratual/,glossario-spu-2.csv
+retribuicao-financeira-contratual,Retribuição financeira contratual,Pagamento pela utilização do imóvel.,* Corresponde à cláusula que define o pagamento que o outorgado deverá fazer à SPU pela utilização do imóvel.,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/retribuicao-financeira-contratual/,glossario-spu-2.csv
+revalidacao-de-avaliacao,Revalidação de avaliação,"Ato administrativo da Secretaria de Coordenação e Governança do Patrimônio da União, que tem por objetivo a análise técnica com vistas fundamentalmente à verificação quanto à possibilidade de extensão de sua validade, não devendo, portanto, confundir-se com o ato administrativo da homologação de laudos.",,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/revalidacao-de-avaliacao/,glossario-spu-2.csv
+reversao,Reversão,"Ato de retornar ao patrimônio da União imóvel e respectivos direitos
+transferidos a terceiro, em função de descumprimento de condição pactuada ou outra hipótese prevista em lei.",,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/reversao/,glossario-spu-2.csv
+sancao-administrativa,Sanção administrativa,Consequência legal da ação ou omissão de infrações contra o patrimônio da União aplicável ao infrator.,"São sanções, no âmbito da administração patrimonial: multa, embargo, demolição/remoção e desocupação do imóvel.",,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/sancao-administrativa/,glossario-spu-2.csv
+sem-uso-definido-vinculado,Sem uso definido/vinculado,"Uso não especificado
+ no instrumento de
+ destinação, admitido
+ apenas nos casos
+ específicos previstos
+ na legislação, tais
+ como na inscrição de
+ ocupação, no
+ aforamento e na
+ alienação (venda,
+ permuta, dação em
+ pagamento etc.).",,"Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025","Resolução COMGC/SPU nº 2 de 09 de maio de 2025 | Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/sem-uso-definido-vinculado/,glossario-spu-2.csv
+servidor-habilitado,Servidor habilitado,"Servidor público com formação acadêmica em arquitetura ou engenharia, observadas as especialidades e suas respectivas áreas de atuação, com registro ativo no Conselho Regional de Engenharia e Agronomia - CREA ou no Conselho de Arquitetura e Urbanismo - CAU.","Quando o cargo do servidor não exigir formação acadêmica em arquitetura ou engenharia, este será habilitado para as atividades desta Instrução Normativa, considerando sua formação acadêmica, nas seguintes condições:
+a) ocupe cargo em comissão de Direção e Assessoramento Superior - DAS ou equivalente; ou 
+b) exerça função técnica - FT ou equivalente.",,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/servidor-habilitado/,glossario-spu-2.csv
+situacao-paradigma,Situação paradigma,"Situação hipotética adotada como referencial para avaliação de um bem, devendo ser acordada entre as partes e explicitada no laudo ou RVR",,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/situacao-paradigma/,glossario-spu-2.csv
+suspensao-de-prazo-contratual,Suspensão de prazo contratual,Pausa temporária na contagem de prazo de acordo com a oportunidade e conveniência da Administração Pública.,* A suspensão de prazo diferencia-se da interrupção de prazo porque esta recomeça do zero e aquela retoma de onde parou.,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/suspensao-de-prazo-contratual/,glossario-spu-2.csv
+terceiro,Terceiro,"Profissional ou empresa que não seja vinculado à Administração Pública Federal, que, por seu interesse ou contratação, realize o serviço especializado de engenharia de avaliação.",,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/terceiro/,glossario-spu-2.csv
+termo-de-devolucao-do-imovel,Termo de devolução do imóvel,Documento da SPU que formaliza a devolução do imóvel a sua gestão.,,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/termo-de-devolucao-do-imovel/,glossario-spu-2.csv
+terreno-acrescido-de-marinha,Terreno acrescido de marinha,"São terrenos acrescidos de marinha os que se tiverem formado, natural ou artificialmente, para o lado do mar ou dos rios e lagoas, em seguimento aos terrenos de marinha.
+(Art. 20, inc. VII da CF/1988 e art. 3º do Decreto-Lei nº 9.760/1946)","Ao equiparar o regime jurídico-patrimonial das ilhas costeiras em que sediados Municípios àquele incidente sobre a porção continental do território brasileiro, a EC 46/2005 não interferiu na propriedade da União, nos moldes do art. 20, VII, da Constituição da República, sobre os terrenos de marinha e seus acrescidos situados em ilhas costeiras sedes de Municípios, incólumes as relações jurídicas daí decorrentes.
+[RE 636.199, rel. min. Rosa Werber, j. 27-4-2017, P, DJE de 3-8-2017, Tema 676.]",,"Decreto-lei nº 9.760, de 5 de setembro de 1946",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/terreno-acrescido-de-marinha/,glossario-spu-2.csv
+terreno-acrescido-marginal,Terreno acrescido marginal,"São os que se tiverem formado, natural ou artificialmente, para o lado dos rios e lagoas navegáveis.",,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/terreno-acrescido-marginal/,glossario-spu-2.csv
+terreno-de-marinha,Terreno de marinha,"São terrenos de marinha, em uma profundidade de 33 (trinta e três) metros, medidos horizontalmente, para a parte da terra, da posição da linha do preamar-médio de 1831: 
+a) os situados no continente, na costa marítima e nas margens dos rios e lagoas, até onde se faça sentir a influência das marés;
+b) os que contornam as ilhas situadas em zona onde se faça sentir a influência das marés.
+A influência das marés é caracterizada pela oscilação periódica de 5 (cinco) centímetros pelo menos, do nível das águas, que ocorra em qualquer época do ano.
+(Art. 20, inc. VII da CF/1988 e art. 2º do Decreto-Lei nº 9.760/1946)","Ao equiparar o regime jurídico-patrimonial das ilhas costeiras em que sediados Municípios àquele incidente sobre a porção continental do território brasileiro, a EC 46/2005 não interferiu na propriedade da União, nos moldes do art. 20, VII, da Constituição da República, sobre os terrenos de marinha e seus acrescidos situados em ilhas costeiras sedes de Municípios, incólumes as relações jurídicas daí decorrentes.
+[RE 636.199, rel. min. Rosa Werber, j. 27-4-2017, P, DJE de 3-8-2017, Tema 676.]",,"Decreto-lei nº 9.760, de 5 de setembro de 1946",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/terreno-de-marinha/,glossario-spu-2.csv
+terreno-marginal,Terreno marginal,"São terrenos marginais os que banhados pelas correntes navegáveis, fora do alcance das marés, vão até a distância de 15 (quinze) metros, medidos horizontalmente para a parte da terra, contados desde a linha média das enchentes ordinárias.
+(art. 20, inc. III da CF/1988 e art. 4º do Decreto-Lei nº 9.760/1946)","Localizam-se junto aos rios, lagos ou outras águas públicas de uso comum navegáveis, fora do alcance das marés, que:
+a) banhem mais de uma Unidade da Federação;
+b) sirvam de limites com outros países;
+c) estendam-se a território estrangeiro ou que dele provenham;
+d) insiram-se em terrenos de domínio da União;
+e) localizem-se nos ex-territórios federais; ou
+f) estejam situados na faixa de fronteira.
+
+As margens dos rios navegáveis são de domínio público, insuscetíveis de expropriação e, por isso mesmo, excluídas de indenização.
+[Súmula 479 STF]",,"Decreto-lei nº 9.760, de 5 de setembro de 1946",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/terreno-marginal/,glossario-spu-2.csv
+testada-molhada,Testada molhada,"Fronteira entre a área de imóvel em terra firme e a superfície aquática
+(área molhada).",,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/testada-molhada/,glossario-spu-2.csv
+transcricao,Transcrição,"Ato de transferência de propriedade anotado em livro próprio no sistema de
+registro anterior à Lei nº 6.015, de 31 de dezembro 1973.",,,"Lei n° 6.015, de 31 de dezembro de 1973",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/transcricao/,glossario-spu-2.csv
+transferencia,Transferência,"Ato de transmitir o domínio pleno de imóvel da União ao Instituto Nacional de Colonização e Reforma Agrária – INCRA, com vistas a realizar projeto de assentamento e reforma agrária.","Assemelha-se a uma doação.
+Outros tipos de transferência são possíveis, mediante autorização legislativa específica.
+Previsão legal: art. 10 da Lei nº 4.504, de 1964",,"Lei nº 4.504, de 30 de novembro de 1964",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/transferencia/,glossario-spu-2.csv
+unidade-gestora,Unidade gestora,"Unidade orçamentária ou administrativa investida do poder de gerir
+recursos orçamentários e financeiros, próprios ou sob descentralização",,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/unidade-gestora/,glossario-spu-2.csv
+unidade-padrao-tipo,Unidade padrão tipo,Unidade autônoma dentro de um conjunto/condomínio que detém as características comuns a um universo de unidade da mesma natureza.,,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/unidade-padrao-tipo/,glossario-spu-2.csv
+uso-administrativo-e-representativo,Uso administrativo e representativo,"Uso imobiliário para
+ desempenho de
+ funções
+ administrativas ou
+ representativas,
+ incluindo suas
+ instalações de apoio,
+ como galpões,
+ estacionamentos e
+ depósitos.",,"Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025","Resolução COMGC/SPU nº 2 de 09 de maio de 2025 | Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/uso-administrativo-e-representativo/,glossario-spu-2.csv
+uso-ambiental-e-dos-recursos-naturais,Uso ambiental e dos recursos naturais,"Uso imobiliário voltado à preservação, manutenção, utilização sustentável, restauração e recuperação do ambiente natural e à exploração de recursos naturais.",,"Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025","Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/uso-ambiental-e-dos-recursos-naturais/,glossario-spu-2.csv
+uso-comercial-ou-de-servicos,Uso comercial ou de serviços,"Uso imobiliário
+ destinado ao setor
+ terciário para a oferta
+ de bens e serviços
+ abrangendo o
+ comércio varejista,
+ atacadista, prestação
+ de serviços técnicos,
+ profissionais ou
+ pessoais.","Exemplos: Loja/centro comercial;
+ escritório/banco;
+ hotel/restaurante.","RESOLUÇÃO COMGC/SPU/MGI Nº 3, DE 03 DE OUTUBRO DE 2025","Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/uso-comercial-ou-de-servicos/,glossario-spu-2.csv
+uso-cultural-esportivo-e-de-lazer,"Uso cultural,  esportivo e de lazer","Uso imobiliário voltado
+ à promoção da
+ cultura, da prática
+ esportiva e das
+ atividades de lazer,
+ por meio de
+ equipamentos públicos
+ ou comunitários que
+ incentivam a
+ expressão artística, a
+ convivência social, o
+ bem-estar físico e o
+ uso coletivo do espaço
+ urbano.",,"Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025","Resolução COMGC/SPU nº 2 de 09 de maio de 2025 | Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/uso-cultural-esportivo-e-de-lazer/,glossario-spu-2.csv
+uso-cultural-esportivo-e-de-lazer-2,"Uso Cultural, Esportivo e de Lazer","Uso imobiliário voltado
+ à promoção da
+ cultura, da prática
+ esportiva e das
+ atividades de lazer,
+ por meio de
+ equipamentos públicos
+ ou comunitários que
+ incentivam a
+ expressão artística, a
+ convivência social, o
+ bem-estar físico e o
+ uso coletivo do espaço
+ urbano.",,"Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025","Resolução COMGC/SPU nº 2 de 09 de maio de 2025 | Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/uso-cultural-esportivo-e-de-lazer/,glossario-spu-2.csv
+uso-de-apoio-operacional-cultural-esportivo-e-de-lazer,"Uso de apoio operacional cultural, esportivo e de lazer","Uso imobiliário voltado ao suporte logístico e operacional dos equipamentos culturais, esportivos ou de lazer como instalações auxiliares vinculadas à manutenção, almoxarifado, oficinas, alojamentos técnicos ou bases de apoio à oferta e funcionamento dos serviços.",Almoxarifado de centro cultural; base de apoio de parque esportivo; alojamento técnico de estádio.,"Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025","Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/uso-de-apoio-operacional-cultural-esportivo-e-de-lazer/,glossario-spu-2.csv
+uso-de-estrutura-nautica,Uso de estrutura náutica,"Uso imobiliário
+ destinado ao
+ embarque e
+ desembarque de
+ pequeno porte,
+ recreação,
+ manutenção ou guarda
+ de embarcações de
+ esporte e lazer, pesca
+ artesanal ou
+ transporte local, a
+ exemplo de marinas,
+ trapiches, estaleiros,
+ rampas náuticas.","Exemplos: Marina; trapiche; rampa
+ náutica/estaleiro de
+ pequeno porte.","RESOLUÇÃO COMGC/SPU/MGI Nº 3, DE 03 DE OUTUBRO DE 2025","Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/uso-de-estrutura-nautica/,glossario-spu-2.csv
+uso-de-suporte-a-funcao-administrativa,Uso de suporte à função administrativa,"Uso imobiliário
+ acessório ou de apoio
+ ao desempenho de
+ funções
+ administrativas ou
+ representativas.","Exemplos:  Garagem de frota oficial;
+ depósito de materiais
+ administrativos;
+ estacionamento funcional.","Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025","Resolução COMGC/SPU nº 2 de 09 de maio de 2025 | Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/uso-de-suporte-a-funcao-administrativa/,glossario-spu-2.csv
+uso-em-eventos-de-curta-duracao,Uso em eventos de curta duração,"Uso imobiliário aplicado à realização de eventos esportivos, recreativos, culturais, religiosos ou educacionais de curta duração, como feiras, festivais, congressos e exposições.",Feira/mostra temporária; festival cultural; evento esportivo de rua.,"Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025","Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/uso-em-eventos-de-curta-duracao/,glossario-spu-2.csv
+uso-em-infraestrutura-aeroportuaria,Uso em infraestrutura aeroportuária,"Uso imobiliário voltado
+ à implantação e
+ operação de
+ aeródromos civis e
+ militares, abrangendo
+ pistas, pátios,
+ terminais e instalações
+ auxiliares de apoio à
+ navegação aérea e às
+ operações
+ aeroportuárias de
+ transporte de
+ passageiros, cargas e
+ serviços correlatos.",,"RESOLUÇÃO COMGC/SPU/MGI Nº 3, DE 03 DE OUTUBRO DE 2025","Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/uso-em-infraestrutura-aeroportuaria/,glossario-spu-2.csv
+uso-em-infraestrutura-aquaviaria,Uso em infraestrutura aquaviária,"Uso imobiliário voltado à implantação e operação de sistemas de transporte aquaviário, compreendendo vias navegáveis em rios, lagos e mar, e estruturas de apoio à navegação, ao embarque e desembarque de passageiros ou cargas, à manutenção de embarcações e ao controle da segurança e circulação aquaviária.",,"Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025","Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/uso-em-infraestrutura-aquaviaria/,glossario-spu-2.csv
+uso-em-infraestrutura-de-servicos-publicos,Uso em infraestrutura de serviços públicos,"Uso imobiliário destinado à implantação e operação de infraestrutura de serviços públicos essenciais, como geração e distribuição de energia, saneamento básico, gestão hídrica, telecomunicações e serviços funerários.",,"Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025","Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/uso-em-infraestrutura-de-servicos-publicos/,glossario-spu-2.csv
+uso-em-infraestrutura-de-telecomunicacoes,Uso em Infraestrutura de telecomunicações,"Uso imobiliário destinado à instalação, operação e passagem de equipamentos e redes voltados à prestação de serviços de telecomunicações, incluindo transmissão de dados, voz, e imagem por meio de redes físicas, radiofrequência, satélites ou cabos subterrâneos e aéreos.",,"Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025","Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/uso-em-infraestrutura-de-telecomunicacoes/,glossario-spu-2.csv
+uso-em-infraestrutura-de-transportes,Uso em Infraestrutura de transportes,"Uso imobiliário
+ destinado à
+ implantação, operação
+ ou suporte de sistemas
+ de transporte
+ terrestre, aquaviário
+ ou aéreo, incluindo
+ vias, estações,
+ terminais, portos,
+ aeroportos, garagens,
+ pátios operacionais e
+ estruturas auxiliares à
+ mobilidade.",,"Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025","Resolução COMGC/SPU nº 2 de 09 de maio de 2025 | Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/uso-em-infraestrutura-de-transportes/,glossario-spu-2.csv
+uso-em-infraestrutura-ferroviaria-e-metroviaria,Uso em infraestrutura ferroviária e metroviária,"Uso imobiliário destinado à implantação, operação e manutenção de sistemas de transporte sobre trilhos, abrangendo ferrovias e metrôs, com suas faixas de circulação e estruturas de apoio à operação, embarque, controle, segurança e manutenção de serviços de transporte de passageiros e cargas.",,Resolução COMGC/SPU nº 2 de 09 de maio de 2025,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/uso-em-infraestrutura-ferroviaria-e-metroviaria/,glossario-spu-2.csv
+uso-em-infraestrutura-rodoviaria,Uso em infraestrutura rodoviária,"Uso imobiliário voltado à implantação, operação e manutenção de sistema de transporte rodoviário, abrangendo vias, acessos, dispositivos de segurança e estrutura de apoio à mobilidade de pessoas e cargas, em rodovias urbanas, interurbanas e federais.",,"Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025","Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/uso-em-infraestrutura-rodoviaria/,glossario-spu-2.csv
+uso-em-servico-de-ensino-pesquisa-e-extensao,"Uso em serviço de ensino, pesquisa e extensão","Uso imobiliário voltado à oferta de educação formal em diferentes níveis e à geração de conhecimento científico e tecnológico, compreendendo atividades de ensino, pesquisa e extensão, com foco educativo ou investigativo.",,"Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025","Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/uso-em-servico-de-ensino-pesquisa-e-extensao/,glossario-spu-2.csv
+uso-em-servico-funerario,Uso em serviço funerário,"Uso imobiliário
+ aplicado à execução de
+ serviços funerários.","Exemplos:  Cemitério; crematório;
+ ossuário público.",,"Resolução COMGC/SPU nº 2 de 09 de maio de 2025 | Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/uso-em-servico-funerario/,glossario-spu-2.csv
+uso-em-servico-socioassistencial-e-de-cidadania,Uso em serviço socioassistencial e de cidadania,"Uso imobiliário voltado
+ à oferta de serviços
+ socioassistenciais e de
+ cidadania, incluindo
+ acolhimento, proteção
+ social, segurança
+ alimentar e
+ nutricional, apoio a
+ populações
+ vulneráveis e
+ promoção de direitos.",,"RESOLUÇÃO COMGC/SPU/MGI Nº 3, DE 03 DE OUTUBRO DE 2025",,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/uso-em-servico-socioassistencial-e-de-cidadania/,glossario-spu-2.csv
+uso-em-servicos-de-acolhimento-e-protecao-social,Uso em Serviços de Acolhimento e Proteção Social,"Uso imobiliário
+ destinado à oferta de
+ equipamentos e
+ serviços
+ socioassistenciais para
+ atendimento de
+ pessoas e famílias em
+ situação de risco e
+ vulnerabilidade social
+ (situação de rua,
+ pessoas com
+ deficiência, ciclos de
+ vida, entre outras).","Exemplos: CRAS, CREAS, Centro
+ POP, centro de
+ acolhimento, de
+ convivência e
+ fortalecimento de
+ vínculos.",Resolução CNAS nº 109/2009 e https://www.gov.br/mds/pt-br/acoes-e-programas/equipamentos-de-seguranca-alimentar-e-nutricional,"Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/uso-em-servicos-de-acolhimento-e-protecao-social/,glossario-spu-2.csv
+uso-em-servicos-de-promocao-de-direitos-e-cidadania,Uso em serviços de promoção de direitos e cidadania,"Uso imobiliário voltado
+ à proteção de grupos
+ vulneráveis e à defesa
+ de direitos humanos,
+ civis e sociais,
+ incluindo atendimento,
+ mediação de conflitos
+ e estímulo à
+ participação social.","Exemplos:  Centros de juventude,
+ casa da mulher brasileira,
+ centros de cidadania e
+ unidade do sistema
+ socioeducativo vinculadas
+ ao sistema prisional, como
+ centro de socioeducação.","Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025","Resolução COMGC/SPU nº 2 de 09 de maio de 2025 | Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/uso-em-servicos-de-promocao-de-direitos-e-cidadania/,glossario-spu-2.csv
+uso-habitacional,Uso habitacional,"Uso imobiliário destinados à moradia, seja individual, coletiva ou vinculada a programas de provisão habitacional ou de regularização fundiária (rural e urbana).",,"Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025","Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/uso-habitacional/,glossario-spu-2.csv
+uso-habitacional-em-projeto-de-provisao-assentamento,Uso habitacional em projeto de provisão/assentamento,"Uso imobiliário
+ destinado à moradia
+ em áreas urbanas ou
+ rurais, ofertadas
+ diretamente pelo
+ poder público ou em
+ parceria. Abrange
+ provisão habitacional
+ para famílias de baixa
+ renda e
+ assentamentos
+ voltados a grupos
+ sociais específicos.",,"Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025","Resolução COMGC/SPU nº 2 de 09 de maio de 2025 | Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/uso-habitacional-em-projeto-de-provisao-assentamento/,glossario-spu-2.csv
+uso-multifinalitario-em-projeto-de-requalificacao-urbana,Uso multifinalitário  em projeto de  requalificação urbana,"Múltiplos usos
+ imobiliários em projeto
+ de requalificação
+ urbana, sem prévio
+ desmembramento,
+ visando revitalizar
+ grandes áreas
+ urbanas. (Classificação
+ provisória até
+ viabilização de seleção
+ múltipla nos
+ sistemas).","Exemplos:  Revitalização de porto
+ urbano, operação urbana
+ consorciada, PPP de
+ requalificação de área
+ central.","Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025","Resolução COMGC/SPU nº 2 de 09 de maio de 2025 | Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/uso-multifinalitario-em-projeto-de-requalificacao-urbana/,glossario-spu-2.csv
+uso-para-agropecuaria-aquicultura-producao-florestal-e-pesca,"Uso para agropecuária, aquicultura, produção florestal e pesca","Uso imobiliário destinado à instalação e operação de estruturas de exploração ordenada dos recursos naturais vegetais e animais em ambiente natural e protegido, abrangendo produção animal e vegetal, criação de peixes e crustáceos e instalações de apoio como galpões, silos, tanques, estações de tratamento de água e laboratórios.",,"Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025",,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/uso-para-agropecuaria-aquicultura-producao-florestal-e-pesca/,glossario-spu-2.csv
+uso-para-apoio-operacional-ferroviaria-e-metroviario,Uso para apoio operacional ferroviária e metroviário,"Uso imobiliário
+ destinado à
+ implantação, operação
+ e manutenção de
+ sistemas de transporte
+ sobre trilhos,
+ abrangendo ferrovias e
+ metrôs, com suas
+ faixas de circulação e
+ estruturas de apoio à
+ operação, embarque,
+ controle, segurança e
+ manutenção de
+ serviços de transporte
+ de passageiros e
+ cargas.","Exemplos:  Pátio ferroviário; oficina
+ de material rodante.","RESOLUÇÃO COMGC/SPU/MGI Nº 3, DE 03 DE OUTUBRO DE 2025","Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/uso-para-apoio-operacional-ferroviaria-e-metroviario/,glossario-spu-2.csv
+uso-para-aquicultura-e-pesca,Uso Para Aquicultura e Pesca,"Uso imobiliário
+ destinado ao cultivo de
+ organismos cujo ciclo
+ de vida em condições
+ naturais se dá total ou
+ parcialmente em meio
+ aquático, incluindo
+ suas instalações de
+ apoio.","Exemplos:  Piscicultura, carcinicultura,
+ malacocultura (cultivo de
+ moluscos) e ranicultura,
+ bem como à operação,
+ ação ou ato tendente a
+ extrair, colher, apanhar,
+ aprender ou capturar
+ recursos pesqueiros.","Lei n° 11.959, de 2009 &amp;  RESOLUÇÃO COMGC/SPU/MGI Nº 3, DE 03 DE OUTUBRO DE 2025","Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/uso-para-aquicultura-e-pesca/,glossario-spu-2.csv
+uso-para-captacao-tratamento-e-distribuicao-de-agua,"Uso para captação, tratamento e distribuição de água","Uso imobiliário para captação, adução, tratamento, reservação e distribuição de água potável à população incluindo instalações técnicas e redes físicas, a exemplo de estações de tratamento, redes adutoras, caixas d’água e poços profundos.",ETA; reservatório elevado; poço profundo/adutora.,"Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025","Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/uso-para-captacao-tratamento-e-distribuicao-de-agua/,glossario-spu-2.csv
+uso-para-coleta-tratamento-e-destinacao-de-residuos-solidos,"Uso para coleta, tratamento e destinação de resíduos sólidos","Uso imobiliário voltado
+ à coleta, triagem,
+ tratamento,
+ valorização e
+ disposição final de
+ resíduos sólidos, a
+ exemplo de usinas de
+ compostagem,
+ unidades de triagem e
+ aterros sanitários ou
+ industriais.","Exemplos: Aterro sanitário; usina de
+ compostagem; unidade de
+ triagem.","RESOLUÇÃO COMGC/SPU/MGI Nº 3, DE 03 DE OUTUBRO DE 2025","Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/uso-para-coleta-tratamento-e-destinacao-de-residuos-solidos/,glossario-spu-2.csv
+uso-para-defesa-nacional,Uso para defesa nacional,"Uso imobiliário
+ dedicado à instalação
+ e operação de
+ sistemas, plataformas
+ e estruturas de defesa,
+ abrangendo condução
+ de operações
+ estratégicas,
+ treinamento militar,
+ estocagem de
+ armamentos e
+ coordenação de
+ comando.","Quartéis, polígonos de
+ tiro, base aérea, base
+ militar, batalhão,
+ hangares de aeronaves,
+ centros de comando e
+ controle.","RESOLUÇÃO COMGC/SPU/MGI Nº 3, DE 03 DE OUTUBRO DE 2025","Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/uso-para-defesa-nacional/,glossario-spu-2.csv
+uso-para-drenagem-e-manejo-de-aguas-pluviais,Uso para Drenagem e Manejo de Águas Pluviais,"Uso imobiliário
+ associado à coleta,
+ condução, retenção e
+ infiltração de águas
+ pluviais em meio
+ urbano.","Exemplos:  Galeria pluvial; piscinão;
+ jardim de chuva/bacia de
+ detenção; canais","Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025","Resolução COMGC/SPU nº 2 de 09 de maio de 2025 | Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/uso-para-drenagem-e-manejo-de-aguas-pluviais/,glossario-spu-2.csv
+uso-para-equipamento-policial,Uso para equipamento policial,"Uso imobiliário em
+ atividades de
+ atendimento ao
+ público, base e
+ administração de
+ operações policiais,
+ investigações criminais
+ e detenção temporária
+ de suspeitos e presos
+ em flagrante delito.","Exemplos:  Delegacia; posto/batalhão
+ policial; base de
+ operações.","Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025","Resolução COMGC/SPU nº 2 de 09 de maio de 2025 | Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/uso-para-equipamento-policial/,glossario-spu-2.csv
+uso-para-equipamento-prisional,Uso para equipamento prisional,"Uso imobiliário destinado a atividades penais destinadas ao condenado, ao submetido à medida de segurança, ao preso provisório e ao egresso, civil ou militar.",Penitenciária/presídio; casa do albergado.,"Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025","Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/uso-para-equipamento-prisional/,glossario-spu-2.csv
+uso-para-extrativismo-vegetal-ou-mineral,Uso para extrativismo vegetal ou mineral,"Uso imobiliário
+ destinado à exploração
+ regulada de recursos
+ naturais vegetais
+ (coleta ou apanha de
+ produtos, como
+ madeiras, látex,
+ sementes, fibras,
+ frutos e raízes) ou
+ minerais (extração de
+ minérios e rochas do
+ solo, dos rios e dos
+ mares).","Exemplos: Área de coleta de
+ sementes nativas;
+ seringal para extração de
+ látex; pedreira licenciada.","RESOLUÇÃO COMGC/SPU/MGI Nº 3, DE 03 DE OUTUBRO DE 2025","Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/uso-para-extrativismo-vegetal-ou-mineral/,glossario-spu-2.csv
+uso-para-faixa-de-dominio-ferroviario-e-metroviario,Uso para faixa de domínio ferroviário e metroviário,"Uso destinado à
+ passagem de trilhos,
+ composições e
+ estruturas de
+ circulação, incluindo
+ linhas principais e
+ secundárias, pontes,
+ túneis e
+ entroncamentos.","Exemplos: Trecho de via férrea;
+ túnel/viaduto ferroviário.","Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025","Resolução COMGC/SPU nº 2 de 09 de maio de 2025 | Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/uso-para-faixa-de-dominio-ferroviario-e-metroviario/,glossario-spu-2.csv
+uso-para-faixa-de-dominio-viario,Uso Para Faixa de Domínio Viário,"Uso imobiliário
+ destinado à
+ implantação e
+ operação de faixas de
+ domínio viário para
+ circulação de veículos,
+ incluindo pistas,
+ acostamentos,
+ canteiros, pontes e
+ viadutos.","Exemplos: Trecho de rodovia;
+ viaduto/ponte; faixa de
+ desaceleração/retorno.","RESOLUÇÃO COMGC/SPU/MGI Nº 3, DE 03 DE OUTUBRO DE 2025","Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/uso-para-faixa-de-dominio-viario/,glossario-spu-2.csv
+uso-para-funcao-administrativa,Uso para Função Administrativa,"Uso imobiliário
+ diretamente vinculado
+ ao desempenho de
+ funções
+ administrativas ou
+ representativas, de
+ qualquer natureza,
+ incluindo aquelas de
+ atendimento ao
+ público.","Exemplo: Sede de secretaria
+ municipal; prédio de
+ repartição federal;
+ unidade administrativa de
+ autarquia.","RESOLUÇÃO COMGC/SPU/MGI Nº 3, DE 03 DE OUTUBRO DE 2025","Resolução COMGC/SPU nº 2 de 09 de maio de 2025 | Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/uso-para-funcao-administrativa/,glossario-spu-2.csv
+uso-para-habitacao-em-assentamento-de-reforma-agraria,Uso para habitação em assentamento de reforma agrária,"Uso imobiliário
+ destinado à moradia
+ em projetos de
+ assentamento criados
+ pela reforma agrária,
+ garantindo acesso à
+ terra, à habitação e à
+ produção agrícola
+ familiar.","Exemplos:  Assentamento do INCRA,
+ agrovila consolidada,
+ núcleo habitacional em
+ projeto de colonização
+ rural.","RESOLUÇÃO COMGC/SPU/MGI Nº 3, DE 03 DE OUTUBRO DE 2025","Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/uso-para-habitacao-em-assentamento-de-reforma-agraria/,glossario-spu-2.csv
+uso-para-habitacao-em-regularizacao-fundiaria-rural,Uso para habitação em regularização fundiária rural,"Uso imobiliário destinado à moradia em áreas rurais ocupadas irregularmente, regularizados pelo poder público para assegurar titulação, acesso à terra e função social. Contempla famílias, comunidades e agrovilas consolidadas, promovendo segurança jurídica e desenvolvimento sustentável.","Assentamento rural tradicional, núcleo habitacional em gleba pública, vila agrícola regularizada.","Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025","Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/uso-para-habitacao-em-regularizacao-fundiaria-rural/,glossario-spu-2.csv
+uso-para-habitacao-em-regularizacao-fundiaria-urbana-de-interesse-especifico,Uso para habitação em regularização fundiária urbana de interesse específico,"Uso imobiliário
+ destinado à moradia
+ em áreas ocupadas
+ irregularmente por
+ população não
+ enquadrada como de
+ baixa renda,
+ regularizados pelo
+ poder público.
+ Abrange condomínios,
+ loteamentos ou
+ conjuntos
+ habitacionais informais
+ que passam a ter
+ titulação e
+ infraestrutura
+ legalizada.","Exemplos:  Condomínio irregular de
+ classe média regularizado,
+ loteamento urbano
+ consolidado, parcelamento
+ específico em áreas
+ valorizadas.","Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025","Resolução COMGC/SPU nº 2 de 09 de maio de 2025 | Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/uso-para-habitacao-em-regularizacao-fundiaria-urbana-de-interesse-especifico/,glossario-spu-2.csv
+uso-para-habitacao-em-regularizacao-fundiaria-urbana-de-interesse-social,Uso para habitação em regularização fundiária urbana de interesse social,"Uso imobiliário
+ destinado à moradia
+ de famílias de baixa
+ renda, regularizados
+ pelo poder público em
+ núcleos urbanos
+ informais
+ consolidados.","Exemplos:  Urbanização de favela em
+ ZEIS, loteamento popular
+ regularizado, conjunto
+ habitacional informal
+ consolidado.","RESOLUÇÃO COMGC/SPU/MGI Nº 3, DE 03 DE OUTUBRO DE 2025","Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/uso-para-habitacao-em-regularizacao-fundiaria-urbana-de-interesse-social/,glossario-spu-2.csv
+uso-para-infraestrutura-de-saneamento-e-de-recursos-hidricos,Uso Para Infraestrutura de Saneamento e de Recursos Hídricos,"Uso imobiliário voltado
+ à implantação e
+ operação de sistemas
+ de abastecimento de
+ água, esgotamento
+ sanitário, manejo de
+ resíduos sólidos,
+ drenagem urbana e
+ infraestrutura hídrica
+ associada à regulação
+ de cursos d’água,
+ açudes, barragens,
+ reservatórios, canais e
+ estruturas de controle
+ de cheias e secas.",,"Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025","Resolução COMGC/SPU nº 2 de 09 de maio de 2025 | Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/uso-para-infraestrutura-de-saneamento-e-de-recursos-hidricos/,glossario-spu-2.csv
+uso-para-instalacao-portuaria-dentro-da-area-do-porto-organizado,Uso para instalação portuária dentro da área do porto organizado,"Uso imobiliário voltado
+ à movimentação de
+ cargas e passageiros
+ em áreas definidas por
+ decreto federal como
+ porto organizado,
+ incluindo cais, berços,
+ retroárea, acessos e
+ infraestrutura
+ associada.","Exemplos: Cais/berço; retroárea;
+ gate/acesso.","Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025","Resolução COMGC/SPU nº 2 de 09 de maio de 2025 | Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/uso-para-instalacao-portuaria-dentro-da-area-do-porto-organizado/,glossario-spu-2.csv
+uso-para-instalacao-portuaria-fora-da-area-do-porto-organizado,Uso para instalação portuária fora da área do porto organizado,"Uso imobiliário voltado à operação portuária em áreas fora do porto organizado, incluindo terminais de uso privado e estações de transbordo de carga, nas modalidades previstas no art. 26 do Decreto nº 8.033/2013.",TUP; estação de transbordo; terminal fora do porto organizado.,"Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025","Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/uso-para-instalacao-portuaria-fora-da-area-do-porto-organizado/,glossario-spu-2.csv
+uso-para-lazer-e-convivencia,Uso para lazer e convivência,"Uso imobiliário
+ relacionado a espaços
+ públicos de recreação,
+ descanso ou
+ integração social, com
+ áreas verdes,
+ mobiliários urbanos ou
+ estruturas para uso
+ coletivo, a exemplo de
+ praças, parques
+ urbanos, áreas de
+ piquenique, jardins
+ públicos,
+ equipamentos de
+ convivência e de uso
+ coletivo do espaço
+ urbano.","Exemplos: Praça pública; parque
+ urbano; jardim botânico.","RESOLUÇÃO COMGC/SPU/MGI Nº 3, DE 03 DE OUTUBRO DE 2025","Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/uso-para-lazer-e-convivencia/,glossario-spu-3.csv
+uso-para-operacao-de-aerodromo-com-aeroporto,Uso para operação de aeródromo com aeroporto,"Uso imobiliário voltado
+ à implantação e
+ operação de
+ equipamentos e
+ estruturas de auxílio à
+ navegação aérea
+ situadas fora do
+ aeródromo, como
+ orientação,
+ comunicação e
+ vigilância.","Exemplos: Torre/antena de auxílio à
+ navegação aérea; radar
+ meteorológico; centro de
+ controle aéreo.","RESOLUÇÃO COMGC/SPU/MGI Nº 3, DE 03 DE OUTUBRO DE 2025","Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/uso-para-operacao-de-aerodromo-com-aeroporto/,glossario-spu-3.csv
+uso-para-operacao-de-aerodromo-sem-aeroporto,Uso para operação de aeródromo sem aeroporto,"Uso imobiliário
+ destinado à
+ movimentação de
+ aeronaves, incluindo
+ pistas de pouso e
+ decolagem, pátios de
+ aeronaves, áreas de
+ taxiamento, pistas
+ auxiliares e áreas de
+ escape, bem como as
+ estruturas de apoio
+ aeroportuário,
+ voltadas à operação e
+ ao atendimento
+ logístico e
+ administrativo do
+ aeródromo, hangares,
+ edificações técnicas e
+ áreas de manutenção.","Exemplos:  Aeródromo privado; pista
+ agrícola; hangar leve.","Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025","Resolução COMGC/SPU nº 2 de 09 de maio de 2025 | Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/uso-para-operacao-de-aerodromo-sem-aeroporto/,glossario-spu-3.csv
+uso-para-passagem-de-gasoduto-ou-oleoduto,Uso para passagem de gasoduto ou oleoduto,"Uso imobiliário
+ destinado à instalação,
+ operação e passagem
+ de tubulações
+ utilizadas no
+ transporte de gás
+ natural, petróleo e
+ derivados entre os
+ pontos de extração e
+ as unidades
+ distribuidoras.","Exemplos:  Gasoduto tronco;
+ oleoduto; estação de
+ válvulas.","RESOLUÇÃO COMGC/SPU/MGI Nº 3, DE 03 DE OUTUBRO DE 2025",,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/uso-para-passagem-de-gasoduto-ou-oleoduto/,glossario-spu-3.csv
+uso-para-passagem-de-rede-de-telecomunicacoes,Uso para Passagem de Rede de Telecomunicações,"Uso imobiliário voltado
+ à passagem e
+ manutenção de redes
+ físicas de
+ telecomunicações,
+ como cabos ópticos,
+ metálicos e dutos
+ subterrâneos ou
+ aéreos.","Exemplos: Duto enterrado; galeria
+ técnica; postes/fibra
+ óptica.","RESOLUÇÃO COMGC/SPU/MGI Nº 3, DE 03 DE OUTUBRO DE 2025","Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/uso-para-passagem-de-rede-de-telecomunicacoes/,glossario-spu-3.csv
+uso-para-passagem-e-instalacao-de-transmissao-de-energia,Uso para passagem e instalação de transmissão de energia,"Uso imobiliário
+ destinado à servidão
+ administrativa com
+ instalações formadas
+ por um conjunto de
+ equipamentos
+ responsáveis pela
+ transmissão de
+ energia elétrica, como
+ torres, linhas de
+ transmissão aéreas,
+ subterrâneas ou
+ subaquáticas.
+ Referência: Portaria
+ Interministerial MP,
+ MMA e MME nº 37, de
+ 2014","Exemplos:  Linhas de transmissão
+ aérea com torres; linha de
+ transmissão subterrânea;
+ subestação de
+ seccionamento.","Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025","Resolução COMGC/SPU nº 2 de 09 de maio de 2025 | Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/uso-para-passagem-e-instalacao-de-transmissao-de-energia/,glossario-spu-3.csv
+uso-para-pesca,Uso para pesca,"Uso imobiliário
+ destinado à captura de
+ recursos pesqueiros
+ em rios, lagos ou mar,
+ com ou sem apoio de
+ instalações.",,"Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025","Resolução COMGC/SPU nº 2 de 09 de maio de 2025 | Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/uso-para-pesca/,glossario-spu-3.csv
+uso-para-pratica-esportiva,Uso para prática esportiva,"Uso imobiliário voltado
+ à prática de esportes e
+ atividades físicas, com
+ instalações para
+ treinamento,
+ recreação, competição
+ ou formação esportiva,
+ a exemplo de ginásios,
+ estádios, quadras,
+ centros esportivos e
+ núcleos de iniciação ao
+ esporte.","Exemplos:  Estádio de futebol; ginásio
+ poliesportivo; centro de
+ iniciação esportiva.","Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025","Resolução COMGC/SPU nº 2 de 09 de maio de 2025 | Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/uso-para-pratica-esportiva-2/,glossario-spu-3.csv
+uso-para-producao-de-energia-de-fonte-nao-renovavel,Uso para produção de energia de fonte não renovável,"Uso imobiliário
+ destinado à instalação
+ e operação de
+ equipamentos
+ responsáveis pela
+ transmissão e
+ distribuição da energia
+ que utiliza fontes não
+ renováveis (a exemplo
+ do petróleo, carvão
+ mineral, gás natural e
+ nuclear), como
+ subestação de
+ energia; estação de
+ seccionamento; postos
+ de transformação;
+ centros de distribuição
+ de energia;
+ plataformas de
+ interconexão de
+ energia e bases
+ operacionais de
+ manutenção de linhas.","Exemplos: Subestação de usina
+ térmica; centro de
+ distribuição; base
+ operacional de linhas.","RESOLUÇÃO COMGC/SPU/MGI Nº 3, DE 03 DE OUTUBRO DE 2025","Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/uso-para-producao-de-energia-de-fonte-nao-renovavel/,glossario-spu-3.csv
+uso-para-producao-industrial,Uso para produção industrial,"Uso imobiliário
+ destinado ao setor
+ secundário envolvendo
+ a transformação,
+ fabricação, montagem
+ ou processamento de
+ bens, em escala
+ artesanal, semi
+industrial ou industrial,
+ inclusive instalações
+ para armazenamento,
+ apoio logístico ou
+ manipulação de
+ insumos e resíduos.","Exemplos: Fábrica/galpão de
+ produção;
+ polo/condomínio
+ industrial.","Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025","Resolução COMGC/SPU nº 2 de 09 de maio de 2025 | Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/uso-para-producao-industrial-2/,glossario-spu-3.csv
+uso-para-recursos-hidricos,Uso para recursos hídricos,"Uso imobiliário para obras de regulação hídrica e controle de recursos hídricos, com fins diversos como irrigação ou controle de cheias.",Barragem; eclusa; canal/reservatório de acumulação e estruturas de derivação de água,"Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025","Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/uso-para-recursos-hidricos/,glossario-spu-3.csv
+uso-para-representacao-diplomatica,Uso para representação diplomática,"Uso imobiliário
+ destinado ao
+ funcionamento de
+ embaixadas,
+ consulados ou
+ representações oficiais
+ do Estado brasileiro no
+ exterior, no
+ desempenho de
+ funções diplomáticas,
+ consulares ou de
+ relações
+ internacionais.","Exemplos:  Embaixada; consulado
+ brasileiro; unidade
+ permanente do Brasil em
+ organismo internacional.","RESOLUÇÃO COMGC/SPU/MGI Nº 3, DE 03 DE OUTUBRO DE 2025","Resolução COMGC/SPU nº 2 de 09 de maio de 2025 | Resolução COMGC/SPU nº 2 de 09 de maio de 2025 | Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/uso-para-representacao-diplomatica/,glossario-spu-3.csv
+uso-para-unidade-especial-de-protecao-ambiental,Uso para unidade  especial de proteção  ambiental,"Uso imobiliário
+ destinado a proteção
+ ambiental com
+ restrições legais de
+ uso, não enquadradas
+ no Sistema Nacional
+ de Unidades de
+ Conservação da
+ Natureza, incluindo
+ Áreas de Preservação
+ Permanente (APP),
+ Reserva Legais e
+ outras zonas
+ protegidas por
+ instrumentos
+ normativos
+ específicos.","Exemplos: Área de Preservação
+ Permanente (APP) em
+ margem de rio; Reserva
+ Legal em propriedade
+ rural; faixa de proteção de
+ nascentes.","Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025","Resolução COMGC/SPU nº 2 de 09 de maio de 2025 | Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/uso-para-unidade-especial-de-protecao-ambiental/,glossario-spu-3.csv
+uso-para-unidade-de-atencao-especializada-a-saude,Uso para Unidade de Atenção Especializada à Saúde,Uso imobiliário destinado à prestação de serviços de atenção especializada.,Exemplos: Policlínica; clínica especializada; centro de especialidades.,"RESOLUÇÃO COMGC/SPU/MGI Nº 3, DE 03 DE OUTUBRO DE 2025","Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/uso-para-unidade-de-atencao-especializada-a-saude/,glossario-spu-3.csv
+uso-para-unidade-de-atencao-primaria-a-saude,Uso para unidade de atenção primária à saúde,"Uso imobiliário voltado
+ à atenção primária e
+ contínua em saúde,
+ inclusive aquela
+ voltada
+ exclusivamente à
+ população indígena,
+ com serviços de
+ prevenção,
+ diagnóstico,
+ tratamento e
+ acompanhamento.","Exemplos:  Unidades básicas de saúde
+ (UBS), unidades de saúde
+ da família, centros de
+ saúde","Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025","Resolução COMGC/SPU nº 2 de 09 de maio de 2025 | Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/uso-para-unidade-de-atencao-primaria-a-saude/,glossario-spu-3.csv
+uso-para-unidade-de-conservacao,Uso para unidade de conservação,"Uso imobiliário destinado ao manejo do uso humano da natureza, compreendendo a preservação, a manutenção, a utilização sustentável, a restauração e a recuperação do ambiente natural, englobando as unidades de proteção integral e as de uso sustentável.",,"Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025","Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/uso-para-unidade-de-conservacao/,glossario-spu-3.csv
+uso-para-unidade-de-ensino-profissional-e-tecnologico,Uso para unidade de ensino profissional e tecnológico,"Uso imobiliário voltado
+ à oferta de educação
+ profissional e
+ tecnológica.","Exemplos: Escolas técnicas, institutos
+ federais e escolas
+ agrotécnicas.","RESOLUÇÃO COMGC/SPU/MGI Nº 3, DE 03 DE OUTUBRO DE 2025","Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/uso-para-unidade-de-ensino-profissional-e-tecnologico/,glossario-spu-3.csv
+uso-para-unidade-de-ensino-superior,Uso para unidade de ensino superior,"Uso imobiliário
+ destinado à oferta de
+ cursos de graduação,
+ pós-graduação e
+ extensão por
+ instituições de ensino
+ superior, com
+ atividades de ensino,
+ pesquisa e extensão.","Exemplos: Campus universitário;
+ faculdade; centro
+ universitário.","Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025","Resolução COMGC/SPU nº 2 de 09 de maio de 2025 | Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/uso-para-unidade-de-ensino-superior/,glossario-spu-3.csv
+uso-para-unidade-de-pesquisa-e-desenvolvimento-tecnologico,Uso para unidade de pesquisa e desenvolvimento tecnológico,"Uso imobiliário voltado
+ exclusivamente à
+ produção científica,
+ tecnológica ou à
+ inovação, com
+ laboratórios, biotérios,
+ estações
+ experimentais ou
+ centros de
+ desenvolvimento
+ tecnológico.","Exemplos:  Institutos de pesquisa,
+ fazendas-escola e
+ laboratórios de referência.",https://memoria-spu.gestao.gov.br/wp-admin/admin.php?page=tainacan_admin#/collections/54791/items/271198,"Resolução COMGC/SPU nº 2 de 09 de maio de 2025 | Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/uso-para-unidade-de-pesquisa-e-desenvolvimento-tecnologico/,glossario-spu-3.csv
+uso-para-unidade-de-uso-sustentavel,Uso para unidade de uso sustentável,"Uso imobiliário
+ integrante de unidade
+ de conservação de uso
+ sustentável, admitindo
+ manejo e exploração
+ controlada de parcela
+ dos seus recursos
+ naturais.","Exemplos:  Área de Proteção
+ Ambiental; Área de
+ Relevante Interesse
+ Ecológico; Floresta
+ Nacional; Reserva
+ Extrativista; Reserva de
+ Fauna; Reserva de
+ Desenvolvimento
+ Sustentável; e Reserva
+ Particular do Patrimônio
+ Natural.","RESOLUÇÃO COMGC/SPU/MGI Nº 3, DE 03 DE OUTUBRO DE 2025","Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/uso-para-unidade-de-uso-sustentavel/,glossario-spu-3.csv
+uso-para-unidade-especial-de-protecao-ambiental-2,Uso para unidade especial de proteção ambiental,"Uso imobiliário destinado a proteção ambiental com restrições legais de uso, não enquadradas no Sistema Nacional de Unidades de Conservação da Natureza, incluindo Áreas de Preservação Permanente (APP), Reserva Legais e outras zonas protegidas por instrumentos normativos específicos.","Exemplos: Área de Preservação
+ Permanente (APP) em
+ margem de rio; Reserva
+ Legal em propriedade
+ rural; faixa de proteção de
+ nascentes.","Lei nº 12.651/2012 &amp; Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025","Resolução COMGC/SPU nº 2 de 09 de maio de 2025 | Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025 | Lei nº 12.651, de 25 de maio de 2012",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/uso-para-unidade-especial-de-protecao-ambiental/,glossario-spu-3.csv
+uso-para-unidade-hospitalar,Uso para unidade hospitalar,"Uso imobiliário destinado à prestação de serviços de atenção especializada em regime de internação, urgência e emergência, como hospitais gerais e maternidades.",Hospital geral; maternidade; hospital regional/urgência.,"Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025","Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/uso-para-unidade-hospitalar/,glossario-spu-3.csv
+uso-por-outros-povos-e-comunidade-tradicional,Uso por outros povos e comunidade tradicional,"Uso imobiliário
+ destinado à ocupação
+ coletiva ou individual
+ por grupos
+ culturalmente
+ diferenciados e que se
+ reconhecem como tais,
+ que possuem formas
+ próprias de
+ organização social,
+ que ocupam e usam
+ territórios e recursos
+ naturais como
+ condição para sua
+ reprodução cultural,
+ social, religiosa,
+ ancestral e econômica,
+ utilizando
+ conhecimentos,
+ inovações e práticas
+ gerados e transmitidos
+ pela tradição, não
+ classificável como
+ quilombolas (Uso
+ 1.11.01).
+ Referências: art. 2º do
+ Decreto nº 4.887, de
+ 2003, e art. 3º do
+ Decreto 6.040, de
+ 2007 (Política Nacional
+ de Desenvolvimento
+ Sustentável dos Povos
+ e Comunidades
+ Tradicionais)","Exemplos:  Território ribeirinho;
+ comunidade caiçara;
+ extrativistas não
+quilombolas","Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025","Resolução COMGC/SPU nº 2 de 09 de maio de 2025 | Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/uso-por-outros-povos-e-comunidade-tradicional/,glossario-spu-3.csv
+uso-por-povos-originarios-e-comunidades-tradicionais,Uso por povos originários e comunidades tradicionais,"Uso imobiliário destinado à ocupação coletiva ou individual por povos originários ou comunidades tradicionais, conforme reconhecido pela legislação e tratados de direitos coletivos e originários.",,"Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025","Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/uso-por-povos-originarios-e-comunidades-tradicionais/,glossario-spu-3.csv
+uso-residencial-em-projeto-de-provisao-habitacional,Uso residencial em projeto de provisão habitacional,"em programas
+ habitacionais de
+ interesse social, em
+ áreas urbanas, para
+ garantir acesso à
+ moradia digna a
+ famílias de baixa
+ renda. Inclui unidades
+ prontas ou lotes
+ urbanizados para
+ construção assistida.
+ com infraestrutura
+ básica.","Exemplos: Moradia(s) em
+ empreendimento do Minha
+ Casa Minha Vida, conjunto
+ habitacional, loteamento
+ urbanizado com
+ infraestrutura básica.","Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025","Resolução COMGC/SPU nº 2 de 09 de maio de 2025 | Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025",,https://memoria-spu.gestao.gov.br/glossario-spu/uso-residencial-em-projeto-de-provisao-habitacional/,glossario-spu-3.csv
+uso-residencial-no-interesse-do-servico,Uso residencial no interesse do serviço,"Uso imobiliário
+ residencial por
+ servidor público no
+ exercício de cargo em
+ comissão ou função
+ gratificada, ou que, no
+ interesse do serviço,
+ convenha residam nas
+ repartições respectivas
+ ou nas suas
+ proximidades.","Exemplos: Residência funcional
+ vinculada a cargo em
+ comissão; moradia de
+ gestor de unidade remota.","RESOLUÇÃO COMGC/SPU/MGI Nº 3, DE 03 DE OUTUBRO DE 2025","Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/uso-residencial-no-interesse-do-servico/,glossario-spu-3.csv
+uso-residencial-obrigatorio,Uso Residencial Obrigatório,"Uso imobiliário
+ residencial que exige
+ permanência
+ indispensável de
+ servidor por
+ necessidade de
+ vigilância ou
+ assistência constante,
+ incluindo aquele
+ administrado pelos
+ órgãos militares e
+ destinado a ocupação
+ por servidor militar,
+ que também será
+ considerado de caráter
+ obrigatório enquanto
+ utilizado nesta
+ finalidade.","Exemplos: Casa de faroleiro;
+ residência de guarda
+parque com vigilância;
+ moradia em quartel.","Art. 80 a 84 do Decreto- Lei n° 9.760, de 1946 &amp; Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025","Decreto-lei nº 9.760, de 5 de setembro de 1946 | Resolução COMGC/SPU nº 2 de 09 de maio de 2025 | Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/uso-residencial-obrigatorio/,glossario-spu-3.csv
+uso-residencial-voluntario-de-servidor-da-uniao,Uso residencial voluntário de servidor da União,Uso imobiliário residencial exercido voluntariamente por servidor público.,Moradia alugada em condomínio reservado para servidores.,"Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025","Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/uso-residencial-voluntario-de-servidor-da-uniao/,glossario-spu-3.csv
+usucapiao-judicial,Usucapião judicial,Forma originária e voluntária de aquisição da propriedade de bem imóvel pela posse e com observância dos requisitos previstos em lei.,,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/usucapiao-judicial/,glossario-spu-3.csv
+usufruto-indigena,Usufruto indígena,"Uso imobiliário por
+ povos indígenas com
+ posse coletiva e
+ permanente,
+ respeitado o devido
+ processo legal de
+ demarcação e
+ homologação.","Exemplos:  Terra indígena
+ demarcada; aldeia; posto
+ indígena.","RESOLUÇÃO COMGC/SPU/MGI Nº 3, DE 03 DE OUTUBRO DE 2025","Resolução COMGC/SPU/MGI nº 3, de 03 de outubro de 2025",Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/usufruto-indigena/,glossario-spu-3.csv
+usufruto-indigena-2,Usufruto Indígena,"Uso imobiliário por povos indígenas com posse coletiva e permanente, respeitado o devido processo legal de demarcação e homologação.",,"art. 17 da Lei nº 6.001, de 1973 (Estatuto do Índio)",,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/usufruto-indigena/,glossario-spu-3.csv
+valor-arbitrado,Valor arbitrado,"Valor pontual adotado como resultado final da avaliação dentro dos
+limites do campo de arbítrio estabelecido pela NBR 14.653-2 e utilizado para fins de registro nos sistemas.",,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/valor-arbitrado/,glossario-spu-3.csv
+valor-de-liquidacao-forcada,Valor de liquidação forçada,"Valor de um bem, na hipótese de uma venda compulsória ou
+em espaço de tempo menor do que o normalmente observado no mercado, adotando-se critérios previamente estabelecidos.",,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/valor-de-liquidacao-forcada/,glossario-spu-3.csv
+valor-de-mercado,Valor de mercado,"É a quantia mais provável, oriunda sempre de um laudo de avaliação em conformidade com a NBR 14653, pela qual se negociaria voluntária e conscientemente um bem, numa data de referência, dentro das condições do mercado vigente.",,,ABNT NBR 14653-1:2019 - Avaliação de Bens,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/valor-de-mercado/,glossario-spu-3.csv
+valor-de-referencia,Valor de referência,"É a quantia aceitável, oriunda de um relatório de valor de referência, pela qual a Secretaria de Coordenação e Governança do Patrimônio da União referencia o valor de um bem imóvel, determinada por profissional ou servidor habilitado, em uma data de referência.",,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/valor-de-referencia/,glossario-spu-3.csv
+valor-de-terra-nua,Valor de terra nua,"É a quantia aceitável, oriunda de órgão ou entidades federais, estaduais, distritais ou municipais, que compreende o solo com sua superfície e respectiva floresta nativa, despojado das construções, instalações e melhoramentos, das culturas permanentes, das árvores de florestas plantadas e das pastagens cultivadas ou melhoradas, que se classificam como investimentos (benfeitorias).",,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/valor-de-terra-nua/,glossario-spu-3.csv
+valor-depreciavel,Valor depreciável,Diferença entre o valor do bem na condição de novo e o seu valor residual.,,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/valor-depreciavel/,glossario-spu-3.csv
+valor-justo,Valor justo,"É aquele determinado a partir de laudo de avaliação ou Relatório de Valor de
+Referência para fins contábeis.",,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/valor-justo/,glossario-spu-3.csv
+valor-venal,Valor venal,"Valor de imóvel fornecido pelos Municípios e Distrito Federal, para subsidiar a base de dados da Secretaria de Coordenação e Governança do Patrimônio da União, que zelará por sua atualização em relação aos valores de mercado.",,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/valor-venal/,glossario-spu-3.csv
+valor-venal-2,Valor venal,"Valor real para fins de venda do imóvel que, eventualmente, pode corresponder ao valor fiscal.",,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/valor-venal/,glossario-spu-3.csv
+vistoria,Vistoria,"Atividade para constatação local dos fatos, mediante observações criteriosas em
+um bem imóvel, nos elementos e nas condições que o constituem ou o influenciam.",,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/vistoria/,glossario-spu-3.csv
+zonas-homogeneas,Zonas homogêneas,"Regiões que possuem, genericamente, uma mesma valorização imobiliária, podendo ser definidas como distrito, bairro, conjunto de bairros, logradouros, centro administrativos, comerciais e/ou industriais.",,,,Padronização Terminológica,https://memoria-spu.gestao.gov.br/glossario-spu/zonas-homogeneas/,glossario-spu-3.csv

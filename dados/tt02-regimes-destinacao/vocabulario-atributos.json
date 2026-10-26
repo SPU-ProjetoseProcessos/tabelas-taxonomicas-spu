@@ -1,0 +1,52 @@
+{
+ "discricionariedade": {
+  "rotulo": "Discricionário/Vinculado",
+  "valores": [
+   "Discricionário",
+   "Vinculado"
+  ]
+ },
+ "natureza": {
+  "rotulo": "Natureza",
+  "valores": [
+   "Gratuita",
+   "Onerosa"
+  ]
+ },
+ "pagamento_em_dinheiro": {
+  "rotulo": "Pagamento em dinheiro",
+  "valores": [
+   "Sim",
+   "Não"
+  ]
+ },
+ "baixa_patrimonial": {
+  "rotulo": "Baixa patrimonial",
+  "valores": [
+   "Sim",
+   "Não"
+  ]
+ },
+ "prazo": {
+  "rotulo": "Prazo",
+  "valores": [
+   "Determinado",
+   "Indeterminado"
+  ]
+ },
+ "efeito_patrimonial": {
+  "rotulo": "Efeito patrimonial",
+  "valores": [
+   "Definitivo",
+   "Resolúvel",
+   "Precário / obrigacional"
+  ]
+ },
+ "uso_determinado": {
+  "rotulo": "Uso determinado",
+  "valores": [
+   "Sim",
+   "Não"
+  ]
+ }
+}
