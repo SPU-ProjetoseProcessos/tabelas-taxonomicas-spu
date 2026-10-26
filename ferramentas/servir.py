@@ -11,7 +11,7 @@ from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 porta = int(sys.argv[1]) if len(sys.argv) > 1 else 8765
 if len(sys.argv) > 2:
     pasta = sys.argv[2] if os.path.isabs(sys.argv[2]) else os.path.abspath(sys.argv[2])
-else:                                   # a raiz do repositório, acima deste script
+else:                                   # a pasta 'proposta', irmã deste script
     pasta = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 handler = functools.partial(SimpleHTTPRequestHandler, directory=pasta)

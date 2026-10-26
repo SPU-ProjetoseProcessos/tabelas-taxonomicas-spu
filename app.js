@@ -157,11 +157,8 @@ function desenharHome() {
   const atalho = $('#atalhoTabela');
   atalho.textContent = '';
   atalho.append(el('option', { value: '', textContent: 'escolher uma tabela…' }));
-  const porEixo = {};
-  for (const t of estado.indice.tabelas) (porEixo[t.eixo || 'Outras'] ||= []).push(t);
-  for (const [eixo, lista] of Object.entries(porEixo)) {
-    atalho.append(el('optgroup', { label: eixo },
-      lista.map((t) => el('option', { value: t.id, textContent: `${t.sigla} — ${t.titulo}` }))));
+  for (const t of estado.indice.tabelas) {
+    atalho.append(el('option', { value: t.id, textContent: `${t.sigla} — ${t.titulo}` }));
   }
   atalho.value = '';
   atalho.onchange = () => { if (atalho.value) irPara(atalho.value); };
@@ -368,10 +365,9 @@ function blocoGlossario(cod) {
     return el('p', { style: 'margin:0 0 8px' },
       el('a', { className: 'link-termo', href: termo.url_memoriaspu || '#',
                 target: '_blank', rel: 'noopener', textContent: v.termo }),
-      ' ',
-      v.situacao === 'validado'
-        ? el('span', { className: 'chip ok', textContent: 'validado' })
-        : el('span', { className: 'chip aviso', textContent: v.situacao }),
+      // vínculo conferido não precisa de selo; só a divergência merece aviso
+      v.situacao === 'validado' ? null
+        : [' ', el('span', { className: 'chip aviso', textContent: 'verificar vínculo' })],
       v.observacao ? el('span', { className: 'vazio', style: 'display:block;font-size:13px',
                                   textContent: v.observacao }) : null);
   })));
@@ -435,9 +431,7 @@ function mostrarFicha(cod) {
         `Publicada em ${dataBR(t.meta.norma_vigente.publicacao)} · documento SEI ${t.meta.norma_vigente.sei_documento}`
         + ` · processo ${t.meta.norma_vigente.processo_sei}` }))),
     el('div', { className: 'acoes' },
-      botaoCopiar('Copiar link', location.href),
-      botaoCopiar('Copiar código', `${r.codigo} — ${r.descricao}`),
-      botaoCopiar('Copiar citação', comoCitar(r))),
+      botaoCopiar('Copiar item da taxonomia', `${r.codigo} — ${r.descricao}`)),
   ));
   caixa.append(corpo);
 }
@@ -452,61 +446,101 @@ function fichaVazia() {
 }
 
 // -------------------------------------------------------------- exportação
-function exportar(formato) {
+function exportar() {
   const t = tabela();
   const vis = codigosVisiveis();
   const regs = t.registros.filter((r) => vis.has(r.codigo));
-  const nome = `${rota(t.meta.sigla)}-${regs.length}-registros`;
-  let conteudo, tipo;
-  if (formato === 'JSON') {
-    conteudo = JSON.stringify({ tabela: t.meta, registros: regs }, null, 1);
-    tipo = 'application/json';
-  } else {
-    const cols = ['codigo', 'nivel', 'pai', 'descricao', 'definicao', 'observacao',
-                  'fundamento_legal', 'instrumento', 'exemplos', 'situacao', 'nota_de_aplicacao'];
-    const cel = (v) => {
-      const s = Array.isArray(v) ? v.join(' | ') : String(v ?? '');
-      return /[",\n]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s;
-    };
-    conteudo = [cols.join(','), ...regs.map((r) => cols.map((c) => cel(r[c])).join(','))].join('\n');
-    tipo = 'text/csv;charset=utf-8';
-  }
-  const url = URL.createObjectURL(new Blob([conteudo], { type: tipo }));
-  const a = el('a', { href: url, download: `${nome}.${formato.toLowerCase()}` });
+  const cols = ['codigo', 'nivel', 'pai', 'descricao', 'definicao', 'observacao',
+                'fundamento_legal', 'instrumento', 'exemplos', 'situacao', 'nota_de_aplicacao'];
+  const cel = (v) => {
+    const texto = Array.isArray(v) ? v.join(' | ') : String(v ?? '');
+    return /[",\n]/.test(texto) ? `"${texto.replace(/"/g, '""')}"` : texto;
+  };
+  const conteudo = [cols.join(','), ...regs.map((r) => cols.map((c) => cel(r[c])).join(','))].join('\n');
+  const url = URL.createObjectURL(new Blob([conteudo], { type: 'text/csv;charset=utf-8' }));
+  const a = el('a', { href: url, download: `${rota(t.meta.sigla)}-${regs.length}-registros.csv` });
   document.body.append(a); a.click(); a.remove();
   URL.revokeObjectURL(url);
 }
-$('#baixarCSV').addEventListener('click', () => exportar('CSV'));
-$('#baixarJSON').addEventListener('click', () => exportar('JSON'));
+$('#baixarCSV').addEventListener('click', () => exportar());
 
 // -------------------------------------------------------------------- mapa
+/* Mapa em dois lados: o nó central é a tabela, metade dos ramos de primeiro nível
+   vai para a direita e metade para a esquerda. O nome do item aparece inteiro,
+   quebrado em linhas, e um "+" no canto abre ou fecha o galho. */
 const SVGNS = 'http://www.w3.org/2000/svg';
-const LARG = 222, ALT = 40, HGAP = 60, VGAP = 11;
+const LARG = 230, HGAP = 54, VGAP = 12, PAD = 12, LINHA_ALT = 16, TOPO = 30;
 const svgEl = (tag, attrs = {}) => {
   const n = document.createElementNS(SVGNS, tag);
   for (const [k, v] of Object.entries(attrs)) n.setAttribute(k, v);
   return n;
 };
 
+const medidor = document.createElement('canvas').getContext('2d');
+function quebrar(texto, largura) {
+  medidor.font = '12.5px Inter, sans-serif';
+  const linhas = [];
+  let atual = '';
+  for (const palavra of texto.split(' ')) {
+    const tentativa = atual ? `${atual} ${palavra}` : palavra;
+    if (medidor.measureText(tentativa).width <= largura || !atual) atual = tentativa;
+    else { linhas.push(atual); atual = palavra; }
+  }
+  if (atual) linhas.push(atual);
+  return linhas;
+}
+
+const alturaNo = (linhas) => TOPO + linhas.length * LINHA_ALT + PAD - 4;
+const xDoNo = (prof, lado) => (prof === 0
+  ? -LARG / 2
+  : (lado > 0 ? LARG / 2 + HGAP + (prof - 1) * (LARG + HGAP)
+              : -(LARG / 2 + HGAP + (prof - 1) * (LARG + HGAP) + LARG)));
+
 function nosDoMapa() {
   const t = tabela();
   const visiveis = codigosVisiveis();
+  const raizes = (t.filhos[''] || []).filter((c) => visiveis.has(c));
+  const metade = Math.ceil(raizes.length / 2);
+  const lados = {};
+  raizes.forEach((c, i) => { lados[c] = i < metade ? 1 : -1; });
+
   const nos = [];
-  let cursor = 0;
-  const medir = (cod, prof) => {
+  const cursor = { 1: 0, '-1': 0 };
+  const medir = (cod, prof, lado) => {
     const kids = (t.filhos[cod] || []).filter((c) => visiveis.has(c));
     const aberto = cod === '' || estado.abertosMapa.has(cod);
-    const no = { codigo: cod, prof, temFilhos: kids.length > 0, aberto, y: 0,
-      descricao: cod === '' ? t.meta.titulo : t.porCodigo[cod].descricao,
-      detalhe: cod === '' ? t.meta.sigla : cod, filhos: (t.filhos[cod] || []).length };
+    const texto = cod === '' ? t.meta.titulo : t.porCodigo[cod].descricao;
+    const linhas = quebrar(texto, LARG - PAD * 2 - (kids.length ? 16 : 0));
+    const no = { codigo: cod, prof, lado, linhas, altura: alturaNo(linhas),
+      detalhe: cod === '' ? t.meta.sigla : cod, temFilhos: kids.length > 0, aberto, y: 0 };
     nos.push(no);
     if (aberto && kids.length) {
-      const ys = kids.map((c) => medir(c, prof + 1));
-      no.y = (Math.min(...ys) + Math.max(...ys)) / 2;
-    } else { no.y = cursor; cursor += ALT + VGAP; }
+      const ys = kids.map((c) => medir(c, prof + 1, prof === 0 ? lados[c] : lado));
+      no.y = (Math.min(...ys) + Math.max(...ys.map((v, i) => v + 0)) ) / 2;
+      const filhos = nos.filter((n) => kids.includes(n.codigo));
+      const topo = Math.min(...filhos.map((n) => n.y));
+      const base = Math.max(...filhos.map((n) => n.y + n.altura));
+      no.y = (topo + base) / 2 - no.altura / 2;
+    } else {
+      const c = cursor[lado] || 0;
+      no.y = c;
+      cursor[lado] = c + no.altura + VGAP;
+    }
     return no.y;
   };
-  medir('', 0);
+  // o nó central fica entre os dois lados
+  const raiz = { codigo: '', prof: 0, lado: 1, detalhe: tabela().meta.sigla,
+                 linhas: quebrar(tabela().meta.titulo, LARG - PAD * 2 - 16),
+                 temFilhos: raizes.length > 0, aberto: estado.abertosMapa.has(''), y: 0 };
+  raiz.altura = alturaNo(raiz.linhas);
+  nos.push(raiz);
+  if (raiz.aberto) {
+    for (const c of raizes) medir(c, 1, lados[c]);
+    const primeiros = nos.filter((n) => n.prof === 1);
+    const topo = Math.min(...primeiros.map((n) => n.y));
+    const base = Math.max(...primeiros.map((n) => n.y + n.altura));
+    raiz.y = (topo + base) / 2 - raiz.altura / 2;
+  }
   return nos;
 }
 
@@ -516,35 +550,33 @@ function aplicarVista() {
 }
 
 function limitesMapa(nos) {
-  const maxProf = Math.max(...nos.map((n) => n.prof));
-  return { w: (maxProf + 1) * LARG + maxProf * HGAP, h: Math.max(...nos.map((n) => n.y)) + ALT };
+  const xs = nos.map((n) => xDoNo(n.prof, n.lado));
+  return { x0: Math.min(...xs), x1: Math.max(...xs) + LARG,
+           y0: Math.min(...nos.map((n) => n.y)), y1: Math.max(...nos.map((n) => n.y + n.altura)) };
 }
 
-/* Põe o nó a cerca de dois terços da largura, para os galhos que levam até ele
-   continuarem à vista do lado esquerdo. */
 function enquadrarNo(no) {
   const v = estado.vista;
-  estado.vista = { ...v,
-    x: no.prof * (LARG + HGAP) + LARG / 2 - v.w * 0.66,
-    y: no.y + ALT / 2 - v.h / 2 };
+  estado.vista = { ...v, x: xDoNo(no.prof, no.lado) + LARG / 2 - v.w / 2,
+                   y: no.y + no.altura / 2 - v.h / 2 };
   aplicarVista();
 }
 
-/* Enquadra tudo quando o mapa inteiro continua legível; senão abre em escala de
-   leitura, centrado no registro selecionado. */
-function centralizarMapa(nos) {
+function centralizarMapa(nos, { forcar = false } = {}) {
   const svg = $('#mapa');
   const lista = nos || nosDoMapa();
   const lim = limitesMapa(lista);
-  const m = 28;
-  const largura = svg.clientWidth || 800, altura = svg.clientHeight || 560;
-  const escala = Math.min(largura / (lim.w + m * 2), altura / (lim.h + m * 2));
-  if (escala >= 0.7) {
-    estado.vista = { x: -m, y: -m, w: lim.w + m * 2, h: lim.h + m * 2 };
+  const m = 30;
+  const largura = svg.clientWidth || 900, altura = svg.clientHeight || 600;
+  const escala = Math.min(largura / (lim.x1 - lim.x0 + m * 2), altura / (lim.y1 - lim.y0 + m * 2));
+  // ao abrir o mapa só enquadra tudo se continuar legível; no botão, enquadra sempre
+  if (forcar || escala >= 0.68) {
+    estado.vista = { x: lim.x0 - m, y: lim.y0 - m,
+                     w: lim.x1 - lim.x0 + m * 2, h: lim.y1 - lim.y0 + m * 2 };
     aplicarVista();
     return;
   }
-  estado.vista = { x: -m, y: -m, w: largura, h: altura };
+  estado.vista = { x: 0, y: 0, w: largura, h: altura };
   enquadrarNo(lista.find((n) => n.codigo === estado.selecionado) || lista[0]);
 }
 
@@ -557,45 +589,76 @@ function desenharMapa() {
   const ligacoes = svgEl('g'), grupos = svgEl('g');
 
   for (const n of nos) {
-    const x = n.prof * (LARG + HGAP);
-    const cor = n.codigo === '' ? { forte: t.meta.cor, fraca: '#fff', media: t.meta.cor } : corDoRamo(n.codigo);
+    const x = xDoNo(n.prof, n.lado);
+    const cor = n.codigo === ''
+      ? { forte: t.meta.cor, fraca: '#fff', media: t.meta.cor }
+      : corDoRamo(n.codigo);
+    const chapado = n.prof <= 1;
+    const selecionado = n.codigo === estado.selecionado;
+
     if (n.prof > 0) {
       const pai = porCodigo[t.porCodigo[n.codigo].pai || ''];
-      const x1 = pai.prof * (LARG + HGAP) + LARG, y1 = pai.y + ALT / 2;
-      const x2 = x, y2 = n.y + ALT / 2, mx = (x1 + x2) / 2;
+      const xPai = xDoNo(pai.prof, pai.lado);
+      const x1 = n.lado > 0 ? xPai + LARG : xPai;
+      const x2 = n.lado > 0 ? x : x + LARG;
+      const y1 = pai.y + pai.altura / 2, y2 = n.y + n.altura / 2, mx = (x1 + x2) / 2;
       ligacoes.append(svgEl('path', { class: 'lig', stroke: cor.media,
         'stroke-width': n.prof === 1 ? 2.4 : 1.5,
         d: `M${x1},${y1} C${mx},${y1} ${mx},${y2} ${x2},${y2}` }));
     }
-    // raiz e ramos de 1º nível vêm chapados na cor do ramo; o resto, em branco
-    const chapado = n.prof <= 1;
-    const g = svgEl('g', { class: `no-mapa${chapado ? ' chapado' : ''}${n.codigo === estado.selecionado ? ' sel' : ''}`,
+
+    const g = svgEl('g', { class: `no-mapa${chapado ? ' chapado' : ''}${selecionado ? ' sel' : ''}`,
       transform: `translate(${x},${n.y})`, tabindex: '0', role: 'button' });
-    g.append(svgEl('rect', { width: LARG, height: ALT,
-      fill: chapado ? cor.forte : (n.codigo === estado.selecionado ? cor.fraca : '#fff'),
+    g.append(svgEl('rect', { width: LARG, height: n.altura,
+      fill: chapado ? cor.forte : (selecionado ? cor.fraca : '#fff'),
       stroke: chapado ? cor.forte : cor.media,
-      'stroke-width': n.codigo === estado.selecionado ? 2.5 : 1.5 }));
-    const txtCod = svgEl('text', { x: 12, y: 16, class: 'cod-mapa' });
+      'stroke-width': selecionado ? 2.5 : 1.5 }));
+
+    const fim = n.lado > 0 ? null : 'end';
+    const xTexto = n.lado > 0 ? PAD : LARG - PAD;
+    const txtCod = svgEl('text', { x: xTexto, y: 18, class: 'cod-mapa' });
+    if (fim) txtCod.setAttribute('text-anchor', fim);
     if (!chapado) txtCod.style.fill = cor.forte;
-    txtCod.textContent = n.detalhe + (n.temFilhos ? (n.aberto ? '   –' : `   + ${n.filhos}`) : '');
-    const txt = svgEl('text', { x: 12, y: 31 });
-    txt.textContent = n.descricao.length > 31 ? `${n.descricao.slice(0, 30)}…` : n.descricao;
-    const titulo = svgEl('title');
-    titulo.textContent = `${n.detalhe} — ${n.descricao}`;
-    g.append(txtCod, txt, titulo);
-    const agir = () => {
-      if (n.temFilhos || n.codigo === '') {
+    txtCod.textContent = n.detalhe;
+    g.append(txtCod);
+    n.linhas.forEach((linha, i) => {
+      const txt = svgEl('text', { x: xTexto, y: TOPO + 6 + i * LINHA_ALT });
+      if (fim) txt.setAttribute('text-anchor', fim);
+      txt.textContent = linha;
+      g.append(txt);
+    });
+
+    if (n.temFilhos) {
+      const bx = n.lado > 0 ? LARG : 0;
+      const badge = svgEl('g', { class: 'abridor', tabindex: '0', role: 'button',
+        transform: `translate(${bx},${n.altura / 2})` });
+      badge.append(svgEl('circle', { r: 9, fill: '#fff', stroke: cor.media, 'stroke-width': 1.5 }));
+      const sinal = svgEl('text', { x: 0, y: 3.5, 'text-anchor': 'middle', class: 'sinal' });
+      sinal.style.fill = cor.forte;
+      sinal.textContent = n.aberto ? '–' : '+';
+      badge.append(sinal);
+      const rotulo = svgEl('title');
+      rotulo.textContent = n.aberto ? 'Fechar o galho' : 'Abrir o galho';
+      badge.append(rotulo);
+      const alternarGalho = (ev) => {
+        ev.stopPropagation();
         if (estado.abertosMapa.has(n.codigo)) estado.abertosMapa.delete(n.codigo);
         else estado.abertosMapa.add(n.codigo);
-      }
-      if (n.codigo) selecionar(n.codigo, { abrir: false, mapa: true });
-      else desenharMapa();
-      const novo = nosDoMapa().find((x2) => x2.codigo === n.codigo);
-      if (novo) enquadrarNo(novo);
-    };
-    g.addEventListener('click', agir);
+        desenharMapa();
+        const novo = nosDoMapa().find((x2) => x2.codigo === n.codigo);
+        if (novo) enquadrarNo(novo);
+      };
+      badge.addEventListener('click', alternarGalho);
+      badge.addEventListener('keydown', (ev) => {
+        if (ev.key === 'Enter' || ev.key === ' ') { ev.preventDefault(); alternarGalho(ev); }
+      });
+      g.append(badge);
+    }
+
+    const escolher = () => { if (n.codigo) selecionar(n.codigo, { abrir: false, mapa: true }); };
+    g.addEventListener('click', escolher);
     g.addEventListener('keydown', (ev) => {
-      if (ev.key === 'Enter' || ev.key === ' ') { ev.preventDefault(); agir(); }
+      if (ev.key === 'Enter' || ev.key === ' ') { ev.preventDefault(); escolher(); }
     });
     grupos.append(g);
   }
@@ -633,7 +696,7 @@ function desenharMapa() {
   }, { passive: false });
 })();
 
-$('#centralizar').addEventListener('click', () => centralizarMapa());
+$('#centralizar').addEventListener('click', () => centralizarMapa(null, { forcar: true }));
 $('#expandirTudo').addEventListener('click', () => {
   estado.abertosMapa = new Set(['', ...tabela().registros.map((r) => r.codigo)]);
   estado.vista = null; desenharMapa();

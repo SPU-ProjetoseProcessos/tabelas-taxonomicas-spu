@@ -199,7 +199,7 @@ META_TT02 = {
 }
 
 VOCABULARIO = {
-    'discricionariedade': {'rotulo': 'Discricionário/Vinculado',
+    'discricionariedade': {'rotulo': 'Discricionário ou vinculado',
                            'valores': ['Discricionário', 'Vinculado']},
     'natureza': {'rotulo': 'Natureza', 'valores': ['Gratuita', 'Onerosa']},
     'pagamento_em_dinheiro': {'rotulo': 'Pagamento em dinheiro', 'valores': ['Sim', 'Não']},

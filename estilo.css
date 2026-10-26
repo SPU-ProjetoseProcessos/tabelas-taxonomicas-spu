@@ -179,8 +179,12 @@ body.aba-mapa .area { grid-template-columns: 1fr; }
 .no-mapa .cod-mapa { font-size: 10.5px; fill: var(--tinta2); letter-spacing: .02em; font-weight: 500; }
 .no-mapa.chapado text { fill: #fff; }
 .no-mapa.chapado .cod-mapa { fill: rgba(255,255,255,.92); }
-.no-mapa:hover rect { filter: brightness(.97); }
+.no-mapa:hover > rect { filter: brightness(.97); }
 .no-mapa text { pointer-events: none; }
+.no-mapa .sinal { font-size: 15px; font-weight: 600; font-family: var(--texto); }
+.abridor { cursor: pointer; }
+.abridor circle { transition: fill .12s ease; }
+.abridor:hover circle { fill: var(--papel-fundo); }
 .no-mapa { cursor: pointer; }
 .controles-mapa { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; padding: 11px 18px; border-top: 1px solid var(--linha); font-size: 13px; color: var(--tinta2); }
 
@@ -204,7 +208,8 @@ body.aba-mapa .area { grid-template-columns: 1fr; }
 .campo li > button { display: block; }
 .grade-atrib { display: grid; grid-template-columns: repeat(auto-fit, minmax(146px, 1fr)); gap: 9px; }
 .atrib { background: var(--papel); border: 1px solid var(--linha); border-radius: 10px; padding: 9px 11px; }
-.atrib span { display: block; font-size: 11px; text-transform: uppercase; letter-spacing: .04em; color: var(--tinta3); }
+.atrib span { display: block; font-size: 11px; text-transform: uppercase; letter-spacing: .04em; color: var(--tinta3); overflow-wrap: anywhere; }
+.atrib strong { overflow-wrap: anywhere; }
 .atrib strong { font-weight: 600; }
 .nota { background: var(--aviso-claro); border-left: 3px solid var(--aviso); border-radius: 0 10px 10px 0; padding: 11px 14px; }
 .link-termo { display: inline-flex; gap: 6px; align-items: center; font-weight: 500; }
