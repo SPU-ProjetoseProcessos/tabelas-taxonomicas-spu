@@ -3,7 +3,7 @@
 Consulta pública às tabelas taxonômicas da Secretaria do Patrimônio da União, aprovadas por
 resolução do Comitê de Gestão do Conhecimento (ComGC).
 
-**Site:** <https://sostena-boop.github.io/tabelas-taxonomicas-spu/>
+**Site:** <https://spu-projetoseprocessos.github.io/tabelas-taxonomicas-spu/>
 
 | Tabela | Norma vigente | Registros |
 |---|---|---|
