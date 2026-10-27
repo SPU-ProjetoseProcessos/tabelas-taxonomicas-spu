@@ -60,7 +60,11 @@ O que precisa de correção por quem redige:
 | **Três padrões de caixa nos nomes** | Caixa de sentença em 79 registros, caixa alta em cinco (`03.02`, `03.04`, `03.06`, `03.07` e o "COERCITIVA" do `03.06.01.02`) e Title Case em dez (`03.01`, `03.01.02.05`, `03.03`, `03.04.03.01`, `03.04.03.02`, `03.05`, `03.07.01`, `03.07.01.04`, `03.07.02`, `03.07.04`). Os quinze foram padronizados para caixa de sentença na extração — ver `CAIXA_PADRONIZADA` em `ferramentas/extrair_minuta.py` |
 | **Concordância em `03.04`** | "Destinação e gestão econômica patrimonial **imobiliário**": os núcleos são femininos, deveria ser "imobiliária". Nos outros três de nível 1 o masculino concorda com "ingresso", "controle" e "conhecimento". **Não corrigido** — é mérito de redação, não de transcrição |
 | Ponto final em nome | `03.07.01.05` — "Gestão do ciclo de vida e dos dados mestres patrimoniais." |
-| 36 itens sem exemplos | De 98 registros, 62 trazem "Exemplos de documentos"; entre os 36 sem, alguns são de último nível |
+| **Sete folhas sem exemplos** | De 98 registros, 63 trazem "Exemplos de documentos" e 35 não trazem. Nos intermediários isso é aceitável; nos sete de último nível, não — `03.01.01.03`, `03.01.01.04`, `03.01.04.01`, `03.01.04.02`, `03.02.03.02`, `03.03.02` e `03.05.02` |
+| **Remissão a tabela inexistente** | `03.02.02.01` delega a classificação a uma "Tabela Taxonômica própria de Regimes de Ingresso Patrimonial"; o ComGC instituiu só a TT-01 e a TT-02 |
+| **TT-02 citada de três formas** | "TT 02/2025" (`03.04`), "TT 02" (`03.04.02`) e "Tabela Taxonômica nº 02/2025" (`03.04.02.01`); a Resolução nº 5/2025 institui "Tabela Taxonômica nº 02 – Regimes de Destinação Imobiliária (TT-02)" |
+| Dois nomes que são instruções | `03.02.02.01` e `03.04.02.01`, este com 148 caracteres — conteúdo de definição, não de nome |
+| Plural fora do padrão | `03.04.02.01` abre a definição com "Subfunções"; as outras 97 usam a palavra do nível no singular |
 | Rótulo da lista de exemplos varia | "Exemplos de documentos:", "Exemplos de documentos" (sem dois-pontos) e "Exemplos:"; em dois registros o rótulo fecha o parágrafo da definição em vez de abrir um próprio |
 | Bloco de referências solto | Só `03.01.03` termina com "Referências: …", que aqui virou `fundamento_legal`. Nos demais, nada equivale à "Fundamentação legal (União)" da TT-01 e da TT-02 |
 
