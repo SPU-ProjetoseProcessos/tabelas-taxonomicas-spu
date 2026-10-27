@@ -6,7 +6,7 @@
 <title>Tabelas Taxonômicas da SPU</title>
 <meta name="description" content="Consulta às tabelas taxonômicas da Secretaria do Patrimônio da União: navegação em árvore e em mapa, filtros e ligação com o glossário.">
 <!-- o sufixo ?v= evita que o navegador sirva a versão anterior depois de uma publicação -->
-<link rel="stylesheet" href="estilo.css?v=20261027b">
+<link rel="stylesheet" href="estilo.css?v=20261027c">
 </head>
 <body>
 <a class="pular" href="#principal">Pular para o conteúdo</a>
@@ -70,6 +70,8 @@
 
   <!-- ---------------------------------------------------------- tabela -->
   <section id="secaoTabela" hidden>
+    <!-- aviso de tabela não aprovada; preenchido por JS a partir de tabela.json -->
+    <div class="tarja-minuta" id="tarjaMinuta" role="note" hidden></div>
     <div class="barra">
       <div class="abas" role="tablist" aria-label="Modo de navegação">
         <button id="abaArvore" role="tab" aria-selected="true" aria-controls="caixaArvore">Árvore</button>
@@ -109,6 +111,6 @@
 </main>
 
 <footer id="rodape"></footer>
-<script src="app.js?v=20261027b"></script>
+<script src="app.js?v=20261027c"></script>
 </body>
 </html>

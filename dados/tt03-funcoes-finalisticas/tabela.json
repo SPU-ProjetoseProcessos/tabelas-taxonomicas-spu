@@ -1,0 +1,39 @@
+{
+ "id": "tt03-funcoes-finalisticas",
+ "sigla": "TT-03",
+ "titulo": "Funções Finalísticas de Gestão Patrimonial Imobiliária",
+ "eixo": "Função finalística",
+ "cor": "#4F6132",
+ "dominio": "Função finalística exercida na gestão do patrimônio imobiliário da União",
+ "rotulos_nivel": [
+  "Macrofunção",
+  "Função",
+  "Subfunção",
+  "Categoria"
+ ],
+ "rotulo_folha": "funções",
+ "profundidade": 4,
+ "situacao": "minuta",
+ "aviso": "Esta tabela ainda não foi aprovada: não há resolução do Comitê de Gestão do Conhecimento que a institua. Códigos, descrições e definições podem mudar até a aprovação — não devem ser usados como referência normativa nem registrados em sistema.",
+ "norma_vigente": null,
+ "origem": {
+  "tipo": "minuta",
+  "documento": "Proposta de Tabela Taxonômica — Funções finalísticas de gestão patrimonial imobiliária",
+  "rotulo": "Minuta — ainda sem resolução do ComGC",
+  "versao": "2026-10-27",
+  "nota": "Transcrição do documento de trabalho na versão com todas as alterações controladas aceitas. O número da tabela ainda não foi atribuído: o documento traz o prefixo 0X e aqui se adota 03, provisoriamente."
+ },
+ "historico": [],
+ "fonte_oficial": "https://memoriaspu.gestao.gov.br",
+ "tem_exemplos": true,
+ "totais": {
+  "registros": 98,
+  "folhas": 67,
+  "por_nivel": {
+   "1": 7,
+   "2": 21,
+   "3": 53,
+   "4": 17
+  }
+ }
+}

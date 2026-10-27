@@ -9,6 +9,7 @@ from collections import Counter, defaultdict
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import extrair_normas as en
+import extrair_minuta as em
 
 SEP = ' | '          # separador de campo multivalorado nos CSV
 
@@ -118,6 +119,8 @@ COLS_REG = ['codigo', 'nivel', 'pai', 'descricao', 'definicao', 'observacao',
 def copiar_norma(pasta_base, destino, meta):
     """Leva o PDF da resolução para junto dos dados, para a ficha poder abri-lo."""
     import shutil
+    if not meta.get('norma_vigente'):
+        return ''                      # minuta: não há resolução para abrir
     arquivo = meta['norma_vigente'].get('arquivo')
     origem = arquivo and os.path.join(pasta_base, arquivo)
     if not origem or not os.path.exists(origem):
@@ -211,6 +214,40 @@ META_TT02 = {
     'tem_exemplos': False,
 }
 
+# A TT-03 ainda não é norma: entra como minuta, com a marcação que avisa disso
+# em toda parte da interface. Não há ato, não há PDF de resolução — a fonte é o
+# documento de trabalho, na versão com as alterações controladas aceitas.
+META_TT03 = {
+    'id': 'tt03-funcoes-finalisticas',
+    'sigla': 'TT-03',
+    'titulo': 'Funções Finalísticas de Gestão Patrimonial Imobiliária',
+    'eixo': 'Função finalística',
+    'cor': '#4F6132',
+    'dominio': 'Função finalística exercida na gestão do patrimônio imobiliário da União',
+    'rotulos_nivel': ['Macrofunção', 'Função', 'Subfunção', 'Categoria'],
+    'rotulo_folha': 'funções',
+    'profundidade': 4,
+    'situacao': 'minuta',
+    'aviso': ('Esta tabela ainda não foi aprovada: não há resolução do Comitê de Gestão do '
+              'Conhecimento que a institua. Códigos, descrições e definições podem mudar '
+              'até a aprovação — não devem ser usados como referência normativa nem '
+              'registrados em sistema.'),
+    'norma_vigente': None,
+    'origem': {
+        'tipo': 'minuta',
+        'documento': 'Proposta de Tabela Taxonômica — Funções finalísticas de gestão '
+                     'patrimonial imobiliária',
+        'rotulo': 'Minuta — ainda sem resolução do ComGC',
+        'versao': '2026-10-27',
+        'nota': ('Transcrição do documento de trabalho na versão com todas as alterações '
+                 'controladas aceitas. O número da tabela ainda não foi atribuído: o '
+                 'documento traz o prefixo 0X e aqui se adota 03, provisoriamente.'),
+    },
+    'historico': [],
+    'fonte_oficial': 'https://memoriaspu.gestao.gov.br',
+    'tem_exemplos': True,
+}
+
 VOCABULARIO = {
     'discricionariedade': {'rotulo': 'Discricionário ou vinculado',
                            'valores': ['Discricionário', 'Vinculado']},
@@ -290,6 +327,43 @@ def montar_glossario(linhas, registros_por_codigo):
         })
     return termos, vinculos
 
+# -------------------------------------------------------------- minuta TT-03
+# O .docx da proposta é documento interno de trabalho, com nomes de revisores no
+# controle de alterações: ele não vai para o repositório publicado. Quando está
+# presente, a minuta é extraída dele; quando não, vale o registros.csv já
+# transcrito, que é a fonte revisável prevista no esquema.
+PADRAO_MINUTA = '*Proposta_Tabela_Taxon*.docx'
+
+def registros_minuta(pasta_base, destino):
+    achados = sorted(glob.glob(os.path.join(pasta_base, PADRAO_MINUTA)))
+    if achados:
+        return montar_registros(em.extrair(achados[-1])), os.path.basename(achados[-1])
+    csv_existente = os.path.join(destino, META_TT03['id'], 'registros.csv')
+    if os.path.exists(csv_existente):
+        with open(csv_existente, encoding='utf-8', newline='') as fh:
+            # o CSV devolve tudo como texto; o nível é número no JSON derivado
+            return [dict(r, nivel=int(r['nivel'])) for r in csv.DictReader(fh)], ''
+    raise SystemExit(f'minuta da TT-03: nem {PADRAO_MINUTA} em {pasta_base} '
+                     f'nem {csv_existente}')
+
+def entrada_indice(m):
+    """Linha do índice. Uma minuta não tem ato: no lugar dele vai o rótulo da
+    origem, e a situação é o que faz a interface mostrar o aviso."""
+    n = m.get('norma_vigente')
+    return {
+        'id': m['id'], 'sigla': m['sigla'], 'titulo': m['titulo'],
+        'eixo': m['eixo'], 'cor': m['cor'], 'dominio': m['dominio'],
+        'rotulo_folha': m.get('rotulo_folha', 'itens'),
+        'situacao': m.get('situacao', 'vigente'),
+        'aviso': m.get('aviso', ''),
+        'norma_publicacao': n['publicacao'] if n else m['origem']['versao'],
+        'norma_vigente': n['ato'] if n else m['origem']['rotulo'],
+        'caminho': m['id'], 'profundidade': m['profundidade'],
+        'totais': m['totais'],
+        'tem_atributos': 'atributos' in m,
+        'tem_exemplos': m['tem_exemplos'],
+    }
+
 # ----------------------------------------------------------------------- main
 def main(pasta_base, destino):
     os.makedirs(destino, exist_ok=True)
@@ -302,14 +376,17 @@ def main(pasta_base, destino):
     reg02 = montar_registros(bruto['tt02'])
     atributos = [{c: a.get(c, '') for c in COLS_AT} for a in bruto['tt02_atributos']]
 
-    for meta in (META_TT01, META_TT02):
-        meta['norma_vigente']['pdf'] = copiar_norma(pasta_base, destino, meta)
+    for meta in (META_TT01, META_TT02, META_TT03):
+        if meta.get('norma_vigente'):
+            meta['norma_vigente']['pdf'] = copiar_norma(pasta_base, destino, meta)
 
+    reg03, _ = registros_minuta(pasta_base, destino)
     m1 = gravar_tabela(os.path.join(destino, META_TT01['id']), META_TT01, reg01)
     m2 = gravar_tabela(os.path.join(destino, META_TT02['id']), META_TT02, reg02,
                        atributos, VOCABULARIO)
+    m3 = gravar_tabela(os.path.join(destino, META_TT03['id']), META_TT03, reg03)
 
-    por_codigo = {r['codigo']: r for r in reg01 + reg02}
+    por_codigo = {r['codigo']: r for r in reg01 + reg02}   # a minuta não recebe vínculo
     termos, vinculos = montar_glossario(ler_glossario(pasta_base), por_codigo)
     pasta_g = os.path.join(destino, 'glossario')
     os.makedirs(pasta_g, exist_ok=True)
@@ -320,21 +397,13 @@ def main(pasta_base, destino):
 
     indice = {
         'versao_esquema': '1.0',
-        'tabelas': [{'id': m['id'], 'sigla': m['sigla'], 'titulo': m['titulo'],
-                     'eixo': m['eixo'], 'cor': m['cor'], 'dominio': m['dominio'],
-                     'rotulo_folha': m.get('rotulo_folha', 'itens'),
-                     'norma_publicacao': m['norma_vigente']['publicacao'],
-                     'caminho': m['id'], 'profundidade': m['profundidade'],
-                     'norma_vigente': m['norma_vigente']['ato'],
-                     'totais': m['totais'],
-                     'tem_atributos': 'atributos' in m,
-                     'tem_exemplos': m['tem_exemplos']} for m in (m1, m2)],
+        'tabelas': [entrada_indice(m) for m in (m1, m2, m3)],
         'glossario': {'caminho': 'glossario', 'termos': len(termos),
                       'vinculos': len(vinculos)},
     }
     escrever_json(os.path.join(destino, 'tabelas.json'), indice)
     os.remove(os.path.join(destino, '_bruto.json'))
-    print(f"TT-01 {m1['totais']} \nTT-02 {m2['totais']}")
+    print(f"TT-01 {m1['totais']}\nTT-02 {m2['totais']}\nTT-03 {m3['totais']} (minuta)")
     print(f'glossário: {len(termos)} termos, {len(vinculos)} vínculos')
 
 if __name__ == '__main__':

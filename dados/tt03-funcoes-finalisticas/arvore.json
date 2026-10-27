@@ -1,0 +1,750 @@
+[
+ {
+  "codigo": "03.01",
+  "descricao": "Caracterização Patrimonial Imobiliária",
+  "nivel": 1,
+  "folha": false,
+  "situacao": "vigente",
+  "filhos": [
+   {
+    "codigo": "03.01.01",
+    "descricao": "Identificação direta de áreas públicas",
+    "nivel": 2,
+    "folha": false,
+    "situacao": "vigente",
+    "filhos": [
+     {
+      "codigo": "03.01.01.01",
+      "descricao": "Identificação direta de águas públicas",
+      "nivel": 3,
+      "folha": false,
+      "situacao": "vigente",
+      "filhos": [
+       {
+        "codigo": "03.01.01.01.01",
+        "descricao": "Identificação direta do mar",
+        "nivel": 4,
+        "folha": true,
+        "situacao": "vigente"
+       },
+       {
+        "codigo": "03.01.01.01.02",
+        "descricao": "Identificação direta de corpos d’água continentais",
+        "nivel": 4,
+        "folha": true,
+        "situacao": "vigente"
+       }
+      ]
+     },
+     {
+      "codigo": "03.01.01.02",
+      "descricao": "Identificação direta de ilhas",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     },
+     {
+      "codigo": "03.01.01.03",
+      "descricao": "Identificação direta de praias",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     },
+     {
+      "codigo": "03.01.01.04",
+      "descricao": "Identificação direta de manguezais",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     },
+     {
+      "codigo": "03.01.01.05",
+      "descricao": "Identificação de cavidades subterrâneas",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     }
+    ]
+   },
+   {
+    "codigo": "03.01.02",
+    "descricao": "Demarcação de terras públicas",
+    "nivel": 2,
+    "folha": false,
+    "situacao": "vigente",
+    "filhos": [
+     {
+      "codigo": "03.01.02.01",
+      "descricao": "Demarcação de terrenos de marinha e acrescidos",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     },
+     {
+      "codigo": "03.01.02.02",
+      "descricao": "Demarcação de terrenos marginais e acrescidos",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     },
+     {
+      "codigo": "03.01.02.03",
+      "descricao": "Demarcação de terras indígenas",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     },
+     {
+      "codigo": "03.01.02.04",
+      "descricao": "Demarcação de terras interiores",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     },
+     {
+      "codigo": "03.01.02.05",
+      "descricao": "Demarcação de Terrenos para Regularização Fundiária de Interesse Social",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     }
+    ]
+   },
+   {
+    "codigo": "03.01.03",
+    "descricao": "Discriminação de terras públicas",
+    "nivel": 2,
+    "folha": false,
+    "situacao": "vigente",
+    "filhos": [
+     {
+      "codigo": "03.01.03.01",
+      "descricao": "Discriminação administrativa de terras",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     },
+     {
+      "codigo": "03.01.03.02",
+      "descricao": "Discriminação judicial de terras",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     }
+    ]
+   },
+   {
+    "codigo": "03.01.04",
+    "descricao": "Consolidação técnico-cadastral patrimonial",
+    "nivel": 2,
+    "folha": false,
+    "situacao": "vigente",
+    "filhos": [
+     {
+      "codigo": "03.01.04.01",
+      "descricao": "Consolidação técnico-cadastral pós-demarcatória",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     },
+     {
+      "codigo": "03.01.04.02",
+      "descricao": "Consolidação técnico-cadastral de imóveis adquiridos",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "codigo": "03.02",
+  "descricao": "GESTÃO DO INGRESSO PATRIMONIAL IMOBILIÁRIO",
+  "nivel": 1,
+  "folha": false,
+  "situacao": "vigente",
+  "filhos": [
+   {
+    "codigo": "03.02.01",
+    "descricao": "Incorporação patrimonial imobiliária",
+    "nivel": 2,
+    "folha": false,
+    "situacao": "vigente",
+    "filhos": [
+     {
+      "codigo": "03.02.01.01",
+      "descricao": "Cadastro patrimonial imobiliário",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     },
+     {
+      "codigo": "03.02.01.02",
+      "descricao": "Registro cartorial",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     }
+    ]
+   },
+   {
+    "codigo": "03.02.02",
+    "descricao": "Aquisição patrimonial imobiliária",
+    "nivel": 2,
+    "folha": false,
+    "situacao": "vigente",
+    "filhos": [
+     {
+      "codigo": "03.02.02.01",
+      "descricao": "Regime de aquisição imobiliária (adoção de Tabela Taxonômica específica)",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     }
+    ]
+   },
+   {
+    "codigo": "03.02.03",
+    "descricao": "Alteração cadastral imobiliária",
+    "nivel": 2,
+    "folha": false,
+    "situacao": "vigente",
+    "filhos": [
+     {
+      "codigo": "03.02.03.01",
+      "descricao": "Modificação de atributos físicos",
+      "nivel": 3,
+      "folha": false,
+      "situacao": "vigente",
+      "filhos": [
+       {
+        "codigo": "03.02.03.01.01",
+        "descricao": "Subdivisão imobiliária",
+        "nivel": 4,
+        "folha": true,
+        "situacao": "vigente"
+       },
+       {
+        "codigo": "03.02.03.01.02",
+        "descricao": "Unificação imobiliária",
+        "nivel": 4,
+        "folha": true,
+        "situacao": "vigente"
+       },
+       {
+        "codigo": "03.02.03.01.03",
+        "descricao": "Regularização de edificação",
+        "nivel": 4,
+        "folha": true,
+        "situacao": "vigente"
+       }
+      ]
+     },
+     {
+      "codigo": "03.02.03.02",
+      "descricao": "Retificação e atualização de registros cadastrais e cartoriais",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "codigo": "03.03",
+  "descricao": "Avaliação e Contabilidade Patrimonial Imobiliária",
+  "nivel": 1,
+  "folha": false,
+  "situacao": "vigente",
+  "filhos": [
+   {
+    "codigo": "03.03.01",
+    "descricao": "Avaliação patrimonial imobiliária",
+    "nivel": 2,
+    "folha": false,
+    "situacao": "vigente",
+    "filhos": [
+     {
+      "codigo": "03.03.01.01",
+      "descricao": "Avaliação individual de imóveis",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     },
+     {
+      "codigo": "03.03.01.02",
+      "descricao": "Elaboração e manutenção de planta de valores genérica",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     }
+    ]
+   },
+   {
+    "codigo": "03.03.02",
+    "descricao": "Contabilização patrimonial imobiliária",
+    "nivel": 2,
+    "folha": true,
+    "situacao": "vigente"
+   }
+  ]
+ },
+ {
+  "codigo": "03.04",
+  "descricao": "DESTINAÇÃO E GESTÃO ECONÔMICA PATRIMONIAL ImobiliáriO",
+  "nivel": 1,
+  "folha": false,
+  "situacao": "vigente",
+  "filhos": [
+   {
+    "codigo": "03.04.01",
+    "descricao": "Governança e estratégia de destinação imobiliária",
+    "nivel": 2,
+    "folha": false,
+    "situacao": "vigente",
+    "filhos": [
+     {
+      "codigo": "03.04.01.01",
+      "descricao": "Gestão econômica de ativos imobiliários",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     },
+     {
+      "codigo": "03.04.01.02",
+      "descricao": "Apoio à sustentabilidade, preservação ambiental e enfrentamento das mudanças climáticas",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     },
+     {
+      "codigo": "03.04.01.03",
+      "descricao": "Apoio ao desenvolvimento local e projetos de infraestrutura",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     },
+     {
+      "codigo": "03.04.01.04",
+      "descricao": "Gestão do uso/ocupação dos imóveis de uso especial",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     },
+     {
+      "codigo": "03.04.01.05",
+      "descricao": "Gestão de territórios costeiros e marginais",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     },
+     {
+      "codigo": "03.04.01.06",
+      "descricao": "Apoio à destinação para povos e comunidades tradicionais",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     },
+     {
+      "codigo": "03.04.01.07",
+      "descricao": "Provisão habitacional de interesse social",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     },
+     {
+      "codigo": "03.04.01.08",
+      "descricao": "Regularização fundiária",
+      "nivel": 3,
+      "folha": false,
+      "situacao": "vigente",
+      "filhos": [
+       {
+        "codigo": "03.04.01.08.01",
+        "descricao": "Regularização fundiária urbana",
+        "nivel": 4,
+        "folha": true,
+        "situacao": "vigente"
+       },
+       {
+        "codigo": "03.04.01.08.02",
+        "descricao": "Regularização fundiária rural",
+        "nivel": 4,
+        "folha": true,
+        "situacao": "vigente"
+       }
+      ]
+     },
+     {
+      "codigo": "03.04.01.09",
+      "descricao": "Gestão do uso/ocupação de imóveis dominiais",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     }
+    ]
+   },
+   {
+    "codigo": "03.04.02",
+    "descricao": "Execução da destinação imobiliária",
+    "nivel": 2,
+    "folha": false,
+    "situacao": "vigente",
+    "filhos": [
+     {
+      "codigo": "03.04.02.01",
+      "descricao": "Regime de destinação imobiliária (Aplicação da Tabela Taxonômica 02/2025 - Regimes de Destinação Imobiliária para identificação do regime específico)",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     }
+    ]
+   },
+   {
+    "codigo": "03.04.03",
+    "descricao": "Afetação e reserva patrimonial imobiliária",
+    "nivel": 2,
+    "folha": false,
+    "situacao": "vigente",
+    "filhos": [
+     {
+      "codigo": "03.04.03.01",
+      "descricao": "Declaração de Interesse para o Serviço Público",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     },
+     {
+      "codigo": "03.04.03.02",
+      "descricao": "Reserva para Venda",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     },
+     {
+      "codigo": "03.04.03.03",
+      "descricao": "Reserva de residência para servidor",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "codigo": "03.05",
+  "descricao": "Gestão de Receitas Patrimoniais Imobiliárias",
+  "nivel": 1,
+  "folha": false,
+  "situacao": "vigente",
+  "filhos": [
+   {
+    "codigo": "03.05.01",
+    "descricao": "Arrecadação de receitas patrimoniais imobiliárias",
+    "nivel": 2,
+    "folha": true,
+    "situacao": "vigente"
+   },
+   {
+    "codigo": "03.05.02",
+    "descricao": "Gestão de cobrança de débitos inadimplidos",
+    "nivel": 2,
+    "folha": true,
+    "situacao": "vigente"
+   }
+  ]
+ },
+ {
+  "codigo": "03.06",
+  "descricao": "CONTROLE PATRIMONIAL IMOBILIÁRIO",
+  "nivel": 1,
+  "folha": false,
+  "situacao": "vigente",
+  "filhos": [
+   {
+    "codigo": "03.06.01",
+    "descricao": "Fiscalização patrimonial imobiliária",
+    "nivel": 2,
+    "folha": false,
+    "situacao": "vigente",
+    "filhos": [
+     {
+      "codigo": "03.06.01.01",
+      "descricao": "Fiscalização patrimonial imobiliária preventiva",
+      "nivel": 3,
+      "folha": false,
+      "situacao": "vigente",
+      "filhos": [
+       {
+        "codigo": "03.06.01.01.01",
+        "descricao": "Inspeção predial",
+        "nivel": 4,
+        "folha": true,
+        "situacao": "vigente"
+       },
+       {
+        "codigo": "03.06.01.01.02",
+        "descricao": "Vistoria",
+        "nivel": 4,
+        "folha": true,
+        "situacao": "vigente"
+       }
+      ]
+     },
+     {
+      "codigo": "03.06.01.02",
+      "descricao": "Fiscalização patrimonial imobiliária COERCITIVA",
+      "nivel": 3,
+      "folha": false,
+      "situacao": "vigente",
+      "filhos": [
+       {
+        "codigo": "03.06.01.02.01",
+        "descricao": "Demolição/remoção",
+        "nivel": 4,
+        "folha": true,
+        "situacao": "vigente"
+       },
+       {
+        "codigo": "03.06.01.02.02",
+        "descricao": "Aplicação de embargo",
+        "nivel": 4,
+        "folha": true,
+        "situacao": "vigente"
+       },
+       {
+        "codigo": "03.06.01.02.03",
+        "descricao": "Aplicação de medida indenizatória",
+        "nivel": 4,
+        "folha": true,
+        "situacao": "vigente"
+       },
+       {
+        "codigo": "03.06.01.02.04",
+        "descricao": "Reintegração de posse",
+        "nivel": 4,
+        "folha": true,
+        "situacao": "vigente"
+       },
+       {
+        "codigo": "03.06.01.02.05",
+        "descricao": "Desocupação",
+        "nivel": 4,
+        "folha": true,
+        "situacao": "vigente"
+       },
+       {
+        "codigo": "03.06.01.02.06",
+        "descricao": "Aplicação de multas",
+        "nivel": 4,
+        "folha": true,
+        "situacao": "vigente"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "codigo": "03.06.02",
+    "descricao": "Controle e manutenção imobiliária",
+    "nivel": 2,
+    "folha": false,
+    "situacao": "vigente",
+    "filhos": [
+     {
+      "codigo": "03.06.02.01",
+      "descricao": "Gestão de imóveis desocupados",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     },
+     {
+      "codigo": "03.06.02.02",
+      "descricao": "Autorização de demolição de próprios nacionais",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     }
+    ]
+   },
+   {
+    "codigo": "03.06.03",
+    "descricao": "Gestão não financeira de contratos e atos de destinação imobiliária",
+    "nivel": 2,
+    "folha": false,
+    "situacao": "vigente",
+    "filhos": [
+     {
+      "codigo": "03.06.03.01",
+      "descricao": "Monitoramento contratual (vigência, encargos e obrigações)",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     },
+     {
+      "codigo": "03.06.03.02",
+      "descricao": "Gestão de alterações e extinções contratuais",
+      "nivel": 3,
+      "folha": false,
+      "situacao": "vigente",
+      "filhos": [
+       {
+        "codigo": "03.06.03.02.01",
+        "descricao": "Transferência de titularidade",
+        "nivel": 4,
+        "folha": true,
+        "situacao": "vigente"
+       },
+       {
+        "codigo": "03.06.03.02.02",
+        "descricao": "Alteração de cláusulas e condições",
+        "nivel": 4,
+        "folha": true,
+        "situacao": "vigente"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "codigo": "03.07",
+  "descricao": "GOVERNANÇA DE DADOS, INFORMAÇÃO E CONHECIMENTO PATRIMONIAL IMOBILIÁRIO",
+  "nivel": 1,
+  "folha": false,
+  "situacao": "vigente",
+  "filhos": [
+   {
+    "codigo": "03.07.01",
+    "descricao": "Governança de Dados e Informação",
+    "nivel": 2,
+    "folha": false,
+    "situacao": "vigente",
+    "filhos": [
+     {
+      "codigo": "03.07.01.01",
+      "descricao": "Gestão da arquitetura e estruturação de dados",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     },
+     {
+      "codigo": "03.07.01.02",
+      "descricao": "Modelagem, documentação e integração de dados patrimoniais",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     },
+     {
+      "codigo": "03.07.01.03",
+      "descricao": "Gestão de metadados e qualidade de dados",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     },
+     {
+      "codigo": "03.07.01.04",
+      "descricao": "Inteligência e Análise Informacional Patrimonial",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     },
+     {
+      "codigo": "03.07.01.05",
+      "descricao": "Gestão do ciclo de vida e dos dados mestres patrimoniais.",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     }
+    ]
+   },
+   {
+    "codigo": "03.07.02",
+    "descricao": "Gestão da Geoinformação Patrimonial",
+    "nivel": 2,
+    "folha": false,
+    "situacao": "vigente",
+    "filhos": [
+     {
+      "codigo": "03.07.02.01",
+      "descricao": "Modelagem e especificação técnica para estruturação de dados geoespaciais vetoriais",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     },
+     {
+      "codigo": "03.07.02.02",
+      "descricao": "Produção de dados e informações geoespaciais",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     }
+    ]
+   },
+   {
+    "codigo": "03.07.03",
+    "descricao": "Gestão do conhecimento, pesquisa e desenvolvimento em gestão patrimonial imobiliária",
+    "nivel": 2,
+    "folha": false,
+    "situacao": "vigente",
+    "filhos": [
+     {
+      "codigo": "03.07.03.01",
+      "descricao": "Pesquisa aplicada e desenvolvimento",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     },
+     {
+      "codigo": "03.07.03.02",
+      "descricao": "Identificação, organização e registro do conhecimento",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     },
+     {
+      "codigo": "03.07.03.03",
+      "descricao": "Compartilhamento e disseminação do conhecimento",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     }
+    ]
+   },
+   {
+    "codigo": "03.07.04",
+    "descricao": "Gestão da Memória Institucional",
+    "nivel": 2,
+    "folha": false,
+    "situacao": "vigente",
+    "filhos": [
+     {
+      "codigo": "03.07.04.01",
+      "descricao": "Organização, curadoria e interpretação da memória institucional",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     },
+     {
+      "codigo": "03.07.04.02",
+      "descricao": "Preservação física e digital de acervos e da memória institucional",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     },
+     {
+      "codigo": "03.07.04.03",
+      "descricao": "Difusão e acesso à memória institucional",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     }
+    ]
+   }
+  ]
+ }
+]

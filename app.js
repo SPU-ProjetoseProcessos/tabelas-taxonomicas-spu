@@ -45,6 +45,10 @@ const semAcento = (s) => (s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLo
 const rota = (sigla) => sigla.toLowerCase().replace(/[^a-z0-9]/g, '');
 const dataBR = (iso) => (/^\d{4}-\d{2}-\d{2}$/.test(iso || '')
   ? iso.split('-').reverse().join('/') : iso || '');
+/* Tabela ainda não aprovada: vale tanto para a linha do índice quanto para o
+   tabela.json, que carregam a mesma chave. */
+const ehMinuta = (x) => !!x && x.situacao === 'minuta';
+const selo = (texto) => el('span', { className: 'marca-minuta', textContent: texto });
 
 // ------------------------------------------------------------------ cores
 function hexParaHsl(hex) {
@@ -167,13 +171,27 @@ function cabecaPagina({ sigla = '', titulo, dominio = '' }) {
   elDominio.hidden = !dominio;
 }
 
+/* A tarja fica na tela da tabela, acima de tudo, e some quando a tabela é
+   aprovada — o texto do aviso vem do dado, não daqui. */
+function desenharTarja() {
+  const caixa = $('#tarjaMinuta');
+  const m = estado.atual ? tabela().meta : null;
+  caixa.textContent = '';
+  caixa.hidden = !ehMinuta(m);
+  if (caixa.hidden) return;
+  caixa.append(
+    el('b', { textContent: 'Versão preliminar' }),
+    el('p', { textContent: m.aviso }));
+}
+
 function desenharHome() {
   const caixa = $('#cards');
   caixa.textContent = '';
   for (const t of estado.indice.tabelas) {
-    const card = el('button', { className: 'card', type: 'button' });
+    const card = el('button', { className: ehMinuta(t) ? 'card minuta' : 'card', type: 'button' });
     card.style.setProperty('--cor-card', t.cor || '#17585e');
-    card.append(
+    card.append(...juntar(
+      ehMinuta(t) ? el('span', { className: 'selo-minuta', textContent: 'Minuta' }) : null,
       el('span', { className: 'sigla', textContent: `${t.sigla} · ${t.eixo}` }),
       el('h2', { textContent: t.titulo }),
       el('p', { className: 'dominio', textContent: t.dominio || '' }),
@@ -181,7 +199,7 @@ function desenharHome() {
         el('div', {}, el('b', { textContent: String(t.totais.registros) }), el('span', { textContent: 'registros' })),
         el('div', {}, el('b', { textContent: String(t.profundidade) }), el('span', { textContent: 'níveis' }))),
       el('p', { className: 'norma', textContent: t.norma_vigente }),
-    );
+    ));
     card.addEventListener('click', () => irPara(t.id));
     caixa.append(card);
   }
@@ -189,15 +207,19 @@ function desenharHome() {
   atalho.textContent = '';
   atalho.append(el('option', { value: '', textContent: 'escolher uma tabela…' }));
   for (const t of estado.indice.tabelas) {
-    atalho.append(el('option', { value: t.id, textContent: `${t.sigla} — ${t.titulo}` }));
+    atalho.append(el('option', { value: t.id,
+      textContent: `${t.sigla} — ${t.titulo}${ehMinuta(t) ? ' (minuta)' : ''}` }));
   }
   atalho.value = '';
   atalho.onchange = () => { if (atalho.value) irPara(atalho.value); };
 
   const g = estado.indice.glossario;
+  const minutas = estado.indice.tabelas.filter(ehMinuta).length;
+  const vigentes = estado.indice.tabelas.length - minutas;
   $('#resumoAcervo').textContent =
-    `${estado.indice.tabelas.length} tabelas publicadas · ${g.termos} termos no glossário do MemóriaSPU, `
-    + `${g.vinculos} deles ligados a um código.`;
+    `${vigentes} tabela${vigentes > 1 ? 's' : ''} aprovada${vigentes > 1 ? 's' : ''}`
+    + (minutas ? ` e ${minutas} minuta${minutas > 1 ? 's' : ''} em elaboração` : '')
+    + ` · ${g.termos} termos no glossário do MemóriaSPU, ${g.vinculos} deles ligados a um código.`;
 }
 
 // ---------------------------------------------------------------- filtros
@@ -423,7 +445,11 @@ function textoDaFicha(cod) {
   const t = tabela();
   const r = t.porCodigo[cod];
   const m = t.meta;
-  const linhas = [`${m.sigla} — ${m.titulo}`, '', `${r.codigo} — ${r.descricao}`, r.definicao];
+  const linhas = [`${m.sigla} — ${m.titulo}`];
+  /* O aviso vai junto do texto copiado: fora da página, é só ele que avisa
+     que o item colado não é norma. */
+  if (ehMinuta(m)) linhas.push('[VERSÃO PRELIMINAR — tabela ainda não aprovada pelo ComGC]');
+  linhas.push('', `${r.codigo} — ${r.descricao}`, r.definicao);
   if (r.observacao) linhas.push('', `Observação: ${r.observacao}`);
   if (r.nota_de_aplicacao) linhas.push('', `Nota de aplicação: ${r.nota_de_aplicacao}`);
   if (r.fundamento_legal.length) linhas.push('', `Fundamentação legal (União): ${r.fundamento_legal.join('; ')}`);
@@ -444,14 +470,14 @@ function textoDaFicha(cod) {
     }
   }
   const n = m.norma_vigente;
-  linhas.push('', `Fonte: ${n.ato} (documento SEI ${n.sei_documento}, processo ${n.processo_sei}).`);
+  if (n) {
+    linhas.push('', `Fonte: ${n.ato} (documento SEI ${n.sei_documento}, processo ${n.processo_sei}).`);
+  } else {
+    const o = m.origem || {};
+    linhas.push('', `Fonte: ${o.documento}, versão de ${dataBR(o.versao)}.`,
+                'Minuta sem resolução do ComGC — não use como referência normativa.');
+  }
   return linhas.join('\n');
-}
-
-function comoCitar(r) {
-  const m = tabela().meta;
-  return `${m.sigla} — ${m.titulo}, código ${r.codigo} (${r.descricao}). ${m.norma_vigente.ato}. `
-       + `Documento SEI ${m.norma_vigente.sei_documento}, processo ${m.norma_vigente.processo_sei}.`;
 }
 
 function botaoCopiar(rotulo, texto) {
@@ -472,6 +498,7 @@ function mostrarFicha(cod) {
   corpo.append(...juntar(
     el('div', { className: 'chips' },
       el('span', { className: 'chip cor', textContent: nivel }),
+      ehMinuta(t.meta) ? el('span', { className: 'chip minuta', textContent: 'minuta' }) : null,
       !temFilhos(cod) ? el('span', { className: 'chip', textContent: 'folha' }) : null,
       r.situacao !== 'vigente' ? el('span', { className: 'chip aviso', textContent: r.situacao.replace(/_/g, ' ') }) : null),
     el('span', { className: 'codigo-grande', textContent: r.codigo }),
@@ -487,19 +514,35 @@ function mostrarFicha(cod) {
     blocoAtributos(cod),
     blocoFilhos(cod),
     blocoGlossario(cod),
-    campo('Norma de origem', el('div', {},
-      el('p', { textContent: t.meta.norma_vigente.ato }),
-      el('p', { className: 'vazio', style: 'font-size:13px', textContent:
-        `Publicada em ${dataBR(t.meta.norma_vigente.publicacao)} · documento SEI ${t.meta.norma_vigente.sei_documento}`
-        + ` · processo ${t.meta.norma_vigente.processo_sei}` }),
-      t.meta.norma_vigente.pdf
-        ? el('p', { style: 'margin:8px 0 0' },
-            el('a', { className: 'link-termo', href: `${BASE}/${t.meta.norma_vigente.pdf}`,
-                      target: '_blank', rel: 'noopener', textContent: 'Abrir a resolução em PDF' }))
-        : null)),
+    blocoOrigem(),
     el('div', { className: 'acoes' }, botaoCopiar('Copiar', textoDaFicha(cod))),
   ));
   caixa.append(corpo);
+}
+
+/* Numa tabela aprovada, a origem é a resolução, com o PDF; numa minuta, é o
+   documento de trabalho — e aí não há ato para citar. */
+function blocoOrigem() {
+  const m = tabela().meta;
+  const n = m.norma_vigente;
+  if (!n) {
+    const o = m.origem || {};
+    return campo('Origem', el('div', {},
+      el('p', { textContent: o.documento || 'Documento de trabalho' }),
+      el('p', { className: 'vazio', style: 'font-size:13px', textContent:
+        `Versão de ${dataBR(o.versao)} · sem resolução do ComGC` }),
+      o.nota ? el('p', { className: 'vazio', style: 'font-size:13px', textContent: o.nota }) : null));
+  }
+  return campo('Norma de origem', el('div', {},
+    el('p', { textContent: n.ato }),
+    el('p', { className: 'vazio', style: 'font-size:13px', textContent:
+      `Publicada em ${dataBR(n.publicacao)} · documento SEI ${n.sei_documento}`
+      + ` · processo ${n.processo_sei}` }),
+    n.pdf
+      ? el('p', { style: 'margin:8px 0 0' },
+          el('a', { className: 'link-termo', href: `${BASE}/${n.pdf}`,
+                    target: '_blank', rel: 'noopener', textContent: 'Abrir a resolução em PDF' }))
+      : null));
 }
 
 function fichaVazia() {
@@ -524,7 +567,10 @@ function exportar() {
   };
   const conteudo = [cols.join(','), ...regs.map((r) => cols.map((c) => cel(r[c])).join(','))].join('\n');
   const url = URL.createObjectURL(new Blob([conteudo], { type: 'text/csv;charset=utf-8' }));
-  const a = el('a', { href: url, download: `${rota(t.meta.sigla)}-${regs.length}-registros.csv` });
+  /* O CSV sai do site sem a tarja: o nome do arquivo é o que sobra para avisar
+     que aquilo é minuta. */
+  const nome = `${rota(t.meta.sigla)}${ehMinuta(t.meta) ? '-minuta' : ''}-${regs.length}-registros.csv`;
+  const a = el('a', { href: url, download: nome });
   document.body.append(a); a.click(); a.remove();
   URL.revokeObjectURL(url);
 }
@@ -815,7 +861,8 @@ async function achados(alvo) {
         const valor = Array.isArray(r[c]) ? r[c].join(' ; ') : r[c];
         if (valor && semAcento(valor).includes(alvo)) {
           lista.push({ escopo: info.id, tipo: 'registro', sigla: t.meta.sigla, cor: t.meta.cor,
-                       codigo: r.codigo, titulo: r.descricao, rotulo, valor });
+                       situacao: info.situacao, codigo: r.codigo, titulo: r.descricao,
+                       rotulo, valor });
           break;
         }
       }
@@ -828,11 +875,12 @@ function desenharEscopos(lista, alvo) {
   const caixa = $('#escopos');
   caixa.textContent = '';
   const opcoes = [{ id: 'todas', nome: 'Todas as tabelas' },
-    ...estado.indice.tabelas.map((t) => ({ id: t.id, nome: t.sigla }))];
+    ...estado.indice.tabelas.map((t) => ({ id: t.id, nome: t.sigla, minuta: ehMinuta(t) }))];
   for (const o of opcoes) {
     const n = o.id === 'todas' ? lista.length : lista.filter((a) => a.escopo === o.id).length;
-    const b = el('button', { className: 'escopo', type: 'button' },
-      o.nome, el('span', { className: 'qtd', textContent: n }));
+    const b = el('button', { className: 'escopo', type: 'button' }, ...juntar(
+      o.nome, o.minuta ? selo(' (minuta)') : null,
+      el('span', { className: 'qtd', textContent: n })));
     b.setAttribute('aria-pressed', String(estado.escopo === o.id));
     b.addEventListener('click', () => { estado.escopo = o.id; desenharBusca(lista, alvo); });
     caixa.append(b);
@@ -849,7 +897,8 @@ function desenharBusca(lista, alvo) {
   ul.textContent = '';
   for (const a of filtrada.slice(0, 200)) {
     const item = el('button', { type: 'button' },
-      el('div', { className: 'etiqueta', textContent: `${a.sigla} · ${a.codigo}` }),
+      el('div', { className: 'etiqueta' }, ...juntar(
+        `${a.sigla} · ${a.codigo}`, ehMinuta(a) ? selo(' · minuta') : null)),
       el('div', { className: 'titulo-res', textContent: a.titulo }),
       el('div', { className: 'onde' }, `em ${a.rotulo}: `, trecho(a.valor, alvo)));
     item.addEventListener('click', () => irPara(a.escopo, a.codigo));
@@ -916,6 +965,7 @@ async function abrirTabela(id) {
   document.documentElement.style.setProperty('--cor', t.meta.cor);
   cabecaPagina({ sigla: `${t.meta.sigla} · ${t.meta.eixo}`, titulo: t.meta.titulo,
                  dominio: t.meta.dominio });
+  desenharTarja();
   trocarAba('arvore');
   $('#botaoFiltros').setAttribute('aria-expanded', 'false');
   $('#filtros').hidden = true;
@@ -931,10 +981,12 @@ $('#irInicio').addEventListener('click', () => irParaHome());
 
 function montarRodape() {
   const i = estado.indice;
+  const minutas = i.tabelas.filter(ehMinuta).length;
   $('#rodape').textContent =
     `Protótipo sobre os dados canônicos (esquema ${i.versao_esquema}). Fonte oficial: resoluções do `
     + `Comitê de Gestão do Conhecimento da SPU, registradas no MemóriaSPU. `
-    + `${i.tabelas.length} tabelas · ${i.glossario.termos} termos de glossário · ${i.glossario.vinculos} vínculos.`;
+    + `${i.tabelas.length} tabelas${minutas ? `, das quais ${minutas} em minuta não aprovada` : ''}`
+    + ` · ${i.glossario.termos} termos de glossário · ${i.glossario.vinculos} vínculos.`;
 }
 
 function lerRota() {
@@ -954,7 +1006,7 @@ async function iniciar() {
   } catch (erro) {
     $('#cards').append(el('p', {}, `Não foi possível carregar os dados: ${erro.message}`),
       el('p', { className: 'vazio', textContent:
-        'A página precisa ser servida por HTTP. Em desenvolvimento: python3 ferramentas/servir.py 8765' }));
+        'A página precisa ser servida por HTTP. Em desenvolvimento: python3 proposta/ferramentas/servir.py 8765' }));
   }
 }
 

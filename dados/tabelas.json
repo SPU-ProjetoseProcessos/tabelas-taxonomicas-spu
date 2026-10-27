@@ -9,10 +9,12 @@
    "cor": "#A4461E",
    "dominio": "Uso atribuído ao imóvel da União",
    "rotulo_folha": "usos",
+   "situacao": "vigente",
+   "aviso": "",
    "norma_publicacao": "2025-10-08",
+   "norma_vigente": "Resolução ComGC/SPU/MGI nº 3, de 3 de outubro de 2025",
    "caminho": "tt01-uso-imobiliario",
    "profundidade": 3,
-   "norma_vigente": "Resolução ComGC/SPU/MGI nº 3, de 3 de outubro de 2025",
    "totais": {
     "registros": 96,
     "folhas": 72,
@@ -33,10 +35,12 @@
    "cor": "#17585E",
    "dominio": "Regime jurídico-administrativo da destinação do imóvel",
    "rotulo_folha": "regimes",
+   "situacao": "vigente",
+   "aviso": "",
    "norma_publicacao": "2025-10-24",
+   "norma_vigente": "Resolução ComGC/SPU/MGI nº 5, de 24 de outubro de 2025",
    "caminho": "tt02-regimes-destinacao",
    "profundidade": 5,
-   "norma_vigente": "Resolução ComGC/SPU/MGI nº 5, de 24 de outubro de 2025",
    "totais": {
     "registros": 62,
     "folhas": 46,
@@ -50,6 +54,33 @@
    },
    "tem_atributos": true,
    "tem_exemplos": false
+  },
+  {
+   "id": "tt03-funcoes-finalisticas",
+   "sigla": "TT-03",
+   "titulo": "Funções Finalísticas de Gestão Patrimonial Imobiliária",
+   "eixo": "Função finalística",
+   "cor": "#4F6132",
+   "dominio": "Função finalística exercida na gestão do patrimônio imobiliário da União",
+   "rotulo_folha": "funções",
+   "situacao": "minuta",
+   "aviso": "Esta tabela ainda não foi aprovada: não há resolução do Comitê de Gestão do Conhecimento que a institua. Códigos, descrições e definições podem mudar até a aprovação — não devem ser usados como referência normativa nem registrados em sistema.",
+   "norma_publicacao": "2026-10-27",
+   "norma_vigente": "Minuta — ainda sem resolução do ComGC",
+   "caminho": "tt03-funcoes-finalisticas",
+   "profundidade": 4,
+   "totais": {
+    "registros": 98,
+    "folhas": 67,
+    "por_nivel": {
+     "1": 7,
+     "2": 21,
+     "3": 53,
+     "4": 17
+    }
+   },
+   "tem_atributos": false,
+   "tem_exemplos": true
   }
  ],
  "glossario": {

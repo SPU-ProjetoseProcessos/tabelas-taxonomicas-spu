@@ -39,7 +39,31 @@ Os dois primeiros itens são candidatos a errata ou a correção na próxima alt
 | 67 de 72 definições são idênticas | O glossário replica a definição da taxonomia. Não deve haver duas versões do mesmo texto: a taxonomia é a fonte, e o glossário agrega o que é dele (informações complementares, referência, legislação) |
 | Export sem link permanente | A coluna "Link de acesso" veio **vazia nos 234 termos**, e as colunas de relação (fluxos, publicações, manifestações jurídicas, vídeos) também. Sem a URL do termo não há como linkar do site de volta para o MemóriaSPU |
 
-## 4. Resultado da validação automática
+## 4. Na minuta da TT-03 (documento de trabalho, 98 itens)
+
+A transcrição veio do `.docx` da proposta, na versão **com todas as alterações controladas
+aceitas** — que é a versão finalizada, já que nenhuma das três rodadas de revisão apaga o que
+outra escreveu: são 121 inserções de conteúdo de uma revisora, 385 marcas só de formatação de
+tabela de outra, e a rodada mais recente, que renumerou a tabela e criou a função
+`03.01.04`. O arquivo **não traz comentários**; se havia, perderam-se nessa cópia.
+
+A estrutura está sã: 98 códigos, nenhum duplicado, nenhum órfão, e a primeira palavra de cada
+definição confere com o nível em 97 dos 98 registros (Macrofunção no 1º, Função no 2º,
+Subfunção no 3º, Categoria no 4º) — o único desvio é um plural, "Subfunções".
+
+O que precisa de correção por quem redige:
+
+| Achado | Onde |
+|---|---|
+| **Número da tabela indefinido** | O documento usa o prefixo `0X`, e dois itens guardam o `03` da numeração de trabalho (`03.01.04.02`, `03.04.01.01`). Adotou-se `03`, provisoriamente |
+| **Ano errado do Decreto-Lei** | `03.01.03` cita "Decreto-Lei 9.760/**1948**"; nos outros seis registros que o citam o ano é **1946**, que é o correto |
+| Cinco nomes em caixa alta | `03.02`, `03.04`, `03.06`, `03.07` e o "COERCITIVA" do `03.06.01.02`, onde as outras tabelas usam caixa de sentença; o `03.04` tem ainda um "ImobiliáriO" |
+| Ponto final em nome | `03.07.01.05` — "Gestão do ciclo de vida e dos dados mestres patrimoniais." |
+| 36 itens sem exemplos | De 98 registros, 62 trazem "Exemplos de documentos"; entre os 36 sem, alguns são de último nível |
+| Rótulo da lista de exemplos varia | "Exemplos de documentos:", "Exemplos de documentos" (sem dois-pontos) e "Exemplos:"; em dois registros o rótulo fecha o parágrafo da definição em vez de abrir um próprio |
+| Bloco de referências solto | Só `03.01.03` termina com "Referências: …", que aqui virou `fundamento_legal`. Nos demais, nada equivale à "Fundamentação legal (União)" da TT-01 e da TT-02 |
+
+## 5. Resultado da validação automática
 
 `0 erro(s), 7 aviso(s)` — os sete avisos são exatamente os achados reais listados acima
 (2 das normas, 5 do glossário). O relatório completo está em `relatorios/validacao.txt`.

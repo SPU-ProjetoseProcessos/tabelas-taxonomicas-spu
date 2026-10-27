@@ -71,6 +71,31 @@ Identificação, domínio, `cor` (identidade visual da tabela, usada pela págin
 `rotulos_nivel` (um rótulo por nível, conferido contra a profundidade), `norma_vigente` (ato, publicação, documento e processo SEI, arquivo do PDF),
 `historico` (a cadeia de atos, com o efeito de cada um) e `totais` conferidos pelo validador.
 
+### Tabela aprovada e minuta
+
+`situacao` qualifica a **tabela inteira**, e não se confunde com o `situacao` do registro:
+
+| Valor | O que significa |
+|---|---|
+| `vigente` | instituída por resolução do ComGC; `norma_vigente` preenchido |
+| `minuta` | proposta ainda não aprovada; `norma_vigente` é `null` e vale o bloco `origem` |
+
+Uma minuta traz `aviso` (o texto que a interface mostra na tarja, no card e no texto
+copiado) e `origem` (`documento`, `rotulo`, `versao`, `nota`) no lugar do ato. O índice
+`tabelas.json` repete `situacao` e `aviso`, para a home e a busca poderem marcar a tabela
+sem carregar o `tabela.json` de cada uma.
+
+A marcação não é decorativa: ela aparece no card, na tarja da tela da tabela, no chip da
+ficha, na etiqueta de cada resultado de busca, no nome do CSV exportado e no cabeçalho do
+texto que o botão **Copiar** leva. O caminho por onde o item sai do site é justamente o
+caminho em que o aviso costuma se perder.
+
+O documento de trabalho de uma minuta (`.docx` com controle de alterações e nomes de
+revisores) **não vai para o repositório publicado**: o `registros.csv` gerado a partir dele
+é a transcrição revisável, como em qualquer outra tabela. `ferramentas/gerar_dados.py` lê o
+`.docx` quando ele está na pasta de origem e, quando não está, reaproveita o CSV já
+transcrito.
+
 ## `glossario/vinculos.csv`
 
 | Campo | Observação |
