@@ -1,10 +1,8 @@
 # Fontes
 
-- **Fraunces** (`fraunces-latin.woff2`) — SIL Open Font License 1.1.
-  https://github.com/undercasetype/Fraunces
-- **Inter** (`inter-latin.woff2`) — SIL Open Font License 1.1.
-  https://github.com/rsms/inter
+- **Raleway** (`raleway-latin.woff2`) — SIL Open Font License 1.1.
+  https://github.com/impallari/Raleway
 
-Arquivos no subconjunto latino, variáveis (um arquivo por família cobre todos os pesos).
-Servidos pelo próprio site: nenhuma dependência de CDN, requisito para funcionar em
-navegador restrito de órgão.
+É a mesma família usada no MemóriaSPU e no SPUProcessos. Arquivo no subconjunto latino,
+variável (um arquivo cobre os pesos 400 a 700). Servido pelo próprio site: nenhuma
+dependência de CDN, requisito para funcionar em navegador restrito de órgão.

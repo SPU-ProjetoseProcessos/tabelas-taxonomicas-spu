@@ -4,6 +4,13 @@
 'use strict';
 
 const BASE = 'dados';
+/* A versão vem do próprio endereço deste script (app.js?v=…): um lugar só para
+   trocar quando se publica, e os dados deixam de vir do cache antigo. */
+const VERSAO = (() => {
+  try { return new URL(document.currentScript.src).searchParams.get('v') || ''; }
+  catch { return ''; }
+})();
+const comVersao = (caminho) => (VERSAO ? `${caminho}?v=${VERSAO}` : caminho);
 
 const estado = {
   indice: null,
@@ -30,7 +37,7 @@ const el = (tag, props = {}, ...filhos) => {
   n.append(...juntar(...filhos).map((f) => (typeof f === 'string' ? document.createTextNode(f) : f)));
   return n;
 };
-const baixarJSON = (caminho) => fetch(`${BASE}/${caminho}`).then((r) => {
+const baixarJSON = (caminho) => fetch(comVersao(`${BASE}/${caminho}`)).then((r) => {
   if (!r.ok) throw new Error(`não foi possível ler ${caminho} (${r.status})`);
   return r.json();
 });
@@ -410,6 +417,37 @@ function blocoFilhos(cod) {
   })));
 }
 
+/* O que a ficha mostra é o que vai para a área de transferência — menos o
+   glossário, que é link para outro acervo. */
+function textoDaFicha(cod) {
+  const t = tabela();
+  const r = t.porCodigo[cod];
+  const m = t.meta;
+  const linhas = [`${m.sigla} — ${m.titulo}`, '', `${r.codigo} — ${r.descricao}`, r.definicao];
+  if (r.observacao) linhas.push('', `Observação: ${r.observacao}`);
+  if (r.nota_de_aplicacao) linhas.push('', `Nota de aplicação: ${r.nota_de_aplicacao}`);
+  if (r.fundamento_legal.length) linhas.push('', `Fundamentação legal (União): ${r.fundamento_legal.join('; ')}`);
+  if (r.instrumento.length) linhas.push(`Instrumento: ${r.instrumento.join('; ')}`);
+  if (r.exemplos.length) linhas.push(`Exemplos: ${r.exemplos.join('; ')}`);
+  const a = t.atributos && t.atributos[cod];
+  if (a) {
+    const valores = Object.entries(t.vocab)
+      .filter(([k]) => (a[k] || []).length)
+      .map(([k, regra]) => `${regra.rotulo}: ${a[k].join(' / ')}`);
+    if (valores.length) linhas.push('', `Atributos: ${valores.join(' · ')}`);
+  }
+  const kids = t.filhos[cod] || [];
+  if (kids.length) {
+    linhas.push('', `Subdivisões (${kids.length}):`);
+    for (const c of kids) {
+      linhas.push(`  ${c} — ${t.porCodigo[c].descricao}`, `    ${t.porCodigo[c].definicao}`);
+    }
+  }
+  const n = m.norma_vigente;
+  linhas.push('', `Fonte: ${n.ato} (documento SEI ${n.sei_documento}, processo ${n.processo_sei}).`);
+  return linhas.join('\n');
+}
+
 function comoCitar(r) {
   const m = tabela().meta;
   return `${m.sigla} — ${m.titulo}, código ${r.codigo} (${r.descricao}). ${m.norma_vigente.ato}. `
@@ -453,9 +491,13 @@ function mostrarFicha(cod) {
       el('p', { textContent: t.meta.norma_vigente.ato }),
       el('p', { className: 'vazio', style: 'font-size:13px', textContent:
         `Publicada em ${dataBR(t.meta.norma_vigente.publicacao)} · documento SEI ${t.meta.norma_vigente.sei_documento}`
-        + ` · processo ${t.meta.norma_vigente.processo_sei}` }))),
-    el('div', { className: 'acoes' },
-      botaoCopiar('Copiar item da taxonomia', `${r.codigo} — ${r.descricao}`)),
+        + ` · processo ${t.meta.norma_vigente.processo_sei}` }),
+      t.meta.norma_vigente.pdf
+        ? el('p', { style: 'margin:8px 0 0' },
+            el('a', { className: 'link-termo', href: `${BASE}/${t.meta.norma_vigente.pdf}`,
+                      target: '_blank', rel: 'noopener', textContent: 'Abrir a resolução em PDF' }))
+        : null)),
+    el('div', { className: 'acoes' }, botaoCopiar('Copiar', textoDaFicha(cod))),
   ));
   caixa.append(corpo);
 }

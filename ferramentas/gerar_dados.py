@@ -115,6 +115,19 @@ def totais(registros):
 COLS_REG = ['codigo', 'nivel', 'pai', 'descricao', 'definicao', 'observacao',
             'fundamento_legal', 'instrumento', 'exemplos', 'situacao', 'nota_de_aplicacao']
 
+def copiar_norma(pasta_base, destino, meta):
+    """Leva o PDF da resolução para junto dos dados, para a ficha poder abri-lo."""
+    import shutil
+    arquivo = meta['norma_vigente'].get('arquivo')
+    origem = arquivo and os.path.join(pasta_base, arquivo)
+    if not origem or not os.path.exists(origem):
+        return ''
+    pasta = os.path.join(destino, 'normas')
+    os.makedirs(pasta, exist_ok=True)
+    shutil.copyfile(origem, os.path.join(pasta, arquivo))
+    return f'normas/{arquivo}'
+
+
 def gravar_tabela(destino, meta, registros, atributos=None, vocabulario=None):
     os.makedirs(destino, exist_ok=True)
     escrever_csv(f'{destino}/registros.csv', COLS_REG, registros)
@@ -288,6 +301,9 @@ def main(pasta_base, destino):
     reg01 = montar_registros(bruto['tt01'])
     reg02 = montar_registros(bruto['tt02'])
     atributos = [{c: a.get(c, '') for c in COLS_AT} for a in bruto['tt02_atributos']]
+
+    for meta in (META_TT01, META_TT02):
+        meta['norma_vigente']['pdf'] = copiar_norma(pasta_base, destino, meta)
 
     m1 = gravar_tabela(os.path.join(destino, META_TT01['id']), META_TT01, reg01)
     m2 = gravar_tabela(os.path.join(destino, META_TT02['id']), META_TT02, reg02,
