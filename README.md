@@ -49,6 +49,17 @@ que é a fonte revisável, como em qualquer outra tabela. Por isso `gerar_dados.
 `.docx` quando ele está em `origem/` e, quando não está, reaproveita o CSV já publicado — a
 saída é a mesma nos dois caminhos.
 
+Transcrever não é copiar cegamente. A minuta da TT-03 nomeia de três jeitos — caixa de
+sentença em 79 dos 98 registros, caixa alta em cinco e Title Case em dez —, e as tabelas
+aprovadas nomeiam em caixa de sentença. Os quinze desvios são padronizados em
+`CAIXA_PADRONIZADA`, dentro de `ferramentas/extrair_minuta.py`, e não no CSV: assim o CSV
+publicado e uma releitura do `.docx` chegam ao mesmo texto. Cada entrada guarda o nome
+**como está no documento**, e a extração para se ele mudar, em vez de corrigir um texto que
+já não é aquele ou de deixar o desvio passar calado. Só a caixa se padroniza — concordância,
+grafia e pontuação ficam como no original e vão para
+[a errata](docs/achados-da-conversao.md), porque corrigir o mérito de uma proposta de outra
+área não é transcrever.
+
 ## Os dados
 
 Os arquivos em `dados/` são o produto principal — o site é um consumidor deles, e qualquer

@@ -57,7 +57,8 @@ O que precisa de correção por quem redige:
 |---|---|
 | **Número da tabela indefinido** | O documento usa o prefixo `0X`, e dois itens guardam o `03` da numeração de trabalho (`03.01.04.02`, `03.04.01.01`). Adotou-se `03`, provisoriamente |
 | **Ano errado do Decreto-Lei** | `03.01.03` cita "Decreto-Lei 9.760/**1948**"; nos outros seis registros que o citam o ano é **1946**, que é o correto |
-| Cinco nomes em caixa alta | `03.02`, `03.04`, `03.06`, `03.07` e o "COERCITIVA" do `03.06.01.02`, onde as outras tabelas usam caixa de sentença; o `03.04` tem ainda um "ImobiliáriO" |
+| **Três padrões de caixa nos nomes** | Caixa de sentença em 79 registros, caixa alta em cinco (`03.02`, `03.04`, `03.06`, `03.07` e o "COERCITIVA" do `03.06.01.02`) e Title Case em dez (`03.01`, `03.01.02.05`, `03.03`, `03.04.03.01`, `03.04.03.02`, `03.05`, `03.07.01`, `03.07.01.04`, `03.07.02`, `03.07.04`). Os quinze foram padronizados para caixa de sentença na extração — ver `CAIXA_PADRONIZADA` em `ferramentas/extrair_minuta.py` |
+| **Concordância em `03.04`** | "Destinação e gestão econômica patrimonial **imobiliário**": os núcleos são femininos, deveria ser "imobiliária". Nos outros três de nível 1 o masculino concorda com "ingresso", "controle" e "conhecimento". **Não corrigido** — é mérito de redação, não de transcrição |
 | Ponto final em nome | `03.07.01.05` — "Gestão do ciclo de vida e dos dados mestres patrimoniais." |
 | 36 itens sem exemplos | De 98 registros, 62 trazem "Exemplos de documentos"; entre os 36 sem, alguns são de último nível |
 | Rótulo da lista de exemplos varia | "Exemplos de documentos:", "Exemplos de documentos" (sem dois-pontos) e "Exemplos:"; em dois registros o rótulo fecha o parágrafo da definição em vez de abrir um próprio |

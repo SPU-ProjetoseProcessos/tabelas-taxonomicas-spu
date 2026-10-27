@@ -90,6 +90,66 @@ def separar_referencias(definicao):
     return partes[0].strip(), partes[1].strip(' .')
 
 
+# A minuta nomeia de três jeitos: caixa de sentença em 79 dos 98 registros,
+# caixa alta em cinco e Title Case em dez. As TT-01 e TT-02 nomeiam em caixa de
+# sentença, que é também a maioria daqui — então os outros dois são desvio, não
+# estilo. A padronização fica aqui, na extração, para que o CSV publicado e uma
+# releitura do .docx cheguem ao mesmo texto.
+#
+# Cada entrada guarda o nome **como está no documento**: se uma revisão mexer
+# nesse nome, a extração para em vez de aplicar a correção a um texto que já
+# não é aquele — ou de deixar a caixa alta passar calada. Só a caixa muda;
+# concordância e grafia ficam como no original e vão para a errata.
+CAIXA_PADRONIZADA = {
+    '03.02': ('GESTÃO DO INGRESSO PATRIMONIAL IMOBILIÁRIO',
+              'Gestão do ingresso patrimonial imobiliário'),
+    '03.04': ('DESTINAÇÃO E GESTÃO ECONÔMICA PATRIMONIAL ImobiliáriO',
+              'Destinação e gestão econômica patrimonial imobiliário'),
+    '03.06': ('CONTROLE PATRIMONIAL IMOBILIÁRIO',
+              'Controle patrimonial imobiliário'),
+    '03.06.01.02': ('Fiscalização patrimonial imobiliária COERCITIVA',
+                    'Fiscalização patrimonial imobiliária coercitiva'),
+    '03.07': ('GOVERNANÇA DE DADOS, INFORMAÇÃO E CONHECIMENTO PATRIMONIAL IMOBILIÁRIO',
+              'Governança de dados, informação e conhecimento patrimonial imobiliário'),
+    # Title Case: nenhum destes tem nome próprio ou sigla dentro, então a
+    # inicial é a única maiúscula que sobrevive
+    '03.01': ('Caracterização Patrimonial Imobiliária',
+              'Caracterização patrimonial imobiliária'),
+    '03.01.02.05': ('Demarcação de Terrenos para Regularização Fundiária de Interesse Social',
+                    'Demarcação de terrenos para regularização fundiária de interesse social'),
+    '03.03': ('Avaliação e Contabilidade Patrimonial Imobiliária',
+              'Avaliação e contabilidade patrimonial imobiliária'),
+    '03.04.03.01': ('Declaração de Interesse para o Serviço Público',
+                    'Declaração de interesse para o serviço público'),
+    '03.04.03.02': ('Reserva para Venda', 'Reserva para venda'),
+    '03.05': ('Gestão de Receitas Patrimoniais Imobiliárias',
+              'Gestão de receitas patrimoniais imobiliárias'),
+    '03.07.01': ('Governança de Dados e Informação',
+                 'Governança de dados e informação'),
+    '03.07.01.04': ('Inteligência e Análise Informacional Patrimonial',
+                    'Inteligência e análise informacional patrimonial'),
+    '03.07.02': ('Gestão da Geoinformação Patrimonial',
+                 'Gestão da geoinformação patrimonial'),
+    '03.07.04': ('Gestão da Memória Institucional',
+                 'Gestão da memória institucional'),
+}
+
+
+def padronizar_caixa(codigo, nome, aplicadas):
+    """Baixa a caixa dos nomes listados, conferindo que o original não mudou."""
+    par = CAIXA_PADRONIZADA.get(codigo)
+    if par is None:
+        return nome
+    origem, corrigido = par
+    if nome != origem:
+        raise SystemExit(
+            f'{codigo}: o nome no documento mudou desde que a padronização de '
+            f'caixa foi escrita.\n  no documento: {nome!r}\n  esperado:     '
+            f'{origem!r}\nRevise CAIXA_PADRONIZADA em extrair_minuta.py.')
+    aplicadas.add(codigo)
+    return corrigido
+
+
 def extrair(caminho_docx):
     with zipfile.ZipFile(caminho_docx) as z:
         raiz = ET.fromstring(z.read('word/document.xml'))
@@ -97,6 +157,7 @@ def extrair(caminho_docx):
     if len(tabelas) != 1:
         raise SystemExit(f'esperava uma tabela no documento, encontrei {len(tabelas)}')
     registros = []
+    aplicadas = set()
     for tr in tabelas[0].findall(q('tr')):
         celulas = [celula(tc) for tc in tr.findall(q('tc'))]
         if len(celulas) < 3 or not celulas[0]:
@@ -108,13 +169,18 @@ def extrair(caminho_docx):
         definicao, referencias = separar_referencias(definicao)
         registros.append({
             'codigo': cod,
-            'descricao': ' '.join(' '.join(celulas[1]).split()),
+            'descricao': padronizar_caixa(
+                cod, ' '.join(' '.join(celulas[1]).split()), aplicadas),
             'definicao': definicao,
             'observacao': '',
             'fundamento_legal': referencias,
             'instrumento': '',
             'exemplos': '; '.join(exemplos),
         })
+    faltando = set(CAIXA_PADRONIZADA) - aplicadas
+    if faltando:
+        raise SystemExit(f'padronização de caixa não encontrou os códigos '
+                         f'{sorted(faltando)} no documento')
     return registros
 
 

@@ -192,7 +192,7 @@ function desenharHome() {
     card.style.setProperty('--cor-card', t.cor || '#17585e');
     card.append(...juntar(
       ehMinuta(t) ? el('span', { className: 'selo-minuta', textContent: 'Minuta' }) : null,
-      el('span', { className: 'sigla', textContent: `${t.sigla} · ${t.eixo}` }),
+      el('span', { className: 'sigla', textContent: t.sigla }),
       el('h2', { textContent: t.titulo }),
       el('p', { className: 'dominio', textContent: t.dominio || '' }),
       el('div', { className: 'numeros' },
@@ -963,7 +963,7 @@ async function abrirTabela(id) {
   estado.vista = null; estado.selecionado = null;
   const t = tabela();
   document.documentElement.style.setProperty('--cor', t.meta.cor);
-  cabecaPagina({ sigla: `${t.meta.sigla} · ${t.meta.eixo}`, titulo: t.meta.titulo,
+  cabecaPagina({ sigla: t.meta.sigla, titulo: t.meta.titulo,
                  dominio: t.meta.dominio });
   desenharTarja();
   trocarAba('arvore');

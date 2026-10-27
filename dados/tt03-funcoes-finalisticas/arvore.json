@@ -1,7 +1,7 @@
 [
  {
   "codigo": "03.01",
-  "descricao": "Caracterização Patrimonial Imobiliária",
+  "descricao": "Caracterização patrimonial imobiliária",
   "nivel": 1,
   "folha": false,
   "situacao": "vigente",
@@ -103,7 +103,7 @@
      },
      {
       "codigo": "03.01.02.05",
-      "descricao": "Demarcação de Terrenos para Regularização Fundiária de Interesse Social",
+      "descricao": "Demarcação de terrenos para regularização fundiária de interesse social",
       "nivel": 3,
       "folha": true,
       "situacao": "vigente"
@@ -160,7 +160,7 @@
  },
  {
   "codigo": "03.02",
-  "descricao": "GESTÃO DO INGRESSO PATRIMONIAL IMOBILIÁRIO",
+  "descricao": "Gestão do ingresso patrimonial imobiliário",
   "nivel": 1,
   "folha": false,
   "situacao": "vigente",
@@ -254,7 +254,7 @@
  },
  {
   "codigo": "03.03",
-  "descricao": "Avaliação e Contabilidade Patrimonial Imobiliária",
+  "descricao": "Avaliação e contabilidade patrimonial imobiliária",
   "nivel": 1,
   "folha": false,
   "situacao": "vigente",
@@ -293,7 +293,7 @@
  },
  {
   "codigo": "03.04",
-  "descricao": "DESTINAÇÃO E GESTÃO ECONÔMICA PATRIMONIAL ImobiliáriO",
+  "descricao": "Destinação e gestão econômica patrimonial imobiliário",
   "nivel": 1,
   "folha": false,
   "situacao": "vigente",
@@ -411,14 +411,14 @@
     "filhos": [
      {
       "codigo": "03.04.03.01",
-      "descricao": "Declaração de Interesse para o Serviço Público",
+      "descricao": "Declaração de interesse para o serviço público",
       "nivel": 3,
       "folha": true,
       "situacao": "vigente"
      },
      {
       "codigo": "03.04.03.02",
-      "descricao": "Reserva para Venda",
+      "descricao": "Reserva para venda",
       "nivel": 3,
       "folha": true,
       "situacao": "vigente"
@@ -436,7 +436,7 @@
  },
  {
   "codigo": "03.05",
-  "descricao": "Gestão de Receitas Patrimoniais Imobiliárias",
+  "descricao": "Gestão de receitas patrimoniais imobiliárias",
   "nivel": 1,
   "folha": false,
   "situacao": "vigente",
@@ -459,7 +459,7 @@
  },
  {
   "codigo": "03.06",
-  "descricao": "CONTROLE PATRIMONIAL IMOBILIÁRIO",
+  "descricao": "Controle patrimonial imobiliário",
   "nivel": 1,
   "folha": false,
   "situacao": "vigente",
@@ -496,7 +496,7 @@
      },
      {
       "codigo": "03.06.01.02",
-      "descricao": "Fiscalização patrimonial imobiliária COERCITIVA",
+      "descricao": "Fiscalização patrimonial imobiliária coercitiva",
       "nivel": 3,
       "folha": false,
       "situacao": "vigente",
@@ -613,14 +613,14 @@
  },
  {
   "codigo": "03.07",
-  "descricao": "GOVERNANÇA DE DADOS, INFORMAÇÃO E CONHECIMENTO PATRIMONIAL IMOBILIÁRIO",
+  "descricao": "Governança de dados, informação e conhecimento patrimonial imobiliário",
   "nivel": 1,
   "folha": false,
   "situacao": "vigente",
   "filhos": [
    {
     "codigo": "03.07.01",
-    "descricao": "Governança de Dados e Informação",
+    "descricao": "Governança de dados e informação",
     "nivel": 2,
     "folha": false,
     "situacao": "vigente",
@@ -648,7 +648,7 @@
      },
      {
       "codigo": "03.07.01.04",
-      "descricao": "Inteligência e Análise Informacional Patrimonial",
+      "descricao": "Inteligência e análise informacional patrimonial",
       "nivel": 3,
       "folha": true,
       "situacao": "vigente"
@@ -664,7 +664,7 @@
    },
    {
     "codigo": "03.07.02",
-    "descricao": "Gestão da Geoinformação Patrimonial",
+    "descricao": "Gestão da geoinformação patrimonial",
     "nivel": 2,
     "folha": false,
     "situacao": "vigente",
@@ -717,7 +717,7 @@
    },
    {
     "codigo": "03.07.04",
-    "descricao": "Gestão da Memória Institucional",
+    "descricao": "Gestão da memória institucional",
     "nivel": 2,
     "folha": false,
     "situacao": "vigente",

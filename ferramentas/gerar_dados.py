@@ -160,6 +160,9 @@ COLS_AT = ['codigo', 'discricionariedade', 'natureza', 'pagamento_em_dinheiro',
            'baixa_patrimonial', 'prazo', 'efeito_patrimonial', 'uso_determinado']
 
 # ----------------------------------------------------------------- metadados
+# 'titulo' é o nome da tabela como a resolução do ComGC a institui, e é ele que
+# aparece no card e no cabeçalho. 'eixo' não vai para a tela: é a chave de
+# agrupamento das tabelas no índice, para quando forem dezenas (D12).
 META_TT01 = {
     'id': 'tt01-uso-imobiliario',
     'sigla': 'TT-01',

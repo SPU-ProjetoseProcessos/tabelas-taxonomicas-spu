@@ -96,6 +96,16 @@ revisores) **não vai para o repositório publicado**: o `registros.csv` gerado 
 `.docx` quando ele está na pasta de origem e, quando não está, reaproveita o CSV já
 transcrito.
 
+Transcrever não é copiar cegamente: a minuta da TT-03 nomeia de três jeitos — caixa de
+sentença em 79 dos 98 registros, caixa alta em cinco e Title Case em dez —, e as tabelas
+aprovadas nomeiam em caixa de sentença. A padronização fica em
+`ferramentas/extrair_minuta.py`, em `CAIXA_PADRONIZADA`, e não no CSV — assim o CSV
+publicado e uma releitura do `.docx` chegam ao mesmo texto. Cada entrada guarda o nome como
+está no documento e a extração **para** se ele mudar, em vez de corrigir um texto que já
+não é aquele ou de deixar o desvio passar calado. Só a caixa se padroniza: concordância,
+grafia e pontuação ficam como no original e vão para a errata, porque corrigir o mérito de
+uma proposta de outra área não é transcrever.
+
 ## `glossario/vinculos.csv`
 
 | Campo | Observação |
