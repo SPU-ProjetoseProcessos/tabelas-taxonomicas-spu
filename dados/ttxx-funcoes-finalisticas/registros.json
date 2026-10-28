@@ -1,6 +1,6 @@
 [
  {
-  "codigo": "03.01",
+  "codigo": "0X.01",
   "nivel": 1,
   "pai": "",
   "descricao": "Caracterização patrimonial imobiliária",
@@ -13,9 +13,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.01.01",
+  "codigo": "0X.01.01",
   "nivel": 2,
-  "pai": "03.01",
+  "pai": "0X.01",
   "descricao": "Identificação direta de áreas públicas",
   "definicao": "Função de caracterização patrimonial imobiliária que compreende o conjunto de procedimentos técnicos voltados ao reconhecimento e delimitação física de áreas com base em elementos objetivos como a localização e a natureza do bem (ilhas, águas públicas, praias, manguezais) dispensando a instauração de processos formais de demarcação ou discriminação.",
   "observacao": "",
@@ -26,9 +26,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.01.01.01",
+  "codigo": "0X.01.01.01",
   "nivel": 3,
-  "pai": "03.01.01",
+  "pai": "0X.01.01",
   "descricao": "Identificação direta de águas públicas",
   "definicao": "Subfunção de identificação direta de áreas públicas que compreende o conjunto de procedimentos técnicos destinados a reconhecer e delimitar fisicamente áreas cobertas por águas públicas, bens de uso comum do povo, como mares, rios e lagos, dispensando a instauração de processos formais de demarcação ou discriminação.",
   "observacao": "",
@@ -39,9 +39,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.01.01.01.01",
+  "codigo": "0X.01.01.01.01",
   "nivel": 4,
-  "pai": "03.01.01.01",
+  "pai": "0X.01.01.01",
   "descricao": "Identificação direta do mar",
   "definicao": "Categoria da subfunção de identificação direta de águas públicas que compreende o conjunto de atividades técnicas destinadas à identificação, reconhecimento e delimitação direta do mar territorial, de suas faixas associadas e de suas áreas adjacentes, para fins de caracterização patrimonial e definição de domínio da União.",
   "observacao": "",
@@ -61,9 +61,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.01.01.01.02",
+  "codigo": "0X.01.01.01.02",
   "nivel": 4,
-  "pai": "03.01.01.01",
+  "pai": "0X.01.01.01",
   "descricao": "Identificação direta de corpos d’água continentais",
   "definicao": "Categoria da subfunção de identificação direta de águas públicas que compreende o conjunto de atividades técnicas destinadas ao reconhecimento e delimitação direta de rios, lagos, lagoas e demais correntes ou massas de água continentais, para fins de caracterização patrimonial e verificação da incidência de domínio da União.",
   "observacao": "",
@@ -83,9 +83,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.01.01.02",
+  "codigo": "0X.01.01.02",
   "nivel": 3,
-  "pai": "03.01.01",
+  "pai": "0X.01.01",
   "descricao": "Identificação direta de ilhas",
   "definicao": "Subfunção de identificação direta de áreas públicas que compreende o conjunto de procedimentos técnicos destinados a reconhecer e delimitar fisicamente ilhas, porções de terra cercadas por águas públicas, dispensando a instauração de processos formais de demarcação ou discriminação.",
   "observacao": "",
@@ -103,9 +103,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.01.01.03",
+  "codigo": "0X.01.01.03",
   "nivel": 3,
-  "pai": "03.01.01",
+  "pai": "0X.01.01",
   "descricao": "Identificação direta de praias",
   "definicao": "Subfunção de identificação direta de áreas públicas que compreende o conjunto de procedimentos técnicos destinados a reconhecer e delimitar fisicamente praias marítimas e fluviais, bens de uso comum do povo, definidos como faixas de terra banhadas por águas públicas, dispensando a instauração de processos formais de demarcação ou discriminação. Exemplo de documentos: Relatório técnico de identificação de praia marítima ou fluvial; Memorial descritivo da faixa de praia; Planta ou mapa georreferenciado da faixa de praia; Relatório de vistoria técnica da área costeira; Registro fotográfico georreferenciado de praias; Nota técnica de caracterização patrimonial da faixa de praia.",
   "observacao": "",
@@ -116,9 +116,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.01.01.04",
+  "codigo": "0X.01.01.04",
   "nivel": 3,
-  "pai": "03.01.01",
+  "pai": "0X.01.01",
   "descricao": "Identificação direta de manguezais",
   "definicao": "Subfunção de identificação direta de áreas públicas que compreende o conjunto de procedimentos técnicos destinados a reconhecer e delimitar fisicamente manguezais, ecossistemas de transição entre ambientes terrestres e aquáticos, considerados bens de uso comum do povo e áreas de preservação permanente, dispensando a instauração de processos formais de demarcação ou discriminação. Exemplo de documentos: Relatório técnico de identificação de área de manguezal; Memorial descritivo georreferenciado da área de manguezal; Planta ou mapa geoespacial de área de manguezal; Relatório de vistoria ambiental ou territorial de área de manguezal; Registro fotográfico georreferenciado de área de manguezal; Nota técnica de caracterização ambiental e patrimonial de área de manguezal.",
   "observacao": "",
@@ -129,9 +129,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.01.01.05",
+  "codigo": "0X.01.01.05",
   "nivel": 3,
-  "pai": "03.01.01",
+  "pai": "0X.01.01",
   "descricao": "Identificação de cavidades subterrâneas",
   "definicao": "Subfunção de identificação direta de áreas públicas que compreende o conjunto de atividades destinadas à identificação, caracterização e delimitação de cavidades naturais subterrâneas e dos espaços geológicos associados, reconhecidos como bens da União, incluindo cavernas, grutas, abismos, furnas e demais formações subterrâneas naturais. Essas atividades envolvem o levantamento de informações geográficas, a delimitação espacial das cavidades, bem como o registro dessas informações nos sistemas e cadastros patrimoniais, com vistas ao reconhecimento, proteção e gestão desses bens públicos no âmbito da administração patrimonial imobiliária.",
   "observacao": "",
@@ -147,9 +147,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.01.02",
+  "codigo": "0X.01.02",
   "nivel": 2,
-  "pai": "03.01",
+  "pai": "0X.01",
   "descricao": "Demarcação de terras públicas",
   "definicao": "Função de caracterização patrimonial imobiliária que compreende o conjunto de atividades técnicas e administrativas voltadas à definição dos limites físicos e jurídicos de terras públicas, conforme normas específicas.",
   "observacao": "",
@@ -160,9 +160,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.01.02.01",
+  "codigo": "0X.01.02.01",
   "nivel": 3,
-  "pai": "03.01.02",
+  "pai": "0X.01.02",
   "descricao": "Demarcação de terrenos de marinha e acrescidos",
   "definicao": "Subfunção de demarcação de terras públicas que compreende o conjunto de atividades técnicas, administrativas e procedimentais destinadas à identificação, delimitação e formal fixação dos terrenos de marinha e de seus acrescidos, nos termos definidos pelo Decreto-Lei nº 9.760/1946, mediante apuração da linha do preamar médio de 1831 e aplicação da faixa legal de 33 metros para o interior do continente ou das ilhas costeiras.",
   "observacao": "",
@@ -180,9 +180,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.01.02.02",
+  "codigo": "0X.01.02.02",
   "nivel": 3,
-  "pai": "03.01.02",
+  "pai": "0X.01.02",
   "descricao": "Demarcação de terrenos marginais e acrescidos",
   "definicao": "Subfunção de demarcação de terras públicas que compreende o conjunto de atividades técnicas e administrativas destinadas à delimitação dos terrenos marginais de rios federais navegáveis e de seus acrescidos, conforme critérios legais estabelecidos no Decreto-Lei nº 9.760/1946.",
   "observacao": "",
@@ -200,9 +200,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.01.02.03",
+  "codigo": "0X.01.02.03",
   "nivel": 3,
-  "pai": "03.01.02",
+  "pai": "0X.01.02",
   "descricao": "Demarcação de terras indígenas",
   "definicao": "Subfunção de demarcação de terras públicas que compreende o conjunto de atividades técnicas e administrativas relacionadas com a definição e fixação dos limites territoriais de áreas tradicionalmente ocupadas por povos indígenas, conforme o art. 231 da Constituição Federal.",
   "observacao": "",
@@ -222,9 +222,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.01.02.04",
+  "codigo": "0X.01.02.04",
   "nivel": 3,
-  "pai": "03.01.02",
+  "pai": "0X.01.02",
   "descricao": "Demarcação de terras interiores",
   "definicao": "Subfunção de demarcação de terras públicas que compreende o conjunto de atividades técnicas e administrativas destinadas a identificar, descrever, medir e individualizar imóveis de domínio da União e sua perfeita discriminação da propriedade de terceiros, com fundamento no art. 15 do Decreto-Lei n° 9.760, de 1946.",
   "observacao": "",
@@ -243,9 +243,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.01.02.05",
+  "codigo": "0X.01.02.05",
   "nivel": 3,
-  "pai": "03.01.02",
+  "pai": "0X.01.02",
   "descricao": "Demarcação de terrenos para regularização fundiária de interesse social",
   "definicao": "Subfunção de demarcação de terras públicas que compreende o conjunto de atividades técnicas, administrativas e procedimentais destinadas à lavratura de auto de demarcação em imóveis da União para fins de regularização fundiária de interesse social, com base em levantamento da situação da área a ser regularizada, nos termos do art. 18-A do Decreto-Lei nº 9.760/1946.",
   "observacao": "",
@@ -264,9 +264,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.01.03",
+  "codigo": "0X.01.03",
   "nivel": 2,
-  "pai": "03.01",
+  "pai": "0X.01",
   "descricao": "Discriminação de terras públicas",
   "definicao": "Função de caracterização patrimonial imobiliária que compreende o conjunto de atividades técnicas e administrativas e judiciais destinadas à apuração, identificação e declaração do domínio da União sobre terras devolutas ou áreas cuja titularidade não esteja formalmente definida, mediante procedimento próprio voltado à solução de controvérsias dominiais. Diferencia-se das atividades de demarcação na medida em que seu objetivo central não é apenas fixar limites físicos ou identificar características geográficas da área, mas apurar a titularidade jurídica do imóvel, mediante análise de títulos, provas documentais e manifestações de eventuais interessados.",
   "observacao": "",
@@ -279,9 +279,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.01.03.01",
+  "codigo": "0X.01.03.01",
   "nivel": 3,
-  "pai": "03.01.03",
+  "pai": "0X.01.03",
   "descricao": "Discriminação administrativa de terras",
   "definicao": "Subfunção de discriminação de terras públicas que compreende o conjunto de atividades administrativas destinadas à apuração e declaração do domínio da União sobre terras devolutas ou áreas sem comprovação de propriedade privada válida, por meio de procedimento administrativo específico previsto nos arts. 19 a 40 do Decreto-Lei nº 9.760/1946.",
   "observacao": "",
@@ -299,9 +299,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.01.03.02",
+  "codigo": "0X.01.03.02",
   "nivel": 3,
-  "pai": "03.01.03",
+  "pai": "0X.01.03",
   "descricao": "Discriminação judicial de terras",
   "definicao": "Subfunção de discriminação de terras públicas que compreende o conjunto de atividades voltadas à apuração e declaração judicial do domínio da União sobre terras devolutas ou áreas litigiosas, mediante ação discriminatória proposta perante o Poder Judiciário, nos termos dos arts. 41 a 60 do Decreto-Lei nº 9.760/1946.",
   "observacao": "",
@@ -323,9 +323,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.01.04",
+  "codigo": "0X.01.04",
   "nivel": 2,
-  "pai": "03.01",
+  "pai": "0X.01",
   "descricao": "Consolidação técnico-cadastral patrimonial",
   "definicao": "Função finalística de gestão patrimonial imobiliária que compreende conjunto de procedimentos técnicos e administrativos destinados à consolidação da caracterização patrimonial de bens imóveis públicos , compreendendo a análise de questionamentos técnicos, a atualização de informações territoriais, a realização de levantamentos físico-cadastrais, a individualização de imóveis e a produção dos elementos necessários à incorporação patrimonial.",
   "observacao": "",
@@ -336,9 +336,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.01.04.01",
+  "codigo": "0X.01.04.01",
   "nivel": 3,
-  "pai": "03.01.04",
+  "pai": "0X.01.04",
   "descricao": "Consolidação técnico-cadastral pós-demarcatória",
   "definicao": "Subfunção de consolidação técnico-cadastral patrimonial, que compreende conjunto de procedimentos técnicos e administrativos destinados à consolidação da caracterização patrimonial de imóveis públicos adquiridos, compreendendo a análise de questões técnicas, a realização de levantamentos físico-cadastrais, a individualização de imóveis e a produção dos elementos necessários à incorporação patrimonial.",
   "observacao": "",
@@ -349,9 +349,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.01.04.02",
+  "codigo": "0X.01.04.02",
   "nivel": 3,
-  "pai": "03.01.04",
+  "pai": "0X.01.04",
   "descricao": "Consolidação técnico-cadastral de imóveis adquiridos",
   "definicao": "Subfunção de Consolidação técnico-cadastral patrimonial que compreende conjunto de procedimentos técnicos e administrativos destinados à caracterização física, cadastral e espacial de imóveis públicos cuja dominialidade decorra diretamente da legislação ou de outras formas de aquisição patrimonial, compreendendo levantamentos físicos e georreferenciados, definição de perímetros, individualização de imóveis e produção das informações necessárias ao cadastro e à incorporação patrimonial.",
   "observacao": "",
@@ -362,7 +362,7 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.02",
+  "codigo": "0X.02",
   "nivel": 1,
   "pai": "",
   "descricao": "Gestão do ingresso patrimonial imobiliário",
@@ -375,9 +375,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.02.01",
+  "codigo": "0X.02.01",
   "nivel": 2,
-  "pai": "03.02",
+  "pai": "0X.02",
   "descricao": "Incorporação patrimonial imobiliária",
   "definicao": "Função de gestão do ingresso patrimonial imobiliário que compreende o conjunto de procedimentos e atos administrativos destinados à formalização da entrada de bens imóveis no patrimônio público, mediante registro cartorial e cadastramento nos sistemas corporativos, assegurando o controle dominial, a rastreabilidade patrimonial e a integração à base oficial de bens públicos.",
   "observacao": "",
@@ -388,9 +388,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.02.01.01",
+  "codigo": "0X.02.01.01",
   "nivel": 3,
-  "pai": "03.02.01",
+  "pai": "0X.02.01",
   "descricao": "Cadastro patrimonial imobiliário",
   "definicao": "Subfunção de incorporação patrimonial imobiliária que compreende o conjunto de procedimentos técnicos e administrativos destinados ao lançamento formal do imóvel nos cadastros corporativos do órgão responsável pela sua gestão, assegurando a existência institucional, contabilização e aptidão para gestão. Consiste no cadastramento sistemático dos atributos físicos, jurídicos e dominiais do imóvel, indispensáveis à sua identificação, controle e utilização administrativa. O lançamento cadastral representa o reconhecimento formal do bem no acervo patrimonial no âmbito dos sistemas corporativos, sendo condição necessária para sua gestão, monitoramento, destinação ou controle.",
   "observacao": "",
@@ -409,9 +409,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.02.01.02",
+  "codigo": "0X.02.01.02",
   "nivel": 3,
-  "pai": "03.02.01",
+  "pai": "0X.02.01",
   "descricao": "Registro cartorial",
   "definicao": "Subfunção de incorporação patrimonial imobiliária que compreende o conjunto de procedimentos destinados à formalização do domínio público de imóvel no Cartório de Registro de Imóveis competente, quando exigido pela legislação ou necessário à plena eficácia jurídica do direito real. Aplica-se aos imóveis cuja natureza ou finalidade exija inscrição registral para garantir segurança jurídica, viabilizar alienação, transferência de direitos reais limitados ou outras operações que dependam de publicidade registral.",
   "observacao": "",
@@ -432,9 +432,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.02.02",
+  "codigo": "0X.02.02",
   "nivel": 2,
-  "pai": "03.02",
+  "pai": "0X.02",
   "descricao": "Aquisição patrimonial imobiliária",
   "definicao": "Função de gestão do ingresso patrimonial imobiliário que compreende o conjunto de atos e procedimentos administrativos, judiciais e procedimentos legais voltados à aquisição de imóveis pelo poder público, por meio de título aquisitivo ou por ato declaratório, seja a título originário ou derivado, compreendendo atividades de análise documental e dominial, instrução processual, elaboração e celebração do ato aquisitivo ou declaratório.",
   "observacao": "",
@@ -445,9 +445,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.02.02.01",
+  "codigo": "0X.02.02.01",
   "nivel": 3,
-  "pai": "03.02.02",
+  "pai": "0X.02.02",
   "descricao": "Regime de aquisição imobiliária (adoção de Tabela Taxonômica específica)",
   "definicao": "Subfunção de aquisição patrimonial imobiliária que compreende o conjunto de atividades destinadas à definição e aplicação do regime jurídico adequado para ingresso de imóvel no patrimônio da União. A modalidade aquisitiva não integra a tabela de funções, sendo definida por vinculação a Tabela Taxonômica própria de Regimes de Ingresso Patrimonial, permitindo atualização sem alteração da estrutura funcional.",
   "observacao": "",
@@ -468,9 +468,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.02.03",
+  "codigo": "0X.02.03",
   "nivel": 2,
-  "pai": "03.02",
+  "pai": "0X.02",
   "descricao": "Alteração cadastral imobiliária",
   "definicao": "Função de gestão do ingresso patrimonial imobiliário que compreende o conjunto de procedimentos destinados a retificar, convalidar e/ou conformar jurídica e registralmente imóveis no patrimônio do poder público, mediante registros, averbações ou retificação fundiária no cartório competente e/ou nos cadastros corporativos.",
   "observacao": "",
@@ -481,9 +481,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.02.03.01",
+  "codigo": "0X.02.03.01",
   "nivel": 3,
-  "pai": "03.02.03",
+  "pai": "0X.02.03",
   "descricao": "Modificação de atributos físicos",
   "definicao": "Subfunção de alteração cadastral imobiliária que compreende o conjunto de atos e procedimentos voltados à modificação dos atributos físicos de imóveis públicos, com vistas à sua adequada caracterização e regularização, compreendendo atividades como parcelamento, unificação, remembramento, desmembramento, regularização de edificações e incorporações imobiliárias, realizadas conforme a legislação urbanística, registral e patrimonial aplicável, com impacto direto na configuração e gestão do bem.",
   "observacao": "",
@@ -494,9 +494,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.02.03.01.01",
+  "codigo": "0X.02.03.01.01",
   "nivel": 4,
-  "pai": "03.02.03.01",
+  "pai": "0X.02.03.01",
   "descricao": "Subdivisão imobiliária",
   "definicao": "Categoria de subfunção de modificação de atributos físicos que compreende o conjunto de atos destinados à subdivisão de terrenos, com ou sem abertura de vias públicas, para fins de edificação, incluindo o desmembramento, fracionamento e o loteamento, nos termos da Lei nº 6.766/1979 e da Lei nº 4.591/1964, bem como o destaque de gleba pública, conforme previsto no art. 176, § 7° da Lei n° 6.015, de 1973, observando as normas urbanísticas e registrais aplicáveis.",
   "observacao": "",
@@ -518,9 +518,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.02.03.01.02",
+  "codigo": "0X.02.03.01.02",
   "nivel": 4,
-  "pai": "03.02.03.01",
+  "pai": "0X.02.03.01",
   "descricao": "Unificação imobiliária",
   "definicao": "Categoria de subfunção de modificação de atributos físicos que compreende o conjunto de procedimentos e atos administrativos destinados a realizar a fusão ou unificação de dois ou mais terrenos, para a formação de novo, pelo reagrupamento de lotes contíguos, com a decorrente constituição de um terreno maior, considerado juridicamente um novo imóvel, formado pela soma das áreas dos terrenos remembrados, com limites e confrontações diferentes.",
   "observacao": "",
@@ -541,9 +541,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.02.03.01.03",
+  "codigo": "0X.02.03.01.03",
   "nivel": 4,
-  "pai": "03.02.03.01",
+  "pai": "0X.02.03.01",
   "descricao": "Regularização de edificação",
   "definicao": "Categoria de subfunção de modificação de atributos físicos que compreende o conjunto de atos de inclusão, modificação ou supressão de edificações incidentes sobre imóveis públicos, com reflexo nos registros cadastrais e, quando necessário, no registro de imóveis, envolvendo a atualização de plantas, áreas e características construtivas, conforme legislação urbanística e patrimonial vigente.",
   "observacao": "",
@@ -565,9 +565,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.02.03.02",
+  "codigo": "0X.02.03.02",
   "nivel": 3,
-  "pai": "03.02.03",
+  "pai": "0X.02.03",
   "descricao": "Retificação e atualização de registros cadastrais e cartoriais",
   "definicao": "Subfunção de alteração cadastral imobiliária que compreende o conjunto de procedimentos destinados à correção de dados constantes nos registros cadastrais e cartoriais de imóveis públicos, quando identificadas inconsistências, omissões ou erros formais ou materiais relativos à descrição, titularidade, localização ou confrontações. Diferencia-se das modificações de atributos físicos por não implicar alteração na conformação material do imóvel, ainda que, em alguns casos, decorra dessas alterações. Visa garantir a conformidade dos registros com a realidade jurídica e física do bem. Visa garantir a conformidade dos registros com a realidade jurídica e física do bem.",
   "observacao": "",
@@ -578,7 +578,7 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.03",
+  "codigo": "0X.03",
   "nivel": 1,
   "pai": "",
   "descricao": "Avaliação e contabilidade patrimonial imobiliária",
@@ -591,9 +591,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.03.01",
+  "codigo": "0X.03.01",
   "nivel": 2,
-  "pai": "03.03",
+  "pai": "0X.03",
   "descricao": "Avaliação patrimonial imobiliária",
   "definicao": "Função de avaliação e contabilidade patrimonial imobiliária que contempla conjunto de atividades destinados à identificação do valor de bem imóvel conforme diretrizes e normas de avaliação, para fins de registro contábil e destinação, segundo normas de contabilidade pública, assegurando a identificação e atualização periódica do patrimônio imobiliário público.",
   "observacao": "",
@@ -604,9 +604,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.03.01.01",
+  "codigo": "0X.03.01.01",
   "nivel": 3,
-  "pai": "03.03.01",
+  "pai": "0X.03.01",
   "descricao": "Avaliação individual de imóveis",
   "definicao": "Subfunção de avaliação patrimonial imobiliária que compreende o conjunto de atividades voltadas à determinação do valor de um imóvel público específico, com base em metodologias técnicas reconhecidas de avaliação imobiliária e em análise de mercado, considerando suas características físicas, jurídicas, locacionais e de uso. Inclui a realização de vistorias, coleta e análise de dados de mercado, aplicação de métodos de avaliação e elaboração de documentos técnicos que expressem o valor estimado do imóvel para fins de gestão patrimonial, tais como destinação, alienação, registro contábil, cálculo de receitas patrimoniais ou outras decisões administrativas.",
   "observacao": "",
@@ -627,9 +627,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.03.01.02",
+  "codigo": "0X.03.01.02",
   "nivel": 3,
-  "pai": "03.03.01",
+  "pai": "0X.03.01",
   "descricao": "Elaboração e manutenção de planta de valores genérica",
   "definicao": "Subfunção de avaliação patrimonial imobiliária que compreende o conjunto de atividades voltadas à elaboração, atualização e manutenção de planta de valores genérica, instrumento técnico utilizado para estabelecer valores referenciais de imóveis ou terrenos em determinada área territorial, com base em critérios objetivos e estudos de mercado. Inclui a definição de zonas homogêneas de valor, a coleta e análise de dados imobiliários, a modelagem e atualização periódica dos valores de referência e a produção de documentos técnicos que subsidiam a gestão patrimonial, a precificação de destinações, alienações e receitas patrimoniais ou outras decisões administrativas.",
   "observacao": "",
@@ -651,9 +651,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.03.02",
+  "codigo": "0X.03.02",
   "nivel": 2,
-  "pai": "03.03",
+  "pai": "0X.03",
   "descricao": "Contabilização patrimonial imobiliária",
   "definicao": "Função de avaliação e contabilidade patrimonial que contempla conjunto de procedimentos de mensuração, reavaliação, depreciação, transferência de Unidade Gestora (UG) e baixa dos imóveis no sistema contábil patrimonial, com base em normas contábeis e avaliações periódicas que assegurem a integridade e confiabilidade das demonstrações patrimoniais.",
   "observacao": "",
@@ -664,7 +664,7 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.04",
+  "codigo": "0X.04",
   "nivel": 1,
   "pai": "",
   "descricao": "Destinação e gestão econômica patrimonial imobiliário",
@@ -677,9 +677,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.04.01",
+  "codigo": "0X.04.01",
   "nivel": 2,
-  "pai": "03.04",
+  "pai": "0X.04",
   "descricao": "Governança e estratégia de destinação imobiliária",
   "definicao": "Função de destinação e gestão econômica patrimonial imobiliária que compreende o conjunto de atividades voltadas à definição de diretrizes, prioridades e enquadramentos estratégicos para destinação de imóveis públicos, considerando políticas públicas, função socioambiental, análise de vocação, viabilidade e alinhamento institucional.",
   "observacao": "",
@@ -690,9 +690,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.04.01.01",
+  "codigo": "0X.04.01.01",
   "nivel": 3,
-  "pai": "03.04.01",
+  "pai": "0X.04.01",
   "descricao": "Gestão econômica de ativos imobiliários",
   "definicao": "Subfunção de governança e estratégia da destinação imobiliária que compreende o conjunto de atividades voltadas à utilização do patrimônio imobiliário como ativo econômico, incluindo a aplicação de instrumentos onerosos, modelagens de operações estruturadas, fundos imobiliários, parcerias e mecanismos de valorização.",
   "observacao": "",
@@ -710,9 +710,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.04.01.02",
+  "codigo": "0X.04.01.02",
   "nivel": 3,
-  "pai": "03.04.01",
+  "pai": "0X.04.01",
   "descricao": "Apoio à sustentabilidade, preservação ambiental e enfrentamento das mudanças climáticas",
   "definicao": "Subfunção de governança e estratégia da destinação imobiliária que compreende o conjunto de atividades voltadas à promoção do uso socioambiental do patrimônio imobiliário público, incluindo a identificação e priorização de imóveis destinados à conservação ambiental, à recuperação de ecossistemas e a iniciativas relacionadas à mitigação e adaptação às mudanças climáticas. Inclui a articulação da gestão patrimonial com políticas ambientais e climáticas.",
   "observacao": "",
@@ -729,9 +729,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.04.01.03",
+  "codigo": "0X.04.01.03",
   "nivel": 3,
-  "pai": "03.04.01",
+  "pai": "0X.04.01",
   "descricao": "Apoio ao desenvolvimento local e projetos de infraestrutura",
   "definicao": "Subfunção de governança e estratégia da destinação imobiliária que compreende o conjunto de atividades voltadas à articulação do patrimônio imobiliário público com políticas de desenvolvimento territorial e implantação de infraestrutura pública, incluindo a identificação de imóveis estratégicos para projetos urbanos, logísticos ou de infraestrutura e a coordenação com órgãos responsáveis por sua implementação.",
   "observacao": "",
@@ -748,9 +748,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.04.01.04",
+  "codigo": "0X.04.01.04",
   "nivel": 3,
-  "pai": "03.04.01",
+  "pai": "0X.04.01",
   "descricao": "Gestão do uso/ocupação dos imóveis de uso especial",
   "definicao": "Subfunção de governança e estratégia da destinação imobiliária que compreende o conjunto de atividades voltadas ao planejamento, organização e coordenação da utilização dos imóveis públicos destinados ao uso da administração pública, incluindo a definição de diretrizes para racionalização de espaços, otimização da ocupação e melhoria da gestão dos imóveis utilizados por órgãos e entidades públicas.",
   "observacao": "",
@@ -767,9 +767,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.04.01.05",
+  "codigo": "0X.04.01.05",
   "nivel": 3,
-  "pai": "03.04.01",
+  "pai": "0X.04.01",
   "descricao": "Gestão de territórios costeiros e marginais",
   "definicao": "Subfunção de governança e estratégia da destinação imobiliária que compreende o conjunto de atividades voltadas ao planejamento, coordenação e à gestão dos territórios costeiros e marginais sob domínio da União, incluindo praias, terrenos de marinha, margens de corpos d’água e outras áreas associadas, considerando suas funções ambientais, urbanas, sociais e econômicas.",
   "observacao": "",
@@ -786,9 +786,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.04.01.06",
+  "codigo": "0X.04.01.06",
   "nivel": 3,
-  "pai": "03.04.01",
+  "pai": "0X.04.01",
   "descricao": "Apoio à destinação para povos e comunidades tradicionais",
   "definicao": "Subfunção de governança e estratégia da destinação imobiliária que compreende o conjunto de atividades voltadas à identificação, planejamento e promoção da destinação de imóveis públicos para povos e comunidades tradicionais, considerando suas formas próprias de organização social, ocupação do território e uso sustentável dos recursos naturais.",
   "observacao": "",
@@ -805,9 +805,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.04.01.07",
+  "codigo": "0X.04.01.07",
   "nivel": 3,
-  "pai": "03.04.01",
+  "pai": "0X.04.01",
   "descricao": "Provisão habitacional de interesse social",
   "definicao": "Subfunção de governança e estratégia da destinação imobiliária que compreende o conjunto de atividades voltadas à utilização do patrimônio imobiliário público para fins de política de provisão habitacional, especialmente para atendimento de famílias de baixa renda, incluindo a identificação de imóveis aptos, a articulação com programas habitacionais e a definição de estratégias de utilização desses ativos para provisão de moradia.",
   "observacao": "",
@@ -824,9 +824,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.04.01.08",
+  "codigo": "0X.04.01.08",
   "nivel": 3,
-  "pai": "03.04.01",
+  "pai": "0X.04.01",
   "descricao": "Regularização fundiária",
   "definicao": "Subfunção de governança e estratégia da destinação imobiliária que compreende o conjunto de atividades voltadas à formulação e coordenação de políticas, programas, planos e projetos para regularização fundiária em áreas públicas, incluindo a identificação de territórios passíveis de regularização, a articulação com políticas urbanas e habitacionais e o desenvolvimento de programas e diretrizes para promoção da segurança jurídica da ocupação.",
   "observacao": "",
@@ -843,9 +843,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.04.01.08.01",
+  "codigo": "0X.04.01.08.01",
   "nivel": 4,
-  "pai": "03.04.01.08",
+  "pai": "0X.04.01.08",
   "descricao": "Regularização fundiária urbana",
   "definicao": "Categoria da subfunção de regularização fundiária que compreende o conjunto de atividades voltadas à identificação, planejamento e promoção de iniciativas de regularização fundiária em áreas urbanas da União, com o objetivo de assegurar segurança jurídica da ocupação, melhoria das condições urbanísticas e integração dessas áreas às políticas públicas de desenvolvimento urbano e habitação. Inclui a articulação com programas habitacionais e de urbanização, a identificação de assentamentos urbanos passíveis de regularização e a definição de estratégias institucionais para utilização do patrimônio imobiliário público na promoção da regularização fundiária urbana.",
   "observacao": "",
@@ -862,9 +862,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.04.01.08.02",
+  "codigo": "0X.04.01.08.02",
   "nivel": 4,
-  "pai": "03.04.01.08",
+  "pai": "0X.04.01.08",
   "descricao": "Regularização fundiária rural",
   "definicao": "Categoria da subfunção de regularização fundiária que compreende o conjunto de atividades voltadas à identificação, planejamento e promoção de iniciativas de regularização fundiária em áreas rurais da União, com vistas à regularização da ocupação e ao ordenamento territorial dessas áreas, em articulação com políticas de desenvolvimento rural, reforma agrária e gestão territorial. Inclui a identificação de ocupações rurais passíveis de regularização, a formulação de estratégias de destinação de imóveis rurais da União e a articulação institucional necessária à implementação dessas iniciativas.",
   "observacao": "",
@@ -881,9 +881,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.04.01.09",
+  "codigo": "0X.04.01.09",
   "nivel": 3,
-  "pai": "03.04.01",
+  "pai": "0X.04.01",
   "descricao": "Gestão do uso/ocupação de imóveis dominiais",
   "definicao": "Subfunção de governança e estratégia da destinação imobiliária que compreende o conjunto de atividades voltadas ao planejamento e coordenação das formas de uso e ocupação dos imóveis dominiais. Inclui a definição de diretrizes, critérios e prioridades para a utilização dos imóveis dominiais da União, a análise de alternativas de uso, a identificação de imóveis disponíveis ou subutilizados, bem como a formulação de programas, projetos e instrumentos institucionais voltados à gestão estratégica do uso desses ativos imobiliários.",
   "observacao": "",
@@ -900,9 +900,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.04.02",
+  "codigo": "0X.04.02",
   "nivel": 2,
-  "pai": "03.04",
+  "pai": "0X.04",
   "descricao": "Execução da destinação imobiliária",
   "definicao": "Função de destinação e gestão do uso imobiliário que compreende o conjunto integrado de atividades técnicas e administrativas destinadas à preparação, constituição formal e início de vigência da destinação de imóvel público, mediante aplicação de regime de destinação específico previsto na Tabela Taxonômica de Regimes de Destinação Imobiliária (TT 02).",
   "observacao": "",
@@ -926,9 +926,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.04.02.01",
+  "codigo": "0X.04.02.01",
   "nivel": 3,
-  "pai": "03.04.02",
+  "pai": "0X.04.02",
   "descricao": "Regime de destinação imobiliária (Aplicação da Tabela Taxonômica 02/2025 - Regimes de Destinação Imobiliária para identificação do regime específico)",
   "definicao": "Subfunções definidas por meio da aplicação da Tabela Taxonômica nº 02/2025 – Regimes de Destinação Imobiliária, utilizada para identificar o regime jurídico específico de destinação do imóvel. Nesta tabela de funções não são listados os regimes (como venda, cessão, concessão etc.), pois estes são mantidos na TT própria de regimes. Assim, a classificação resulta da combinação entre a subfunção “execução da destinação imobiliária” e o regime selecionado na TT-02, preservando a distinção entre função de gestão e instrumento jurídico de destinação.",
   "observacao": "",
@@ -948,9 +948,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.04.03",
+  "codigo": "0X.04.03",
   "nivel": 2,
-  "pai": "03.04",
+  "pai": "0X.04",
   "descricao": "Afetação e reserva patrimonial imobiliária",
   "definicao": "Função de destinação e gestão econômica patrimonial imobiliária que compreende o conjunto de atividades administrativas destinadas à proteção estratégica, à organização interna e à vinculação preliminar de imóveis públicos a finalidade institucional específica, sem constituição imediata de regime contratual. Abrange atos unilaterais que estabelecem restrições administrativas, declaram interesse público ou reservam o imóvel para utilização futura, alienação ou uso institucional, assegurando sua adequada gestão antes da formalização de regime de destinação.",
   "observacao": "",
@@ -961,9 +961,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.04.03.01",
+  "codigo": "0X.04.03.01",
   "nivel": 3,
-  "pai": "03.04.03",
+  "pai": "0X.04.03",
   "descricao": "Declaração de interesse para o serviço público",
   "definicao": "Subfunção de afetação e reserva patrimonial imobiliária que compreende o conjunto de atos e procedimentos administrativos voltados ao registro formal do interesse na utilização futura de imóvel da União, sem gerar cessão imediata, formalizado na SPU por meio de portaria declaratória, vinculando o bem à finalidade pública pretendida até sua efetiva destinação.",
   "observacao": "",
@@ -979,9 +979,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.04.03.02",
+  "codigo": "0X.04.03.02",
   "nivel": 3,
-  "pai": "03.04.03",
+  "pai": "0X.04.03",
   "descricao": "Reserva para venda",
   "definicao": "Subfunção de afetação e reserva patrimonial imobiliária que compreende o conjunto de atos e procedimentos administrativos voltados à separação administrativa de imóvel público, com vistas à sua alienação futura, garantindo que o bem não seja destinado a outras finalidades enquanto tramita o processo de avaliação, regularização e oferta, sendo etapa preparatória essencial para a venda patrimonial.",
   "observacao": "",
@@ -997,9 +997,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.04.03.03",
+  "codigo": "0X.04.03.03",
   "nivel": 3,
-  "pai": "03.04.03",
+  "pai": "0X.04.03",
   "descricao": "Reserva de residência para servidor",
   "definicao": "Subfunção de afetação e reserva patrimonial imobiliária que compreende o conjunto de atividades relacionadas à vinculação administrativa de imóvel público residencial para uso funcional.",
   "observacao": "",
@@ -1018,7 +1018,7 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.05",
+  "codigo": "0X.05",
   "nivel": 1,
   "pai": "",
   "descricao": "Gestão de receitas patrimoniais imobiliárias",
@@ -1031,9 +1031,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.05.01",
+  "codigo": "0X.05.01",
   "nivel": 2,
-  "pai": "03.05",
+  "pai": "0X.05",
   "descricao": "Arrecadação de receitas patrimoniais imobiliárias",
   "definicao": "Função de gestão de receitas patrimoniais imobiliárias que compreende o conjunto de atividades e procedimentos destinados a atividades de constituição, lançamento, arrecadação e controle de receitas patrimoniais imobiliárias, como taxas, aluguéis, cessões onerosas, foros, multas, laudêmios e indenizações, conforme previsto em normas legais e contratuais, integrando os valores ao orçamento público com base em registros, lançamentos e sistemas corporativos de gestão.",
   "observacao": "",
@@ -1055,9 +1055,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.05.02",
+  "codigo": "0X.05.02",
   "nivel": 2,
-  "pai": "03.05",
+  "pai": "0X.05",
   "descricao": "Gestão de cobrança de débitos inadimplidos",
   "definicao": "Função de gestão de receitas patrimoniais imobiliárias que compreende o conjunto de atividades e procedimentos voltados à exigência de receitas patrimoniais inadimplidas ou não pagas, incluindo notificações, inscrição em dívida ativa, execução fiscal e renegociação, garantindo o cumprimento das obrigações legais associadas à utilização de imóveis públicos. Exemplo de documentos: Notificação de cobrança administrativa de débito patrimonial; Aviso de Recebimento (AR) de correspondência relativa à notificação de cobrança; Relatório de débitos patrimoniais inadimplidos; Demonstrativo de cálculo de débito patrimonial atualizado; Nota técnica sobre cobrança ou regularização de débito patrimonial; Planilha de atualização de valores de débito patrimonial; Termo de parcelamento ou renegociação de débito patrimonial; Cópia de DARF emitido para quitação de débito em atraso; Cópia de DARF quitado referente à regularização de débito patrimonial; Relatórios de acompanhamento de processos de cobrança administrativa; Encaminhamento de débito para inscrição em dívida ativa; Comunicação administrativa de regularização de débito patrimonial.",
   "observacao": "",
@@ -1068,7 +1068,7 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.06",
+  "codigo": "0X.06",
   "nivel": 1,
   "pai": "",
   "descricao": "Controle patrimonial imobiliário",
@@ -1081,9 +1081,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.06.01",
+  "codigo": "0X.06.01",
   "nivel": 2,
-  "pai": "03.06",
+  "pai": "0X.06",
   "descricao": "Fiscalização patrimonial imobiliária",
   "definicao": "Função de controle patrimonial imobiliário correspondente ao conjunto de ações sistemáticas destinadas a verificar a situação física e ocupacional de imóveis públicos, com base em dados de campo e/ou sistemas administrativos, visando à prevenção, correção de irregularidades e recuperação de áreas públicas indevidamente ocupadas ou utilizadas.",
   "observacao": "",
@@ -1094,9 +1094,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.06.01.01",
+  "codigo": "0X.06.01.01",
   "nivel": 3,
-  "pai": "03.06.01",
+  "pai": "0X.06.01",
   "descricao": "Fiscalização patrimonial imobiliária preventiva",
   "definicao": "Subfunção de fiscalização patrimonial imobiliária que compreende o conjunto de ações técnicas e administrativas voltadas à verificação antecipada das condições de uso, conservação e ocupação de imóveis públicos, com foco na preservação, segurança e conformidade legal, abrangendo inspeções prediais e vistorias para identificar riscos, irregularidades e necessidades de intervenção preventiva.",
   "observacao": "",
@@ -1107,9 +1107,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.06.01.01.01",
+  "codigo": "0X.06.01.01.01",
   "nivel": 4,
-  "pai": "03.06.01.01",
+  "pai": "0X.06.01.01",
   "descricao": "Inspeção predial",
   "definicao": "Categoria de fiscalização patrimonial imobiliária preventiva que compreende o conjunto de atividades técnicas de verificação das condições de uso, funcionamento e segurança das edificações públicas, abrangendo os sistemas construtivos, estruturais, elétricos, hidráulicos e sanitários, visando identificar anomalias, falhas de manutenção, riscos à integridade física e funcional do imóvel, com emissão de laudos e pareceres que orientam ações preventivas ou corretivas.",
   "observacao": "",
@@ -1129,9 +1129,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.06.01.01.02",
+  "codigo": "0X.06.01.01.02",
   "nivel": 4,
-  "pai": "03.06.01.01",
+  "pai": "0X.06.01.01",
   "descricao": "Vistoria",
   "definicao": "Categoria de fiscalização patrimonial imobiliária preventiva que compreende o conjunto de atividades *in loco* para verificação da situação de uso, ocupação e conservação do imóvel público, conferindo limites, confrontantes e regularidade documental, abrangendo registro fotográfico, coleta de evidências e produção de relatórios voltados a orientar correções de inconformidades e atualização cadastral patrimonial.",
   "observacao": "",
@@ -1151,9 +1151,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.06.01.02",
+  "codigo": "0X.06.01.02",
   "nivel": 3,
-  "pai": "03.06.01",
+  "pai": "0X.06.01",
   "descricao": "Fiscalização patrimonial imobiliária coercitiva",
   "definicao": "Subfunção de fiscalização patrimonial imobiliária que contempla conjunto de ações administrativas destinadas à repressão de ocupações irregulares, usos indevidos ou descumprimento de normas em imóveis públicos, envolvendo medidas como embargo, aplicação de multas, desocupação e cobrança de indenizações, visando restabelecer a legalidade, proteger o patrimônio público e assegurar sua adequada destinação e uso.",
   "observacao": "",
@@ -1164,9 +1164,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.06.01.02.01",
+  "codigo": "0X.06.01.02.01",
   "nivel": 4,
-  "pai": "03.06.01.02",
+  "pai": "0X.06.01.02",
   "descricao": "Demolição/remoção",
   "definicao": "Categoria de fiscalização coercitiva que compreende o conjunto de procedimentos administrativos voltados à execução de medidas para retirada de construções, benfeitorias, instalações ou objetos erguidos ou colocados irregularmente em imóveis públicos, mediante processo administrativo prévio e esgotamento das alternativas de regularização ou remoção voluntária.",
   "observacao": "",
@@ -1187,9 +1187,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.06.01.02.02",
+  "codigo": "0X.06.01.02.02",
   "nivel": 4,
-  "pai": "03.06.01.02",
+  "pai": "0X.06.01.02",
   "descricao": "Aplicação de embargo",
   "definicao": "Categoria de fiscalização patrimonial imobiliária coercitiva que compreende o conjunto de procedimentos administrativos destinados à interdição imediata de obras, benfeitorias ou atividades não autorizadas em imóveis públicos, com lavratura de auto de embargo e notificação ao responsável, visando impedir o agravamento da irregularidade e preservar a integridade do bem.",
   "observacao": "",
@@ -1210,9 +1210,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.06.01.02.03",
+  "codigo": "0X.06.01.02.03",
   "nivel": 4,
-  "pai": "03.06.01.02",
+  "pai": "0X.06.01.02",
   "descricao": "Aplicação de medida indenizatória",
   "definicao": "Categoria de fiscalização patrimonial imobiliária coercitiva que compreende o conjunto de procedimentos administrativos voltados à apuração e cobrança de valores devidos por uso indevido, ocupação irregular ou danos causados a imóveis públicos, incluindo levantamento técnico, cálculo da indenização, emissão de notificação e registro do crédito para fins de arrecadação.",
   "observacao": "",
@@ -1231,9 +1231,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.06.01.02.04",
+  "codigo": "0X.06.01.02.04",
   "nivel": 4,
-  "pai": "03.06.01.02",
+  "pai": "0X.06.01.02",
   "descricao": "Reintegração de posse",
   "definicao": "Categoria de fiscalização patrimonial imobiliária coercitiva que compreende o conjunto de atividades voltadas ao restabelecimento da posse sobre imóvel invadido ou ocupado irregularmente, contemplando acionamento da Advocacia-Geral da União para pedido judicial.",
   "observacao": "",
@@ -1254,9 +1254,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.06.01.02.05",
+  "codigo": "0X.06.01.02.05",
   "nivel": 4,
-  "pai": "03.06.01.02",
+  "pai": "0X.06.01.02",
   "descricao": "Desocupação",
   "definicao": "Categoria de fiscalização patrimonial imobiliária coercitiva que compreende o conjunto de atividades de execução de medidas administrativas para retirada de ocupantes irregulares de imóveis públicos, com notificação prévia, prazos e, se necessário, uso de força pública mediante acionamento dos órgãos competentes, visando assegurar a descontinuidade da irregularidade e a retomada da posse do bem.",
   "observacao": "",
@@ -1275,9 +1275,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.06.01.02.06",
+  "codigo": "0X.06.01.02.06",
   "nivel": 4,
-  "pai": "03.06.01.02",
+  "pai": "0X.06.01.02",
   "descricao": "Aplicação de multas",
   "definicao": "Categoria de fiscalização patrimonial imobiliária coercitiva que compreende o conjunto de atividades de imposição de penalidade pecuniária por infrações à legislação patrimonial, como ocupação irregular e uso indevido, seguindo rito administrativo, com notificação do infrator, cálculo do valor e emissão do correspondente documento de cobrança.",
   "observacao": "",
@@ -1295,9 +1295,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.06.02",
+  "codigo": "0X.06.02",
   "nivel": 2,
-  "pai": "03.06",
+  "pai": "0X.06",
   "descricao": "Controle e manutenção imobiliária",
   "definicao": "Função de controle patrimonial imobiliário que compreende o conjunto de atividades voltadas à preservação física, segurança, conservação mínima e administração operacional de imóveis públicos, especialmente aqueles sob guarda direta do órgão gestor ou temporariamente desocupados, assegurando sua integridade até destinação ou reutilização.",
   "observacao": "",
@@ -1308,9 +1308,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.06.02.01",
+  "codigo": "0X.06.02.01",
   "nivel": 3,
-  "pai": "03.06.02",
+  "pai": "0X.06.02",
   "descricao": "Gestão de imóveis desocupados",
   "definicao": "Subfunção de controle e manutenção imobiliária que compreende o conjunto de ações de segurança e manutenção patrimoniais, como contratação de vigilância ou instalação de barreiras físicas, para prevenir invasões, furtos, depredações e uso indevido de imóveis públicos desocupados, bem como serviços de conservação preventiva ou corretiva realizados nesses bens, assegurando condições mínimas de segurança, salubridade e preservação da infraestrutura até sua destinação definitiva ou reutilização.",
   "observacao": "",
@@ -1330,9 +1330,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.06.02.02",
+  "codigo": "0X.06.02.02",
   "nivel": 3,
-  "pai": "03.06.02",
+  "pai": "0X.06.02",
   "descricao": "Autorização de demolição de próprios nacionais",
   "definicao": "Subfunção de controle e manutenção imobiliária que compreende o conjunto de procedimentos administrativos de análise técnica e administrativa de requerimentos ou propostas de demolição total ou parcial de bens imóveis públicos edificados, envolvendo emissão de pareceres e ato formal de autorização.",
   "observacao": "",
@@ -1353,9 +1353,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.06.03",
+  "codigo": "0X.06.03",
   "nivel": 2,
-  "pai": "03.06",
+  "pai": "0X.06",
   "descricao": "Gestão não financeira de contratos e atos de destinação imobiliária",
   "definicao": "Função de controle patrimonial imobiliário que contempla conjunto de atividades administrativas relacionadas ao acompanhamento, modificação, registro, revisão e encerramento de atos e contratos de destinação de imóveis públicos, assegurando a conformidade jurídica, a atualização cadastral e a regularidade das obrigações pactuadas. Não contempla a gestão financeira dos contratos onerosos, que integram a função de gestão de receitas patrimoniais.",
   "observacao": "",
@@ -1366,9 +1366,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.06.03.01",
+  "codigo": "0X.06.03.01",
   "nivel": 3,
-  "pai": "03.06.03",
+  "pai": "0X.06.03",
   "descricao": "Monitoramento contratual (vigência, encargos e obrigações)",
   "definicao": "Subfunção de gestão não financeira de contratos e atos de destinação imobiliária que compreende o conjunto de atividades administrativas relacionadas ao acompanhamento sistemático do cumprimento de cláusulas, prazos, encargos e obrigações estabelecidas nos instrumentos de destinação imobiliária, incluindo controle de vigência, registro de inconformidades e adoção de providências corretivas.",
   "observacao": "",
@@ -1387,9 +1387,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.06.03.02",
+  "codigo": "0X.06.03.02",
   "nivel": 3,
-  "pai": "03.06.03",
+  "pai": "0X.06.03",
   "descricao": "Gestão de alterações e extinções contratuais",
   "definicao": "Subfunção de gestão não financeira de contratos e atos de destinação imobiliária que contempla conjunto de atividades destinadas à formalização da alteração formal do sujeito contratual responsável pelo instrumento de destinação ou ocupação, mantendo-se a natureza jurídica, finalidade e regime do ato originário, com atualização dos registros patrimoniais e das responsabilidades associadas.",
   "observacao": "",
@@ -1400,9 +1400,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.06.03.02.01",
+  "codigo": "0X.06.03.02.01",
   "nivel": 4,
-  "pai": "03.06.03.02",
+  "pai": "0X.06.03.02",
   "descricao": "Transferência de titularidade",
   "definicao": "Categoria de gestão de alterações e extinções contratuais que contempla conjunto de atividades destinadas à formalização da alteração formal do sujeito contratual responsável pelo instrumento de destinação ou ocupação, mantendo-se a natureza jurídica, finalidade e regime do ato originário, com atualização dos registros patrimoniais e das responsabilidades associadas.",
   "observacao": "",
@@ -1420,9 +1420,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.06.03.02.02",
+  "codigo": "0X.06.03.02.02",
   "nivel": 4,
-  "pai": "03.06.03.02",
+  "pai": "0X.06.03.02",
   "descricao": "Alteração de cláusulas e condições",
   "definicao": "Categoria de gestão de alterações e extinções contratuais que contempla conjunto de atividades e atos administrativos destinados à modificação formal de encargos, contrapartidas, obrigações acessórias ou condições operacionais do instrumento de destinação.",
   "observacao": "",
@@ -1442,7 +1442,7 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.07",
+  "codigo": "0X.07",
   "nivel": 1,
   "pai": "",
   "descricao": "Governança de dados, informação e conhecimento patrimonial imobiliário",
@@ -1455,9 +1455,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.07.01",
+  "codigo": "0X.07.01",
   "nivel": 2,
-  "pai": "03.07",
+  "pai": "0X.07",
   "descricao": "Governança de dados e informação",
   "definicao": "Função de Governança de Dados, Informação e Conhecimento Patrimonial Imobiliário que compreende o conjunto de atividades relacionadas com o tratamento, organização, análise de dados institucionais, incluindo metadados, padronizações e fluxos informacionais, bem como a produção de painéis e o cumprimento das normas de proteção de dados, garantindo qualidade, segurança e uso estratégico da informação.",
   "observacao": "",
@@ -1468,9 +1468,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.07.01.01",
+  "codigo": "0X.07.01.01",
   "nivel": 3,
-  "pai": "03.07.01",
+  "pai": "0X.07.01",
   "descricao": "Gestão da arquitetura e estruturação de dados",
   "definicao": "Subfunção de governança de dados e informação voltada ao planejamento estrutural do ecossistema de dados, incluindo a definição de modelos conceituais, lógicos e físicos e a organização da arquitetura de dados que sustenta os sistemas institucionais.",
   "observacao": "",
@@ -1491,9 +1491,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.07.01.02",
+  "codigo": "0X.07.01.02",
   "nivel": 3,
-  "pai": "03.07.01",
+  "pai": "0X.07.01",
   "descricao": "Modelagem, documentação e integração de dados patrimoniais",
   "definicao": "Subfunção de governança de dados e informação que compreende o conjunto de atividades destinadas à administração, organização e manutenção operacional dos dados patrimoniais nos ambientes institucionais. Inclui a gestão de bases de dados, a organização de conteúdos e documentos associados, a administração de dados mestres e de referência e a implementação de mecanismos de integração e interoperabilidade entre sistemas.",
   "observacao": "",
@@ -1520,9 +1520,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.07.01.03",
+  "codigo": "0X.07.01.03",
   "nivel": 3,
-  "pai": "03.07.01",
+  "pai": "0X.07.01",
   "descricao": "Gestão de metadados e qualidade de dados",
   "definicao": "Subfunção de governança de dados e informação patrimonial que compreende o conjunto de atividades voltadas ao controle, à confiabilidade, à conformidade e à melhoria contínua dos dados e metadados patrimoniais. Abrange a definição, padronização, manutenção e auditoria de metadados técnicos, negociais e operacionais; a implementação de políticas, métricas, indicadores, regras de validação e mecanismos de avaliação da qualidade dos dados; a análise de padrões de dados; o monitoramento por painéis e alertas; a prevenção de inconsistências; a correção assistida; e a validação pelas áreas detentoras. Tem por finalidade assegurar precisão, completude, consistência, integridade, rastreabilidade, adequação ao uso, segurança e conformidade ao longo do ciclo de vida dos dados patrimoniais.",
   "observacao": "",
@@ -1549,9 +1549,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.07.01.04",
+  "codigo": "0X.07.01.04",
   "nivel": 3,
-  "pai": "03.07.01",
+  "pai": "0X.07.01",
   "descricao": "Inteligência e análise informacional patrimonial",
   "definicao": "Subfunção de governança de dados e informação patrimonial que compreende o conjunto de atividades destinadas à exploração analítica dos dados, à organização de bases analíticas, à produção de indicadores, relatórios, painéis, estudos comparativos e produtos de inteligência patrimonial. Tem por finalidade apoiar o planejamento, a formulação de políticas públicas, a fiscalização, a priorização de imóveis, a otimização do uso do patrimônio imobiliário e a tomada de decisão baseada em evidências. Inclui o desenvolvimento e uso de modelos analíticos, estatísticos, preditivos ou automatizados, inclusive soluções de inteligência artificial aplicadas à gestão patrimonial imobiliária, observadas a transparência, a avaliação de impacto e a mitigação de riscos.",
   "observacao": "",
@@ -1582,9 +1582,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.07.01.05",
+  "codigo": "0X.07.01.05",
   "nivel": 3,
-  "pai": "03.07.01",
+  "pai": "0X.07.01",
   "descricao": "Gestão do ciclo de vida e dos dados mestres patrimoniais.",
   "definicao": "Subfunção de governança de dados e informação patrimonial que compreende o conjunto de atividades voltadas à gestão do ciclo de vida dos dados patrimoniais, desde a coleta, validação, armazenamento, atualização, uso, compartilhamento, arquivamento e descarte, incluindo a administração de dados mestres e de referência, a reconciliação e deduplicação de registros cadastrais, a manutenção da unicidade e atualidade dos cadastros patrimoniais, o registro de linhagem dos dados, a rastreabilidade dos fluxos informacionais e o monitoramento da integridade, disponibilidade e adequação dos dados aos propósitos institucionais.",
   "observacao": "",
@@ -1605,9 +1605,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.07.02",
+  "codigo": "0X.07.02",
   "nivel": 2,
-  "pai": "03.07",
+  "pai": "0X.07",
   "descricao": "Gestão da geoinformação patrimonial",
   "definicao": "Função de governança de dados, informação e conhecimento patrimonial imobiliário que compreende o conjunto de processos voltados à organização, modelagem, produção, manutenção, qualificação, integração, publicação, disponibilização, análise e uso de dados e informações geoespaciais patrimoniais, envolvendo aspectos técnicos, normativos e estratégicos que asseguram qualidade, interoperabilidade, governança, rastreabilidade e uso da informação espacial para subsidiar políticas públicas, caracterização patrimonial, planejamento territorial, fiscalização, destinação, monitoramento e tomada de decisão.",
   "observacao": "",
@@ -1632,9 +1632,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.07.02.01",
+  "codigo": "0X.07.02.01",
   "nivel": 3,
-  "pai": "03.07.02",
+  "pai": "0X.07.02",
   "descricao": "Modelagem e especificação técnica para estruturação de dados geoespaciais vetoriais",
   "definicao": "Subfunção de gestão da geoinformação patrimonial correspondente a conjunto atividades voltadas à definição de padrões, normas e requisitos técnicos aplicados à modelagem, organização e armazenamento de dados espaciais no formato vetorial (pontos, linhas e polígonos), incluindo aspectos como sistema de referência geodésico, topologia, atributos descritivos, escalas e metadados, garantindo consistência, interoperabilidade e reuso dos dados.",
   "observacao": "",
@@ -1660,9 +1660,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.07.02.02",
+  "codigo": "0X.07.02.02",
   "nivel": 3,
-  "pai": "03.07.02",
+  "pai": "0X.07.02",
   "descricao": "Produção de dados e informações geoespaciais",
   "definicao": "Subfunção de gestão da geoinformação patrimonial correspondente ao conjunto de atividades relacionadas com a produção de dados geográficos voltada a aplicações práticas em gestão territorial, ambiental e patrimonial., resultando em produtos como mapas, cartas, bases cartográficas, imagens tratadas e indicadores territoriais derivados de sensoriamento remoto, levantamentos topográficos, georreferenciamento ou integração de dados existentes.",
   "observacao": "",
@@ -1684,9 +1684,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.07.03",
+  "codigo": "0X.07.03",
   "nivel": 2,
-  "pai": "03.07",
+  "pai": "0X.07",
   "descricao": "Gestão do conhecimento, pesquisa e desenvolvimento em gestão patrimonial imobiliária",
   "definicao": "Função de governança de dados, informação e conhecimento patrimonial imobiliária que compreende o conjunto de processos e práticas voltados à organização, circulação e uso estratégico da informação e do conhecimento, envolvendo a governança da informação, a gestão do conhecimento organizacional, a memória institucional, a curadoria de saberes e dados além do desenvolvimento de repositórios digitais, taxonomias e sistemas de classificação.",
   "observacao": "",
@@ -1697,9 +1697,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.07.03.01",
+  "codigo": "0X.07.03.01",
   "nivel": 3,
-  "pai": "03.07.03",
+  "pai": "0X.07.03",
   "descricao": "Pesquisa aplicada e desenvolvimento",
   "definicao": "Subfunção de gestão do conhecimento, pesquisa e desenvolvimento em gestão patrimonial imobiliária que compreende o conjunto de atividades de estudo e de análise técnico-científica orientadas à identificação e compreensão de problemas estruturais e oportunidades de melhoria na gestão patrimonial imobiliária, com finalidade direta de fundamentar intervenções ou reformulações institucionais.",
   "observacao": "",
@@ -1719,9 +1719,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.07.03.02",
+  "codigo": "0X.07.03.02",
   "nivel": 3,
-  "pai": "03.07.03",
+  "pai": "0X.07.03",
   "descricao": "Identificação, organização e registro do conhecimento",
   "definicao": "Subfunção de gestão do conhecimento, pesquisa e desenvolvimento em gestão patrimonial imobiliária que compreende o conjunto de atividades voltadas à identificação, organização e registro dos conhecimentos essenciais à gestão patrimonial imobiliária, incluindo o mapeamento de conhecimentos críticos e especialistas institucionais, levantamento de experiências relevantes, identificação de boas práticas e incorporação de conhecimentos externos provenientes de estudos técnicos, pesquisas acadêmicas e cooperação institucional. Inclui também o desenvolvimento e manutenção de taxonomias, vocabulários controlados, classificações temáticas, ontologias institucionais e sistemas de organização do conhecimento aplicados à documentação, aos dados e aos conteúdos técnicos produzidos pela gestão patrimonial.",
   "observacao": "",
@@ -1744,9 +1744,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.07.03.03",
+  "codigo": "0X.07.03.03",
   "nivel": 3,
-  "pai": "03.07.03",
+  "pai": "0X.07.03",
   "descricao": "Compartilhamento e disseminação do conhecimento",
   "definicao": "Subfunção de gestão do conhecimento, pesquisa e desenvolvimento em gestão patrimonial imobiliária que compreende o conjunto de atividades voltadas à circulação e compartilhamento do conhecimento institucional relacionado à gestão patrimonial imobiliária, incluindo a disponibilização de conteúdos técnicos, produção de materiais de orientação, organização de comunidades de prática, divulgação de experiências e outras iniciativas destinadas a ampliar o acesso e o uso do conhecimento no âmbito da administração pública.",
   "observacao": "",
@@ -1765,9 +1765,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.07.04",
+  "codigo": "0X.07.04",
   "nivel": 2,
-  "pai": "03.07",
+  "pai": "0X.07",
   "descricao": "Gestão da memória institucional",
   "definicao": "Função de governança de dados, informação e conhecimento patrimonial imobiliária correspondente ao conjunto de atividades voltadas à preservação, curadoria e valorização da memória institucional da gestão patrimonial imobiliária da União, incluindo organização de acervos históricos, produção de narrativas institucionais e disponibilização de documentos e registros em repositórios e ambientes digitais de memória.",
   "observacao": "",
@@ -1778,9 +1778,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.07.04.01",
+  "codigo": "0X.07.04.01",
   "nivel": 3,
-  "pai": "03.07.04",
+  "pai": "0X.07.04",
   "descricao": "Organização, curadoria e interpretação da memória institucional",
   "definicao": "Subfunção de gestão da memória institucional que compreende o conjunto de atividades voltadas à identificação, seleção, organização, curadoria e interpretação de acervos institucionais de valor histórico relacionados à gestão patrimonial imobiliária da União. Inclui o levantamento e avaliação de registros documentais, técnicos ou iconográficos relevantes para a memória institucional, sua organização e contextualização em coleções estruturadas, bem como a produção de narrativas, conteúdos interpretativos e dossiês institucionais que contribuam para a preservação, compreensão e difusão da trajetória e das práticas da gestão patrimonial.",
   "observacao": "",
@@ -1798,9 +1798,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.07.04.02",
+  "codigo": "0X.07.04.02",
   "nivel": 3,
-  "pai": "03.07.04",
+  "pai": "0X.07.04",
   "descricao": "Preservação física e digital de acervos e da memória institucional",
   "definicao": "Subfunção de gestão da memória institucional que compreende o conjunto de atividades destinadas à preservação e salvaguarda dos registros históricos e institucionais, assegurando sua conservação física ou digital e sua disponibilidade para consulta futura.",
   "observacao": "",
@@ -1818,9 +1818,9 @@
   "nota_de_aplicacao": ""
  },
  {
-  "codigo": "03.07.04.03",
+  "codigo": "0X.07.04.03",
   "nivel": 3,
-  "pai": "03.07.04",
+  "pai": "0X.07.04",
   "descricao": "Difusão e acesso à memória institucional",
   "definicao": "Subfunção de gestão da memória institucional que compreende o conjunto de atividades voltadas à disponibilização e disseminação da memória institucional para servidores, pesquisadores e sociedade, por meio de repositórios digitais, exposições, publicações e iniciativas de educação patrimonial.",
   "observacao": "",

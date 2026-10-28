@@ -39,7 +39,7 @@ Os dois primeiros itens são candidatos a errata ou a correção na próxima alt
 | 67 de 72 definições são idênticas | O glossário replica a definição da taxonomia. Não deve haver duas versões do mesmo texto: a taxonomia é a fonte, e o glossário agrega o que é dele (informações complementares, referência, legislação) |
 | Export sem link permanente | A coluna "Link de acesso" veio **vazia nos 234 termos**, e as colunas de relação (fluxos, publicações, manifestações jurídicas, vídeos) também. Sem a URL do termo não há como linkar do site de volta para o MemóriaSPU |
 
-## 4. Na minuta da TT-03 (documento de trabalho, 98 itens)
+## 4. Na minuta de funções finalísticas — TT-XX (documento de trabalho, 98 itens)
 
 A transcrição veio do `.docx` da proposta, na versão **com todas as alterações controladas
 aceitas** — que é a versão finalizada, já que nenhuma das três rodadas de revisão apaga o que
@@ -68,7 +68,23 @@ O que precisa de correção por quem redige:
 | Rótulo da lista de exemplos varia | "Exemplos de documentos:", "Exemplos de documentos" (sem dois-pontos) e "Exemplos:"; em dois registros o rótulo fecha o parágrafo da definição em vez de abrir um próprio |
 | Bloco de referências solto | Só `03.01.03` termina com "Referências: …", que aqui virou `fundamento_legal`. Nos demais, nada equivale à "Fundamentação legal (União)" da TT-01 e da TT-02 |
 
-## 5. Resultado da validação automática
+## 5. Na minuta de regimes de ingresso — TT-03 (minuta de resolução, 37 itens no Anexo I)
+
+| Achado | Onde |
+|---|---|
+| **Número errado da Lei de Execuções Fiscais** | `03.01.02.06` cita "Lei nº **6380**/1980"; é a **Lei nº 6.830/1980**. O art. 24 citado é o correto, só o número da lei saiu com os dígitos trocados |
+| **Oito códigos do Anexo II sem o prefixo da tabela** | As observações mandam classificar em `01.02.03.01`, `01.01.05.01` e outros seis; `01.…` é o prefixo da TT-01, **que está em vigor**, então a instrução leva à tabela errada. Deveriam ser `03.01.02.03.01`, `03.01.01.05.01` etc. |
+| **Subregimes de doação citam pai inexistente** | `03.01.02.05.01` e `03.01.02.05.02` abrem com "Subregime de **recebimento** por doação"; o pai chama-se "**Aquisição** por doação", e não há registro com aquele nome |
+| Resolução sem número e sem data | O cabeçalho traz `nº......., DE ......... DE ............ DE 2026` |
+| Nove códigos escritos com espaço | `03. 01.01.01` e outros oito; o espaço foi removido na transcrição |
+| Citações legais em cinco formatos | `Lei nº 10.406/2002`, `Lei nº 10.406`, `Lei nº10.406/2002`, `Lei 14133/2021`, `Lei nº 6380/1980` |
+| Parêntese não fechado | `03.01.01.05.02`: "(Código Civil, arts 1238 a 1244" |
+| Rótulo sem "(União)" | `03.01.01.01` escreve "Fundamentação legal:" onde os outros 26 escrevem "Fundamentação legal (União):" |
+| Caixa dos termos — **não alterada** | Sete termos com maiúsculas internas ("Recebimento por Cessão de uso Gratuita"). A convenção é ambígua: a TT-02 aprovada capitaliza regimes nomeados. Decisão pendente de quem redige |
+| Hierarquia assimétrica — **não é defeito** | Sob `03.01` há subclasse antes dos regimes; sob `03.02` os regimes penduram direto na classe. A TT-02, aprovada, tem a mesma assimetria |
+| Anexo II fora do site | A Tabela Taxonômica de Correspondência nº 03 é de-para com o SPUnet, não taxonomia: não tem hierarquia para navegar. `ferramentas/extrair_ingresso.py` já a lê, em `correspondencia()` |
+
+## 6. Resultado da validação automática
 
 `0 erro(s), 7 aviso(s)` — os sete avisos são exatamente os achados reais listados acima
 (2 das normas, 5 do glossário). O relatório completo está em `relatorios/validacao.txt`.

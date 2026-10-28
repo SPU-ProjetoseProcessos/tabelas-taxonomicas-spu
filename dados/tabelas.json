@@ -56,8 +56,35 @@
    "tem_exemplos": false
   },
   {
-   "id": "tt03-funcoes-finalisticas",
+   "id": "tt03-regimes-ingresso",
    "sigla": "TT-03",
+   "titulo": "Regimes de Ingresso Patrimonial Imobiliário",
+   "eixo": "Ingresso do imóvel",
+   "cor": "#6B4A7A",
+   "dominio": "Modo pelo qual o imóvel ingressa no patrimônio público",
+   "rotulo_folha": "regimes",
+   "situacao": "minuta",
+   "aviso": "Esta tabela ainda não foi aprovada: a resolução que a institui está em minuta, sem número e sem data. Códigos, termos e definições podem mudar até a aprovação — não devem ser usados como referência normativa nem registrados em sistema.",
+   "norma_publicacao": "2026-10-27",
+   "norma_vigente": "Minuta — resolução ainda sem número e sem data",
+   "caminho": "tt03-regimes-ingresso",
+   "profundidade": 4,
+   "totais": {
+    "registros": 37,
+    "folhas": 26,
+    "por_nivel": {
+     "1": 2,
+     "2": 7,
+     "3": 16,
+     "4": 12
+    }
+   },
+   "tem_atributos": false,
+   "tem_exemplos": false
+  },
+  {
+   "id": "ttxx-funcoes-finalisticas",
+   "sigla": "TT-XX",
    "titulo": "Funções Finalísticas de Gestão Patrimonial Imobiliária",
    "eixo": "Função finalística",
    "cor": "#4F6132",
@@ -67,7 +94,7 @@
    "aviso": "Esta tabela ainda não foi aprovada: não há resolução do Comitê de Gestão do Conhecimento que a institua. Códigos, descrições e definições podem mudar até a aprovação — não devem ser usados como referência normativa nem registrados em sistema.",
    "norma_publicacao": "2026-10-27",
    "norma_vigente": "Minuta — ainda sem resolução do ComGC",
-   "caminho": "tt03-funcoes-finalisticas",
+   "caminho": "ttxx-funcoes-finalisticas",
    "profundidade": 4,
    "totais": {
     "registros": 98,

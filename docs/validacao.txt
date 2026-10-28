@@ -1,7 +1,8 @@
-0 erro(s), 7 aviso(s)
+0 erro(s), 8 aviso(s)
 
 aviso   TT-01: 01.06.02.01 — definição não começa por maiúscula (possível texto truncado na norma): 'em programas habitacionais de interesse social, em áreas urb'
 aviso   TT-02: 02.01.02.01.02 sem valor de "Pagamento em dinheiro" (célula vazia na norma)
+aviso   TT-XX: tabela sem número — os 98 códigos usam o prefixo 0X do documento de origem e não servem para registro
 aviso   glossário: 01.06.02 — termo 'Uso em infraestrutura ferroviária e metroviária' difere da descrição da tabela (descrição na tabela: Uso habitacional em projeto de provisão/assentamento)
 aviso   glossário: 01.02.02 — termo 'Uso Para Aquicultura e Pesca' difere da descrição da tabela (descrição na tabela: Uso para aquicultura)
 aviso   glossário: 01.15.01 — termo 'Usufruto Indígena' difere da descrição da tabela (descrição na tabela: Uso residencial no interesse do serviço)

@@ -29,9 +29,20 @@ def validar_tabela(pasta, meta):
             erro(f'{sigla}: código duplicado {c} ({n}x)')
     cjt = set(codigos)
 
+    # Uma minuta sem número de tabela carrega o prefixo 0X do documento de
+    # origem, no lugar do número que o ComGC ainda não atribuiu. É placeholder
+    # declarado, não código: vale só enquanto a tabela for minuta, e por isso a
+    # exigência continua inteira para uma tabela vigente.
+    minuta = meta.get('situacao') == 'minuta'
+    sem_numero = minuta and all(c.startswith('0X.') for c in codigos)
+    if sem_numero:
+        aviso(f'{sigla}: tabela sem número — os {len(codigos)} códigos usam o '
+              f'prefixo 0X do documento de origem e não servem para registro')
+
     for r in regs:
         c = r['codigo']
-        if not CODIGO.match(c):
+        alvo = ('03' + c[2:]) if sem_numero else c
+        if not CODIGO.match(alvo):
             erro(f'{sigla}: código mal formado {c!r}')
             continue
         if int(r['nivel']) != len(c.split('.')) - 1:

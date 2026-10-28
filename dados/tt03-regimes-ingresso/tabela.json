@@ -1,0 +1,39 @@
+{
+ "id": "tt03-regimes-ingresso",
+ "sigla": "TT-03",
+ "titulo": "Regimes de Ingresso Patrimonial Imobiliário",
+ "eixo": "Ingresso do imóvel",
+ "cor": "#6B4A7A",
+ "dominio": "Modo pelo qual o imóvel ingressa no patrimônio público",
+ "rotulos_nivel": [
+  "Classe",
+  "Subclasse",
+  "Regime",
+  "Subregime"
+ ],
+ "rotulo_folha": "regimes",
+ "profundidade": 4,
+ "situacao": "minuta",
+ "aviso": "Esta tabela ainda não foi aprovada: a resolução que a institui está em minuta, sem número e sem data. Códigos, termos e definições podem mudar até a aprovação — não devem ser usados como referência normativa nem registrados em sistema.",
+ "norma_vigente": null,
+ "origem": {
+  "tipo": "minuta",
+  "documento": "Minuta de Resolução ComGC/SPU/MGI — institui a Tabela Taxonômica nº 03, de Regimes de Ingresso Patrimonial Imobiliário, e a Tabela Taxonômica de Correspondência nº 03",
+  "rotulo": "Minuta — resolução ainda sem número e sem data",
+  "versao": "2026-10-27",
+  "nota": "Transcrição do Anexo I da minuta de resolução. O número 03 não é provisório: a própria minuta institui a tabela como TT-03. O Anexo II (Tabela Taxonômica de Correspondência nº 03, o de-para com o SPUnet) não entra aqui: é tabela de migração, não taxonomia."
+ },
+ "historico": [],
+ "fonte_oficial": "https://memoriaspu.gestao.gov.br",
+ "tem_exemplos": false,
+ "totais": {
+  "registros": 37,
+  "folhas": 26,
+  "por_nivel": {
+   "1": 2,
+   "2": 7,
+   "3": 16,
+   "4": 12
+  }
+ }
+}

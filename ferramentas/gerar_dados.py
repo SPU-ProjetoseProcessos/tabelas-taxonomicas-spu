@@ -10,6 +10,7 @@ from collections import Counter, defaultdict
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import extrair_normas as en
 import extrair_minuta as em
+import extrair_ingresso as ei
 
 SEP = ' | '          # separador de campo multivalorado nos CSV
 
@@ -220,9 +221,13 @@ META_TT02 = {
 # A TT-03 ainda não é norma: entra como minuta, com a marcação que avisa disso
 # em toda parte da interface. Não há ato, não há PDF de resolução — a fonte é o
 # documento de trabalho, na versão com as alterações controladas aceitas.
-META_TT03 = {
-    'id': 'tt03-funcoes-finalisticas',
-    'sigla': 'TT-03',
+# A tabela de funções finalísticas não tem número: o 03 que ela usava
+# provisoriamente passou a ser o da tabela de regimes de ingresso, que já se
+# nomeia TT-03 na própria minuta de resolução. Até o ComGC atribuir um número,
+# esta fica como TT-XX, com o prefixo 0X que o documento de origem usa.
+META_TTXX = {
+    'id': 'ttxx-funcoes-finalisticas',
+    'sigla': 'TT-XX',
     'titulo': 'Funções Finalísticas de Gestão Patrimonial Imobiliária',
     'eixo': 'Função finalística',
     'cor': '#4F6132',
@@ -243,8 +248,9 @@ META_TT03 = {
         'rotulo': 'Minuta — ainda sem resolução do ComGC',
         'versao': '2026-10-27',
         'nota': ('Transcrição do documento de trabalho na versão com todas as alterações '
-                 'controladas aceitas. O número da tabela ainda não foi atribuído: o '
-                 'documento traz o prefixo 0X e aqui se adota 03, provisoriamente.'),
+                 'controladas aceitas. O número da tabela ainda não foi atribuído: '
+                 'mantém-se o prefixo 0X do próprio documento. A caixa de quinze nomes '
+                 'foi padronizada; o resto do texto está como no original.'),
     },
     'historico': [],
     'fonte_oficial': 'https://memoriaspu.gestao.gov.br',
@@ -335,18 +341,56 @@ def montar_glossario(linhas, registros_por_codigo):
 # controle de alterações: ele não vai para o repositório publicado. Quando está
 # presente, a minuta é extraída dele; quando não, vale o registros.csv já
 # transcrito, que é a fonte revisável prevista no esquema.
-PADRAO_MINUTA = '*Proposta_Tabela_Taxon*.docx'
+META_TT03 = {
+    'id': 'tt03-regimes-ingresso',
+    'sigla': 'TT-03',
+    'titulo': 'Regimes de Ingresso Patrimonial Imobiliário',
+    'eixo': 'Ingresso do imóvel',
+    'cor': '#6B4A7A',
+    'dominio': 'Modo pelo qual o imóvel ingressa no patrimônio público',
+    'rotulos_nivel': ['Classe', 'Subclasse', 'Regime', 'Subregime'],
+    'rotulo_folha': 'regimes',
+    'profundidade': 4,
+    'situacao': 'minuta',
+    'aviso': ('Esta tabela ainda não foi aprovada: a resolução que a institui está em '
+              'minuta, sem número e sem data. Códigos, termos e definições podem mudar '
+              'até a aprovação — não devem ser usados como referência normativa nem '
+              'registrados em sistema.'),
+    'norma_vigente': None,
+    'origem': {
+        'tipo': 'minuta',
+        'documento': 'Minuta de Resolução ComGC/SPU/MGI — institui a Tabela Taxonômica '
+                     'nº 03, de Regimes de Ingresso Patrimonial Imobiliário, e a Tabela '
+                     'Taxonômica de Correspondência nº 03',
+        'rotulo': 'Minuta — resolução ainda sem número e sem data',
+        'versao': '2026-10-27',
+        'nota': ('Transcrição do Anexo I da minuta de resolução. O número 03 não é '
+                 'provisório: a própria minuta institui a tabela como TT-03. O Anexo II '
+                 '(Tabela Taxonômica de Correspondência nº 03, o de-para com o SPUnet) '
+                 'não entra aqui: é tabela de migração, não taxonomia.'),
+    },
+    'historico': [],
+    'fonte_oficial': 'https://memoriaspu.gestao.gov.br',
+    'tem_exemplos': False,
+}
 
-def registros_minuta(pasta_base, destino):
-    achados = sorted(glob.glob(os.path.join(pasta_base, PADRAO_MINUTA)))
+PADRAO_MINUTA = '*Proposta_Tabela_Taxon*.docx'
+PADRAO_INGRESSO = '*Regimes de ingresso patrimonial*.docx'
+
+def registros_minuta(pasta_base, destino, padrao, meta, extrair):
+    """Registros de uma minuta: do .docx quando ele está na pasta de origem e,
+    quando não está, do CSV já publicado. Os documentos de trabalho não vão para
+    o repositório (carregam nomes de revisores), e a saída é idêntica pelos dois
+    caminhos — é o que mantém o repositório se regenerando sozinho."""
+    achados = sorted(glob.glob(os.path.join(pasta_base, padrao)))
     if achados:
-        return montar_registros(em.extrair(achados[-1])), os.path.basename(achados[-1])
-    csv_existente = os.path.join(destino, META_TT03['id'], 'registros.csv')
+        return montar_registros(extrair(achados[-1]))
+    csv_existente = os.path.join(destino, meta['id'], 'registros.csv')
     if os.path.exists(csv_existente):
         with open(csv_existente, encoding='utf-8', newline='') as fh:
             # o CSV devolve tudo como texto; o nível é número no JSON derivado
-            return [dict(r, nivel=int(r['nivel'])) for r in csv.DictReader(fh)], ''
-    raise SystemExit(f'minuta da TT-03: nem {PADRAO_MINUTA} em {pasta_base} '
+            return [dict(r, nivel=int(r['nivel'])) for r in csv.DictReader(fh)]
+    raise SystemExit(f"minuta da {meta['sigla']}: nem {padrao} em {pasta_base} "
                      f'nem {csv_existente}')
 
 def entrada_indice(m):
@@ -379,17 +423,19 @@ def main(pasta_base, destino):
     reg02 = montar_registros(bruto['tt02'])
     atributos = [{c: a.get(c, '') for c in COLS_AT} for a in bruto['tt02_atributos']]
 
-    for meta in (META_TT01, META_TT02, META_TT03):
+    for meta in (META_TT01, META_TT02, META_TT03, META_TTXX):
         if meta.get('norma_vigente'):
             meta['norma_vigente']['pdf'] = copiar_norma(pasta_base, destino, meta)
 
-    reg03, _ = registros_minuta(pasta_base, destino)
+    reg03 = registros_minuta(pasta_base, destino, PADRAO_INGRESSO, META_TT03, ei.extrair)
+    regxx = registros_minuta(pasta_base, destino, PADRAO_MINUTA, META_TTXX, em.extrair)
     m1 = gravar_tabela(os.path.join(destino, META_TT01['id']), META_TT01, reg01)
     m2 = gravar_tabela(os.path.join(destino, META_TT02['id']), META_TT02, reg02,
                        atributos, VOCABULARIO)
     m3 = gravar_tabela(os.path.join(destino, META_TT03['id']), META_TT03, reg03)
+    mx = gravar_tabela(os.path.join(destino, META_TTXX['id']), META_TTXX, regxx)
 
-    por_codigo = {r['codigo']: r for r in reg01 + reg02}   # a minuta não recebe vínculo
+    por_codigo = {r['codigo']: r for r in reg01 + reg02}   # minuta não recebe vínculo
     termos, vinculos = montar_glossario(ler_glossario(pasta_base), por_codigo)
     pasta_g = os.path.join(destino, 'glossario')
     os.makedirs(pasta_g, exist_ok=True)
@@ -400,13 +446,14 @@ def main(pasta_base, destino):
 
     indice = {
         'versao_esquema': '1.0',
-        'tabelas': [entrada_indice(m) for m in (m1, m2, m3)],
+        'tabelas': [entrada_indice(m) for m in (m1, m2, m3, mx)],
         'glossario': {'caminho': 'glossario', 'termos': len(termos),
                       'vinculos': len(vinculos)},
     }
     escrever_json(os.path.join(destino, 'tabelas.json'), indice)
     os.remove(os.path.join(destino, '_bruto.json'))
-    print(f"TT-01 {m1['totais']}\nTT-02 {m2['totais']}\nTT-03 {m3['totais']} (minuta)")
+    print(f"TT-01 {m1['totais']}\nTT-02 {m2['totais']}\n"
+          f"TT-03 {m3['totais']} (minuta)\nTT-XX {mx['totais']} (minuta)")
     print(f'glossário: {len(termos)} termos, {len(vinculos)} vínculos')
 
 if __name__ == '__main__':

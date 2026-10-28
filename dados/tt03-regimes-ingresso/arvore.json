@@ -1,0 +1,283 @@
+[
+ {
+  "codigo": "03.01",
+  "descricao": "Regimes de aquisição de direitos reais e possessórios",
+  "nivel": 1,
+  "folha": false,
+  "situacao": "vigente",
+  "filhos": [
+   {
+    "codigo": "03.01.01",
+    "descricao": "Regimes de aquisição patrimonial imobiliária originária",
+    "nivel": 2,
+    "folha": false,
+    "situacao": "vigente",
+    "filhos": [
+     {
+      "codigo": "03.01.01.01",
+      "descricao": "Aquisição por determinação constitucional",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     },
+     {
+      "codigo": "03.01.01.02",
+      "descricao": "Desapropriação",
+      "nivel": 3,
+      "folha": false,
+      "situacao": "vigente",
+      "filhos": [
+       {
+        "codigo": "03.01.01.02.01",
+        "descricao": "Desapropriação amigável",
+        "nivel": 4,
+        "folha": true,
+        "situacao": "vigente"
+       },
+       {
+        "codigo": "03.01.01.02.02",
+        "descricao": "Desapropriação judicial",
+        "nivel": 4,
+        "folha": true,
+        "situacao": "vigente"
+       }
+      ]
+     },
+     {
+      "codigo": "03.01.01.03",
+      "descricao": "Expropriação confiscatória",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     },
+     {
+      "codigo": "03.01.01.04",
+      "descricao": "Registro de Apossamento Vintenário (RAV)",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     },
+     {
+      "codigo": "03.01.01.05",
+      "descricao": "Usucapião",
+      "nivel": 3,
+      "folha": false,
+      "situacao": "vigente",
+      "filhos": [
+       {
+        "codigo": "03.01.01.05.01",
+        "descricao": "Usucapião extrajudicial",
+        "nivel": 4,
+        "folha": true,
+        "situacao": "vigente"
+       },
+       {
+        "codigo": "03.01.01.05.02",
+        "descricao": "Usucapião judicial",
+        "nivel": 4,
+        "folha": true,
+        "situacao": "vigente"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "codigo": "03.01.02",
+    "descricao": "Regimes de aquisição patrimonial imobiliária derivada",
+    "nivel": 2,
+    "folha": false,
+    "situacao": "vigente",
+    "filhos": [
+     {
+      "codigo": "03.01.02.01",
+      "descricao": "Aquisição por dação em pagamento",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     },
+     {
+      "codigo": "03.01.02.02",
+      "descricao": "Aquisição por previsão legal",
+      "nivel": 3,
+      "folha": false,
+      "situacao": "vigente",
+      "filhos": [
+       {
+        "codigo": "03.01.02.02.01",
+        "descricao": "Aquisição por transferência legal",
+        "nivel": 4,
+        "folha": true,
+        "situacao": "vigente"
+       },
+       {
+        "codigo": "03.01.02.02.02",
+        "descricao": "Aquisição por sucessão legal",
+        "nivel": 4,
+        "folha": true,
+        "situacao": "vigente"
+       }
+      ]
+     },
+     {
+      "codigo": "03.01.02.03",
+      "descricao": "Aquisição de direito real de uso",
+      "nivel": 3,
+      "folha": false,
+      "situacao": "vigente",
+      "filhos": [
+       {
+        "codigo": "03.01.02.03.01",
+        "descricao": "Aquisição gratuita de direito real de uso",
+        "nivel": 4,
+        "folha": true,
+        "situacao": "vigente"
+       },
+       {
+        "codigo": "03.01.02.03.02",
+        "descricao": "Aquisição onerosa de direito real de uso",
+        "nivel": 4,
+        "folha": true,
+        "situacao": "vigente"
+       }
+      ]
+     },
+     {
+      "codigo": "03.01.02.04",
+      "descricao": "Aquisição de direito de superfície",
+      "nivel": 3,
+      "folha": false,
+      "situacao": "vigente",
+      "filhos": [
+       {
+        "codigo": "03.01.02.04.01",
+        "descricao": "Aquisição gratuita de direito de superfície",
+        "nivel": 4,
+        "folha": true,
+        "situacao": "vigente"
+       },
+       {
+        "codigo": "03.01.02.04.02",
+        "descricao": "Aquisição onerosa de direito de superfície",
+        "nivel": 4,
+        "folha": true,
+        "situacao": "vigente"
+       }
+      ]
+     },
+     {
+      "codigo": "03.01.02.05",
+      "descricao": "Aquisição por doação",
+      "nivel": 3,
+      "folha": false,
+      "situacao": "vigente",
+      "filhos": [
+       {
+        "codigo": "03.01.02.05.01",
+        "descricao": "Aquisição por doação com encargo",
+        "nivel": 4,
+        "folha": true,
+        "situacao": "vigente"
+       },
+       {
+        "codigo": "03.01.02.05.02",
+        "descricao": "Aquisição por doação sem encargo",
+        "nivel": 4,
+        "folha": true,
+        "situacao": "vigente"
+       }
+      ]
+     },
+     {
+      "codigo": "03.01.02.06",
+      "descricao": "Aquisição por execução judicial",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     },
+     {
+      "codigo": "03.01.02.07",
+      "descricao": "Compra",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     },
+     {
+      "codigo": "03.01.02.08",
+      "descricao": "Permuta",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     },
+     {
+      "codigo": "03.01.02.09",
+      "descricao": "Reversão da propriedade",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "codigo": "03.02",
+  "descricao": "Regimes de constituição de direito pessoal ou obrigacional",
+  "nivel": 1,
+  "folha": false,
+  "situacao": "vigente",
+  "filhos": [
+   {
+    "codigo": "03.02.01",
+    "descricao": "Recebimento por Arrendamento",
+    "nivel": 2,
+    "folha": true,
+    "situacao": "vigente"
+   },
+   {
+    "codigo": "03.02.02",
+    "descricao": "Recebimento por Cessão de uso",
+    "nivel": 2,
+    "folha": false,
+    "situacao": "vigente",
+    "filhos": [
+     {
+      "codigo": "03.02.02.01",
+      "descricao": "Recebimento por Cessão de uso Gratuita",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     },
+     {
+      "codigo": "03.02.02.02",
+      "descricao": "Recebimento por Cessão de uso Onerosa",
+      "nivel": 3,
+      "folha": true,
+      "situacao": "vigente"
+     }
+    ]
+   },
+   {
+    "codigo": "03.02.03",
+    "descricao": "Recebimento por Comodato",
+    "nivel": 2,
+    "folha": true,
+    "situacao": "vigente"
+   },
+   {
+    "codigo": "03.02.04",
+    "descricao": "Recebimento por Locação",
+    "nivel": 2,
+    "folha": true,
+    "situacao": "vigente"
+   },
+   {
+    "codigo": "03.02.05",
+    "descricao": "Recebimento em transferência de gestão por determinação/previsão legal",
+    "nivel": 2,
+    "folha": true,
+    "situacao": "vigente"
+   }
+  ]
+ }
+]

@@ -96,7 +96,13 @@ revisores) **não vai para o repositório publicado**: o `registros.csv` gerado 
 `.docx` quando ele está na pasta de origem e, quando não está, reaproveita o CSV já
 transcrito.
 
-Transcrever não é copiar cegamente: a minuta da TT-03 nomeia de três jeitos — caixa de
+Uma minuta pode nem ter número. Quando o ComGC ainda não atribuiu um, a tabela fica com a
+sigla `TT-XX` e os códigos mantêm o prefixo `0X` do documento de origem — placeholder
+declarado, não código. `ferramentas/validar.py` aceita esse prefixo **só** enquanto a tabela
+for minuta, e emite aviso dizendo que os códigos não servem para registro; numa tabela
+vigente, a exigência de código numérico continua inteira.
+
+Transcrever não é copiar cegamente: a minuta de funções finalísticas nomeia de três jeitos — caixa de
 sentença em 79 dos 98 registros, caixa alta em cinco e Title Case em dez —, e as tabelas
 aprovadas nomeiam em caixa de sentença. A padronização fica em
 `ferramentas/extrair_minuta.py`, em `CAIXA_PADRONIZADA`, e não no CSV — assim o CSV

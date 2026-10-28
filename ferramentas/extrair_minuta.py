@@ -13,9 +13,11 @@ import xml.etree.ElementTree as ET
 
 W = '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}'
 CODIGO = re.compile(r'^0[X\d](?:\.\d{2}){1,5}$')
-# o documento ainda não tem número de tabela: o prefixo está como 0X, e dois
-# itens guardam o 03 da numeração de trabalho
-PREFIXO = '03'
+# O documento não tem número de tabela: escreve 0X em 96 itens e 03 em dois,
+# resquício da numeração de trabalho. O 03 passou a ser da tabela de regimes de
+# ingresso patrimonial, então aqui se mantém o 0X do próprio documento — que é
+# o que ele diz, e deixa visível que o número ainda não foi atribuído.
+PREFIXO = '0X'
 # o rótulo da lista varia no documento: com e sem dois-pontos, 'Exemplos de
 # documentos' e só 'Exemplos'; em dois registros ele fecha o parágrafo da
 # definição em vez de abrir um parágrafo próprio
@@ -101,36 +103,36 @@ def separar_referencias(definicao):
 # não é aquele — ou de deixar a caixa alta passar calada. Só a caixa muda;
 # concordância e grafia ficam como no original e vão para a errata.
 CAIXA_PADRONIZADA = {
-    '03.02': ('GESTÃO DO INGRESSO PATRIMONIAL IMOBILIÁRIO',
+    '0X.02': ('GESTÃO DO INGRESSO PATRIMONIAL IMOBILIÁRIO',
               'Gestão do ingresso patrimonial imobiliário'),
-    '03.04': ('DESTINAÇÃO E GESTÃO ECONÔMICA PATRIMONIAL ImobiliáriO',
+    '0X.04': ('DESTINAÇÃO E GESTÃO ECONÔMICA PATRIMONIAL ImobiliáriO',
               'Destinação e gestão econômica patrimonial imobiliário'),
-    '03.06': ('CONTROLE PATRIMONIAL IMOBILIÁRIO',
+    '0X.06': ('CONTROLE PATRIMONIAL IMOBILIÁRIO',
               'Controle patrimonial imobiliário'),
-    '03.06.01.02': ('Fiscalização patrimonial imobiliária COERCITIVA',
+    '0X.06.01.02': ('Fiscalização patrimonial imobiliária COERCITIVA',
                     'Fiscalização patrimonial imobiliária coercitiva'),
-    '03.07': ('GOVERNANÇA DE DADOS, INFORMAÇÃO E CONHECIMENTO PATRIMONIAL IMOBILIÁRIO',
+    '0X.07': ('GOVERNANÇA DE DADOS, INFORMAÇÃO E CONHECIMENTO PATRIMONIAL IMOBILIÁRIO',
               'Governança de dados, informação e conhecimento patrimonial imobiliário'),
     # Title Case: nenhum destes tem nome próprio ou sigla dentro, então a
     # inicial é a única maiúscula que sobrevive
-    '03.01': ('Caracterização Patrimonial Imobiliária',
+    '0X.01': ('Caracterização Patrimonial Imobiliária',
               'Caracterização patrimonial imobiliária'),
-    '03.01.02.05': ('Demarcação de Terrenos para Regularização Fundiária de Interesse Social',
+    '0X.01.02.05': ('Demarcação de Terrenos para Regularização Fundiária de Interesse Social',
                     'Demarcação de terrenos para regularização fundiária de interesse social'),
-    '03.03': ('Avaliação e Contabilidade Patrimonial Imobiliária',
+    '0X.03': ('Avaliação e Contabilidade Patrimonial Imobiliária',
               'Avaliação e contabilidade patrimonial imobiliária'),
-    '03.04.03.01': ('Declaração de Interesse para o Serviço Público',
+    '0X.04.03.01': ('Declaração de Interesse para o Serviço Público',
                     'Declaração de interesse para o serviço público'),
-    '03.04.03.02': ('Reserva para Venda', 'Reserva para venda'),
-    '03.05': ('Gestão de Receitas Patrimoniais Imobiliárias',
+    '0X.04.03.02': ('Reserva para Venda', 'Reserva para venda'),
+    '0X.05': ('Gestão de Receitas Patrimoniais Imobiliárias',
               'Gestão de receitas patrimoniais imobiliárias'),
-    '03.07.01': ('Governança de Dados e Informação',
+    '0X.07.01': ('Governança de Dados e Informação',
                  'Governança de dados e informação'),
-    '03.07.01.04': ('Inteligência e Análise Informacional Patrimonial',
+    '0X.07.01.04': ('Inteligência e Análise Informacional Patrimonial',
                     'Inteligência e análise informacional patrimonial'),
-    '03.07.02': ('Gestão da Geoinformação Patrimonial',
+    '0X.07.02': ('Gestão da Geoinformação Patrimonial',
                  'Gestão da geoinformação patrimonial'),
-    '03.07.04': ('Gestão da Memória Institucional',
+    '0X.07.04': ('Gestão da Memória Institucional',
                  'Gestão da memória institucional'),
 }
 

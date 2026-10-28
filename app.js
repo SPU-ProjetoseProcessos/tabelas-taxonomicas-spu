@@ -982,11 +982,22 @@ $('#irInicio').addEventListener('click', () => irParaHome());
 function montarRodape() {
   const i = estado.indice;
   const minutas = i.tabelas.filter(ehMinuta).length;
-  $('#rodape').textContent =
-    `Protótipo sobre os dados canônicos (esquema ${i.versao_esquema}). Fonte oficial: resoluções do `
-    + `Comitê de Gestão do Conhecimento da SPU, registradas no MemóriaSPU. `
-    + `${i.tabelas.length} tabelas${minutas ? `, das quais ${minutas} em minuta não aprovada` : ''}`
-    + ` · ${i.glossario.termos} termos de glossário · ${i.glossario.vinculos} vínculos.`;
+  /* A assinatura de autoria fica no rodapé, não no cabeçalho: no topo ela
+     disputa espaço com a marca e confunde quem é o sistema com quem o fez.
+     Abaixo dela, a procedência dos dados — são coisas diferentes, uma diz
+     quem fez e a outra de onde vêm os dados. */
+  const rodape = $('#rodape');
+  rodape.textContent = '';
+  rodape.append(
+    el('div', { className: 'credito' },
+      el('span', { className: 'credito-rotulo', textContent: 'Desenvolvido por' }),
+      el('span', { textContent: 'CGGES — Escritório de Processos' }),
+      el('span', { textContent: 'Secretaria do Patrimônio da União' })),
+    el('p', { className: 'procedencia', textContent:
+      `Protótipo sobre os dados canônicos (esquema ${i.versao_esquema}). Fonte oficial: resoluções do `
+      + `Comitê de Gestão do Conhecimento da SPU, registradas no MemóriaSPU. `
+      + `${i.tabelas.length} tabelas${minutas ? `, das quais ${minutas} em minuta não aprovada` : ''}`
+      + ` · ${i.glossario.termos} termos de glossário · ${i.glossario.vinculos} vínculos.` }));
 }
 
 function lerRota() {
