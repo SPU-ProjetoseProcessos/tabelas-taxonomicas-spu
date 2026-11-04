@@ -38,6 +38,12 @@
 }
 
 * { box-sizing: border-box; }
+/* O `hidden` do HTML é a forma como o JS esconde tarja, filtros e abas. A regra
+   embutida do navegador (`[hidden] { display: none }`) perde para qualquer
+   seletor de classe que fixe `display`, e aí o elemento volta a aparecer vazio
+   — foi o que aconteceu com a tarja de minuta nas tabelas aprovadas. Esta regra
+   devolve ao atributo a última palavra, para a classe inteira de caso. */
+[hidden] { display: none !important; }
 body {
   margin: 0; background: var(--papel); color: var(--tinta);
   font: 15px/1.55 var(--texto);
@@ -102,13 +108,6 @@ body { background: var(--papel); }
 main { max-width: 1240px; margin: 0 auto; padding: 0 28px 60px; }
 
 /* ------------------------------------------------------------------ home */
-.atalho { display: flex; gap: 10px; align-items: center; margin: 4px 0 16px; font-size: 13.5px; color: var(--tinta2); }
-.atalho label { white-space: nowrap; }
-.atalho select {
-  border: 1px solid var(--linha-forte); background: var(--cartao); border-radius: 999px;
-  padding: 6px 12px; cursor: pointer; max-width: 420px; min-width: 0; flex: 1 1 auto;
-}
-
 .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(268px, 1fr)); gap: 14px; }
 .card {
   position: relative; display: block; width: 100%; text-align: left; cursor: pointer;

@@ -10,7 +10,7 @@ marcadas como tais.
 |---|---|---|---|
 | TT-01 — Tipos de Uso Imobiliário | vigente | Resolução ComGC/SPU/MGI nº 3, de 3 de outubro de 2025 | 96 |
 | TT-02 — Regimes de Destinação Imobiliária | vigente | Resolução ComGC/SPU/MGI nº 5, de 24 de outubro de 2025 | 62 |
-| TT-03 — Regimes de Ingresso Patrimonial Imobiliário | **minuta** | resolução em minuta, sem número e sem data | 37 |
+| TT-03 — Regimes de Ingresso Patrimonial Imobiliário | vigente | Resolução ComGC/SPU/MGI nº 7, de 3 de novembro de 2026 | 37 |
 | TT-XX — Funções Finalísticas de Gestão Patrimonial Imobiliária | **minuta** | ainda sem resolução | 98 |
 
 > **Fonte oficial.** As resoluções do ComGC e o registro no
@@ -18,12 +18,11 @@ marcadas como tais.
 > repositório é uma interface de consulta e a mesma informação em formato estruturado,
 > conferida contra o texto das normas.
 
-> **Minuta não é norma.** Duas das quatro tabelas ainda não foram aprovadas: códigos, termos
-> e definições podem mudar, e elas não devem ser usadas como referência normativa nem
-> registradas em sistema. A **TT-03** tem número porque a minuta de resolução que a institui
-> já a numera assim; a de **funções finalísticas não tem número nenhum**, aparece como
-> **TT-XX** e seus códigos mantêm o prefixo `0X` do documento de origem — placeholder
-> declarado, que não serve para registro.
+> **Minuta não é norma.** Uma das quatro tabelas ainda não foi aprovada: códigos, termos e
+> definições podem mudar, e ela não deve ser usada como referência normativa nem registrada
+> em sistema. A de **funções finalísticas não tem número nenhum**, aparece como **TT-XX** e
+> seus códigos mantêm o prefixo `0X` do documento de origem — placeholder declarado, que não
+> serve para registro.
 
 ## O que o site faz
 
@@ -52,7 +51,9 @@ que é a fonte revisável, como em qualquer outra tabela. Por isso `gerar_dados.
 `.docx` quando ele está em `origem/` e, quando não está, reaproveita o CSV já publicado — a
 saída é a mesma nos dois caminhos.
 
-Transcrever não é copiar cegamente. A minuta de funções finalísticas nomeia de três jeitos — caixa de
+### Transcrever não é copiar cegamente
+
+A minuta de funções finalísticas nomeia de três jeitos — caixa de
 sentença em 79 dos 98 registros, caixa alta em cinco e Title Case em dez —, e as tabelas
 aprovadas nomeiam em caixa de sentença. Os quinze desvios são padronizados em
 `CAIXA_PADRONIZADA`, dentro de `ferramentas/extrair_minuta.py`, e não no CSV: assim o CSV
@@ -62,6 +63,23 @@ já não é aquele ou de deixar o desvio passar calado. Só a caixa se padroniza
 grafia e pontuação ficam como no original e vão para
 [a errata](docs/achados-da-conversao.md), porque corrigir o mérito de uma proposta de outra
 área não é transcrever.
+
+### Quando uma minuta é aprovada
+
+A TT-03 foi aprovada pela Resolução nº 7, de 3 de novembro de 2026, sem que o texto mudasse
+em relação à minuta já publicada aqui: os 37 registros foram comparados um a um com o Anexo I
+da resolução — mesmos códigos, mesmos termos, mesmas definições —, e o `registros.csv` não
+precisou de uma linha de alteração. O que mudou foi o `tabela.json`: saem `situacao`, `aviso`
+e `origem`, entram `norma_vigente` e `historico`, e o PDF da resolução passa a abrir a partir
+da ficha de cada item.
+
+O texto continua sendo extraído do `.docx` de trabalho, e não do PDF. Extrair do PDF daria o
+mesmo resultado por um caminho mais frágil — ele quebra palavras na hasteação e parte células
+entre páginas —, e a conferência contra o Anexo I já está feita e registrada em
+[`docs/achados-da-conversao.md`](docs/achados-da-conversao.md), §5. Há **uma** divergência
+entre os dois documentos, em 37 registros: o termo do `03.01` aparece em caixa alta no PDF e
+em caixa de sentença no `.docx`. Vale a caixa de sentença, que é a dos outros 36 registros e
+a das duas tabelas aprovadas antes desta.
 
 ## Os dados
 

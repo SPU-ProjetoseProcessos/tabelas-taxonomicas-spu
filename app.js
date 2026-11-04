@@ -203,16 +203,6 @@ function desenharHome() {
     card.addEventListener('click', () => irPara(t.id));
     caixa.append(card);
   }
-  const atalho = $('#atalhoTabela');
-  atalho.textContent = '';
-  atalho.append(el('option', { value: '', textContent: 'escolher uma tabela…' }));
-  for (const t of estado.indice.tabelas) {
-    atalho.append(el('option', { value: t.id,
-      textContent: `${t.sigla} — ${t.titulo}${ehMinuta(t) ? ' (minuta)' : ''}` }));
-  }
-  atalho.value = '';
-  atalho.onchange = () => { if (atalho.value) irPara(atalho.value); };
-
   const g = estado.indice.glossario;
   const minutas = estado.indice.tabelas.filter(ehMinuta).length;
   const vigentes = estado.indice.tabelas.length - minutas;

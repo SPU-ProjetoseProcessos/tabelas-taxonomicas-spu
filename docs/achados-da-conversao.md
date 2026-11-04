@@ -24,7 +24,10 @@ agora publicada vem da norma e tem conferência automática.
 | `02.01.02.01.02 — Aforamento oneroso` | A célula "Pagamento em dinheiro" está **vazia** no Anexo II. Sendo regime oneroso, a leitura provável é "Sim", mas não cabe presumir: fica em branco e sinalizado |
 | Rótulos de nível a mais | A TT-02 declara seis rótulos (até "Detalhamento") para uma estrutura de cinco níveis; a TT-01, quatro rótulos para três níveis |
 
-Os dois primeiros itens são candidatos a errata ou a correção na próxima alteração das tabelas.
+| Resolução nº 7/2026 (TT-03) | Oito achados, do número errado da Lei de Execuções Fiscais a oito códigos do Anexo II que remetem à TT-01. Estão detalhados na §5, e nenhum foi incorporado antes da aprovação |
+
+Esses itens são candidatos a retificação — por republicação ou por resolução alteradora —, ou
+a correção na próxima alteração das tabelas.
 
 ## 3. No glossário exportado do MemóriaSPU (234 termos)
 
@@ -68,23 +71,42 @@ O que precisa de correção por quem redige:
 | Rótulo da lista de exemplos varia | "Exemplos de documentos:", "Exemplos de documentos" (sem dois-pontos) e "Exemplos:"; em dois registros o rótulo fecha o parágrafo da definição em vez de abrir um próprio |
 | Bloco de referências solto | Só `03.01.03` termina com "Referências: …", que aqui virou `fundamento_legal`. Nos demais, nada equivale à "Fundamentação legal (União)" da TT-01 e da TT-02 |
 
-## 5. Na minuta de regimes de ingresso — TT-03 (minuta de resolução, 37 itens no Anexo I)
+## 5. Na TT-03 — Regimes de Ingresso Patrimonial Imobiliário (37 itens no Anexo I)
+
+**Conferência do texto aprovado, em 04/11/2026.** A tabela foi aprovada pela
+**Resolução ComGC/SPU/MGI nº 7, de 3 de novembro de 2026**. Os 37 registros do Anexo I
+aprovado foram comparados um a um com os 37 que este repositório já publicava desde
+28/10/2026, quando a resolução era minuta: **mesmos códigos, mesmos termos, mesmas
+definições**. O `registros.csv` não precisou de uma linha de alteração.
+
+Uma única divergência de forma, em 37 registros: o termo do `03.01` aparece em **caixa alta**
+no PDF aprovado (`REGIMES DE AQUISIÇÃO DE DIREITOS REAIS E POSSESSÓRIOS`) e em caixa de
+sentença no `.docx` de trabalho, que é de onde a extração lê. Publica-se a caixa de sentença:
+é a dos outros 36 registros desta tabela, a do seu irmão de mesmo nível `03.02`, e a das duas
+tabelas aprovadas antes desta. Não dá para saber daqui se a caixa alta foi decidida na
+aprovação ou aplicada pelo editor na conversão para PDF — a pergunta está na errata, item 3.6.
+
+**Nenhum dos achados abaixo foi incorporado à resolução aprovada.** Eles deixaram de ser
+observação a quem redigia a minuta e passaram a ser candidatos a retificação pelo ComGC.
 
 | Achado | Onde |
 |---|---|
 | **Número errado da Lei de Execuções Fiscais** | `03.01.02.06` cita "Lei nº **6380**/1980"; é a **Lei nº 6.830/1980**. O art. 24 citado é o correto, só o número da lei saiu com os dígitos trocados |
 | **Oito códigos do Anexo II sem o prefixo da tabela** | As observações mandam classificar em `01.02.03.01`, `01.01.05.01` e outros seis; `01.…` é o prefixo da TT-01, **que está em vigor**, então a instrução leva à tabela errada. Deveriam ser `03.01.02.03.01`, `03.01.01.05.01` etc. |
 | **Subregimes de doação citam pai inexistente** | `03.01.02.05.01` e `03.01.02.05.02` abrem com "Subregime de **recebimento** por doação"; o pai chama-se "**Aquisição** por doação", e não há registro com aquele nome |
-| Resolução sem número e sem data | O cabeçalho traz `nº......., DE ......... DE ............ DE 2026` |
-| Nove códigos escritos com espaço | `03. 01.01.01` e outros oito; o espaço foi removido na transcrição |
+| ~~Resolução sem número e sem data~~ — **resolvido** | A minuta trazia `nº......., DE ......... DE ............ DE 2026`; é a Resolução nº 7, de 03/11/2026 |
+| Oito códigos escritos com espaço | `03. 01.01.01` e outros sete; o espaço foi removido na transcrição. Eram nove na minuta — o `03.01.01.02.01` perdeu o espaço na aprovação, único ponto desta lista que o texto aprovado absorveu |
 | Citações legais em cinco formatos | `Lei nº 10.406/2002`, `Lei nº 10.406`, `Lei nº10.406/2002`, `Lei 14133/2021`, `Lei nº 6380/1980` |
 | Parêntese não fechado | `03.01.01.05.02`: "(Código Civil, arts 1238 a 1244" |
 | Rótulo sem "(União)" | `03.01.01.01` escreve "Fundamentação legal:" onde os outros 26 escrevem "Fundamentação legal (União):" |
-| Caixa dos termos — **não alterada** | Sete termos com maiúsculas internas ("Recebimento por Cessão de uso Gratuita"). A convenção é ambígua: a TT-02 aprovada capitaliza regimes nomeados. Decisão pendente de quem redige |
+| Caixa dos termos — **não alterada** | Sete termos com maiúsculas internas ("Recebimento por Cessão de uso Gratuita"). A convenção é ambígua: a TT-02 aprovada capitaliza regimes nomeados. A decisão não foi tomada antes da aprovação, de modo que os sete entraram em vigor como estão |
 | Hierarquia assimétrica — **não é defeito** | Sob `03.01` há subclasse antes dos regimes; sob `03.02` os regimes penduram direto na classe. A TT-02, aprovada, tem a mesma assimetria |
+| `03.01` em caixa alta no Anexo I | Único dos 37 assim; o site publica em caixa de sentença (ver acima) |
 | Anexo II fora do site | A Tabela Taxonômica de Correspondência nº 03 é de-para com o SPUnet, não taxonomia: não tem hierarquia para navegar. `ferramentas/extrair_ingresso.py` já a lê, em `correspondencia()` |
 
 ## 6. Resultado da validação automática
 
-`0 erro(s), 7 aviso(s)` — os sete avisos são exatamente os achados reais listados acima
-(2 das normas, 5 do glossário). O relatório completo está em `relatorios/validacao.txt`.
+`0 erro(s), 8 aviso(s)` — os oito avisos são exatamente os achados reais listados acima: 2
+das normas vigentes, 5 do glossário e 1 da TT-XX, cujos 98 códigos usam o prefixo `0X` do
+documento de origem enquanto o ComGC não atribui número à tabela. O relatório completo está
+em [`docs/validacao.txt`](validacao.txt).

@@ -13,17 +13,22 @@
  ],
  "rotulo_folha": "regimes",
  "profundidade": 4,
- "situacao": "minuta",
- "aviso": "Esta tabela ainda não foi aprovada: a resolução que a institui está em minuta, sem número e sem data. Códigos, termos e definições podem mudar até a aprovação — não devem ser usados como referência normativa nem registrados em sistema.",
- "norma_vigente": null,
- "origem": {
-  "tipo": "minuta",
-  "documento": "Minuta de Resolução ComGC/SPU/MGI — institui a Tabela Taxonômica nº 03, de Regimes de Ingresso Patrimonial Imobiliário, e a Tabela Taxonômica de Correspondência nº 03",
-  "rotulo": "Minuta — resolução ainda sem número e sem data",
-  "versao": "2026-10-27",
-  "nota": "Transcrição do Anexo I da minuta de resolução. O número 03 não é provisório: a própria minuta institui a tabela como TT-03. O Anexo II (Tabela Taxonômica de Correspondência nº 03, o de-para com o SPUnet) não entra aqui: é tabela de migração, não taxonomia."
+ "norma_vigente": {
+  "ato": "Resolução ComGC/SPU/MGI nº 7, de 3 de novembro de 2026",
+  "efeito": "institui a TT-03 e a TTC-03",
+  "publicacao": "2026-11-03",
+  "sei_documento": "65413985",
+  "processo_sei": "19739.024321/2025-60",
+  "arquivo": "SEI_MGI-65413985-Resolucao-7.pdf",
+  "pdf": "normas/SEI_MGI-65413985-Resolucao-7.pdf"
  },
- "historico": [],
+ "historico": [
+  {
+   "ato": "Resolução ComGC/SPU/MGI nº 7, de 3 de novembro de 2026",
+   "efeito": "institui a TT-03 e a TTC-03",
+   "situacao": "vigente"
+  }
+ ],
  "fonte_oficial": "https://memoriaspu.gestao.gov.br",
  "tem_exemplos": false,
  "totais": {
