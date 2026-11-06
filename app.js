@@ -970,24 +970,18 @@ async function abrirTabela(id) {
 $('#irInicio').addEventListener('click', () => irParaHome());
 
 function montarRodape() {
-  const i = estado.indice;
-  const minutas = i.tabelas.filter(ehMinuta).length;
-  /* A assinatura de autoria fica no rodapé, não no cabeçalho: no topo ela
-     disputa espaço com a marca e confunde quem é o sistema com quem o fez.
-     Abaixo dela, a procedência dos dados — são coisas diferentes, uma diz
-     quem fez e a outra de onde vêm os dados. */
+  /* O rodapé leva a assinatura de autoria e nada mais. Não leva nota de
+     protótipo, versão de esquema nem contagem do acervo: isso é estado da
+     obra, não informação de quem consulta, e num produto publicado soa como
+     ressalva do autor. A procedência que importa está na ficha de cada item,
+     que cita a resolução e abre o PDF; o acervo está contado na home. */
   const rodape = $('#rodape');
   rodape.textContent = '';
   rodape.append(
     el('div', { className: 'credito' },
       el('span', { className: 'credito-rotulo', textContent: 'Desenvolvido por' }),
       el('span', { textContent: 'CGGES — Escritório de Processos' }),
-      el('span', { textContent: 'Secretaria do Patrimônio da União' })),
-    el('p', { className: 'procedencia', textContent:
-      `Protótipo sobre os dados canônicos (esquema ${i.versao_esquema}). Fonte oficial: resoluções do `
-      + `Comitê de Gestão do Conhecimento da SPU, registradas no MemóriaSPU. `
-      + `${i.tabelas.length} tabelas${minutas ? `, das quais ${minutas} em minuta não aprovada` : ''}`
-      + ` · ${i.glossario.termos} termos de glossário · ${i.glossario.vinculos} vínculos.` }));
+      el('span', { textContent: 'Secretaria do Patrimônio da União' })));
 }
 
 function lerRota() {
