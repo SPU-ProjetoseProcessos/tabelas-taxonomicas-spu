@@ -203,13 +203,6 @@ function desenharHome() {
     card.addEventListener('click', () => irPara(t.id));
     caixa.append(card);
   }
-  const g = estado.indice.glossario;
-  const minutas = estado.indice.tabelas.filter(ehMinuta).length;
-  const vigentes = estado.indice.tabelas.length - minutas;
-  $('#resumoAcervo').textContent =
-    `${vigentes} tabela${vigentes > 1 ? 's' : ''} aprovada${vigentes > 1 ? 's' : ''}`
-    + (minutas ? ` e ${minutas} minuta${minutas > 1 ? 's' : ''} em elaboração` : '')
-    + ` · ${g.termos} termos no glossário do MemóriaSPU, ${g.vinculos} deles ligados a um código.`;
 }
 
 // ---------------------------------------------------------------- filtros
