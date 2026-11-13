@@ -973,8 +973,13 @@ function montarRodape() {
   rodape.append(
     el('div', { className: 'credito' },
       el('span', { className: 'credito-rotulo', textContent: 'Desenvolvido por' }),
-      el('span', { textContent: 'CGGES — Escritório de Processos' }),
-      el('span', { textContent: 'Secretaria do Patrimônio da União' })));
+      el('a', { href: 'https://spu-projetoseprocessos.github.io/escritorio/', title: 'Conheça o Escritório de Processos', textContent: 'CGGES — Escritório de Processos',
+                style: 'color:inherit;text-decoration:underline;text-underline-offset:3px' }),
+      el('span', { textContent: 'Secretaria do Patrimônio da União' })),
+    /* O canal de sugestão, erro e dúvida: a mesma ficha de todas as ferramentas do Escritório. */
+    el('button', { type: 'button', id: 'fale-equipe', textContent: 'Fale com a equipe',
+                   style: 'font:inherit;font-size:13.5px;font-weight:700;padding:7px 14px;margin-top:12px;border-radius:8px;border:1.5px solid currentColor;background:none;color:inherit;cursor:pointer',
+                   onclick: () => { if (window.SPUCaixinha) window.SPUCaixinha.abrir(); } }));
 }
 
 function lerRota() {
