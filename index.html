@@ -119,5 +119,21 @@
 <script src="spu-caixinha.js?v=1"></script>
 <script>SPUCaixinha.iniciar({ ferramenta: "taxonomias", nome: "Tabelas Taxonômicas", botao: false });</script>
 <script src="app.js?v=20261113a"></script>
+<script>
+/* Contador de acessos do Escritório de Processos: conta a página aberta. Sem cookie e sem dado pessoal: grava a página, o dia,
+   o site de onde a pessoa veio, se é celular e se é a primeira página da visita. */
+(function () {
+  if (!/\.github\.io$/.test(location.hostname)) return;
+  var nova = false, origem = "";
+  try { nova = !sessionStorage.getItem("spu-visita-taxonomias"); sessionStorage.setItem("spu-visita-taxonomias", "1"); } catch (e) {}
+  try { var r = new URL(document.referrer); if (r.host !== location.host) origem = r.host; } catch (e) {}
+  var k = "sb_publishable_8WzmTmKmNaAcxq1MnBqEcg_hgI3ldDm";
+  fetch("https://yamixtmtgeockzxmmnsb.supabase.co/rest/v1/rpc/spu_registrar_acesso", { method: "POST", keepalive: true,
+    headers: { "Content-Type": "application/json", "apikey": k, "Authorization": "Bearer " + k },
+    body: JSON.stringify({ p_ferramenta: "taxonomias", p_pagina: location.pathname + location.search,
+      p_origem: origem, p_tela: matchMedia("(max-width: 700px)").matches ? "celular" : "computador", p_nova: nova })
+  }).catch(function () {});
+})();
+</script>
 </body>
 </html>
